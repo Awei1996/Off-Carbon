@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>關於我們</title>
+
+	<link href="AboutUsPage.css" rel="stylesheet" type="text/css">
+	<script src="jquery.fullPage.min.js"></script>
+	<script src="jquery-1.8.3.min.js"></script>
+	<script src="jquery.fullPage.js"></script>
+	<script>
+		AOS.init({
+			easing:'ease-in-out-sine'
+		});
+	
+	</script>
+
+	<script>
+		$(function(){
+			$('#dowebok').fullpage({
+				afterLoad(_, index) {
+					if (index === 1) {
+					  return
+					}
+
+					const $section = $('.section').eq(index - 1)
+					$section.find('[data-aos]').addClass('aos-animate')
+			  	},
+			});
+		});
+	</script>
+
+</head>
+
+<body>
+	<div id="dowebok">
+		<div class="section">
+			<div class="view1">
+				<div class="bg1">
+			    	<img src="../../webpng/AboutUsPage/P1.png" width="1920" height="1080" alt=""/> 
+				</div>
+				<div class="P1Title">
+					<p>關於<br>我們</p>
+				</div>
+				<div class="P1MidLine"></div>
+				<div class="P1Content">
+					<p>全球暖化日益嚴重，我們將從「二氧化碳」進行切入，<br>從二氧化碳的「成因」開始，帶入自工業革命以來因全<br>球暖化的氣候災難，並設計了「碳排計算機」讓使用者<br>可以用較為趣味的方式去了解到其實我們在無形之間製<br>造出非常可觀的二氧化碳。<br><br>網頁上也會有在生活中即可執行的減碳方法，透過知識<br>型動畫去做呈現，抓住受眾目光。「環境檢測儀」的<br>理念更讓我們用數據化的方式了解環境因子，並且期望<br>能夠達到綠能生活的願景。</p>
+				</div>
+
+				<div class="bar">
+					<a class="active" href="../../index.html" style="color: white; text-decoration: none; font-weight: normal;">成因</a>
+					<t>&emsp;&emsp;</t>
+					<a class="active" href="../AttackPage/AttackPage.html" style="color:white; text-decoration: none">威脅</a>
+					<t>&emsp;&emsp;</t>
+					<a class="active" href="../ConvertPage/ConvertPage.html" style="color:white; text-decoration: none">換算</a>
+					<t>&emsp;&emsp;</t>
+					<a class="active" href="../WayPage/WayPage.html" style="color:white;text-decoration: none ">方法</a>
+					<t>&emsp;&emsp;</t>
+					<a class="active" href="../MonitorPage/MonitorPage.html" style="color: white;text-decoration: none">環境監測儀</a>
+					<t>&emsp;&emsp;</t>
+					<a class="active" href="AboutUsPage.html" style="color: white;text-decoration: none">關於我們</a>	
+				</div>
+				
+
+		  </div>
+		</div>
+		<div class="section">
+			<div class="view2">
+				<div class="bg2">
+			    	<img src="../../webpng/AboutUsPage/P2.png" width="1920" height="1080" alt=""/> 
+				</div>
+				<div class="Teacher">
+					<div class="TeaName">
+						<p>李佩倫</p>
+					</div>
+					<div class="TeaLine"></div>
+					<div class="TeaJob">
+						<p>指導教授</p>
+					</div>
+				</div>
+				<div class="Wei">
+					<div class="WeiName">
+						<p>魏湘錡</p>
+					</div>
+					<div class="WeiLine"></div>
+					<div class="WeiJob">
+						<p>介面設計<br>動畫製作<br>資料收集</p>
+					</div>
+				</div>
+				<div class="Guan">
+					<div class="GuanName">
+						<p>關靖蓉</p>
+					</div>
+					<div class="GuanLine"></div>
+					<div class="GuanJob">
+						<p>美術設計<br>資料收集</p>
+					</div>
+				</div>
+				<div class="Chang">
+					<div class="ChangName">
+						<p>張尹甄</p>
+					</div>
+					<div class="ChangLine"></div>
+					<div class="ChangJob">
+						<p>動畫製作<br>企劃書撰寫<br>資料收集</p>
+					</div>
+				</div>
+				<div class="Tseng">
+					<div class="TsengName">
+						<p>曾承偉</p>
+					</div>
+					<div class="TsengLine"></div>
+					<div class="TsengJob">
+						<p>網頁製作<br>資料收集</p>
+					</div>
+				</div>
+				
+
+		  </div>
+		</div>
+		
+		
+		
+	</div>
+	
+	
+</body>
+</html>

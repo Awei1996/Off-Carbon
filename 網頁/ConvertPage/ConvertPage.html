@@ -1,0 +1,459 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>換算</title>
+	<link href="ConvertPageAll.css" rel="stylesheet" type="text/css">
+	<link href="aos.css" rel="stylesheet" type="text/css">
+	<script src="jquery.fullPage.min.js"></script>
+	<script src="jquery-1.8.3.min.js"></script>
+	<script src="jquery.fullPage.js"></script>
+	<script>
+		AOS.init({
+			easing:'ease-in-out-sine'
+		});
+	
+	</script>
+
+
+
+	<script>
+		$(function(){
+			$('#dowebok').fullpage({
+				afterLoad(_, index) {
+					if (index === 1) {
+					  return
+					}
+
+					const $section = $('.section').eq(index - 1)
+					$section.find('[data-aos]').addClass('aos-animate')
+			  	},
+			});
+		});
+	</script>
+</head>
+
+<body>
+	
+	<div id="dowebok">
+		
+		<div class="section">
+			<div class="view1">
+				<div class="bg1">
+					<img src="../../Animation/ConvertPageBG1-1.gif" width="1920" height="1080" alt=""/> 
+				</div>
+					
+			  	<div class="P1Title">
+						<p>換算</p>
+				</div>
+
+
+					<div class="bar">
+						<a class="active" href="../../index.html" style="color: white; text-decoration: none; font-weight: normal;">成因</a>
+						<t>&emsp;&emsp;</t>
+					  	<a class="active" href="../AttackPage/AttackPage.html" style="color: white; text-decoration: none; font-style: normal;">威脅</a>
+						<t>&emsp;&emsp;</t>
+						<a class="active" href="../ConvertPage/ConvertPage.html" style="color: white; text-decoration: none; font-style: normal;">換算</a>
+						<t>&emsp;&emsp;</t>
+						<a class="active" href="../WayPage/WayPage.html" style="color:white;text-decoration: none ">方法</a>
+						<t>&emsp;&emsp;</t>
+						<a class="active" href="../MonitorPage/MonitorPage.html" style="color: white;text-decoration: none">環境監測儀</a>
+						<t>&emsp;&emsp;</t>
+						<a class="active" href="../AboutUsPage/AboutUsPage.html" style="color: white;text-decoration: none">關於我們</a>	
+					</div>	
+					
+			</div>
+		</div>
+		<div class="section">
+			<div class="view2">
+				<div class="bg2">
+					<img src="../../webpng/ConvertPage/P2BG.png" width="1920" height="1080" alt=""/>
+				</div>
+				<div class="Selector" data-aos="fade-up"  data-aos-once="true" data-aos-delay="1000">
+					<div class="Btn">
+						<div class="Food" >
+							<p>食</p>
+						</div>
+						<div class="Housing">
+							<p>住</p>
+						</div>
+						<div class="Transportation">
+							<p>行</p>
+						</div>
+					</div>
+					<div class="Content">
+						<div class="FoodContent">
+							<div class="Breakfast">
+								<div class="TextTitle">
+									<p>早餐</p>									
+								</div>
+								<button class="Egg">雞蛋</button>
+								<button class="Otameal">麥片</button>
+								<button class="Bread">麵包</button>
+
+							</div>
+							<div class="Lunch">
+								<div class="TextTitle">
+									<p>午餐</p>									
+								</div>
+								<button class="LBeef">牛</button>
+								<button class="LChicken">雞</button>
+								<button class="LPork">豬</button>
+								<button class="LFish">魚</button>
+								<button class="LRice">米飯</button>
+								<button class="LPasta">義大利麵</button>
+								<button class="LLamb">羊肉</button>
+								<button class="LTofu">豆腐</button>
+								<button class="LPea">豌豆</button>
+							</div>
+							
+							<div class="Dinner">
+								<div class="TextTitle">
+									<p>晚餐</p>									
+								</div>
+								<button class="DBeef">牛</button>
+								<button class="DChicken">雞</button>
+								<button class="DPork">豬</button>
+								<button class="DFish">魚</button>
+								<button class="DRice">米飯</button>
+								<button class="DPasta">義大利麵</button>
+								<button class="DLamb">羊肉</button>
+								<button class="DTofu">豆腐</button>
+								<button class="DPea">豌豆</button>
+
+							</div>
+							<div class="Dessert">
+								<div class="TextTitle">
+									<p>點心</p>									
+								</div>
+								<select class="WantToEat" id="Sweet">
+									<option>請選擇你的點心</option>
+									<option>奶酪</option>
+									<option>香蕉</option>
+									<option>番茄</option>
+									<option>巧克力</option>
+
+									
+								</select>
+							</div>
+							<div class="Drink" >
+								<div class="TextTitle">
+									<p>飲料</p>									
+								</div>
+								<select class="WantToDrink" id="Water">
+									<option>請選擇你的飲料</option>
+									<option>豆漿</option>
+									<option>咖啡</option>
+									<option>啤酒</option>
+									<option>茶</option>
+									<option>牛奶</option>
+
+									
+								</select>
+							</div>
+						</div>
+						<div class="HousingContent">
+							
+							<div class="AirCon">
+								<div class="TextTitle">
+									<p>冷氣</p>									
+								</div>
+								<select class="WantToUse" id="Cool">
+									<option>請選擇你的冷氣</option>
+									<option>使用定頻冷氣3小時</option>
+									<option>使用定頻冷氣8小時</option>
+									<option>使用變頻冷氣8小時</option>
+									
+								</select>
+							</div>
+							<div class="Light">
+								<div class="TextTitle">
+									<p>電燈</p>									
+								</div>
+								<select class="WantToTurn" id="TurnOn">
+									<option>請選擇你的燈泡</option>
+									<option>傳統白熾燈泡</option>
+									<option>省電燈泡</option>
+									<option>LED燈泡</option>							
+								</select>
+							</div>
+						</div>
+						<div class="TransportationContent">
+							<div class="TransWay">
+								<div class="TextTitle">
+									<p>交通方式</p>									
+								</div>
+								<select class="WantToGo" id="GoGo">
+									<option>請選擇你的交通工具</option>
+									<option>開車</option>
+									<option>騎機車</option>
+									<option>搭飛機</option>
+									<option>搭公車</option>		
+								</select>
+							</div>
+						</div>
+					
+					</div>
+					<button class="SendOut">送出</button>
+				</div>
+				<div class="Cart" data-aos="fade-left"  data-aos-once="true" data-aos-delay="1000">
+					<table border="1">
+				  		<tr>
+							<td>
+								<div class="Img CEgg">
+							    	<img src="../../webpng/ConvertPage/Egg.png" width="36" height="50" alt=""/> 
+								</div>
+							</td>
+							<td>
+								<div class="Img COtameal">
+							    	<img src="../../webpng/ConvertPage/Otameal.png" width="47" height="50" alt=""/> 
+								</div>
+							</td>
+							<td>
+								<div class="Img CBread">
+							    	<img src="../../webpng/ConvertPage/Bread.png" width="49" height="16" alt=""/> 
+								</div>
+							</td>
+							<td>
+								<div class="Img BeefL">
+							    	<img src="../../webpng/ConvertPage/Beef.png" width="42" height="48" alt=""/> 
+								</div>
+							</td>
+							<td>
+								<div class="Img ChickenL">
+							    	<img src="../../webpng/ConvertPage/Chicken.png" width="40" height="50" alt=""/> 
+								</div>
+							</td>
+							<td>
+								<div class="Img PorkL">
+							    	<img src="../../webpng/ConvertPage/Pork.png" width="43" height="50" alt=""/> 
+								</div>
+							</td>
+				  		</tr>
+				  		<tr>
+							<td>
+								<div class="Img FishL">
+							    	<img src="../../webpng/ConvertPage/Fish.png" width="52" height="21" alt=""/> 
+								</div>
+							</td>
+							<td>
+								<div class="Img RiceL">
+							    	<img src="../../webpng/ConvertPage/Rice.png" width="50" height="45" alt=""/> 
+								</div>
+							</td>
+							<td>
+								<div class="Img PastaL">
+							    	<img src="../../webpng/ConvertPage/Pasta.png" width="53" height="27" alt=""/> 
+								</div>
+							</td>
+							<td>
+								<div class="Img LambL">
+							    	<img src="../../webpng/ConvertPage/Lamb.png" width="39" height="50" alt=""/> 
+								</div>
+							</td>
+							<td>
+								<div class="Img TofuL">
+							    	<img src="../../webpng/ConvertPage/Tofu.png" width="48" height="15" alt=""/> 
+								</div>
+							</td>
+							<td>
+								<div class="Img PeaL">
+							    	<img src="../../webpng/ConvertPage/Pea.png" width="48" height="18" alt=""/> 
+								</div>
+							</td>
+						</tr>
+				  		<tr>
+							<td>
+								<div class="Img BeefD">
+									<img src="../../webpng/ConvertPage/Beef.png" width="42" height="48" alt=""/>
+								</div>
+							</td>
+							<td>
+								<div class="Img ChickenD">
+									<img src="../../webpng/ConvertPage/Chicken.png" width="40" height="50" alt=""/>
+								</div>
+							</td>
+							<td>
+								<div class="Img PorkD">
+									<img src="../../webpng/ConvertPage/Pork.png" width="43" height="50" alt=""/> 
+								</div>
+							</td>
+							<td>
+								<div class="Img FishD">
+									<img src="../../webpng/ConvertPage/Fish.png" width="52" height="21" alt=""/> 
+								</div>
+							</td>
+							<td>
+								<div class="Img RiceD">
+									<img src="../../webpng/ConvertPage/Rice.png" width="50" height="45" alt=""/> 
+								</div>
+							</td>
+							<td>
+								<div class="Img PastaD">
+									<img src="../../webpng/ConvertPage/Pasta.png" width="53" height="27" alt=""/> 
+								</div>
+							</td>
+				  		</tr>
+						<tr>
+							<td>
+								<div class="Img LambD">
+									<img src="../../webpng/ConvertPage/Lamb.png" width="39" height="50" alt=""/> 
+								</div>
+							</td>
+							<td>
+								<div class="Img TofuD">
+									<img src="../../webpng/ConvertPage/Tofu.png" width="48" height="15" alt=""/> 
+								</div>
+							</td>
+							<td>
+								<div class="Img PeaD">
+									<img src="../../webpng/ConvertPage/Pea.png" width="48" height="18" alt=""/>
+								</div>
+							</td>
+							<td>
+								<div class="Img CDessert">
+								</div>
+							</td>
+							<td>
+								<div class="Img CDrink">
+								</div>
+							</td>
+							<td>
+								<div class="Img CAirCon">
+								</div>
+							</td>
+				  		</tr>
+						<tr>
+							<td>
+								<div class="Img CLight">
+								</div>
+							</td>
+							<td>
+								<div class="Img CTrans">
+								</div>
+							</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+					</table>
+				
+				</div>
+				<div class="CalResult"  data-aos="fade-left"  data-aos-once="true" data-aos-delay="1000">
+					<div class="CalResultText" id="result">
+						<script>
+						</script>
+					</div>
+					
+				</div>
+
+
+			</div>
+		</div>
+		<div class="section">
+			<div class="view3">
+				<div class="bg3">
+					<img src="../../webpng/ConvertPage/P3BG.png" width="1920" height="1080" alt=""/> 
+				</div>
+				<div class="Ranking">
+					<div class="Co2Evil">
+						<div class="MedalsEvil">
+							<img src="../../webpng/ConvertPage/惡魔.png" width="376" height="480" alt=""/>
+							<div class="EvilText">
+								<p>重碳惡魔</p>
+							</div>
+						</div>
+						<div class="MidlineEvil"></div>
+						<div class="SuggestEvil">
+							<p>太可怕了，<br>你一天所製造的碳排放<br>需要一棵樹為你吸碳一年半<br>快快跟著我們學習減碳新招吧！</p>
+						</div>
+					</div>
+					<div class="Co2Normal">
+						<div class="MedalsNormal">
+							<img src="../../webpng/ConvertPage/平民.png" width="376" height="480" alt=""/>
+							<div class="NormalText">
+								<p>碳排平民</p>
+							 </div>
+
+						 </div>
+						<div class="MidlineNormal">
+							
+					  	</div>
+						<div class="SuggestNormal">
+							<p>還不錯啦！<br>但能夠做得更好，<br>趕緊點開我們的動畫<br>認識其他減碳方式吧！</p>
+						</div>
+					</div>
+					<div class="Co2Angel">
+						<div class="MedalsAngel">
+							<img src="../../webpng/ConvertPage/天使.png" width="376" height="486" alt=""/>
+							<div class="AngelText">
+								<p>輕碳天使</p>
+							</div>							
+						</div>
+						<div class="MidlineAngel"></div>
+						<div class="SuggestAngel">
+							<p>做得太好了！<br>因為有你，地球獲得了喘息的空間<br>趕快把你的減碳小撇步<br>分享給其他人吧！</p>
+						</div>
+					</div>
+					
+				</div>
+
+			</div>
+		</div>
+		<div class="section">
+			<div class="view4" >
+				<div class="bg4">
+					<img src="../../webpng/ConvertPage/P4BG.png" width="1920" height="1080" alt=""/> 
+				</div>
+				<div class="references">
+					<t>參考資料</t>
+				</div>
+				<div class="rectangle">
+					<div class="Part1">
+						<div class="BBCtable">
+							<p>BBC<br><a href="https://www.bbc.com/zhongwen/trad/science-46552317" target="_blank" style="text-decoration:none; color:#FFFFFF;"  title="暖化的科學(3):二氧化碳與暖化">你的餐桌有多環保</a></p>
+							
+						</div>
+						
+						
+						
+						
+						
+						
+					</div>
+					<div class="Part2">
+						<div class="TzuChi">
+							<p>慈濟大學<br><a href="http://savepower.tcu.edu.tw/detail.php?recordID=7" target="_blank" style="text-decoration:none; color:#FFFFFF;"  >節能減碳資訊網</a><br></p>
+							
+						</div>
+					</div>
+					<div class="Part3">
+						<div class="EPA">
+							<p>行政院環境保護署<br><a href="https://ghgregistry.epa.gov.tw/ghg_rwd/Main/CO2/CO2_3?Type=5" target="_blank" style="text-decoration:none; color:#FFFFFF;"  >國家溫室氣體登錄平台</a></p>
+						</div>
+					</div>
+
+				</div>
+
+
+			</div>
+		</div>
+		<div class="allpg">
+
+
+		</div>
+	</div>
+	<script src="pullupcard.js"></script>
+	<script src="Cart.js"></script>
+	<script src="Convert.js"></script>
+	<script src="aos.js"></script>
+	<script>
+		AOS.init({
+			easing:'ease-in-out-sine'
+		});
+	
+	</script>
+		
+</body>
+</html>

@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+.view3{
+	
+	width: 1920px;
+	height: 100%;
+}
+.bg3{
+	position: absolute;
+	z-index: -2;
+	left: 0px;
+	top: 2152px;
+}
+.rectangle{
+	position: absolute;
+	z-index: 1;
+	width: 33px;
+	height: 220px;
+	left: 67px;
+	top: 2240px;
+	background-color: #e98c24;
+}
+.subtitle3{
+	position: absolute;
+	z-index: 1;
+	left: 142px;
+	top: 2180px;
+	color: #e98c24;
+	font-size: 150px;
+	font-weight: bold;
+}
+.burn{
+	position: absolute;
+	z-index: 3;
+	background-color: transparent;
+	outline: none;
+	font-family: Gen Jyuu Gothic;
+	font-weight: bold;
+	font-size: 200px;
+	left: 134px;
+	top: 2500px;
+	color: #ffffff;
+	width: 450px;
+	height: 300px;
+}
+.burninfor{
+	position: absolute;
+	z-index: 1;
+	background-color: transparent;
+	color: #ffffff;
+	font-size: 32px;
+	outline: none;
+	width: 400px;
+	height: 100px;
+	left: 160px;
+	top: 2800px;
+	opacity: 1;
+	font-weight: normal;
+	
+	
+}
+
+.breath{
+	position: absolute;
+	z-index: 3;
+	background-color: transparent;
+	font-weight: bold;
+	outline: none;
+	border: 0px;
+	font-family: Gen Jyuu Gothic;
+	font-size: 200px;
+	left: 734px;
+	top: 2500px;
+	color: #ffffff;
+}
+.breathinfor{
+	position: absolute;
+	z-index: 1;
+	background-color: transparent;
+	color: #ffffff;
+	font-size: 32px;
+	outline: none;
+	width: 400px;
+	height: 100px;
+	left: 760px;
+	top: 2800px;
+	opacity: 1;
+	font-weight: normal;
+	
+}
+
+.fermentation{
+	position: absolute;
+	z-index: 3;
+	font-weight: bold;
+	background-color: transparent;
+	outline: none;
+	border: 0px;
+	font-family: Gen Jyuu Gothic;
+	font-size: 200px;
+	left: 1334px;
+	top: 2500px;
+	color: #ffffff;
+}
+.fermentationinfor{
+	position: absolute;
+	z-index: 1;
+	background-color: transparent;
+	color: #ffffff;
+	font-size: 32px;
+	outline: none;
+	width: 400px;
+	height: 100px;
+	left: 1345px;
+	top: 2800px;
+	opacity: 1;
+	font-weight: normal;
+	
+}
+.p3cover1{
+	position: absolute;
+	z-index: 2;
+	left: -1px;
+	top: 2500px;
+	animation-name:i9,i10;
+	animation-duration:0.8s,2s;
+	animation-iteration-count: 1,infinite;
+}
+@keyframes i9{
+	0%{left:-391px;top:2600px;opacity:1;}
+	100%{left:0px;top:2600px;opacity:1;}
+}
+@keyframes i10{
+	0%{top:2500px;}
+	50%{top:2510px;}
+	100%{top:2500px;}
+	
+}
+.p3cover2{
+	position: absolute;
+	z-index: 2;
+	left: 908px;
+	top: 2500px;
+}

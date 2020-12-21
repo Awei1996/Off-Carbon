@@ -1,0 +1,349 @@
+@charset "utf-8";
+.bg2{
+	position: absolute;
+	z-index: 5;
+	left: 0px;
+	top: 1080px;
+}
+.SecondFloor{
+	position: absolute;
+	z-index: 7;
+	left: 0px;
+	top: 1080px;
+}
+.LEDRed{
+	position: absolute;
+	z-index: 6;
+	left: 949px;
+	top: 1225px;
+	animation: LS;
+	animation-duration: 15s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	opacity: 0.5;
+}
+.LightRed{
+	position: absolute;
+	z-index: 6;
+	left: 950px;
+	top: 1210px;
+	width: 50px;
+	height: 50px;
+	background-color: transparent;
+	border-radius: 25px;
+	box-shadow: 0px 10px 20px #FF9733;
+	opacity: 0.5;
+	animation: LS;
+	animation-duration: 15s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	
+}
+.LightGreen{
+	position: absolute;
+	z-index: 6;
+	left: 1017px;
+	top: 1210px;
+	width: 50px;
+	height: 50px;
+	background-color: transparent;
+	border-radius: 25px;
+	box-shadow: 0px 10px 20px #B4DF96;
+	opacity: 0.5;
+	animation: LS;
+	animation-duration: 15s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 8s;
+	
+}
+.LEDGreen{
+	position: absolute;
+	z-index: 6;
+	left: 1017px;
+	top: 1225px;
+	opacity: 0.5;
+	animation: LS;
+	animation-duration: 15s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay: 8s;
+}
+@keyframes LS{
+	0%{opacity: 0.5;}
+	35%{opacity: 1;}
+	40%{opacity: 1;}
+	75%{opacity: 0.5;}
+	100%{opacity: 0.5;}
+}
+.Conveyor{
+	position: absolute;
+	z-index: 6;
+	left: -760px;
+	top: 1629px;
+}
+.CO2{
+	position: absolute;
+	z-index: 7;
+	left: 82px;
+	top: 1600px;
+	width: 50px;
+	height: 520px;
+	background-size: 49px 52px;
+	overflow: hidden;
+	animation-name: Co21;
+	animation-duration: 28s ;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+@keyframes Co21{
+	0% {left: -100px;}
+	10%{left: 165px; margin-top: 0px;} /*4S*/
+	15%{margin-top: 0px;}
+	25%{left: 165px; margin-top: -250px; } /*10S*/
+	35%{left: 665px; margin-top: -250px; /*background-image: url(../../webpng/Attackpage/logo.png);*/} /*14S*/
+	40%{margin-top: 0px; }/*16S*/
+	45%{left: 665px; margin-top: -250px; /*background-image: url(../../webpng/Attackpage/Logo2.png);*/}/*18S*/
+	55%{left: 1250px; margin-top: -250px;/* background-image: url(../../webpng/Attackpage/Logo2.png);*/} /*22S*/
+	60%{margin-top: 0px; } /*24S*/
+	65%{left: 1250px; margin-top: -250px;/* background-image: url(../../webpng/Attackpage/Logo3.png);*/} /*26s*/
+	70%{left: 1680px; margin-top: -250px;} /*28s*/
+	75%{left: 1680px; margin-top: -10px;} /*30S*/
+	77.5%{left: 1680px; margin-top: -5px;}/*31S*/
+	80%{left: 1680px; margin-top: 210px; opacity: 1;} /*32S*/
+	90%{left: 1920px; margin-top: 210px; opacity: 1;}
+	90.01%{left: 1920px; margin-top: 210px; opacity: 0;}
+	91%{left: -100px; opacity: 0;}
+	100%{left: -100px; opacity: 1; /*background-image: url(../../webpng/Attackpage/Logo3.png);*/}
+}
+.Logo{
+	width: 160px;
+	height: 52px;
+	animation-name: Logo1;
+	animation-duration: 28s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+@keyframes Logo1{
+	
+	35%{margin-left: 0px; /*background-image: url(../../webpng/Attackpage/logo.png);*/} /*14S*/
+	40%{margin-left: 0px; }/*16S*/
+	42%{margin-left: -52px;}
+	45%{margin-left: -52px;  /*background-image: url(../../webpng/Attackpage/Logo2.png);*/}/*18S*/
+	60%{margin-left: -52px;} /*24S*/
+	62%{margin-left: -104px;}
+	65%{margin-left: -104px;/* background-image: url(../../webpng/Attackpage/Logo3.png);*/} /*26s*/
+	70%{margin-left: -104px;} /*28s*/
+	95%{opacity: 1;}
+	98%{margin-left: -104px; opacity: 0;}
+	100%{margin-left: 0px; opacity: 0; /*background-image: url(../../webpng/Attackpage/Logo3.png);*/}
+}
+.Hand{
+	position: absolute;
+	z-index: 6;
+	left: 100px;
+	top: 1225px;
+	width: 90px;
+	height: 400px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	animation-name: H1; 
+	animation-duration: 28s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;	
+
+}
+@keyframes H1{
+	0% {left: 20px;}
+	10%{left: 145px;}
+	25%{left: 145px;}
+	35%{left: 645px;}
+	45%{left: 645px;}
+	55%{left: 1230px;}
+	65%{left: 1230px;}
+	70%{left: 1660px;}
+	75%{left: 1660px;}
+	85%{left: 1660px;}
+	87%{left: 1660px;}
+	98%{left: 20px;}
+	100%{left: 20px; }
+	
+}
+
+
+.HandBase{
+	position: absolute;
+	z-index: 2;
+	left: 0px;
+	top: 0px;
+	opacity: 1;
+	
+
+}
+
+.HandB{
+	position: absolute;
+	z-index: 1;
+	top: 46px;
+	opacity: 1;
+	animation-name: HB; 
+	animation-duration: 28s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+
+}
+@keyframes HB{
+	
+	12.5%{top: 46px;}
+	15%{top: 46px;}
+	25%{top: -86px;}
+	35%{top: -86px;} /*14S*/
+	40%{top: 46px;}/*16S*/
+	45%{top: -86px;}/*18S*/
+	55%{top: -86px;} /*22S*/
+	60%{top: 46px;} /*24S*/
+	65%{top: -86px;} /*26s*/
+	70%{top: -86px;} /*28s*/
+	75%{top: 46px;} /*30S*/
+	77.5%{top: 46px;}/*31S*/
+	80%{top: 46px; } /*32S*/
+	90%{top: -86px;}
+	95%{top: -86px;}
+	100%{top: 46px;}
+	
+}
+.HandS{
+	position: absolute;
+	z-index: 0;
+	top: 202px;
+	left: 21px;
+	opacity: 1;
+	animation-name: HS; 
+	animation-duration: 28s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+
+}
+
+@keyframes HS{
+	12.5%{top: 202px;}
+	15%{top: 212px;}
+	25%{top: -38px;}
+	35%{top: -38px;} /*14S*/
+	40%{top: 202px;}/*16S*/
+	45%{top: -38px;}/*18S*/
+	55%{top: -38px;} /*22S*/
+	60%{top: 202px;} /*24S*/
+	65%{top: -38px;} /*26s*/
+	70%{top: -38px;} /*28s*/
+	75%{top: 207px;} /*30S*/
+	77.5%{top: 212px;}/*31S*/
+	80%{top: 207px; } /*32S*/
+	90%{top: -38px; ;}
+	95%{top: -38px; ;}
+	100%{top: 202px;}
+}
+.HandL{
+	position: absolute;
+	z-index: -1;
+	left: -6px;
+	top: 130px;
+	opacity: 1;
+	animation-name: HL; 
+	animation-duration: 28s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+
+}
+@keyframes HL{
+	
+	10%{left: -6px;top: 130px; transform: rotate(0deg);}
+	12.5%{left: -16px;top: 128px;transform: rotate(40deg);} 
+	15%{left: -12px;top: 129px;transform: rotate(35deg);} /*14S*/
+	75%{left: -12px;top: 129px;transform: rotate(35deg);}
+	77.5%{left: -16px;top: 128px;transform: rotate(40deg);} 
+	80%{left: -6px;top: 130px; transform: rotate(0deg);}
+
+
+	
+}
+.HandR{
+	position: absolute;
+	z-index: -1;
+	left: 24px;
+	top: 130px;
+	opacity: 1;
+	animation-name: HR; 
+	animation-duration: 28s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+
+}
+@keyframes HR{
+	
+	10%{left: 24px;top: 130px; transform: rotate(0deg);}
+	12.5%{left: 34px;top: 128px;transform: rotate(-40deg);} 
+	15%{left: 30px;top: 129px;transform: rotate(-35deg);} /*14S*/
+	75%{left: 30px;top: 129px;transform: rotate(-35deg);}
+	77.5%{left: 34px;top: 128px;transform: rotate(-40deg);} 
+	80%{left: 24px;top: 130px; transform: rotate(0deg);}
+	
+}
+.Machine{
+	position: absolute;
+	z-index: 6;
+	left: 880px;
+	top: 1862px;
+}
+.Boxoutside{
+	position: absolute;
+	z-index: 8;
+	background-color: transparent;
+	left: 477px;
+	top: 1438px;
+	border: none;
+	outline: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Outsidetitle{
+	font-family: Gen Jyuu Gothic;
+	position: absolute;
+	z-index: 9;
+	color: #ffffff;
+	line-height: 40px;
+	font-size: 40px;
+	font-weight: bold;
+	
+}
+.Boxinside{
+	position: absolute;
+	z-index: 8;
+	background-color: transparent;
+	left: 1056px;
+	top: 1437px;
+	border: none;
+	outline: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.Insidetitle{
+	font-family: Gen Jyuu Gothic;
+	position: absolute;
+	z-index: 9;
+	color: #ffffff;
+	font-size: 40px;
+	line-height: 40px;
+	font-weight: bold;
+	
+	
+}

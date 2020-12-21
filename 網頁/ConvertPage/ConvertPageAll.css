@@ -1,0 +1,1270 @@
+@charset "utf-8";
+
+body{
+	font-family: Gen Jyuu Gothic ;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+select{
+	font-family: Gen Jyuu Gothic ;
+	font-weight: normal;
+}
+.allpg{
+	font-family: Gen Jyuu Gothic ;
+	font-weight: normal;
+	width: 1920px;
+	height: 4320px;
+}
+
+.bar{
+	position: absolute;
+	z-index: 2;
+	font-size: 28px;
+	left: 535px;
+	top: 40px;
+	font-weight: normal;
+	
+}
+.active:hover{
+	
+	border-bottom: solid 5px transparent;
+	border-image: linear-gradient(90deg, rgba(255, 255, 255, 1)10%, rgba(255, 255, 255, 0)95%);
+	border-image-slice: 1;
+	
+}
+button{
+	font-family: Gen Jyuu Gothic ;
+	
+	
+}
+
+
+.view1{
+	font-family: Gen Jyuu Gothic ;
+	width: 1920px;
+	height: 100%;
+}
+.bg1{
+	position: absolute;
+	z-index: 0;
+	left: 0px;
+	top: 0px;
+}
+
+.P1Title{
+	position: absolute;
+	z-index: 1;
+	left: 160px;
+	top: 153px;
+	color: #ffffff;
+	font-size: 163px;
+	font-weight: bold;
+
+}
+.view2{
+	font-family: Gen Jyuu Gothic ;
+	height: 100%;
+	width: 1920px;
+}
+.bg2{
+	position: absolute;
+	z-index: 5;
+	left: 0px;
+	top: 1080px;
+}
+
+.Selector{
+	z-index: 6;
+	position: absolute;
+	top: 1180px;
+	left: 120px;
+	width: 600px;
+	height: 900px;
+	background-color: transparent;
+	border-radius: 10px;
+}
+.Btn{
+	position: absolute;
+	top: 90px;
+	left: 0px;
+	width: 100%;
+	height: 15%;
+	color: #fff;
+	font-size: 32px
+	
+}
+.Food{
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	width: 200px;
+	height: 90px;
+	background-color: #EE9933;
+	color: #fff;
+	border-radius: 10px 0 0 0 ;
+	transition: 0.5s; 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Food.open{
+	top: -90px;
+	height: 180px;
+	font-size: 48px;
+
+	
+}
+.Food.close{
+	top: 0px;
+	height: 90px;
+	font-size: 32px;
+
+	
+}
+.Housing{
+	position: absolute;
+	top: 0px;
+	left: 200px;
+	width: 200px;
+	height: 90px;
+	background-color: #DD8822;
+	transition: 0.5s; 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.Housing.open{
+	top: -90px;
+	height: 180px;
+	font-size: 48px;
+
+	
+}
+.Housing.close{
+	top: 0px;
+	height: 90px;
+	font-size: 32px;
+
+	
+}
+.Transportation{
+	position: absolute;
+	top: 0px;
+	left: 400px;
+	width: 200px;
+	height: 90px;
+	background-color: #EEAA66;
+	border-radius: 0 10px 0 0 ;
+	transition: 0.5s; 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.Transportation.open{
+	top: -90px;
+	height: 180px;
+	font-size: 48px;
+
+	
+}
+.Transportation.close{
+	top: 0px;
+	height: 90px;
+	font-size: 32px;
+
+	
+}
+.Content{
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	top: 180px;
+	width: 100%;
+	height: 80%;
+	background-color: #fff;
+	border-radius: 0 0 10px 10px ;
+
+}
+.TextTitle{
+	position: absolute;
+	left: 20px;
+	font-size: 30px;
+}
+.FoodContent{
+	z-index: -1;
+	position: absolute;
+	width: 100%;
+	height: 90%;
+	color: #000;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	
+}
+.FoodContent.open{
+	opacity: 1;
+}
+.FoodContent.close{
+	opacity: 0;
+}
+
+.Breakfast{
+	width: 100%;
+	height: 25%;
+	border: solid 1px #000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Egg{
+	position: absolute;
+	left: 120px;
+	width: 20%;
+	height: 10%;
+	font-size: 20px;
+	border-radius: 10px;
+	outline: none;
+
+}
+.Egg.open{
+	width: 600px;
+	color: #fff;
+}
+.Otameal{
+	position: absolute;
+	left: 285px;
+	width: 20%;
+	height: 10%;
+	font-size: 20px;
+	border-radius: 10px;
+	outline: none;
+
+}
+.Bread{
+	position: absolute;
+	left: 450px;
+	width: 20%;
+	height: 10%;
+	font-size: 20px;
+	border-radius: 10px;
+	outline: none;
+
+}
+.Lunch{
+	width: 100%;
+	height: 45%;
+	border: solid 1px #000;
+	display: flex;
+	align-items: center;
+
+}
+
+.LBeef{
+	position: absolute;
+	left: 120px;
+	top: 18%;
+	width: 15%;
+	height: 10%;
+	font-size: 20px;
+	border-radius: 10px;
+	outline: none;
+
+}
+.LChicken{
+	position: absolute;
+	left: 240px;
+	width: 15%;
+	top: 18%;
+	height: 10%;
+	font-size: 20px;
+	border-radius: 10px;
+	outline: none;
+
+}
+.LPork{
+	position: absolute;
+	left: 360px;
+	top: 18%;
+	width: 15%;
+	height: 10%;
+	font-size: 20px;
+	border-radius: 10px;
+	outline: none;
+
+}
+.LFish{
+	position: absolute;
+	left: 480px;
+	top: 18%;
+	width: 15%;
+	height: 10%;
+	font-size: 20px;
+	border-radius: 10px;
+	outline: none;
+
+}
+
+.LRice{
+	position: absolute;
+	left: 120px;
+	top: 30%;
+	width: 10%;
+	height: 10%;
+	font-size: 20px;
+	border-radius: 10px;
+	outline: none;
+
+}
+.LPasta{
+	position: absolute;
+	left: 200px;
+	top: 30%;
+	width: 20%;
+	height: 10%;
+	font-size: 20px;
+	border-radius: 10px;
+	outline: none;
+
+}
+.LLamb{
+	position: absolute;
+	left: 340px;
+	top: 30%;
+	width: 10%;
+	height: 10%;
+	font-size: 20px;
+	border-radius: 10px;
+	outline: none;
+
+}
+.LTofu{
+	position: absolute;
+	left: 420px;
+	top: 30%;
+	width: 10%;
+	height: 10%;
+	font-size: 20px;
+	border-radius: 10px;
+	outline: none;
+
+}
+.LPea{
+	position: absolute;
+	left: 500px;
+	top: 30%;
+	width: 10%;
+	height: 10%;
+	font-size: 20px;
+	border-radius: 10px;
+	outline: none;
+
+}
+.Dinner{
+	width: 100%;
+	height: 45%;
+	border: solid 1px #000;
+	display: flex;
+	align-items: center;
+
+}
+
+.DBeef{
+	position: absolute;
+	left: 120px;
+	top: 45%;
+	width: 15%;
+	height: 10%;
+	font-size: 20px;
+	border-radius: 10px;
+	outline: none;
+
+}
+.DChicken{
+	position: absolute;
+	left: 240px;
+	width: 15%;
+	top: 45%;
+	height: 10%;
+	font-size: 20px;
+	border-radius: 10px;
+	outline: none;
+
+}
+.DPork{
+	position: absolute;
+	left: 360px;
+	top: 45%;
+	width: 15%;
+	height: 10%;
+	font-size: 20px;
+	border-radius: 10px;
+	outline: none;
+
+}
+.DFish{
+	position: absolute;
+	left: 480px;
+	top: 45%;
+	width: 15%;
+	height: 10%;
+	font-size: 20px;
+	border-radius: 10px;
+	outline: none;
+
+}
+
+
+.DRice{
+	position: absolute;
+	left: 120px;
+	width: 10%;
+	top: 57%;
+	height: 10%;
+	font-size: 20px;
+	border-radius: 10px;
+	outline: none;
+
+}
+.DPasta{
+	position: absolute;
+	left: 200px;
+	top: 57%;
+	width: 20%;
+	height: 10%;
+	font-size: 20px;
+	border-radius: 10px;
+	outline: none;
+
+}
+.DLamb{
+	position: absolute;
+	left: 340px;
+	top: 57%;
+	width: 10%;
+	height: 10%;
+	font-size: 20px;
+	border-radius: 10px;
+	outline: none;
+
+}
+.DTofu{
+	position: absolute;
+	left: 420px;
+	top: 57%;
+	width: 10%;
+	height: 10%;
+	font-size: 20px;
+	border-radius: 10px;
+	outline: none;
+
+}
+.DPea{
+	position: absolute;
+	left: 500px;
+	top: 57%;
+	width: 10%;
+	height: 10%;
+	font-size: 20px;
+	border-radius: 10px;
+	outline: none;
+
+}
+.Dessert{
+	width: 100%;
+	height: 25%;
+	border: solid 1px #000;
+	display: flex;
+	align-items: center;
+
+}
+.WantToEat{
+	position: absolute;
+	left: 120px;
+	width: 75%;
+	height: 10%;
+	border-radius: 10px;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+}
+.Drink{
+	width: 100%;
+	height: 25%;
+	border: solid 1px #000;
+	display: flex;
+	align-items: center;
+
+}
+.WantToDrink{
+	position: absolute;
+	left: 120px;
+	width: 75%;
+	height: 10%;
+	border-radius: 10px;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+}
+.HousingContent{
+	z-index: -1;
+	position: absolute;
+	width: 100%;
+	height: 90%;
+	color: #000;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
+	
+}
+.HousingContent.open{
+	opacity: 1;
+}
+.HousingContent.close{
+	opacity: 0;
+}
+
+.AirCon{
+	width: 100%;
+	height: 30%;
+	border: solid 1px #000;
+	display: flex;
+	align-items: center;
+
+}
+.WantToUse{
+	position: absolute;
+	left: 120px;
+	width: 75%;
+	height: 10%;
+	border-radius: 10px;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+}
+.Light{
+	width: 100%;
+	height: 30%;
+	border: solid 1px #000;
+	display: flex;
+	align-items: center;
+
+}
+.WantToTurn{
+	position: absolute;
+	left: 120px;
+	width: 75%;
+	height: 10%;
+	border-radius: 10px;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+}
+.TransportationContent{
+	z-index: -1;
+	position: absolute;
+	width: 100%;
+	height: 90%;
+	color: #000;
+	opacity: 0;
+	display: flex;
+	justify-content: center;
+	
+}
+.TransportationContent.open{
+	opacity: 1;
+}
+.TransportationContent.close{
+	opacity: 0;
+}
+.TransWay{
+	width: 100%;
+	height: 30%;
+	border: solid 1px #000;
+	display: flex;
+	align-items: center;
+
+}
+.TransportationContent  select{
+	left: 180px;
+	width: 65%;
+}
+.WantToGo{
+	position: absolute;
+	left: 120px;
+	width: 75%;
+	height: 10%;
+	border-radius: 10px;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+}
+.SendOut{
+	position: absolute;
+	z-index: 2;
+	left: 200px;
+	top: 840px;
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+	outline: none;
+	border-radius: 10px;
+	
+}
+.Cart{
+	position: absolute;
+	z-index: 6;
+	left: 840px;
+	top: 1180px;
+	width: 940px;
+	height: 400px;
+	background-color: #fff;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	
+}
+table{
+	width: 100%;
+	height: 100%;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: #fff;
+	
+	
+	
+	
+}
+tr{
+	height: 20%;
+}
+td{
+	width: 16.6%;
+}
+.Img{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: 90%;	
+}
+.CEgg{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+}
+.COtameal{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+
+}
+.CBread{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+
+}
+.BeefL{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+
+}
+.ChickenL{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+
+}
+.PorkL{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+
+}
+.FishL{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+}
+.RiceL{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+}
+.PastaL{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+
+}
+.LambL{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+
+}
+.TofuL{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+
+}
+.PeaL{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+
+}
+
+.BeefD{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+}
+.ChickenD{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+}
+.PorkD{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+}
+.FishD{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+}
+.RiceD{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+}
+.PastaD{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+}
+.LambD{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+}
+.TofuD{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+}
+.PeaD{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+	overflow: hidden;
+}
+.CDessert{
+	background-position: center center;
+	opacity: 0.3;
+	overflow: hidden;
+}
+.CDessert.Cheese{
+
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/Cheese.png);
+	background-size: 50px;
+	background-repeat: no-repeat;
+}
+.CDessert.Banana{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/Banana.png);
+	background-size: 50px;	
+	background-repeat: no-repeat;
+}
+.CDessert.Tomato{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/Tomato.png);
+	background-size: 50px;
+	background-repeat: no-repeat;
+}
+.CDessert.Choco{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/Choco.png);
+	background-size: 30px;
+	background-repeat: no-repeat;
+}
+
+.CDrink{
+	opacity: 0.3;
+	background-position: center center;
+
+}
+.CDrink.Soya{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/SoyaMilk.png);
+	background-size: 30px;
+	background-repeat: no-repeat;
+}
+.CDrink.Coffee{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/Coffee.png);
+	background-size: 50px;
+	background-repeat: no-repeat;
+}
+.CDrink.Beer{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/Beer.png);
+	background-size: 30px;
+	background-repeat: no-repeat;
+}
+.CDrink.Tea{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/Tea.png);
+	background-size: 50px;
+	background-repeat: no-repeat;
+}
+.CDrink.Milk{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/Milk.png);
+	background-size: 30px;
+	background-repeat: no-repeat;
+}
+.CAirCon{
+	opacity: 0.3;
+	background-position: center center;
+}
+.CAirCon.Old3{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/OldAircon.png);
+	background-size: 50px;
+	background-repeat: no-repeat;
+}
+.CAirCon.Old8{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/OldAircon.png);
+	background-size: 50px;
+	background-repeat: no-repeat;
+}
+.CAirCon.New8{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/NewAlrcon.png);
+	background-size: 50px;
+	background-repeat: no-repeat;
+}
+.CLight{
+	opacity: 0.3;
+	background-position: center center;
+}
+.CLight.OldLight{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/OldLight.png);
+	background-size: 30px;
+	background-repeat: no-repeat;
+}
+.CLight.LowLight{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/LowLight.png);
+	background-size: 30px;
+	background-repeat: no-repeat;
+}
+.CLight.LEDLight{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/LEDLight.png);
+	background-size: 30px;
+	background-repeat: no-repeat;
+}
+.CTrans{
+	opacity: 0.3;
+	background-position: center center;
+}
+.CTrans.Car{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/Car.png);
+	background-size: 50px;
+	background-repeat: no-repeat;
+}
+.CTrans.Moto{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/Moto.png);
+	background-size: 50px;
+	background-repeat: no-repeat;
+}
+.CTrans.Plane{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/Plane.png);
+	background-size: 50px;
+	background-repeat: no-repeat;
+}
+.CTrans.Bus{
+	opacity: 1;
+	background-image: url(../../webpng/ConvertPage/Bus.png);
+	background-size: 50px;
+	background-repeat: no-repeat;
+}
+.CalResult{
+	position: absolute;
+	z-index: 6;
+	left: 840px;
+	top: 1680px;
+	width: 940px;
+	height: 400px;
+	background-color: #fff;
+	border-radius: 10px;
+	color: #000;
+	font-size: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	line-height: 3.5;
+
+}
+
+.CalResultText{
+	position: absolute;
+	left: 50px;
+	
+	
+
+}
+.view3{
+	font-family: Gen Jyuu Gothic ;
+	height: 100%;
+	width: 1920px;
+}
+
+.bg3{
+	position: absolute;
+	z-index: 10;
+	left: 0px;
+	top: 2160px;
+}
+.Ranking{
+	position: absolute;
+	z-index: 16;
+	top: 2260px;
+	left: 100px;
+	width: 1720px;
+	height: 880px;
+	background-color: #fff;
+	
+}
+.Co2Evil{
+	position: absolute;
+	z-index: 9;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	overflow: hidden;
+}
+.MedalsEvil{
+	position: absolute;
+	left: 0px;
+	top: -100px;
+	width: 860px;
+	height: 880px;
+	background-color: #ffffff;
+	font-size: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.EvilText{
+	position: absolute;
+	width: 860px;
+	height: 0px;
+	top: 800px;
+	font-size: 72px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.SuggestEvil{
+	position: absolute;
+	left: 960px;
+	top: 0px;
+	width: 860px;
+	height: 880px;
+	background-color: #ffffff;
+	font-size: 40px;
+	line-height: 2;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.MidlineEvil{
+	position: absolute;
+	left: 857px;
+	top: 50px;
+	width: 0px;
+	height: 780px;
+	border-right: solid 6px #000;
+	border-radius: 3px ;
+}
+.Co2Normal{
+	position: absolute;
+	z-index: 9;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	overflow: hidden;
+}
+.MedalsNormal{
+	position: absolute;
+	left: 0px;
+	top: -100px;
+	width: 860px;
+	height: 880px;
+	background-color: #ffffff;
+	font-size: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.NormalText{
+	position: absolute;
+	width: 860px;
+	height: 0px;
+	top: 800px;
+	font-size: 72px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.SuggestNormal{
+	position: absolute;
+	left: 960px;
+	top: 0px;
+	width: 960px;
+	height: 880px;
+	background-color: #ffffff;
+	font-size: 40px;
+	line-height: 2;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.MidlineNormal{
+	position: absolute;
+	left: 857px;
+	top: 50px;
+	width: 0px;
+	height: 780px;
+	border-right: solid 6px #000;
+	border-radius: 3px ;
+}
+.Co2Angel{
+	position: absolute;
+	z-index: 9;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	overflow: hidden;
+}
+.MedalsAngel{
+	position: absolute;
+	left: 0px;
+	top: -100px;
+	width: 860px;
+	height: 880px;
+	background-color: #ffffff;
+	font-size: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+		
+}
+.AngelText{
+	position: absolute;
+	width: 860px;
+	height: 0px;
+	top: 800px;
+	font-size: 72px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.SuggestAngel{
+	position: absolute;
+	left: 960px;
+	top: 0px;
+	width: 860px;
+	height: 880px;
+	background-color: #ffffff;
+	font-size: 40px;
+	line-height: 2;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.MidlineAngel{
+	position: absolute;
+	left: 857px;
+	top: 50px;
+	width: 0px;
+	height: 780px;
+	border-right: solid 6px #000;
+	border-radius: 3px ;
+}
+.view4{
+	font-family: Gen Jyuu Gothic ;
+	height: 100%;
+	width: 1920px;
+}
+.bg4{
+	position: absolute;
+	z-index: 15;
+	left: 0px;
+	top: 3240px;
+	font-family: Gen Jyuu Gothic ;
+
+}
+
+.references{
+	position: absolute;
+	z-index: 21;
+	font-size: 60px;
+	top: 3393px;
+	left: 822px;
+	width: 240px;
+	height: 89px;
+	text-align: left;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	text-shadow: 2px 3px 6px #FFFFFF22;
+	opacity: 1;
+}
+.rectangle{
+	position: absolute;
+	background-color: transparent;
+	z-index: 21;
+	top: 3498px;
+	left: 162px;
+	width: 1593px;
+	height: 667px;
+	font-size: 36px;
+	border: 1px solid #D1D9E4;
+	opacity: 1;
+}
+.Part1{
+	position: absolute;
+	left: 0px;
+	width: 531px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #ACD3D2;
+}
+.BBCtable{
+	position: absolute;
+	top: 20%;
+	font-size: 24px;
+
+}
+
+
+
+.Part2{
+	position: absolute;
+	top: 0px;
+	left: 531px;
+	width: 531px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #ACD3D2;
+}
+.TzuChi{
+	position: absolute;
+	top: 20%;
+	font-size: 24px;
+}
+
+.Part3{
+	position: absolute;
+	left: 1062px;
+	top: 0px;
+	width: 531px;
+	height: 667px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #ACD3D2;
+
+}
+.EPA{
+	position: absolute;
+	top: 20%;
+	font-size: 24px;
+}

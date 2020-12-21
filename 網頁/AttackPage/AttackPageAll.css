@@ -1,0 +1,67 @@
+@charset "utf-8";
+html{
+	scroll-behavior: smooth;
+
+}
+body{
+	font-family: Gen Jyuu Gothic ;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+
+.allpg{
+	font-family: Gen Jyuu Gothic ;
+	font-weight: normal;
+	width: 1920px;
+}
+
+.bar{
+	position: absolute;
+	z-index: 2;
+	font-size: 28px;
+	left: 535px;
+	top: 40px;
+	
+}
+.active:hover{
+	
+	border-bottom: solid 5px transparent;
+	border-image: linear-gradient(90deg, rgba(255, 255, 255, 1)10%, rgba(255, 255, 255, 0)95%);
+	border-image-slice: 1;
+	
+}
+button{
+	font-family: Gen Jyuu Gothic ;
+}
+
+.view1{
+	font-family: Gen Jyuu Gothic ;
+	width: 1920px;
+	height: 100%;
+}
+.view2{
+	font-family: Gen Jyuu Gothic ;
+	width: 1920px;
+	height: 100%;
+}
+.view3{
+	font-family: Gen Jyuu Gothic ;
+	width: 1920px;
+	height: 100%;
+}
+.view4{
+	font-family: Gen Jyuu Gothic ;
+	width: 1920px;
+	height: 100%;
+}
+.view5{
+	font-family: Gen Jyuu Gothic ;
+	width: 1920px;
+	height: 100%;
+	overflow: hidden;
+}

@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+
+.bg1{
+	position: absolute;
+	z-index: 0;
+	left: 0px;
+	top: 0px;
+}
+
+.P2Title{
+	position: absolute;
+	z-index: 1;
+	left: 60px;
+	top: 500px;
+	font-size: 136px;
+	font-weight: bold;
+}
+.P2SubTitle{
+	position: absolute;
+	z-index: 1;	
+	top: 280px;
+	font-size: 38px;
+	color: #BF5B00;
+}

@@ -1,0 +1,5377 @@
+@charset "utf-8";
+
+.SDC1BA{
+	position: absolute;
+	left: 1800px;
+	top: 50px;
+	width: 72px;
+	height: 78px;
+	opacity: 0;
+}
+.SDC2BA{
+	position: absolute;
+	left: 1800px;
+	top: 50px;
+	width: 72px;
+	height: 78px;
+	opacity: 0;
+}
+.SDC3BA{
+	position: absolute;
+	left: 1800px;
+	top: 50px;
+	width: 72px;
+	height: 78px;
+	opacity: 0;
+}
+.SDC4BA{
+	position: absolute;
+	left: 1800px;
+	top: 50px;
+	width: 72px;
+	height: 78px;
+	opacity: 0;
+}
+.OAC1BA{
+	position: absolute;
+	left: 1800px;
+	top: 50px;
+	width: 72px;
+	height: 78px;
+	opacity: 0;
+}
+.OAC2BA{
+	position: absolute;
+	left: 1800px;
+	top: 50px;
+	width: 72px;
+	height: 78px;
+	opacity: 0;
+}
+.OAC3BA{
+	position: absolute;
+	left: 1800px;
+	top: 50px;
+	width: 72px;
+	height: 78px;
+	opacity: 0;
+}
+.OAC4BA{
+	position: absolute;
+	left: 1800px;
+	top: 50px;
+	width: 72px;
+	height: 78px;
+	opacity: 0;
+}
+.MIC1BA{
+	position: absolute;
+	left: 1800px;
+	top: 50px;
+	width: 72px;
+	height: 78px;
+	opacity: 0;
+}
+.MIC2BA{
+	position: absolute;
+	left: 1800px;
+	top: 50px;
+	width: 72px;
+	height: 78px;
+	opacity: 0;
+}
+.MIC3BA{
+	position: absolute;
+	left: 1800px;
+	top: 50px;
+	width: 72px;
+	height: 78px;
+	opacity: 0;
+}
+.MIC4BA{
+	position: absolute;
+	left: 1800px;
+	top: 50px;
+	width: 72px;
+	height: 78px;
+	opacity: 0;
+}
+.FFCBA{
+	position: absolute;
+	z-index: 20;
+	left: 1830px;
+	top: 150px;
+	width: 72px;
+	height: 78px;
+	opacity: 0;
+}
+.HWCBA{
+	position: absolute;
+	z-index: 20;
+	left: 1830px;
+	top: 150px;
+	width: 72px;
+	height: 78px;
+	opacity: 0;
+}
+
+.ECCBA{
+	position: absolute;
+	z-index: 20;
+	left: 1830px;
+	top: 150px;
+	width: 72px;
+	height: 78px;
+	opacity: 0;
+}
+.DSC1BA{
+	position: absolute;
+	left: 1800px;
+	top: 50px;
+	width: 72px;
+	height: 78px;
+	opacity: 0;
+}
+.DSC2BA{
+	position: absolute;
+	left: 1800px;
+	top: 50px;
+	width: 72px;
+	height: 78px;
+	opacity: 0;
+}
+.DSC3BA{
+	position: absolute;
+	left: 1800px;
+	top: 50px;
+	width: 72px;
+	height: 78px;
+	opacity: 0;
+}
+.DSC4BA{
+	position: absolute;
+	left: 1800px;
+	top: 50px;
+	width: 72px;
+	height: 78px;
+	opacity: 0;
+}
+.FSC1BA{
+	position: absolute;
+	left: 1800px;
+	top: 50px;
+	width: 72px;
+	height: 78px;
+	opacity: 0;
+}
+.FSC2BA{
+	position: absolute;
+	left: 1800px;
+	top: 50px;
+	width: 72px;
+	height: 78px;
+	opacity: 0;
+}
+.FSC3BA{
+	position: absolute;
+	left: 1800px;
+	top: 50px;
+	width: 72px;
+	height: 78px;
+	opacity: 0;
+}
+.FSC4BA{
+	position: absolute;
+	left: 1800px;
+	top: 50px;
+	width: 72px;
+	height: 78px;
+	opacity: 0;
+}
+
+.ESC1BA{
+	position: absolute;
+	left: 1800px;
+	top: 50px;
+	width: 72px;
+	height: 78px;
+	opacity: 0;
+}
+.ESC2BA{
+	position: absolute;
+	left: 1800px;
+	top: 50px;
+	width: 72px;
+	height: 78px;
+	opacity: 0;
+}
+.ESC3BA{
+	position: absolute;
+	left: 1800px;
+	top: 50px;
+	width: 72px;
+	height: 78px;
+	opacity: 0;
+}
+.ESC4BA{
+	position: absolute;
+	left: 1800px;
+	top: 50px;
+	width: 72px;
+	height: 78px;
+	opacity: 0;
+}
+
+.bg4{
+	position: absolute;
+	z-index: 15;
+	left: 0px;
+	top: 3232px;
+	font-family: Gen Jyuu Gothic ;
+
+}
+
+.Disaster{
+	position: absolute;
+	z-index: 17;
+	left: 780px;
+	top: 3350px;
+	color: #ffffff;
+	font-size: 48px;
+	border: solid 3px #FFFFFF;
+	line-height: 0;
+	border-left: 0px;
+	border-right: 0px;
+	border-radius: 1px;
+	font-weight: bold;
+
+}
+.Disaster.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 1s,opacity 1s;
+	margin-left: 50px;
+	opacity: 0;
+
+}
+
+.Disaster.close{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 1s,opacity 1s;
+	margin-left: 0px;
+	opacity: 1;
+}
+.MainMenu{
+	position: absolute;
+	z-index: 17;
+	left: 0px;
+	top: 3235px;
+	height: 1076px;
+	background-color: transparent;
+	outline: none;
+
+}
+.Menu{
+	position: absolute;
+	left: 0px;
+	height: 1076px;
+	width: 618px;
+	background-color: transparent;
+	outline: none;
+	
+}
+.MainMenu.close{
+	animation: t1;
+	animation-duration: 1.5s;
+	animation-fill-mode: forwards;
+	-webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -ms-transition: 1.5s;
+    -o-transition: 1.5s;
+}
+
+@keyframes t1{
+	
+	100%{margin-left: -618px;}
+}
+.MainMenu.open{
+	animation: t2;
+	animation-duration: 1.5s;
+	animation-fill-mode: forwards;
+	-webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -ms-transition: 1.5s;
+    -o-transition: 1.5s;
+}
+@keyframes t2{
+	
+	0%{margin-left: -600px;}
+	100%{margin-left: 0px;}
+}
+
+
+.Backbutton{
+	position: absolute;
+	z-index: 17;
+	top: 0px;
+	left: 618px;
+	height: 100%;
+	width: 35px;
+	opacity: 0;
+}
+
+.Backbutton:hover{
+	-webkit-filter:brightness(1.6);
+
+}
+
+.Backbutton.open{
+	transition: 1s;
+	opacity: 0.5;
+}
+
+.Rectangle{
+	position: absolute;
+	left: 0px;
+	width: 10px;
+	height: 1076px;
+	background-color: #9CB4B1;
+}
+.Triangle{
+	position: absolute;
+	left: 10px;
+	width: 0px;
+	height: 0;
+	border-style: solid;
+	border-width: 538px 0 538px 30px;
+	border-color: transparent transparent transparent #9CB4B1;
+	
+}
+.SpeciesDiversity{
+	z-index: 18;
+	width: 100%;
+	height: 11.1%;
+	border: none;
+	background-color: #6B8898 ;
+	font-size: 30px;
+	line-height: 0;
+	text-align:left;
+	color: #ffffff;
+	outline: none;
+	
+}
+
+.SpeciesDiversity:hover{
+	background-color: #B1C3D5;
+	transition: 0.6s;
+
+}
+
+.SpeciesDiversityContent{
+	position: absolute;
+	z-index: -2;
+	top: 0px;
+	left: -1920px;
+	width: 1920px;
+	height: 1080px;
+	
+}
+.SpeciesDiversityContent.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	left: 600px;
+}
+.SpeciesDiversityContent.close{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+    margin-left: -100px;
+	opacity: 0;
+}
+.SDCBG{
+	position: absolute;
+	z-index: 16;
+	top: 0px;
+	left: -1920px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #163C4B;
+	opacity: 1;
+}
+.SDCBG.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	left: 0px;
+}
+.SDCMain{
+	position: absolute;
+	z-index: 17;
+	left: 80px;
+	top: 50px;
+	color: #ffffff;
+	font-size: 36px;
+	border: solid 3px #FFFFFF;
+	line-height: 0;
+	border-left: 0px;
+	border-right: 0px;
+	border-radius: 1px;
+	font-weight: normal;
+
+}
+.SDCSub{
+	position: absolute;
+	z-index: 17;
+	left: 625px;
+	top: 60px;
+	color: #E98C24;
+	font-size: 26px;
+	font-weight: normal;
+}
+.SDCpart1{
+	overflow: visible;
+	position: absolute;
+	z-index: 17;
+	top: 180px;
+	left: 200px;
+	width: 750px;
+	height: 430px;
+	background-color: #0e262f;
+	border-radius: 20px;
+	color: #ffffff;
+	font-size: 20px;
+	background-image: url( ../../Animation/WorldDamage/封面/RedForest.png);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.SDCpart1:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url(../../Animation/WorldDamage/紅樹林.gif);
+
+}
+
+.SDCpart1.open{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 143px;
+	opacity: 1;	
+	background-image: url(../../Animation/WorldDamage/紅樹林.gif);
+
+}
+.SDCpart1.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.SDCpart1.close{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 0px;
+	opacity: 1;	
+}
+
+.SDCpart1Title{
+	position: absolute;
+	z-index: 19;
+	top: 345px;
+	left: 200px;
+	font-size: 20px;
+	width: 750px;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.SDCpart1Title.open{
+    transition: 1s;
+	width: 1920px;
+	height: 0px;
+	left: 0px;
+	font-size: 28px;
+	top: 150px;
+	color: #E98C24;
+	background-color: transparent;
+
+}
+
+.SDCpart1Title.close{
+    transition: 1s;
+	margin-top: 0px;
+	background-color: #1E3239;
+}
+.SDCpart1Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	opacity: 0;
+}
+.SDCpart1Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.SDCpart1Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 1060px;
+	width: 860px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+}
+.SDCpart1Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.SDCpart2{
+	position: absolute;
+	z-index: 17;
+	top: 180px;
+	left: 977px;
+	width: 750px;
+	height: 430px;
+	background-color: #0e262f;
+	border-radius: 20px;
+	color: #ffffff;
+	font-size: 20px;
+	background-image: url(../../Animation/WorldDamage/封面/GreatReef.png);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.SDCpart2:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url(../../Animation/WorldDamage/大堡礁.gif);
+
+}
+.SDCpart2.open{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 143px;
+	left: 200px;
+	opacity: 1;
+	background-image: url(../../Animation/WorldDamage/大堡礁.gif);
+
+}
+.SDCpart2.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.SDCpart2.close{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 0px;
+	opacity: 1;	
+}
+
+.SDCpart2Title{
+	position: absolute;
+	z-index: 19;
+	top: 345px;
+	left: 977px;
+	width: 750px;
+	color: #fff;
+	font-size: 20px;
+	background-color: #1E3239;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.SDCpart2Title.open{
+    transition: 1s;
+	width: 1920px;
+	height: 0px;
+	left: 0px;
+	font-size: 28px;
+	top: 150px;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.SDCpart2Title.close{
+    transition: 1s;
+	margin-top: 0px;
+	background-color: #1E3239;
+}
+.SDCpart2Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 0;
+}
+.SDCpart2Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.SDCpart2Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 1060px;
+	width: 860px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+}
+.SDCpart2Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.SDCpart3{
+	position: absolute;
+	z-index: 17;
+	top: 635px;
+	left: 200px;
+	width: 750px;
+	height: 430px;
+	background-color: #0e262f;
+	border-radius: 20px;
+	color: #ffffff;
+	font-size: 20px;
+	background-image: url( ../../Animation/WorldDamage/封面/Shark.png);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.SDCpart3:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url(../../Animation/WorldDamage/鯊魚鮪魚.gif);
+
+}
+.SDCpart3.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 1s;
+	margin-top: -312px;
+	left: 200px;
+	opacity: 1;
+	background-image: url(../../Animation/WorldDamage/鯊魚鮪魚.gif);
+
+}
+.SDCpart3.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.SDCpart3.close{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 0px;
+	opacity: 1;	
+}
+
+.SDCpart3Title{
+	position: absolute;
+	z-index: 19;
+	top: 805px;
+	left: 200px;
+	font-size: 20px;
+	width: 750px;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.SDCpart3Title.open{
+    transition: 1s;
+	width: 1920px;
+	height: 0px;
+	left: 0px;
+	font-size: 28px;
+	top: 150px;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.SDCpart3Title.close{
+	transition: 1s;
+	margin-top: 0px;
+	background-color: #1E3239;
+}
+.SDCpart3Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 0;
+}
+.SDCpart3Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.SDCpart3Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 1060px;
+	width: 860px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+}
+.SDCpart3Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+
+.SDCpart4{
+	position: absolute;
+	z-index: 17;
+	top: 635px;
+	left: 977px;
+	width: 750px;
+	height: 430px;
+	background-color: #0e262f;
+	border-radius: 20px;
+	color: #ffffff;
+	font-size: 20px;
+	background-image: url(../../Animation/WorldDamage/封面/Mountain.png);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.SDCpart4:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url(../../Animation/WorldDamage/高山物種滅絕.gif);
+
+}
+
+.SDCpart4.open{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: -312px;
+	left: 200px;
+	opacity: 1;	
+	background-image: url(../../Animation/WorldDamage/高山物種滅絕.gif);
+
+}
+.SDCpart4.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.SDCpart4.close{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 0px;
+	opacity: 1;	
+}
+
+.SDCpart4Title{
+	position: absolute;
+	z-index: 19;
+	top: 805px;
+	left: 977px;
+	font-size: 20px;
+	width: 750px;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.SDCpart4Title.open{
+    transition: 1s;
+	width: 1920px;
+	height: 0px;
+	left: 0px;
+	font-size: 28px;
+	top: 150px;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.SDCpart4Title.close{
+	transition: 1s;
+	margin-top: 0px;
+	background-color: #1E3239;
+}
+.SDCpart4Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 0;
+}
+.SDCpart4Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.SDCpart4Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 1060px;
+	width: 860px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+	 
+}
+.SDCpart4Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+.OceanAcidification{
+	width: 100%;
+	height: 11.1%;
+	border: none;
+	background-color: #9AA5B0;
+	font-size: 30px;
+	line-height: 0;
+	text-align:left;
+	color: #ffffff;
+	outline: none;
+
+}
+.OceanAcidification:hover{
+	background-color: #C4CDD3;
+	transition: 0.6s;
+}
+.OceanAcidificationContent{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: -1920px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #133846;
+	opacity: 0;
+}
+.OceanAcidificationContent.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	left: 600px;
+}
+.OceanAcidificationContent.close{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+    margin-left: -100px;
+	opacity: 0;
+}
+
+.OACBG{
+	position: absolute;
+	z-index: 16;
+	top: 0px;
+	left: -1920px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #163C4B;
+	opacity: 1;
+}
+.OACBG.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	left: 0px;
+}
+.OACMain{
+	position: absolute;
+	z-index: 17;
+	left: 80px;
+	top: 50px;
+	color: #ffffff;
+	font-size: 36px;
+	border: solid 3px #FFFFFF;
+	line-height: 0;
+	border-left: 0px;
+	border-right: 0px;
+	border-radius: 1px;
+
+}
+.OACSub{
+	position: absolute;
+	z-index: 17;
+	left: 400px;
+	top: 60px;
+	color: #E98C24;
+	font-size: 26px;
+}
+.OACpart1{
+	overflow: visible;
+	position: absolute;
+	z-index: 17;
+	top: 180px;
+	left: 200px;
+	width: 750px;
+	height: 430px;
+	background-color: #0e262f;
+	border-radius: 20px;
+	color: #ffffff;
+	font-size: 20px;
+	background-image: url(../../Animation/WorldDamage/封面/Formula.png);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.OACpart1:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url(../../Animation/WorldDamage/公式.gif);
+
+}
+
+.OACpart1.open{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 143px;
+	opacity: 1;
+	background-image: url(../../Animation/WorldDamage/公式.gif);
+}
+.OACpart1.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.OACpart1.close{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 0px;
+	opacity: 1;	
+}
+
+.OACpart1Title{
+	position: absolute;
+	z-index: 19;
+	top: 345px;
+	left: 200px;
+	font-size: 20px;
+	width: 750px;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.OACpart1Title.open{
+    transition: 1s;
+	width: 1920px;
+	height: 0px;
+	left: 0px;
+	font-size: 28px;
+	top: 150px;
+	color: #E98C24;
+	background-color: transparent;
+
+}
+
+.OACpart1Title.close{
+    transition: 1s;
+	margin-top: 0px;
+	background-color: #1E3239;
+}
+.OACpart1Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	opacity: 0;
+}
+.OACpart1Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.OACpart1Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 1060px;
+	width: 860px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+}
+.OACpart1Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.OACpart2{
+	position: absolute;
+	z-index: 17;
+	top: 180px;
+	left: 977px;
+	width: 750px;
+	height: 430px;
+	background-color: #0e262f;
+	border-radius: 20px;
+	color: #ffffff;
+	font-size: 20px;
+	background-image: url(../../Animation/WorldDamage/封面/Surge.png);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.OACpart2:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url(../../Animation/WorldDamage/湧升流.gif);
+}
+.OACpart2.open{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 143px;
+	left: 200px;
+	opacity: 1;	
+	background-image: url(../../Animation/WorldDamage/湧升流.gif);
+}
+.OACpart2.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.OACpart2.close{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 0px;
+	opacity: 1;	
+}
+
+.OACpart2Title{
+	position: absolute;
+	z-index: 19;
+	top: 345px;
+	left: 977px;
+	width: 750px;
+	color: #fff;
+	font-size: 20px;
+	background-color: #1E3239;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.OACpart2Title.open{
+    transition: 1s;
+	width: 1920px;
+	height: 0px;
+	left: 0px;
+	font-size: 28px;
+	top: 150px;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.OACpart2Title.close{
+    transition: 1s;
+	margin-top: 0px;
+	background-color: #1E3239;
+}
+.OACpart2Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 0;
+}
+.OACpart2Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.OACpart2Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 1060px;
+	width: 860px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+}
+.OACpart2Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.OACpart3{
+	position: absolute;
+	z-index: 17;
+	top: 635px;
+	left: 200px;
+	width: 750px;
+	height: 430px;
+	background-color: #0e262f;
+	border-radius: 20px;
+	color: #ffffff;
+	font-size: 20px;
+	background-image: url(../../Animation/WorldDamage/封面/Ph7-8.png);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.OACpart3:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url(../../Animation/WorldDamage/ph7-8.gif);
+}
+.OACpart3.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 1s;
+	margin-top: -312px;
+	left: 200px;
+	opacity: 1;	
+	background-image: url(../../Animation/WorldDamage/ph7-8.gif);
+}
+.OACpart3.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.OACpart3.close{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 0px;
+	opacity: 1;	
+}
+
+.OACpart3Title{
+	position: absolute;
+	z-index: 19;
+	top: 805px;
+	left: 200px;
+	font-size: 20px;
+	width: 750px;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.OACpart3Title.open{
+    transition: 1s;
+	width: 1920px;
+	height: 0px;
+	font-size: 28px;
+	left: 140px;
+	top: 150px;
+	color: #E98C24;
+	background-color: transparent;
+	justify-content: flex-start;
+
+}
+
+.OACpart3Title.close{
+	transition: 1s;
+	margin-top: 0px;
+	background-color: #1E3239;
+}
+.OACpart3Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 0;
+}
+.OACpart3Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.OACpart3Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 1060px;
+	width: 860px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+}
+.OACpart3Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+
+.OACpart4{
+	position: absolute;
+	z-index: 17;
+	top: 635px;
+	left: 977px;
+	width: 750px;
+	height: 430px;
+	background-color: #0e262f;
+	border-radius: 20px;
+	color: #ffffff;
+	font-size: 20px;
+	background-image: url(../../Animation/WorldDamage/封面/MapFish.png);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.OACpart4:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url(../../Animation/WorldDamage/地圖魚.gif);
+}
+
+.OACpart4.open{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: -312px;
+	left: 200px;
+	opacity: 1;
+	background-image: url(../../Animation/WorldDamage/地圖魚.gif);
+}
+.OACpart4.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.OACpart4.close{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 0px;
+	opacity: 1;	
+}
+
+.OACpart4Title{
+	position: absolute;
+	z-index: 19;
+	top: 805px;
+	left: 977px;
+	font-size: 20px;
+	width: 750px;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.OACpart4Title.open{
+    transition: 1s;
+	width: 1920px;
+	height: 0px;
+	left: 0px;
+	font-size: 28px;
+	top: 150px;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.OACpart4Title.close{
+	transition: 1s;
+	margin-top: 0px;
+	background-color: #1E3239;
+}
+.OACpart4Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 0;
+}
+.OACpart4Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.OACpart4Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 1060px;
+	width: 860px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+	 
+}
+.OACpart4Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+.MeltingIce{
+	width: 100%;
+	height: 11.1%;
+	border: none;
+	background-color: #6B8898;
+	font-size: 30px;
+	line-height: 0;
+	text-align:left;
+	color: #ffffff;
+	outline: none;
+
+}
+.MeltingIce:hover{
+	background-color: #B1C3D5;
+	transition: 0.6s;
+}
+.MeltingIceContent{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: -1920px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #133846;
+	opacity: 0;
+}
+.MeltingIceContent.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	left: 600px;
+}
+.MeltingIceContent.close{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+    margin-left: -100px;
+	opacity: 0;
+}
+.MICBG{
+	position: absolute;
+	z-index: 16;
+	top: 0px;
+	left: -1920px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #163C4B;
+	opacity: 1;
+}
+.MICBG.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	left: 0px;
+}
+.MICMain{
+	position: absolute;
+	z-index: 17;
+	left: 80px;
+	top: 50px;
+	color: #ffffff;
+	font-size: 36px;
+	border: solid 3px #FFFFFF;
+	line-height: 0;
+	border-left: 0px;
+	border-right: 0px;
+	border-radius: 1px;
+
+}
+.MICSub{
+	position: absolute;
+	z-index: 17;
+	left: 400px;
+	top: 60px;
+	color: #E98C24;
+	font-size: 26px;
+}
+.MICpart1{
+	overflow: visible;
+	position: absolute;
+	z-index: 17;
+	top: 180px;
+	left: 200px;
+	width: 750px;
+	height: 430px;
+	background-color: #0e262f;
+	border-radius: 20px;
+	color: #ffffff;
+	font-size: 20px;
+	background-image: url(../../Animation/WorldDamage/封面/Iceberg.png);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.MICpart1:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url(../../Animation/WorldDamage/冰山融化.gif);
+}
+
+.MICpart1.open{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 143px;
+	opacity: 1;	
+	background-image: url(../../Animation/WorldDamage/冰山融化.gif);
+}
+.MICpart1.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.MICpart1.close{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 0px;
+	opacity: 1;	
+}
+
+.MICpart1Title{
+	position: absolute;
+	z-index: 19;
+	top: 345px;
+	left: 200px;
+	font-size: 20px;
+	width: 750px;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.MICpart1Title.open{
+    transition: 1s;
+	width: 1920px;
+	height: 0px;
+	left: 0px;
+	font-size: 28px;
+	top: 150px;
+	color: #E98C24;
+	background-color: transparent;
+
+}
+
+.MICpart1Title.close{
+    transition: 1s;
+	margin-top: 0px;
+	background-color: #1E3239;
+}
+.MICpart1Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	opacity: 0;
+}
+.MICpart1Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.MICpart1Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 1060px;
+	width: 860px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+}
+.MICpart1Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.MICpart2{
+	position: absolute;
+	z-index: 17;
+	top: 180px;
+	left: 977px;
+	width: 750px;
+	height: 430px;
+	background-color: #0e262f;
+	border-radius: 20px;
+	color: #ffffff;
+	font-size: 20px;
+	background-image: url(../../Animation/WorldDamage/封面/Age.png);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.MICpart2:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url(../../Animation/WorldDamage/歲數.gif);
+}
+.MICpart2.open{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 143px;
+	left: 200px;
+	opacity: 1;	
+	background-image: url(../../Animation/WorldDamage/歲數.gif);
+}
+.MICpart2.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.MICpart2.close{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 0px;
+	opacity: 1;	
+}
+
+.MICpart2Title{
+	position: absolute;
+	z-index: 19;
+	top: 345px;
+	left: 977px;
+	width: 750px;
+	color: #fff;
+	font-size: 20px;
+	background-color: #1E3239;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.MICpart2Title.open{
+    transition: 1s;
+	width: 1920px;
+	height: 0px;
+	left: 0px;
+	font-size: 28px;
+	top: 150px;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.MICpart2Title.close{
+    transition: 1s;
+	margin-top: 0px;
+	background-color: #1E3239;
+}
+.MICpart2Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 0;
+}
+.MICpart2Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.MICpart2Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 1060px;
+	width: 860px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+}
+.MICpart2Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.MICpart3{
+	position: absolute;
+	z-index: 17;
+	top: 635px;
+	left: 200px;
+	width: 750px;
+	height: 430px;
+	background-color: #0e262f;
+	border-radius: 20px;
+	color: #ffffff;
+	font-size: 20px;
+	background-image: url(../../Animation/WorldDamage/封面/Glacier.png);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.MICpart3:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url(../../Animation/WorldDamage/冰河.gif);
+}
+.MICpart3.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 1s;
+	margin-top: -312px;
+	left: 200px;
+	opacity: 1;	
+	background-image: url(../../Animation/WorldDamage/冰河.gif);
+}
+.MICpart3.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.MICpart3.close{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 0px;
+	opacity: 1;	
+}
+
+.MICpart3Title{
+	position: absolute;
+	z-index: 19;
+	top: 805px;
+	left: 200px;
+	font-size: 20px;
+	width: 750px;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.MICpart3Title.open{
+    transition: 1s;
+	width: 1920px;
+	height: 0px;
+	left: 0px;
+	font-size: 28px;
+	top: 150px;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.MICpart3Title.close{
+	transition: 1s;
+	margin-top: 0px;
+	background-color: #1E3239;
+}
+.MICpart3Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 0;
+}
+.MICpart3Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.MICpart3Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 1060px;
+	width: 860px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+}
+.MICpart3Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+
+.MICpart4{
+	position: absolute;
+	z-index: 17;
+	top: 635px;
+	left: 977px;
+	width: 750px;
+	height: 430px;
+	background-color: #0e262f;
+	border-radius: 20px;
+	color: #ffffff;
+	font-size: 20px;
+	background-image: url(../../Animation/WorldDamage/封面/FrozenSoil.png);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.MICpart4:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url(../../Animation/WorldDamage/凍土.gif);
+}
+
+.MICpart4.open{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: -312px;
+	left: 200px;
+	opacity: 1;
+	background-image: url(../../Animation/WorldDamage/凍土.gif);
+}
+.MICpart4.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.MICpart4.close{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 0px;
+	opacity: 1;	
+}
+
+.MICpart4Title{
+	position: absolute;
+	z-index: 19;
+	top: 805px;
+	left: 977px;
+	font-size: 20px;
+	width: 750px;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.MICpart4Title.open{
+    transition: 1s;
+	width: 1920px;
+	height: 0px;
+	left: 0px;
+	font-size: 28px;
+	top: 150px;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.MICpart4Title.close{
+	transition: 1s;
+	margin-top: 0px;
+	background-color: #1E3239;
+}
+.MICpart4Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 0;
+}
+.MICpart4Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.MICpart4Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 1060px;
+	width: 860px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+	 
+}
+.MICpart4Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+.FireForest{
+	width: 100%;
+	height: 11.1%;
+	border: none;
+	background-color: #9AA5B0;
+	font-size: 30px;
+	line-height: 0;
+	text-align:left;
+	color: #ffffff;
+	outline: none;
+
+}
+.FireForest:hover{
+	background-color: #C4CDD3;
+	transition: 0.6s;
+}
+.FireForestContent{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: -1900px;
+	width: 1900px;
+	height: 1070px;
+	background-color: #133846;
+	opacity: 0;
+}
+.FireForestContent.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	left: 600px;
+}
+.FireForestContent.close{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+    margin-left: -100px;
+	opacity: 0;
+}
+
+.FFCBG{
+	position: absolute;
+	z-index: 16;
+	top: 0px;
+	left: -1920px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #163C4B;
+	opacity: 1;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.FFCBG.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	left: 0px;
+}
+.FFCMain{
+	position: absolute;
+	z-index: 17;
+	left: 80px;
+	top: 50px;
+	color: #ffffff;
+	font-size: 36px;
+	border: solid 3px #FFFFFF;
+	line-height: 0;
+	border-left: 0px;
+	border-right: 0px;
+	border-radius: 1px;
+
+}
+.FFCSub{
+	position: absolute;
+	z-index: 17;
+	left: 650px;
+	top: 60px;
+	color: #E98C24;
+	font-size: 26px;
+}
+.FFCAmazon{
+	position: absolute;
+	z-index: 17;
+	top: 619px;
+	left: 1160px;
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	color: #ffffff;
+	opacity: 0;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*
+	background-image: url(../../webpng/Attackpage/FireIcon.png);
+	background-size: 66.7%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	*/
+}
+.FFCAmazon:hover{
+	transition: 1s;
+	opacity: 1;
+
+}
+.FFCAmazon.open{	
+	opacity: 1;
+}
+
+.FFCAmazonContent{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	
+	opacity: 0;
+}
+.FFCAmazonContent.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.FFCAmazonContenttext{
+	position: absolute;
+	top: 0px;
+	left: 100px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+	opacity: 0;
+	 
+}
+.FFCAmazonContenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+.FFCAmazonContenttext.close{
+	transition: 1s opacity  0.5s;
+	opacity: 0;
+}
+.FFCAmazonTitle{
+	position: absolute;
+	top: 50px;
+	color: #E98C24;
+	opacity: 0;
+	
+}
+.FFCAmazonTitle.open{
+	opacity: 1;
+	
+}
+
+.FFCNAEUJP{
+	position: absolute;
+	z-index: 17;
+	top: 383px;
+	left: 1145px;
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	font-size: 26px;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+
+}
+.FFCNAEUJP:hover{
+	transition: 1s ;
+	opacity: 1;
+}
+.FFCNAEUJP.open{	
+	opacity: 1;
+}
+
+.FFCJapan{
+	position: absolute;
+	left: 596px;
+	top: 91px;
+}
+
+.FFCNAEUJPTitle{
+	position: absolute;
+	top: 50px;
+	color: #E98C24;
+	opacity: 0;
+}
+.FFCNAEUJPTitle.open{
+   	opacity: 1;
+}
+
+
+.FFCNAEUJPContent{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	
+	opacity: 0;
+}
+.FFCNAEUJPContent.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.FFCNAEUJPContenttext{
+	position: absolute;
+	top: 0px;
+	left: 100px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+	opacity: 0;
+
+	 
+}
+.FFCNAEUJPContenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+.FFCNAEUJPContenttext.close{
+	transition: 1s opacity  0.5s;
+	opacity: 0;
+}
+
+.FFCSBL{
+	position: absolute;
+	z-index: 17;
+	top: 376px;
+	left: 1649px;
+	width: 60px;
+	height: 60px;
+	background-color: transparent;
+	border-radius: 30px;
+	color: #ffffff;
+	font-size: 26px;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.FFCSBL:hover{
+	transition: 1s ;
+	opacity: 1;
+}
+.FFCSBL.open{	
+	opacity: 1;
+}
+
+
+.FFCSBLTitle{
+	position: absolute;
+	top: 50px;
+	color: #E98C24;
+	opacity: 0;
+}
+.FFCSBLTitle.open{
+
+	opacity: 1;
+
+}
+
+
+.FFCSBLContent{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 0;
+}
+.FFCSBLContent.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.FFCSBLContenttext{
+	position: absolute;
+	top: 0px;
+	left: 100px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+	opacity: 0;
+
+	 
+}
+.FFCSBLContenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+
+.FFCAus{
+	position: absolute;
+	z-index: 17;
+	top: 671px;
+	left: 1723px;
+	width: 60px;
+	height: 60px;
+	background-color: transparent;
+	border-radius: 30px;
+	color: #ffffff;
+	font-size: 26px;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.FFCAus:hover{
+	transition: 1s ;
+	opacity: 1;
+}
+
+.FFCAus.open{
+	opacity: 1;	
+}
+
+
+.FFCAusTitle{
+	position: absolute;
+	top: 50px;
+	color: #E98C24;
+	opacity: 0;
+}
+.FFCAusTitle.open{
+
+	opacity: 1;
+}
+
+
+.FFCAusContent{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 0;
+}
+.FFCAusContent.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.FFCAusContenttext{
+	position: absolute;
+	top: 0px;
+	left: 100px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+	 
+}
+.FFCAusContenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+.FFCIcon{
+	position: absolute;
+	z-index: 17;
+	top: 700px;
+	left: 1250px;
+	width: 150px;
+	height: 150px;
+	background-color: #0e262f;
+	border-radius: 75px;
+	color: #ffffff;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-size: 66.7%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.FFCIcon:hover{
+	-webkit-filter:brightness(1.2);
+}
+
+.FFCIconTitle{
+	font-size: 20px;
+	width: 800px;
+	background-color: #1E3239;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.FFCIconTitle.open{
+    transition: 1s;
+	margin-top: -600px;
+	background-color: transparent;
+}
+
+.FFCIconTitle.close{
+	margin-top: 0px;
+	background-color: #1E3239;
+}
+.FFCIconContent{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 0;
+}
+.FFCIconContent.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.FFCIconContenttext{
+	position: absolute;
+	top: 0px;
+	left: 100px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+	 
+}
+.FFCIconContenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+.HeatWave{
+	width: 100%;
+	height: 11.1%;
+	border: none;
+	background-color: #6B8898;
+	font-size: 30px;
+	line-height: 0;
+	text-align:left;
+	color: #ffffff;
+	outline: none;
+
+}
+.HeatWave:hover{
+	background-color: #B1C3D5;
+	transition: 0.6s;
+}
+.HeatWaveContent{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: -1920px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #133846;
+	opacity: 0;
+}
+.HeatWaveContent.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	left: 600px;
+}
+.HeatWaveContent.close{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+    margin-left: -100px;
+	opacity: 0;
+}
+
+.HWCBG{
+	position: absolute;
+	z-index: 16;
+	top: 0px;
+	left: -1920px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #163C4B;
+	opacity: 1;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.HWCBG.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	left: 0px;
+}
+.HWCMain{
+	position: absolute;
+	z-index: 17;
+	left: 80px;
+	top: 50px;
+	color: #ffffff;
+	font-size: 36px;
+	border: solid 3px #FFFFFF;
+	line-height: 0;
+	border-left: 0px;
+	border-right: 0px;
+	border-radius: 1px;
+
+}
+.HWCSub{
+	position: absolute;
+	z-index: 17;
+	left: 400px;
+	top: 60px;
+	color: #E98C24;
+	font-size: 26px;
+}
+.HWCALLContent{
+	position: absolute;
+	z-index: 18;
+	top: 0px;
+	left: 0px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	opacity: 1;
+	color: #ffffff;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	
+}
+.HWCALLContent.close{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	opacity: 0;
+}
+
+
+.HWCALLContenttext{
+	position: absolute;
+	top: 0px;
+	left: 100px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+	 
+}
+.HWCALLContenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+.HWCpart1{
+	position: absolute;
+	z-index: 17;
+	top: 446px;
+	left: 921px;
+	opacity: 0;
+	color: #ffffff;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.HWCpart1:hover{
+	transition: 1s;
+	opacity: 1;
+}
+
+.HWCpart1.open{
+	
+	opacity: 1;	
+}
+
+
+.HWCpart1Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 1;
+}
+.HWCpart1Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.HWCpart1Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 100px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+	 
+}
+.HWCpart1Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.HWCpart2{
+	position: absolute;
+	z-index: 17;
+	top: 421px;
+	left: 938px;
+	color: #ffffff;
+	font-size: 26px;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.HWCpart2:hover{
+	transition: 1s;
+	opacity: 1;
+}
+.HWCpart2.open{
+	
+	opacity: 1;	
+}
+
+.HWCpart2Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 0;
+}
+.HWCpart2Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.HWCpart2Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 100px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+	 
+}
+.HWCpart2Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.HWCpart3{
+	position: absolute;
+	z-index: 17;
+	top: 339px;
+	left: 1022px;
+	color: #ffffff;
+	font-size: 26px;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.HWCSWL{
+	position: absolute;
+	left: -24px;
+	top: 139px;
+}
+.HWCpart3:hover{
+	transition: 1s;
+	opacity: 1;
+}
+.HWCpart3.open{	
+	opacity: 1;	
+}
+
+
+.HWCpart3Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 0;
+}
+.HWCpart3Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.HWCpart3Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 100px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+	 
+}
+.HWCpart3Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+
+.HWCpart4{
+	position: absolute;
+	z-index: 17;
+	top: 510px;
+	left: 1617px;
+	color: #ffffff;
+	font-size: 26px;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.HWCpart4:hover{
+	transition: 1s;
+	opacity: 1;
+}
+
+.HWCpart4.open{
+	
+	opacity: 1;	
+}
+
+
+.HWCpart4Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 0;
+}
+.HWCpart4Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.HWCpart4Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 100px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+	 
+}
+.HWCpart4Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+.ExtremeClimate{
+	width: 100%;
+	height: 11.1%;
+	border: none;
+	background-color: #9AA5B0;
+	font-size: 30px;
+	line-height: 0;
+	text-align:left;
+	color: #ffffff;
+	outline: none;	
+}
+.ExtremeClimate:hover{
+	background-color: #C4CDD3;
+	transition: 0.6s;
+}
+.ExtremeClimateContent{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: -1920px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #133846;
+	opacity: 0;
+}
+.ExtremeClimateContent.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	left: 600px;
+}
+.ExtremeClimateContent.close{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+    margin-left: -100px;
+	opacity: 0;
+}
+
+.ECCBG{
+	position: absolute;
+	z-index: 16;
+	top: 0px;
+	left: -1920px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #163C4B;
+	opacity: 1;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.ECCBG.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	left: 0px;
+}
+.ECCMain{
+	position: absolute;
+	z-index: 17;
+	left: 80px;
+	top: 50px;
+	color: #ffffff;
+	font-size: 36px;
+	border: solid 3px #FFFFFF;
+	line-height: 0;
+	border-left: 0px;
+	border-right: 0px;
+	border-radius: 1px;
+
+}
+.ECCSub{
+	position: absolute;
+	z-index: 17;
+	left: 400px;
+	top: 60px;
+	color: #E98C24;
+	font-size: 26px;
+}
+.ECCALLContent{
+	position: absolute;
+	z-index: 18;
+	top: 0px;
+	left: 0px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	opacity: 1;
+	color: #ffffff;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	
+}
+.ECCALLContent.close{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	opacity: 0;
+}
+
+.ECCALLContenttext{
+	position: absolute;
+	top: 0px;
+	left: 100px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+	 
+}
+.ECCALLContenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.ECCIcon{
+	position: absolute;
+	z-index: 17;
+	top: 180px;
+	left: 850px;
+	width: 150px;
+	height: 150px;
+	background-color: #0e262f;
+	border-radius: 75px;
+	color: #ffffff;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.ECCIcon:hover{
+	-webkit-filter:brightness(1.2);
+}
+
+
+.ECCIconContent{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 0;
+}
+.ECCIconContent.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.ECCIconContenttext{
+	position: absolute;
+	top: 0px;
+	left: -300px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	opacity: 0;
+	line-height: 50px;
+	 
+}
+.ECCIconContenttext.open{
+	left: 100px;
+	transition: 2s opacity  0.5s;
+	opacity: 1;
+}
+.ECCpart1{
+	position: absolute;
+	z-index: 17;
+	top: 474px;
+	left: 1742px;
+	opacity: 0;
+	color: #ffffff;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.ECCpart1:hover{
+	transition: 1s;
+	opacity: 1;
+}
+
+.ECCpart1.open{
+	
+	opacity: 1;	
+}
+
+
+.ECCpart1Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 0;
+}
+.ECCpart1Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.ECCpart1Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 100px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+	 
+}
+.ECCpart1Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.ECCpart2{
+	position: absolute;
+	z-index: 17;
+	top: 443px;
+	left: 1577px;
+	color: #ffffff;
+	font-size: 26px;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.ECCpart2:hover{
+	transition: 1s;
+	opacity: 1;
+}
+.ECCpart2.open{
+	
+	opacity: 1;	
+}
+
+
+
+.ECCpart2Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 0;
+}
+.ECCpart2Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.ECCpart2Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 100px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+	 
+}
+.ECCpart2Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.ECCpart3{
+	position: absolute;
+	z-index: 17;
+	top: 649px;
+	left: 1694px;
+	color: #ffffff;
+	font-size: 26px;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ECCpart3:hover{
+	transition: 1s;
+	opacity: 1;
+}
+.ECCpart3.open{	
+	opacity: 1;	
+}
+
+
+.ECCpart3Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 0;
+}
+.ECCpart3Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.ECCpart3Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 100px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+	 
+}
+.ECCpart3Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+.ECCpart4{
+	position: absolute;
+	z-index: 17;
+	top: 543px;
+	left: 1714px;
+	color: #ffffff;
+	font-size: 26px;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ECCpart4:hover{
+	transition: 1s;
+	opacity: 1;
+}
+
+.ECCpart4.open{
+	
+	opacity: 1;	
+}
+
+
+.ECCpart4Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 0;
+}
+.ECCpart4Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.ECCpart4Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 100px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+	 
+}
+.ECCpart4Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.ECCpart5{
+	position: absolute;
+	z-index: 17;
+	top: 459px;
+	left: 993px;
+	color: #ffffff;
+	font-size: 26px;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.ECCAlaska{
+	position: absolute;
+	left: -126px;
+	top: -99px;
+}
+.ECCpart5:hover{
+	transition: 1s;
+	opacity: 1;
+}
+
+.ECCpart5.open{
+	
+	opacity: 1;	
+}
+
+
+.ECCpart5Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 0;
+}
+.ECCpart5Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.ECCpart5Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 100px;
+	width: 800px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+	 
+}
+.ECCpart5Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+.Disease{
+	width: 100%;
+	height: 11.1%;
+	border: none;
+	background-color: #6B8898;
+	font-size: 30px;
+	line-height: 0;
+	text-align:left;
+	color: #ffffff;
+	outline: none;
+}
+.Disease:hover{
+	background-color: #B1C3D5;
+	transition: 0.6s;
+}
+.DiseaseContent{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: -1920px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #133846;
+	opacity: 0;
+}
+.DiseaseContent.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	left: 600px;
+}
+.DiseaseContent.close{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+    margin-left: -100px;
+	opacity: 0;
+}
+
+.DSCBG{
+	position: absolute;
+	z-index: 16;
+	top: 0px;
+	left: -1920px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #163C4B;
+	opacity: 1;
+}
+.DSCBG.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	left: 0px;
+}
+.DSCMain{
+	position: absolute;
+	z-index: 17;
+	left: 80px;
+	top: 50px;
+	color: #ffffff;
+	font-size: 36px;
+	border: solid 3px #FFFFFF;
+	line-height: 0;
+	border-left: 0px;
+	border-right: 0px;
+	border-radius: 1px;
+
+}
+.DSCSub{
+	position: absolute;
+	z-index: 17;
+	left: 400px;
+	top: 60px;
+	color: #E98C24;
+	font-size: 26px;
+}
+.DSCpart1{
+	overflow: visible;
+	position: absolute;
+	z-index: 17;
+	top: 180px;
+	left: 200px;
+	width: 750px;
+	height: 430px;
+	background-color: #0e262f;
+	border-radius: 20px;
+	color: #ffffff;
+	font-size: 20px;
+	background-image: url(../../Animation/WorldDamage/封面/Mosq1970.png);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.DSCpart1:hover{
+	-webkit-filter:brightness(1.2);
+}
+
+.DSCpart1.open{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 143px;
+	background-image: url(../../Animation/WorldDamage/封面/Mosq1970.png);
+	
+	opacity: 1;	
+}
+.DSCpart1.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.DSCpart1.close{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 0px;
+	opacity: 1;	
+}
+
+.DSCpart1Title{
+	position: absolute;
+	z-index: 19;
+	top: 345px;
+	left: 200px;
+	font-size: 20px;
+	width: 750px;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.DSCpart1Title.open{
+    transition: 1s;
+	width: 1920px;
+	height: 0px;
+	left: 0px;
+	font-size: 28px;
+	top: 150px;
+	color: #E98C24;
+	background-color: transparent;
+
+}
+
+.DSCpart1Title.close{
+    transition: 1s;
+	margin-top: 0px;
+	background-color: #1E3239;
+}
+.DSCpart1Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	opacity: 0;
+}
+.DSCpart1Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.DSCpart1Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 1060px;
+	width: 860px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+}
+.DSCpart1Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.DSCpart2{
+	position: absolute;
+	z-index: 17;
+	top: 180px;
+	left: 977px;
+	width: 750px;
+	height: 430px;
+	background-color: #0e262f;
+	border-radius: 20px;
+	color: #ffffff;
+	font-size: 20px;
+	background-image: url(../../Animation/WorldDamage/封面/Mosq.png);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.DSCpart2:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url(../../Animation/WorldDamage/蚊子.gif);
+}
+.DSCpart2.open{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 143px;
+	left: 200px;
+	opacity: 1;	
+	background-image: url(../../Animation/WorldDamage/蚊子.gif);
+}
+.DSCpart2.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.DSCpart2.close{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 0px;
+	opacity: 1;	
+}
+
+.DSCpart2Title{
+	position: absolute;
+	z-index: 19;
+	top: 345px;
+	left: 977px;
+	width: 750px;
+	color: #fff;
+	font-size: 20px;
+	background-color: #1E3239;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.DSCpart2Title.open{
+    transition: 1s;
+	width: 1920px;
+	height: 0px;
+	left: 0px;
+	font-size: 28px;
+	top: 150px;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.DSCpart2Title.close{
+    transition: 1s;
+	margin-top: 0px;
+	background-color: #1E3239;
+}
+.DSCpart2Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 0;
+}
+.DSCpart2Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.DSCpart2Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 1060px;
+	width: 860px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+}
+.DSCpart2Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.DSCpart3{
+	position: absolute;
+	z-index: 17;
+	top: 635px;
+	left: 200px;
+	width: 750px;
+	height: 430px;
+	background-color: #0e262f;
+	border-radius: 20px;
+	color: #ffffff;
+	font-size: 20px;
+	background-image: url(../../Animation/WorldDamage/封面/Emergency.png);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.DSCpart3:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url(../../Animation/WorldDamage/急診.gif);
+}
+.DSCpart3.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 1s;
+	margin-top: -312px;
+	left: 200px;
+	opacity: 1;
+	background-image: url(../../Animation/WorldDamage/急診.gif);
+}
+.DSCpart3.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.DSCpart3.close{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 0px;
+	opacity: 1;	
+}
+
+.DSCpart3Title{
+	position: absolute;
+	z-index: 19;
+	top: 805px;
+	left: 200px;
+	font-size: 20px;
+	width: 750px;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.DSCpart3Title.open{
+    transition: 1s;
+	width: 1920px;
+	height: 0px;
+	left: 0px;
+	font-size: 28px;
+	top: 150px;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.DSCpart3Title.close{
+	transition: 1s;
+	margin-top: 0px;
+	background-color: #1E3239;
+}
+.DSCpart3Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 0;
+}
+.DSCpart3Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.DSCpart3Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 1060px;
+	width: 860px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+}
+.DSCpart3Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+
+.DSCpart4{
+	position: absolute;
+	z-index: 17;
+	top: 635px;
+	left: 977px;
+	width: 750px;
+	height: 430px;
+	background-color: #0e262f;
+	border-radius: 20px;
+	color: #ffffff;
+	font-size: 20px;
+	background-image: url(../../Animation/WorldDamage/封面/Kidney.png);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.DSCpart4:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url(../../Animation/WorldDamage/腎衰竭.gif);
+}
+
+.DSCpart4.open{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: -312px;
+	left: 200px;
+	opacity: 1;
+	background-image: url(../../Animation/WorldDamage/腎衰竭.gif);
+
+}
+.DSCpart4.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.DSCpart4.close{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 0px;
+	opacity: 1;	
+}
+
+.DSCpart4Title{
+	position: absolute;
+	z-index: 19;
+	top: 805px;
+	left: 977px;
+	font-size: 20px;
+	width: 750px;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.DSCpart4Title.open{
+    transition: 1s;
+	width: 1920px;
+	height: 0px;
+	font-size: 28px;
+	left: 210px;
+	top: 150px;
+	color: #E98C24;
+	background-color: transparent;
+	justify-content: flex-start;
+
+}
+
+.DSCpart4Title.close{
+	transition: 1s;
+	margin-top: 0px;
+	background-color: #1E3239;
+}
+.DSCpart4Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 0;
+}
+.DSCpart4Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.DSCpart4Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 1060px;
+	width: 860px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+	 
+}
+.DSCpart4Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+.FoodShortage{
+	width: 100%;
+	height: 11.1%;
+	border: none;
+	background-color: #9AA5B0;
+	font-size: 30px;
+	line-height: 0;
+	text-align:left;
+	color: #ffffff;
+	outline: none;
+
+}
+.FoodShortage:hover{
+	background-color: #C4CDD3;
+	transition: 0.6s;
+}
+.FoodShortageContent{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: -1920px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #133846;
+	opacity: 0;
+}
+.FoodShortageContent.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	left: 600px;
+}
+.FoodShortageContent.close{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+    margin-left: -100px;
+	opacity: 0;
+}
+
+.FSCBG{
+	position: absolute;
+	z-index: 16;
+	top: 0px;
+	left: -1920px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #163C4B;
+	opacity: 1;
+}
+.FSCBG.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	left: 0px;
+}
+.FSCMain{
+	position: absolute;
+	z-index: 17;
+	left: 80px;
+	top: 50px;
+	color: #ffffff;
+	font-size: 36px;
+	border: solid 3px #FFFFFF;
+	line-height: 0;
+	border-left: 0px;
+	border-right: 0px;
+	border-radius: 1px;
+
+}
+.FSCSub{
+	position: absolute;
+	z-index: 17;
+	left: 400px;
+	top: 60px;
+	color: #E98C24;
+	font-size: 26px;
+}
+.FSCpart1{
+	overflow: visible;
+	position: absolute;
+	z-index: 17;
+	top: 180px;
+	left: 200px;
+	width: 750px;
+	height: 430px;
+	background-color: #0e262f;
+	border-radius: 20px;
+	color: #ffffff;
+	font-size: 20px;
+	background-image: url(../../Animation/WorldDamage/封面/RiceHowmuch.png);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.FSCpart1:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url(../../Animation/WorldDamage/溫度稻米產量.gif);
+}
+
+.FSCpart1.open{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 143px;
+	opacity: 1;	
+	background-image: url(../../Animation/WorldDamage/溫度稻米產量.gif);
+}
+.FSCpart1.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.FSCpart1.close{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 0px;
+	opacity: 1;	
+}
+
+.FSCpart1Title{
+	position: absolute;
+	z-index: 19;
+	top: 345px;
+	left: 200px;
+	font-size: 20px;
+	width: 750px;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.FSCpart1Title.open{
+    transition: 1s;
+	width: 1920px;
+	height: 0px;
+	left: 210px;
+	font-size: 28px;
+	top: 150px;
+	color: #E98C24;
+	background-color: transparent;
+	justify-content: flex-start;
+
+
+}
+
+.FSCpart1Title.close{
+    transition: 1s;
+	margin-top: 0px;
+	background-color: #1E3239;
+}
+.FSCpart1Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	opacity: 0;
+}
+.FSCpart1Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.FSCpart1Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 1060px;
+	width: 860px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+}
+.FSCpart1Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.FSCpart2{
+	position: absolute;
+	z-index: 17;
+	top: 180px;
+	left: 977px;
+	width: 750px;
+	height: 430px;
+	background-color: #0e262f;
+	border-radius: 20px;
+	color: #ffffff;
+	font-size: 20px;
+	background-image: url(../../Animation/WorldDamage/封面/RicePrice.png);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.FSCpart2:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url(../../Animation/WorldDamage/稻米產量價格.gif);
+}
+.FSCpart2.open{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 143px;
+	left: 200px;
+	opacity: 1;	
+	background-image: url(../../Animation/WorldDamage/稻米產量價格.gif);
+
+}
+.FSCpart2.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.FSCpart2.close{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 0px;
+	opacity: 1;	
+}
+
+.FSCpart2Title{
+	position: absolute;
+	z-index: 19;
+	top: 345px;
+	left: 977px;
+	width: 750px;
+	color: #fff;
+	font-size: 20px;
+	background-color: #1E3239;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.FSCpart2Title.open{
+    transition: 1s;
+	width: 1920px;
+	height: 0px;
+	left: 0px;
+	font-size: 28px;
+	top: 150px;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.FSCpart2Title.close{
+    transition: 1s;
+	margin-top: 0px;
+	background-color: #1E3239;
+}
+.FSCpart2Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 0;
+}
+.FSCpart2Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.FSCpart2Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 1060px;
+	width: 860px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+}
+.FSCpart2Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.FSCpart3{
+	position: absolute;
+	z-index: 17;
+	top: 635px;
+	left: 200px;
+	width: 750px;
+	height: 430px;
+	background-color: #0e262f;
+	border-radius: 20px;
+	color: #ffffff;
+	font-size: 20px;
+	background-image: url(../../Animation/WorldDamage/封面/CornSoy.png);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.FSCpart3:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url(../../Animation/WorldDamage/稻米產量價格.gif);
+}
+.FSCpart3.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 1s;
+	margin-top: -312px;
+	left: 200px;
+	opacity: 1;	
+	background-image: url(../../Animation/WorldDamage/稻米產量價格.gif);
+}
+.FSCpart3.open:hover{
+	-webkit-filter:brightness(1);
+	
+
+}
+.FSCpart3.close{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 0px;
+	opacity: 1;	
+}
+
+.FSCpart3Title{
+	position: absolute;
+	z-index: 19;
+	top: 805px;
+	left: 200px;
+	font-size: 20px;
+	width: 750px;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.FSCpart3Title.open{
+    transition: 1s;
+	width: 1920px;
+	height: 0px;
+	left: 180px;
+	font-size: 28px;
+	top: 150px;
+	color: #E98C24;
+	background-color: transparent;
+	justify-content: flex-start;
+
+}
+
+.FSCpart3Title.close{
+	transition: 1s;
+	margin-top: 0px;
+	background-color: #1E3239;
+}
+.FSCpart3Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 0;
+}
+.FSCpart3Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.FSCpart3Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 1060px;
+	width: 860px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+}
+.FSCpart3Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+
+.FSCpart4{
+	position: absolute;
+	z-index: 17;
+	top: 635px;
+	left: 977px;
+	width: 750px;
+	height: 430px;
+	background-color: #0e262f;
+	border-radius: 20px;
+	color: #ffffff;
+	font-size: 20px;
+	background-image: url(../../Animation/WorldDamage/封面/CornCar_.png);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.FSCpart4:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url(../../Animation/WorldDamage/車子玉米.gif);
+}
+
+.FSCpart4.open{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: -312px;
+	left: 200px;
+	opacity: 1;	
+	background-image: url(../../Animation/WorldDamage/車子玉米.gif);
+}
+.FSCpart4.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.FSCpart4.close{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 0px;
+	opacity: 1;	
+}
+
+.FSCpart4Title{
+	position: absolute;
+	z-index: 19;
+	top: 805px;
+	left: 977px;
+	font-size: 20px;
+	width: 750px;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.FSCpart4Title.open{
+    transition: 1s;
+	width: 1920px;
+	height: 0px;
+	left: 0px;
+	font-size: 28px;
+	top: 150px;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.FSCpart4Title.close{
+	transition: 1s;
+	margin-top: 0px;
+	background-color: #1E3239;
+}
+.FSCpart4Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 0;
+}
+.FSCpart4Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.FSCpart4Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 1060px;
+	width: 860px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+	 
+}
+.FSCpart4Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+.EconomicShock{
+	width: 100%;
+	height: 11.1%;
+	border: none;
+	background-color: #6B8898;
+	font-size: 30px;
+	line-height: 0;
+	text-align:left;
+	color: #ffffff;
+	outline: none;
+
+}
+
+.EconomicShock:hover{
+	background-color: #B1C3D5;
+	transition: 0.6s;
+}
+.EconomicShockContent{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: -1920px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #133846;
+	opacity: 0;
+}
+.EconomicShockContent.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	left: 600px;
+}
+.EconomicShockContent.close{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+    margin-left: -100px;
+	opacity: 0;
+}
+.ESCBG{
+	position: absolute;
+	z-index: 16;
+	top: 0px;
+	left: -1920px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #163C4B;
+	opacity: 1;
+}
+.ESCBG.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 0.01s,opacity 2s;
+	opacity: 0.9;
+	left: 0px;
+}
+.ESCMain{
+	position: absolute;
+	z-index: 17;
+	left: 80px;
+	top: 50px;
+	color: #ffffff;
+	font-size: 36px;
+	border: solid 3px #FFFFFF;
+	line-height: 0;
+	border-left: 0px;
+	border-right: 0px;
+	border-radius: 1px;
+
+}
+.ESCSub{
+	position: absolute;
+	z-index: 17;
+	left: 400px;
+	top: 60px;
+	color: #E98C24;
+	font-size: 26px;
+}
+
+.ESCpart1{
+	overflow: visible;
+	position: absolute;
+	z-index: 17;
+	top: 180px;
+	left: 200px;
+	width: 750px;
+	height: 430px;
+	background-color: #0e262f;
+	background-image: url(../../Animation/WorldDamage/封面/Degree.png);
+	border-radius: 20px;
+	color: #ffffff;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.ESCpart1:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url(../../Animation/WorldDamage/氣溫GDP.gif);
+
+}
+
+.ESCpart1.open{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 143px;
+	opacity: 1;
+	background-image: url(../../Animation/WorldDamage/氣溫GDP.gif);
+
+}
+.ESCpart1.open:hover{
+	-webkit-filter:brightness(1);
+
+
+}
+.ESCpart1.close{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 0px;
+	opacity: 1;	
+}
+
+.ESCpart1Title{
+	position: absolute;
+	z-index: 19;
+	top: 345px;
+	left: 200px;
+	font-size: 20px;
+	width: 750px;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ESCpart1Title.open{
+    transition: 1s;
+	width: 1920px;
+	height: 0px;
+	left: 160px;
+	font-size: 28px;
+	top: 150px;
+	color: #E98C24;
+	background-color: transparent;
+	justify-content: flex-start;
+
+}
+
+.ESCpart1Title.close{
+    transition: 1s;
+	margin-top: 0px;
+	background-color: #1E3239;
+}
+.ESCpart1Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	opacity: 0;
+}
+.ESCpart1Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.ESCpart1Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 1060px;
+	width: 860px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+}
+.ESCpart1Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.ESCpart2{
+	position: absolute;
+	z-index: 17;
+	top: 180px;
+	left: 977px;
+	width: 750px;
+	height: 430px;
+	background-image: url(../../Animation/WorldDamage/封面/ManHeart.png);
+	border-radius: 20px;
+	color: #ffffff;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.ESCpart2:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url(../../Animation/WorldDamage/男人心臟1.gif);
+
+}
+.ESCpart2.open{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 143px;
+	left: 200px;
+	opacity: 1;	
+	background-image: url(../../Animation/WorldDamage/男人心臟1.gif);
+
+}
+.ESCpart2.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.ESCpart2.close{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 0px;
+	opacity: 1;	
+}
+
+.ESCpart2Title{
+	position: absolute;
+	z-index: 19;
+	top: 345px;
+	left: 977px;
+	width: 750px;
+	color: #fff;
+	font-size: 20px;
+	background-color: #1E3239;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.ESCpart2Title.open{
+    transition: 1s;
+	width: 1920px;
+	height: 0px;
+	left: 200px;
+	font-size: 28px;
+	top: 150px;
+	color: #E98C24;
+	background-color: transparent;
+	justify-content: flex-start;
+
+}
+
+.ESCpart2Title.close{
+    transition: 1s;
+	margin-top: 0px;
+	background-color: #1E3239;
+}
+.ESCpart2Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 0;
+}
+.ESCpart2Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.ESCpart2Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 1060px;
+	width: 860px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+}
+.ESCpart2Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+.ESCpart3{
+	position: absolute;
+	z-index: 17;
+	top: 635px;
+	left: 200px;
+	width: 750px;
+	height: 430px;
+	background-color: #0e262f;
+	border-radius: 20px;
+	color: #ffffff;
+	font-size: 20px;
+	background-image: url(../../Animation/WorldDamage/封面/HotPress.png);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.ESCpart3:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url(../../Animation/WorldDamage/熱壓力症穀物價格.gif);
+
+}
+.ESCpart3.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 1s;
+	margin-top: -312px;
+	left: 200px;
+	opacity: 1;
+	background-image: url(../../Animation/WorldDamage/熱壓力症穀物價格.gif);
+
+}
+.ESCpart3.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.ESCpart3.close{
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	margin-top: 0px;
+	opacity: 1;	
+}
+
+.ESCpart3Title{
+	position: absolute;
+	z-index: 19;
+	top: 805px;
+	left: 200px;
+	font-size: 20px;
+	width: 750px;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.ESCpart3Title.open{
+    transition: 1s;
+	width: 1920px;
+	height: 0px;
+	left: 0px;
+	font-size: 28px;
+	top: 150px;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.ESCpart3Title.close{
+	transition: 1s;
+	margin-top: 0px;
+	background-color: #1E3239;
+}
+.ESCpart3Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 0;
+}
+.ESCpart3Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.ESCpart3Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 1060px;
+	width: 860px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+}
+.ESCpart3Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+
+
+.ESCpart4{
+	position: absolute;
+	z-index: 17;
+	top: 635px;
+	left: 977px;
+	width: 750px;
+	height: 430px;
+	background-color: #0e262f;
+	border-radius: 20px;
+	color: #ffffff;
+	background-image: url(../../Animation/WorldDamage/封面/ThialandUSA.png);
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.ESCpart4:hover{
+	-webkit-filter:brightness(1.2);
+	background-image: url(../../Animation/WorldDamage/泰國美國.gif);
+
+}
+
+.ESCpart4.open{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: -312px;
+	left: 200px;
+	opacity: 1;	
+	background-image: url(../../Animation/WorldDamage/泰國美國.gif);
+
+}
+.ESCpart4.open:hover{
+	-webkit-filter:brightness(1);
+
+}
+.ESCpart4.close{
+	-webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+	margin-top: 0px;
+	opacity: 1;	
+}
+
+.ESCpart4Title{
+	position: absolute;
+	z-index: 19;
+	top: 805px;
+	left: 977px;
+	font-size: 20px;
+	width: 750px;
+	background-color: #1E3239;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.ESCpart4Title.open{
+    transition: 1s;
+	width: 1920px;
+	height: 0px;
+	left: 0px;
+	font-size: 28px;
+	top: 150px;
+	color: #E98C24;
+	background-color: transparent;
+}
+
+.ESCpart4Title.close{
+	transition: 1s;
+	margin-top: 0px;
+	background-color: #1E3239;
+}
+.ESCpart4Content{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	background-color: transparent;
+	color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	opacity: 0;
+}
+.ESCpart4Content.open{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background-color: #1E3239;
+	opacity: 0.95;
+	display: flex;
+	color: #ffffff;
+	
+}
+
+.ESCpart4Contenttext{
+	position: absolute;
+	top: 0px;
+	left: 1060px;
+	width: 860px;
+	height: 1080px;
+	background-color: transparent;
+	font-size: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	line-height: 50px;
+	 
+}
+.ESCpart4Contenttext.open{
+	transition: 1s opacity  0.5s;
+	opacity: 1;
+}
+.Steam{
+	position: absolute;
+	z-index: 15;
+	top: 3620px;
+	left: 832px;
+}
+.Steam.open{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s,opacity 2s;
+	margin-left: 50px;
+	opacity: 0;
+}
+.Steam.close{
+	-webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s,opacity 2s;
+	margin-left: 0px;
+	opacity: 1;
+}
+@keyframes S1{
+	
+	99.99%{left: 1000px;}
+	100%{opacity: 0; margin-left:0px;}
+}
+.SteamBody{
+	position: absolute;
+	z-index: 15;
+	top: 0px;
+	left: 0px;
+}
+.wheelfront{
+	position: absolute;
+	z-index: 17;
+	left: 49px;
+	top: 324px;
+	animation-name: w1;
+	animation-duration: 12s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	
+
+}
+@keyframes w1{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+.wheelback{
+	position: absolute;
+	z-index: 16;
+	left: 125px;
+	top: 403px;
+	animation-name: w2;
+	animation-duration: 20s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+@keyframes w2{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(-360deg);}
+}

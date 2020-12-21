@@ -1,0 +1,129 @@
+@charset "utf-8";
+.bg5{
+	position: absolute;
+	z-index: 20;
+	left: 0px;
+	top: 4310px;
+}
+
+
+.references{
+	position: absolute;
+	z-index: 21;
+	font-size: 60px;
+	top: 4473px;
+	left: 822px;
+	width: 240px;
+	height: 89px;
+	text-align: left;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+.rectangle{
+	position: absolute;
+	background-color: transparent;
+	z-index: 21;
+	top: 4578px;
+	left: 162px;
+	width: 1593px;
+	height: 667px;
+	border: 1px solid #D1D9E4;
+	color: #fff;
+	font-size: 26px;
+	opacity: 1;
+	overflow: hidden;
+}
+.Part1{
+	position: absolute;
+	left: 0px;
+	width: 531px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #ACD3D2;
+}
+.CO2temp{
+	position: absolute;
+	top: 5%;
+	font-size: 20px;
+
+}
+.IceMelting{
+	position: absolute;
+	top: 20%;
+	font-size: 20px;
+}
+.HeatWaveinfor{
+	position: absolute;
+	top: 45%;
+	font-size: 20px;
+}
+.FireForestinfor{
+	position: absolute;
+	top: 65%;
+	font-size: 20px;
+}
+.Part2{
+	position: absolute;
+	top: 0px;
+	left: 531px;
+	width: 531px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #ACD3D2;
+}
+.Extinction{
+	position: absolute;
+	top: 5%;
+	font-size: 20px;
+
+}
+.SeaSour{
+	position: absolute;
+	top: 25%;
+	font-size: 20px;
+}
+.ExtremeWeather{
+	position: absolute;
+	top: 45%;
+	font-size: 20px;
+}
+.DiseaseRage{
+	position: absolute;
+	top: 65%;
+	font-size: 20px;
+}
+.Part3{
+	position: absolute;
+	left: 1062px;
+	top: 0px;
+	width: 531px;
+	height: 667px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #ACD3D2;
+
+}
+.FoodLess{
+	position: absolute;
+	top: 5%;
+	font-size: 20px;
+}
+.EconomicAffect{
+	position: absolute;
+	top: 25%;
+	font-size: 20px;
+}
+.Other{
+	position: absolute;
+	top: 45%;
+	font-size: 20px;
+}

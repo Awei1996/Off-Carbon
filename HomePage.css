@@ -1,0 +1,271 @@
+@charset "utf-8";
+@import url("part3.css");
+@import url("part4.css");
+@import url("part5.css");
+
+body{
+	font-family: Gen Jyuu Gothic ;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+
+h3,p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-weight: normal;
+}
+
+.allpg{
+	font-family: Gen Jyuu Gothic ;
+	font-weight: 800;
+	width: 1920px;
+	height: 5400px;
+	overflow: hidden;
+}
+
+.iceberg{
+	position: absolute;
+	z-index: -1;
+	left: -109px;
+	top: 305px;	
+	background-color: transparent;
+	animation-name:i1,i2;
+	animation-duration:0.8s,2s;
+	animation-iteration-count: 1,infinite;
+	
+}
+@keyframes i1{
+	0%{width:1109px;height:3624px;left:-500px;top:305px;opacity:1;}
+	100%{width:1109px;height:3624px;left:-109px;top:305px;opacity:1;}
+}
+@keyframes i2{
+	0%{top:305px;}
+	50%{top:315px;}
+	100%{top:305px;}
+}
+.penguin{
+	position: absolute;
+	z-index: 2;
+	top: 180px;
+	left: 480px;
+	animation-name:p1;
+	animation-duration: 16s;
+	animation-iteration-count: infinite;
+}
+@keyframes p1{
+	0%{top:180px; left:480px;}
+	49.99%{top: 170px; left: 620px; transform: scaleX(1);}
+	50%{top: 170px; left: 620px; transform: scaleX(-1);}
+	100%{top: 180px; left: 480px; transform: scaleX(-1);}
+	
+}
+.watermark1{
+	position: absolute;
+	z-index: -1;
+	left: -44px;
+	top: 774px;	
+	background-color: transparent;
+	animation-name:h1,wm1;
+	animation-duration: 0.8s,2s;
+	animation-iteration-count: 1,infinite;
+	
+}
+@keyframes wm1{
+	0%{opacity:0%;}
+	50%{opacity:80%;}
+	100%{opacity:0%;}
+}
+@keyframes h1{
+	0%{opacity:0%;}
+	100%{opacity:0%;}
+}
+.cliff{
+	position: absolute;
+	left:1471px;
+	top: 348px;
+	z-index: -1;
+	width: 451px;
+	height: 1407px;
+	background-color: transparent;
+	animation-name:c1;
+	animation-duration: 0.8s;
+	animation-iteration-count: 1;
+}
+@keyframes c1{
+	0%{left: 2080px;}
+	100%{left:1485px;}
+}
+.watermask1{
+	
+	position: absolute;
+	z-index: 0;
+	left: -1px;
+	top: 1002px;
+}
+.watermask2{
+	max-width: 1920px;
+	position: absolute;
+	z-index: 0;
+	left: 1567px;
+	top: 1088px;
+}
+.fish2{
+	position: absolute;
+	z-index: 9;
+	left: 0px;
+	top: 3180px;
+	animation-name:f2;
+	animation-duration:24s;
+	animation-iteration-count: infinite;
+	overflow: hidden;
+	opacity: 0.6;
+}
+@keyframes f2{
+	0%{left:-180px;}
+	49.99%{left: 1750px; top: 3150px; transform: scaleX(1);opacity: 0.6;}
+	50%{opacity: 0;transform: scaleX(-1)}
+	50.01%{left: 1750px; top: 3150px; transform: scaleX(-1);opacity: 0.6;}
+	100%{left: -180px; top: 3050px; transform: scaleX(-1)}
+}
+
+.view1{
+	
+	width: 1920px;
+	height: 100%;
+}
+.bar{
+	position: absolute;
+	z-index: 2;
+	font-size: 28px;
+	left: 535px;
+	top: 40px;
+	font-weight: normal;
+	
+}
+
+
+.act:hover{
+	border-bottom: solid 5px transparent;
+	border-image: linear-gradient(90deg, rgba(255, 255, 255, 1)10%, rgba(255, 255, 255, 0)95%);
+	border-image-slice: 1;
+	
+}
+.bg1{
+	position: absolute;
+	max-width: 1920px;
+	max-height: 1077px;
+	top: 0px;
+	left: -5px;
+	z-index: -3;
+	
+}
+
+.wave{
+	position: absolute;
+	max-width: 1920px;
+	max-height: 1077px;
+	top: 6000px;
+	left: -50px;
+	opacity: 80%;
+	z-index: -2;
+	animation-name:w1;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+.wave1{
+	position: absolute;
+	z-index: -3;
+	left: -14px;
+	top: 800px;
+	width: 1920px;
+	height: 280px;
+	background-color: transparent;
+	opacity: 0.5;
+	overflow: hidden;
+}
+.wave2{
+	position: absolute;
+	z-index: -2;
+	left: -14px;
+	top: 770px;
+	width: 1920px;
+	height: 300px;
+	background-color: #53a3b2;
+	opacity: 0.6;
+	overflow: hidden;
+}
+.wave1:before,.wave1:after{
+	content: "";
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    width: 1800%;
+    height: 2250%;
+    border-radius: 100%;
+	background: #59a3b2;  
+    transform: translateX(-50%);
+	animation: rotate 4s linear infinite;
+
+}
+.wave1:before{
+	top: 20%;
+    opacity: 0.5;
+    border-radius: 47%;
+}
+@keyframes rotate {
+  	0% {
+    	transform: translateX(-50%) rotateZ(180deg);
+	}
+	
+  	100% {
+  	  transform: translateX(-50%) rotateZ(360deg);
+  	}
+}
+
+@keyframes w1{
+	0%{left: -50px;top: 757px;}
+	25%{left: -40px;top: 757px;}
+	50%{left: -50px;top: 757px;}
+	75%{left: -60px;top: 757px;}
+	100%{left:-50px;top: 757px;}
+}
+.littleIce{
+	position: absolute;
+	top: 978px;
+	left: 1228px;
+	animation-name:li1;
+	animation-duration: 2s;
+	animation-delay: 0.5s;
+	animation-iteration-count: infinite;
+}
+@keyframes li1{
+	0%{top:968px;}
+	50%{top:978px;}
+	100%{top:968px;}
+}
+.watermark2{
+	position: absolute;
+	top: 969px;
+	left: 1202px;
+	animation-name:wm2;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+@keyframes wm2{
+	0%{opacity: 0;}
+	50%{opacity: 100%;}
+	100%{opacity: 0;}
+}
+.title{
+	position: absolute;
+	z-index: 1 ;
+	left: 510px;
+	top: 245px;
+	filter:drop-shadow(0px 0px 10px rgba(0,0,0,.5));
+    
+}
