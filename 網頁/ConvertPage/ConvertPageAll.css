@@ -25,12 +25,11 @@ select{
 	font-family: Gen Jyuu Gothic ;
 	font-weight: normal;
 	width: 1920px;
-	height: 4320px;
 }
 
 .bar{
 	position: absolute;
-	z-index: 2;
+	z-index: 6;
 	font-size: 28px;
 	left: 535px;
 	top: 40px;
@@ -822,7 +821,10 @@ td{
 .CDessert{
 	background-position: center center;
 	opacity: 0.3;
-	overflow: hidden;
+	display: flex;
+	background-image: url(../../webpng/ConvertPage/Cheese.png);
+	background-size: 50px;
+	background-repeat: no-repeat;
 }
 .CDessert.Cheese{
 
@@ -852,109 +854,121 @@ td{
 
 .CDrink{
 	opacity: 0.3;
+	background-image: url(../../webpng/ConvertPage/SoyaMilk.png);
+	background-size: 30px;
+	background-repeat: no-repeat;
 	background-position: center center;
 
 }
 .CDrink.Soya{
 	opacity: 1;
 	background-image: url(../../webpng/ConvertPage/SoyaMilk.png);
-	background-size: 30px;
+	background-size: auto 60px;
 	background-repeat: no-repeat;
 }
 .CDrink.Coffee{
 	opacity: 1;
 	background-image: url(../../webpng/ConvertPage/Coffee.png);
-	background-size: 50px;
+	background-size: 60px;
 	background-repeat: no-repeat;
 }
 .CDrink.Beer{
 	opacity: 1;
 	background-image: url(../../webpng/ConvertPage/Beer.png);
-	background-size: 30px;
+	background-size: auto 60px;
 	background-repeat: no-repeat;
 }
 .CDrink.Tea{
 	opacity: 1;
 	background-image: url(../../webpng/ConvertPage/Tea.png);
-	background-size: 50px;
+	background-size: 60px;
 	background-repeat: no-repeat;
 }
 .CDrink.Milk{
 	opacity: 1;
 	background-image: url(../../webpng/ConvertPage/Milk.png);
-	background-size: 30px;
+	background-size: auto 60px;
 	background-repeat: no-repeat;
 }
 .CAirCon{
 	opacity: 0.3;
+	background-image: url(../../webpng/ConvertPage/OldAircon.png);
+	background-size: 60px;
+	background-repeat: no-repeat;
 	background-position: center center;
 }
 .CAirCon.Old3{
 	opacity: 1;
 	background-image: url(../../webpng/ConvertPage/OldAircon.png);
-	background-size: 50px;
+	background-size: 60px;
 	background-repeat: no-repeat;
 }
 .CAirCon.Old8{
 	opacity: 1;
 	background-image: url(../../webpng/ConvertPage/OldAircon.png);
-	background-size: 50px;
+	background-size: 60px;
 	background-repeat: no-repeat;
 }
 .CAirCon.New8{
 	opacity: 1;
 	background-image: url(../../webpng/ConvertPage/NewAlrcon.png);
-	background-size: 50px;
+	background-size: 60px;
 	background-repeat: no-repeat;
 }
 .CLight{
 	opacity: 0.3;
+	background-image: url(../../webpng/ConvertPage/OldLight.png);
+	background-size: auto 60px;
+	background-repeat: no-repeat;
 	background-position: center center;
 }
 .CLight.OldLight{
 	opacity: 1;
 	background-image: url(../../webpng/ConvertPage/OldLight.png);
-	background-size: 30px;
+	background-size: auto 60px;
 	background-repeat: no-repeat;
 }
 .CLight.LowLight{
 	opacity: 1;
 	background-image: url(../../webpng/ConvertPage/LowLight.png);
-	background-size: 30px;
+	background-size: auto 60px;
 	background-repeat: no-repeat;
 }
 .CLight.LEDLight{
 	opacity: 1;
 	background-image: url(../../webpng/ConvertPage/LEDLight.png);
-	background-size: 30px;
+	background-size: auto 60px;
 	background-repeat: no-repeat;
 }
 .CTrans{
 	opacity: 0.3;
+	background-image: url(../../webpng/ConvertPage/Car.png);
+	background-size: 80px;
+	background-repeat: no-repeat;
 	background-position: center center;
 }
 .CTrans.Car{
 	opacity: 1;
 	background-image: url(../../webpng/ConvertPage/Car.png);
-	background-size: 50px;
+	background-size: 80px;
 	background-repeat: no-repeat;
 }
 .CTrans.Moto{
 	opacity: 1;
 	background-image: url(../../webpng/ConvertPage/Moto.png);
-	background-size: 50px;
+	background-size: 70px;
 	background-repeat: no-repeat;
 }
 .CTrans.Plane{
 	opacity: 1;
 	background-image: url(../../webpng/ConvertPage/Plane.png);
-	background-size: 50px;
+	background-size: 80px;
 	background-repeat: no-repeat;
 }
 .CTrans.Bus{
 	opacity: 1;
 	background-image: url(../../webpng/ConvertPage/Bus.png);
-	background-size: 50px;
+	background-size: 80px;
 	background-repeat: no-repeat;
 }
 .CalResult{
@@ -974,6 +988,20 @@ td{
 	line-height: 3.5;
 
 }
+.Team{
+	position: absolute;
+	left: 33.33%;
+	top: 80%;
+	z-index: 2;
+	width: 66.66%;
+	height: 20%;
+	font-size: 36px;
+	color: #000;
+	text-align: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
 .CalResultText{
 	position: absolute;
@@ -981,6 +1009,21 @@ td{
 	
 	
 
+}
+.ArrowDown{
+	position: absolute;
+	z-index: 9;
+	top: 2080px;
+	left: 1800px;
+	opacity: 0;
+}
+.ArrowDown.open{
+	opacity: 1;
+	animation: a1 1s infinite ease-in;
+}
+@keyframes a1{
+	0%{top: 2080px;}
+	100%{top: 2100px;}
 }
 .view3{
 	font-family: Gen Jyuu Gothic ;
@@ -1001,6 +1044,7 @@ td{
 	left: 100px;
 	width: 1720px;
 	height: 880px;
+	border-radius: 20px;
 	background-color: #fff;
 	
 }

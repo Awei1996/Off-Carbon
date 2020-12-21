@@ -64,6 +64,7 @@ var CAirConControl = document.getElementsByClassName('CAirCon')[0];
 var CLightControl = document.getElementsByClassName('CLight')[0];
 var CTranstControl = document.getElementsByClassName('CTrans')[0];
 
+var ArrowControl = document.getElementsByClassName('ArrowDown')[0];
 
 
 
@@ -1007,6 +1008,7 @@ document.getElementsByClassName('SendOut')[0].onclick = function()
 	}
 	
 	TotalValue = 0;
+	ArrowControl.classList.add('open');
 	
 
 };

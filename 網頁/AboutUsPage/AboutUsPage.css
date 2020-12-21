@@ -108,6 +108,7 @@ button{
 	width: 1920px;
 	height: 100%;
 	
+	
 	overflow: hidden;
 }
 .bg2{
@@ -116,6 +117,28 @@ button{
 	left: 0px;
 	top: 1080px;
 	
+}
+.TeamMember{
+	position: absolute;
+	top: 1020px;
+	width: 1920px;
+	height: 200px;
+	z-index: 2;
+	font-size: 84px;
+	color: #005934;
+	font-weight: bold;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+.TMLine{
+	position: absolute;
+	z-index: -1;
+	top: 210px;
+	height: 6px;
+	width: 400px;
+	background-color: #005934;
+	border-radius: 3px;
 }
 .Teacher{
 	position: absolute;
@@ -127,6 +150,10 @@ button{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+.TeacherImg{
+	position: absolute;
+	left: -300px;
 }
 .TeaName{
 	position: absolute;
@@ -156,7 +183,7 @@ button{
 	position: absolute;
 	z-index: 1;
 	left: 260px;
-	top: 1880px;
+	top: 1940px;
 	width: 250px;
 	height: 300px;
 	display: flex;
@@ -164,11 +191,15 @@ button{
 	justify-content: center;
 	
 }
+.WeiImg{
+	position: absolute;
+	top: -230px;
+}
 .WeiName{
 	position: absolute;
 	z-index: 2;
 	top: 0px;
-	font-size: 48px;
+	font-size: 40px;
 	color: #00627E;
 	font-weight: bold;
 }
@@ -176,7 +207,7 @@ button{
 .WeiLine{
 	position: absolute;
 	z-index: 1;
-	top: 120px;
+	top: 100px;
 	width: 200px;
 	height: 6px;
 	border-radius: 3px;
@@ -185,8 +216,8 @@ button{
 .WeiJob{
 	position: absolute;
 	z-index: 2;
-	top: 100px;
-	font-size: 32px;
+	top: 80px;
+	font-size: 28px;
 	color: #00627E;
 }
 
@@ -194,7 +225,7 @@ button{
 	position: absolute;
 	z-index: 1;
 	left: 640px;
-	top: 1880px;
+	top: 1940px;
 	width: 250px;
 	height: 300px;
 	display: flex;
@@ -202,11 +233,15 @@ button{
 	justify-content: center;
 	
 }
+.GuanImg{
+	position: absolute;
+	top: -232px;
+}
 .GuanName{
 	position: absolute;
 	z-index: 2;
 	top: 0px;
-	font-size: 48px;
+	font-size: 40px;
 	color: #00627E;
 	font-weight: bold;
 }
@@ -214,7 +249,7 @@ button{
 .GuanLine{
 	position: absolute;
 	z-index: 1;
-	top: 120px;
+	top: 100px;
 	width: 200px;
 	height: 6px;
 	border-radius: 3px;
@@ -223,15 +258,15 @@ button{
 .GuanJob{
 	position: absolute;
 	z-index: 2;
-	top: 100px;
-	font-size: 32px;
+	top: 80px;
+	font-size: 28px;
 	color: #00627E;
 }
 .Chang{
 	position: absolute;
 	z-index: 1;
-	left: 1010px;
-	top: 1880px;
+	left: 1020px;
+	top: 1940px;
 	width: 250px;
 	height: 300px;
 	display: flex;
@@ -239,11 +274,15 @@ button{
 	justify-content: center;
 	
 }
+.ChangImg{
+	position: absolute;
+	top: -227px;
+}
 .ChangName{
 	position: absolute;
 	z-index: 2;
 	top: 0px;
-	font-size: 48px;
+	font-size: 40px;
 	color: #00627E;
 	font-weight: bold;
 }
@@ -251,7 +290,7 @@ button{
 .ChangLine{
 	position: absolute;
 	z-index: 1;
-	top: 120px;
+	top: 100px;
 	width: 200px;
 	height: 6px;
 	border-radius: 3px;
@@ -260,8 +299,8 @@ button{
 .ChangJob{
 	position: absolute;
 	z-index: 2;
-	top: 100px;
-	font-size: 32px;
+	top: 80px;
+	font-size: 28px;
 	color: #00627E;
 	text-align: center;
 	
@@ -270,7 +309,7 @@ button{
 	position: absolute;
 	z-index: 1;
 	left: 1400px;
-	top: 1880px;
+	top: 1940px;
 	width: 250px;
 	height: 300px;
 	display: flex;
@@ -278,11 +317,15 @@ button{
 	justify-content: center;
 	
 }
+.TsengImg{
+	position: absolute;
+	top: -225px;
+}
 .TsengName{
 	position: absolute;
 	z-index: 2;
 	top: 0px;
-	font-size: 48px;
+	font-size: 40px;
 	color: #00627E;
 	font-weight: bold;
 }
@@ -290,7 +333,7 @@ button{
 .TsengLine{
 	position: absolute;
 	z-index: 1;
-	top: 120px;
+	top: 100px;
 	width: 200px;
 	height: 6px;
 	border-radius: 3px;
@@ -299,7 +342,7 @@ button{
 .TsengJob{
 	position: absolute;
 	z-index: 2;
-	top: 100px;
-	font-size: 32px;
+	top: 80px;
+	font-size: 28px;
 	color: #00627E;
 }
