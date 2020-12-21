@@ -1,10 +1,13 @@
 @charset "utf-8";
 @font-face {
 	font-family: Gen Jyuu Gothic ;
-    src: url(font/GenJyuuGothic-Normal.ttf);
+    src: url(../font/GenJyuuGothic-Normal.ttf);
+
 }
 html{
 	overflow: hidden;
+	font-family: Gen Jyuu Gothic ;
+
 }
 body{
 	overflow-x: hidden;
