@@ -7,6 +7,10 @@
 	font-family: Gen Jyuu Gothic ;
     src: url(font/GenJyuuGothic-Normal.ttf);
 }
+html{
+		font-family: Gen Jyuu Gothic ;
+
+}
 body{
 	font-family: Gen Jyuu Gothic ;
 	margin: 0;
