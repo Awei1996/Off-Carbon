@@ -3,6 +3,10 @@
 @import url("part4.css");
 @import url("part5.css");
 
+@font-face {
+	font-family: Gen Jyuu Gothic ;
+    src: url(font/GenJyuuGothic-Normal.ttf);
+}
 body{
 	font-family: Gen Jyuu Gothic ;
 	margin: 0;
