@@ -357,7 +357,7 @@ button{
 	border-radius: 20px;
 	font-size: 100px;
 	opacity: 1;
-	color: transparent;
+	color: #fff;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -379,14 +379,14 @@ button{
 
 }
 .FATitle:hover{
-	color: #fff;
+	color: #0E2932;
 }
 .Food.open{
 	top: 150px;	
 	width: 100%;
 	height: 0px;
 	font-size: 64px;
-	color: #65B9D3;
+	color: #0E2932;
 	font-weight: bold;
 }
 .FAVideo{
@@ -466,7 +466,7 @@ button{
 	height: 390px;
 	border-radius: 20px;
 	font-size: 100px;
-	color: transparent;
+	color: #fff;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -475,7 +475,7 @@ button{
 
 }
 .LATitle:hover{
-	color: #fff;
+	color: #6A3C04;
 	font-style: normal;
 
 }
@@ -571,7 +571,7 @@ button{
 	height: 390px;
 	border-radius: 20px;
 	font-size: 100px;
-	color: transparent;
+	color: #fff;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -593,7 +593,7 @@ button{
 
 }
 .HATitle:hover{
-	color: #fff;
+	color: #5F7622;
 	font-style: normal;
 
 }

@@ -984,23 +984,40 @@ document.getElementsByClassName('SendOut')[0].onclick = function()
 	
 	if(TotalValue >= 18){
 		EvilControl.style.zIndex = 11;
-		NormalControl.style.zIndex = 9;
-		AngelControl.style.zIndex = 9;
 		EvilControl.style.opacity = 1;
+
+		
+		NormalControl.style.zIndex = 9;
+		NormalControl.style.opacity = 0;
+		
+		AngelControl.style.zIndex = 9;
+		AngelControl.style.opacity = 0;
 
 
 	}
 	if(TotalValue < 18 && TotalValue >= 10){
+		
 		EvilControl.style.zIndex = 9;
+		EvilControl.style.opacity = 0;
+
+		
 		NormalControl.style.zIndex = 11;
-		AngelControl.style.zIndex = 9;
 		NormalControl.style.opacity = 1;
+		
+		AngelControl.style.zIndex = 9;
+		AngelControl.style.opacity = 0;
+		
 
 	}	
 
 	if(TotalValue < 10){
+		
 		EvilControl.style.zIndex = 9;
+		EvilControl.style.opacity = 0;
+
 		NormalControl.style.zIndex = 9;
+		NormalControl.style.opacity = 0;
+
 		AngelControl.style.zIndex = 11;
 		AngelControl.style.opacity = 1;
 

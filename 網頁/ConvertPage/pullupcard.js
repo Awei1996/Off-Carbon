@@ -4,6 +4,8 @@ var TransportationControl = document.getElementsByClassName('Transportation')[0]
 var FoodContentControl = document.getElementsByClassName('FoodContent')[0];
 var HousingContentControl = document.getElementsByClassName('HousingContent')[0];
 var TransportationContentControl = document.getElementsByClassName('TransportationContent')[0];
+var explainControl = document.getElementsByClassName('explain')[0];
+
 
 
 
@@ -34,6 +36,8 @@ document.getElementsByClassName('Food')[0].onclick = function()
 	FoodContentControl.style.zIndex = 2;
 	HousingContentControl.style.zIndex = -1;
 	TransportationContentControl.style.zIndex = -1;
+	explainControl.style.opacity = 0;
+
 
 
 
@@ -60,6 +64,8 @@ document.getElementsByClassName('Housing')[0].onclick = function()
 	FoodContentControl.style.zIndex = -1;
 	HousingContentControl.style.zIndex = 2;
 	TransportationContentControl.style.zIndex = -1;
+	explainControl.style.opacity = 0;
+
 
 };
 
@@ -84,6 +90,8 @@ document.getElementsByClassName('Transportation')[0].onclick = function()
 	FoodContentControl.style.zIndex = -1;
 	HousingContentControl.style.zIndex = -1;
 	TransportationContentControl.style.zIndex = 2;
+	explainControl.style.opacity = 0;
+
 
 };
 
