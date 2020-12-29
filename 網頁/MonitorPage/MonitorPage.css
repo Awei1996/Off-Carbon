@@ -7,6 +7,8 @@
 html{
 	overflow: hidden;
 	font-family: Gen Jyuu Gothic ;
+	scroll-behavior: smooth;
+
 
 }
 body{
@@ -16,8 +18,9 @@ body{
     padding: 0;
     border: 0;
     display: block;
-    width: 100%;
+    width: 1920px;
     height: 100%;
+	overflow: hidden;
 
 }
 
@@ -25,10 +28,31 @@ body{
 	font-family: Gen Jyuu Gothic ;
 	font-weight: normal;
 	width: 1920px;
-	height: 8640px;
 	overflow: hidden;
 }
+#myBtn {
+  	
+  	position: fixed; /* Fixed/sticky position */
+  	bottom: 20px; /* Place the button at the bottom of the page */
+  	right: 30px; /* Place the button 30px from the right */
+  	z-index: 99; /* Make sure it does not overlap */
+	width: 80px;
+	height: 60px;
+  	border: none; /* Remove borders */
+  	outline: none; /* Remove outline */
+  	background-color: #333; /* Set a background color */
+	opacity: 0;
+  	cursor: pointer; /* Add a mouse pointer on hover */
+  	padding: 15px; /* Some padding */
+  	border-radius: 10px; /* Rounded corners */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
+#myBtn:hover {
+  -webkit-filter:brightness(1.2); /* Add a dark-grey background on hover */
+}
 
 
 
@@ -61,11 +85,13 @@ button{
 }
 .bg1{
 	position: absolute;
-	width: 100%;
+	width: 1920px;
 	height: 100%;
 	z-index: 0;
 	left: 0px;
 	top: 0px;
+	overflow: hidden;
+
 }
 .P1-1{
 	position: absolute;
@@ -188,7 +214,7 @@ button{
 
 .P1-3{
 	position: absolute;
-	z-index: 1;
+	z-index: 2;
 	left: 1920px;
 	top: 0px;
 	transition: 1s;
@@ -228,7 +254,7 @@ button{
 }
 .P1-3sub{
 	position: absolute;
-	z-index: 1;
+	z-index: 2;
 	left: 200px;
 	top: 700px;
 	font-size: 48px;
@@ -262,7 +288,7 @@ button{
 
 .P1-4{
 	position: absolute;
-	z-index: 1;
+	z-index: 3;
 	left: 1920px;
 	top: 0px;
 	transition: 1s;
@@ -285,7 +311,7 @@ button{
 }
 .P1-4Title{
 	position: absolute;
-	z-index: 2;
+	z-index: 3;
 	left: 200px;
 	width: 1920px;
 	height: 0px;
@@ -298,7 +324,7 @@ button{
 }
 .P1-4sub{
 	position: absolute;
-	z-index: 1;
+	z-index: 3;
 	left: 200px;
 	top: 540px;
 	font-size: 48px;
@@ -308,7 +334,7 @@ button{
 }
 .P1-4ArrowL{
 	position: absolute;
-	z-index: 2;
+	z-index: 3;
 	top: 500px;
 	left: 0px;	
 	width: 96px;

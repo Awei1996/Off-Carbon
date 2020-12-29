@@ -8,6 +8,7 @@
 html{
 	
 	font-family: Gen Jyuu Gothic ;
+	scroll-behavior: smooth;
 
 }
 body{
@@ -32,6 +33,29 @@ iframe{
 	font-weight: normal;
 	width: 1920px;
 	overflow: hidden;
+}
+#myBtn {
+  	
+  	position: fixed; /* Fixed/sticky position */
+  	bottom: 20px; /* Place the button at the bottom of the page */
+  	right: 30px; /* Place the button 30px from the right */
+  	z-index: 99; /* Make sure it does not overlap */
+	width: 80px;
+	height: 60px;
+  	border: none; /* Remove borders */
+  	outline: none; /* Remove outline */
+  	background-color: #333; /* Set a background color */
+	opacity: 0;
+  	cursor: pointer; /* Add a mouse pointer on hover */
+  	padding: 15px; /* Some padding */
+  	border-radius: 10px; /* Rounded corners */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#myBtn:hover {
+  -webkit-filter:brightness(1.2); /* Add a dark-grey background on hover */
 }
 .VideoTitle{
 	position: absolute;
