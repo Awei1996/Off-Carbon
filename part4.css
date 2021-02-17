@@ -9,7 +9,6 @@
 	padding-bottom: 56%;
 	background-color: transparent;
 	opacity: 1;
-	border: solid 2px green;
 	overflow: hidden;
 
 	
@@ -103,7 +102,6 @@
 	padding-bottom: 92%;
 	opacity: 1;
   	perspective: 1000px;
-	border: solid 1px red;
 
 
 
@@ -205,7 +203,6 @@
 	padding-bottom: 92%;
 	opacity: 1;
   	perspective: 1000px;
-	border: solid 1px red;
 }
 .textcardsun:hover{
 	-webkit-filter:brightness(1.2);
@@ -297,7 +294,6 @@
 	padding-bottom: 92%;
 	opacity: 1;
   	perspective: 1000px;
-	border: solid 1px red;
 }
 .textcardoil:hover{
 	-webkit-filter:brightness(1.2);
@@ -388,7 +384,6 @@
 	padding-bottom: 92%;
 	opacity: 1;
   	perspective: 1000px;
-	border: solid 1px red;
 }
 .textcardlife:hover{
 	-webkit-filter:brightness(1.2);
