@@ -19,7 +19,7 @@
 			'navigationTooltips': [],
 			'slidesNavigation': false,
 			'slidesNavPosition': 'bottom',
-			'scrollBar': false,
+			'scrollBar': true,
 
 			//scrolling
 			'css3': true,

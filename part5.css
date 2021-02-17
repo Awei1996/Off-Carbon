@@ -1,28 +1,36 @@
 @charset "utf-8";
 
 .view5{
-	width: 1920px;
-	height: 100%;
+	position: absolute;
+	z-index: 5;
+	margin-top: 224.2%;
+	left: 0%;
+	width: 100vw;
+	padding-bottom: 56%;
+	background-color: transparent;
+	overflow: hidden;
+	opacity: 1;
+	border: solid 2px purple;
+
 }
 .bg5{
 	position: absolute;
-	z-index: -2;
-	top: 4320px;
-	left: 0px;
-	width: 1920px;
-	height: 100%;
-    background: transparent linear-gradient(180deg, #393A3B 0%, #121212 100%) 0% 0% no-repeat padding-box;
+	z-index: -1;
+	left: 0%;
+	width: 100%;
+	margin-top: 224%;
+	padding-bottom: 56%;
+    background: transparent linear-gradient(180deg, #3d4650 0%, #121212 100%) 0% 0% no-repeat padding-box;
 	opacity: 1;
 }
 .references{
 	position: absolute;
 	z-index: 1;
 	font-size: 60px;
-	top: 4473px;
-	left: 822px;
-	width: 240px;
-	height: 89px;
-	text-align: left;
+	margin-top: 8%;
+	margin-left: 0%;
+	width: 100%;
+	text-align: center;
 	letter-spacing: 0px;
 	color: #FFFFFF;
 	text-shadow: 2px 3px 6px #FFFFFF22;
@@ -32,20 +40,20 @@
 	position: absolute;
 	background-color: transparent;
 	z-index: 1;
-	top: 4578px;
-	left: 162px;
-	width: 1593px;
-	height: 667px;
+	margin-top: 15%;
+	margin-left: 8.44%;
+	width: 83%;
+	height: 62%;
 	border: 1px solid #D1D9E4;
 	opacity: 1;
 }
 .CO2pro{
 	position: absolute;
-	top: 45px;
+	margin-top: 5%;
 	font-size: 35px;
-	left: 208px;
-	width: 245px;
-	height: 52px;
+	margin-left: 12%;
+	width: 16%;
+	height: 5%;
 	text-align: center;
 	letter-spacing: 0px;
 	color: #ACD3D2;
@@ -55,31 +63,31 @@
 	position: absolute;
 	z-index: 5;
 	font-size: 20px;
-	top: 90px;
-	left: 10px;
+	magin-top: 50px;
+	margin-left: 2%;
 	text-align: left;
 }
 .CO2cause{
 	position: absolute;
-	top: 206px;
+	margin-top: 20%;
 	font-size: 35px;
-	left: 208px;
-	width: 245px;
-	height: 52px;
+	margin-left: 12%;
+	width: 16%;
+	height: 5%;
 	text-align: center;
 	letter-spacing: 0px;
 	color: #ACD3D2;
 	opacity: 1;
-	
 }
+	
+
 .CO2role{
 	position: absolute;
-	z-index: 200;
-	top: 45px;
+	margin-top: 5%;
 	font-size: 35px;
-	left: 1003px;
-	width: 455px;
-	height: 52px;
+	margin-left: 60%;
+	width: 30%;
+	height: 5%;
 	text-align: center;
 	letter-spacing: 0px;
 	color: #ACD3D2;

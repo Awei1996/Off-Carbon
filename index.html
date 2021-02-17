@@ -7,7 +7,24 @@
 	<link href="HomePage.css" rel="stylesheet" type="text/css">
 	<link href="aos.css" rel="stylesheet" type="text/css">
 	<link href="part2.css" rel="stylesheet" type="text/css">
-	
+	<script src="jquery-1.8.3.min.js"></script>
+	<!--<script src="jquery.fullPage.js"></script>
+	<script src="jquery.fullPage.css"></script>
+	<script src="jquery.fullPage.min.js"></script>-->
+	<script>
+		$(function(){
+			$('#dowebok').fullpage({
+				afterLoad(_, index) {
+					if (index === 1) {
+					  return
+					}
+
+					const $section = $('.section').eq(index - 1)
+					$section.find('[data-aos]').addClass('aos-animate')
+			  	},
+			});
+		});
+	</script>
 	
 </head>
 
@@ -15,19 +32,30 @@
 	<div id="dowebok">
 		
 		<div class="section">
+			<!--<div class="LoadingAnimate">
+				<div class="loadingwrap">
+					<div class="circle"> </div>
+					<div class="circle"> </div>
+					<div class="circle"> </div>
+					<div class="shadow"> </div>
+					<div class="shadow"> </div>
+					<div class="shadow"> </div>
+					<div class="l-word">
+						Loading
+					</div>
+    			</div>
+			</div>-->
 			<div class="view1">
-				<div class="bg1">
-					<img src="webpng/page1bg.png"  alt=""/> 
-				</div>
+				
 
-			  <div class="wave"><img src="webpng/wave.png" width="1941" height="330" alt=""/></div>
-				<div class="wave1"></div>
-				<div class="wave2"></div>
+		  	  	
+				<!---<div class="wave1"></div>
+				<div class="wave2"></div> -->
 				<div class="littleIce">
-					<img src="webpng/littleice.png" width="281" height="80" alt=""/> 
+					<img src="webpng/littleice.png" width="100%" alt=""/> 
 				</div>
 				<div class="watermark2">
-					<img src="webpng/watermark2.png" width="316" height="97" alt=""/>
+					<img src="webpng/watermark2.png" width="100%" alt=""/>
 				</div>
 				<div class="bar">
 					<a class="act" href="index.html" style="color: white; text-decoration: none; font-weight: normal;">成因</a>
@@ -42,21 +70,19 @@
 						<t>&emsp;&emsp;</t>
 					  <a class="act" href="網頁/AboutUsPage/AboutUsPage.html" style="color: white;text-decoration: none">關於我們</a>	
 				</div>		
-			  <div class="title">
-					<img src="webpng/title.png" width="1011" height="385" alt=""/>
+			  	<div class="title">
+                	<img src="webpng/title.png" width="100%" alt=""/>
 				</div>
 			</div>
 			
 		</div>
 		<div class="section">
 			<div class="view2">
-			  <div class="bg2">
-					<img src="webpng/page2bg.png" alt=""/> 
-			  </div>
+			  	
 				<div class="CO2" >
 				  <span class="Carbon">CO</span><span class="Two">2</span>
 				</div>
-				<div class="CO2infor" data-aos="slide-right"  >
+				<div class="CO2infor" data-aos="fade-right"  >
 					<h2>二氧化碳</h2>
 					<div class="CO2ani">
 						<div class="C">c</div>
@@ -65,57 +91,65 @@
 						<div class="price1">=</div>
 						<div class="price2">=</div>
 					</div>
-				  <h2>一種空氣中常見的化合物</h2>
+				  	<h2>一種空氣中常見的化合物</h2>
 					<h2>由兩個氧原子和一個碳原子透過共價鍵連接而成</h2>
 				</div>
-				<div class="CO2inforcover">			
-					<img src="webpng/CO2mask.png"  alt=""/> 
-				</div>
+				
 				<div class="CO2coverline"></div>
-			  <div class="Chemicalpro" >
+			  	<div class="Chemicalpro" >
 					<t>化學特性</t>
-			  </div>
-				<div class="Chemicalproinfor" data-aos="slide-right" >
+			  	</div>
+				<div class="Chemicalproinfor" data-aos="fade-right" >
 					<h3>常壓下為<br>&nbsp;</h3>
 					<div class="nocolor">
-						<img src="webpng/nocolor.png" width="80" height="65" alt=""/> 
+						<div class="nocolortext">
+							<h3>無色無味</h3>
+						</div>
+						
+						<img src="webpng/nocolor.png" width="40%"  alt=""/> 
 					</div>
 					<div class="noassist">
-						<img src="webpng/noassist.png" width="80" height="80" alt=""/> 
+						<div class="noassisttext">
+							<h3>不助燃</h3>
+						</div>
+						
+						<img src="webpng/noassist.png" width="50%"  alt=""/> 
 					</div>
 
 					<div class="noburn">
-					  <img src="webpng/noburn.png" width="80" height="80" alt=""/> 
+						<div class="noburntext">
+							<h3>不可燃</h3>
+						</div>
+						
+					  	<img src="webpng/noburn.png" width="50%" alt=""/> 
 					</div>
-				  <h3>&emsp;&emsp;&emsp;&emsp;&emsp;無色無味&emsp;&emsp;不助燃&emsp;&emsp;&emsp;不可燃&emsp;&emsp;的氣體</h3>
+					<div class="Chemicalproinfor2">
+						<h3>的氣體</h3>
+					</div>
+				  	<h3>&nbsp;</h3>
 					<h2>一般所稱的乾冰，就是固態的二氧化碳</h2>
 				</div>
-				<div class="Chemicalproinforcover">
-					<img src="webpng/Chemicalmask.png" width="800" height="400" alt=""/> 
-				</div>
+				
 				<div class="Chemicalcoverline"></div>
-			  <div class="Proportion" >
+			  	<div class="Proportion" >
 					<t>0.04%</t>			
-			  </div>
-				<div class="Proportioninfor" data-aos="slide-right" >
+			  	</div>
+				<div class="Proportioninfor" data-aos="fade-right" >
 					<div class="Pieline"></div>
 					<div class="Pietext">
 						<span class="CO">CO</span><span class="Two1">2</span>
 					</div>
-					<div class="Piechartbg"></div>
-					<div class="Piechartfront">
-						<p>0.04%</p>
+					
+					<div class="Piechart">
+				    	<img src="Animation/Piechart004.gif" width="100%" alt=""/> 
 					</div>
-					<div class="Piechart"></div>
 					<h3>&nbsp;</h3>
 					<h3>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;一般在空氣中二氧化碳的比例大約佔0.04%</h3>
 					<h3>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;根據季節的不同會有些微的上升與下降</h3>
 					<h3>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;近年來隨著人為排放量的增加</h3>
 					<h3>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;空氣中的二氧化碳含量有逐漸上升的趨勢</h3>
 				</div>
-				<div class="Proportioninforcover">
-					<img src="webpng/PROmask.png" width="800" height="400" alt=""/> 
-				</div>
+				
 				<div class="Proportioncoverline"></div>
 				<div class="fish1">
 					<img src="Animation/fish1.gif" width="200" height="168" alt=""/>
@@ -125,10 +159,7 @@
 		</div>
 		<div class="section">
 			<div class="view3">
-				<div class="bg3">
-					<img src="webpng/page3bg.png"  alt=""/> 
-				</div>
-				<div class="rectangle"></div>
+				
 				<div class="subtitle3" >
 					<t>成因</t>
 				</div>
@@ -150,34 +181,27 @@
 				<div class="fermentationinfor" data-aos="fade-down"  data-aos-delay="300">
 					<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="webpng/fermentation.png" width="74" height="111" alt=""/><br>微生物的發酵作用</h2>
 				</div>
-				<div class="p3cover1">
-				<img src="webpng/p3mask1-1.png" width="909" height="329" alt=""/> 
-				</div>
-				<div class="p3cover2">
-					<img src="webpng/p3mask2.png" width="1011" height="329" alt=""/> 
-				</div>
+				
 
 			</div>
 		</div>
 		<div class="section">
 			<div class="view4">
-				<div class="bg4">
-					<img src="webpng/page4bg.png"  alt=""/>
-				</div>
+				
 				<div class="grassleft">
-					<img src="Animation/Left.gif" width="50%" height="50%" alt=""/> 
+					<img src="Animation/Left.gif" width="100%"  alt=""/> 
 				</div>
 				<div class="grasscenterleft">
-					<img src="Animation/grass-centerLeft.gif" width="200" height="236" alt=""/> 
+					<img src="Animation/grass-centerLeft.gif" width="100%" alt=""/> 
 				</div>
 				<div class="grasscenter">
-					<img src="Animation/grass-center.gif" width="110" height="150" alt=""/> 
+					<img src="Animation/grass-center.gif" width="100%"  alt=""/> 
 				</div>
 				<div class="grasscenterrigt">
-					<img src="Animation/grass-centerRight.gif" width="110" height="125" alt=""/> 
+					<img src="Animation/grass-centerRight.gif" width="100%"  alt=""/> 
 				</div>
 				<div class="grassright">
-					<img src="Animation/Right.gif" width="110" height="150" alt=""/> 
+					<img src="Animation/Right.gif" width="100%"  alt=""/> 
 				</div>
 				<div class="subtitle4">
 					<t>在環境中扮演的角色</t>
@@ -187,9 +211,12 @@
 					<div class="textcardgas">
 						<div class="gascard" onclick="flip(event)">
 							<div class="gasfront">
-								<img src="Animation/Piechart.gif" width="350" height="350" alt=""/> 
+								<div class="gasfimg">
+									<img src="Animation/Piechart.gif" width="100%"  alt=""/> 
+								</div>
 							</div>
 							<div class="gasback">
+								<h3>&nbsp;</h3>
 								<h2>人為排放量最多的溫室氣體</h2>
 								<div class="gascontent">
 									<h2>約佔所有溫室氣體總貢獻的65%,</h2>
@@ -209,9 +236,14 @@
 					<div class="textcardsun">
 						<div class="suncard" onclick="flip(event)">
 							<div class="sunfront">
-								<img src="webpng/cardsun.png" width="305" height="302" alt=""/> 
+								<div class="sunfimg">
+									<img src="webpng/cardsun.png" width="90%" height="90%" alt=""/> 
+								</div>
+								
 							</div>
 							<div class="sunback">
+								<h3>&nbsp;</h3>
+								<h3>&nbsp;</h3>
 								<h2>綠色植物光合作用的原料</h2>
 								<div class="suncontent">
 									<h2 align="center">光合作用會從空氣中吸入二氧化碳<br>
@@ -229,8 +261,14 @@
 					<div class="textcardoil">
 						<div class="oilcard" onclick="flip(event)">
 							<div class="oilfront">
-								<img src="webpng/Cardoil.png" width="80%" height="66%" alt=""/></div>
+								<div class="oilfimg">
+									<img src="webpng/Cardoil.png" width="85%" height="77%" alt=""/>
+								</div>
+						  </div>
 							<div class="oilback">
+								<h3>&nbsp;</h3>
+								<h3>&nbsp;</h3>
+								<h3>&nbsp;</h3>
 								<h2 align="center">生物屍體經萬年泥土或水的壓力<br>&amp;</h2>
 								<div class="oilcontent">
 									<h2 align="center">地下高溫而生成化石燃料存起大量的碳</h2>
@@ -246,25 +284,15 @@
 					<div class="textcardlife">
 						<div class="lifecard" onclick="flip(event)">
 							<div class="lifefront">
-								<div class="square">
-									<ul class="square-inner flex" >
-										<li><img src="webpng/Cola.png" width="40%" height="90%" alt=""/></li>
-										<li><img src="webpng/Wine.png" width="50%" height="90%" alt=""/></li>
-										<li><img src="webpng/Stage.png" width="90%" height="70%" alt=""/></li>
-										<li><img src="webpng/Distinguish.png" width="35%" height="90%" alt=""/></li>
-										<li><img src="webpng/Laser.png" width="90%" height="35%" alt=""/></li>
-										<li><img src="webpng/PHchart.png" width="90%" height="25%" alt=""/></li>
-										<li><img src="webpng/Sugar.png" width="90%" height="70%" alt=""/></li>
-										<li><img src="webpng/Buble.png" width="35%" height="90%" alt=""/></li>
-										<li><img src="webpng/Killer.png" width="70%" height="90%" alt=""/></li>
-									</ul>
+								<div class="lifefimg">
+									<img src="webpng/LifeCard.png" width="100%"  alt=""/>
 								</div>
-
-						  </div>
+					  	  </div>
 							<div class="lifeback">
+								<h3>&nbsp;</h3>
 								<h2>二氧化碳也常被應用在生活周遭</h2>
 								<div class="lifecontent">
-										<h2>如：</h2>
+									<h2>如：</h2>
 								</div>
 								<h2 align="center">製作碳酸飲料、釀酒、<br>
 									製造舞台效果、滅火器、<br>
@@ -278,17 +306,17 @@
 
 
 				<div class="bottom">
-					<img src="webpng/bottom.png" width="1920" height="273" alt=""/>
+					<img src="webpng/bottom.png" width="100%"  alt=""/>
 				</div>
 				<div class="bubble">
-					<img src="Animation/bubble.gif" width="65" height="115" alt=""/> 
+					<img src="Animation/bubble.gif" width="100%"  alt=""/> 
 				</div>
 
 			</div>
 		</div>
 		<div class="section">
 			<div class="view5">
-				<div class="bg5"></div>
+				
 				<div class="references">
 					<t>參考資料</t>
 				</div>
@@ -322,33 +350,43 @@
 	
 		<div class="allpg">
 			<div class="iceberg">
-				<img src="webpng/iceberg.png" width="1109" height="3624" alt=""/>
+				<img src="webpng/iceberg.png" width="100%" alt=""/>
 				<div class="penguin">
-					<img src="Animation/penguin.gif" width="80" height="100" alt=""/> 
+					<img src="Animation/penguin.gif" width="100%"  alt=""/> 
 				</div>
 			</div>
 			<div class="watermark1">
-					<img src="webpng/watermark.png" width="887" height="281" alt=""/> 
-				</div>
+				<img src="webpng/watermark.png" width="100%"  alt=""/> 
+			</div>
 			<div class="cliff">
-				<img src="webpng/cliff.png" width="451" height="1408" alt=""/>
+				<img src="webpng/cliff.png" width="100%" alt=""/>
 			</div>
 			<div class="watermask1">
-				<img src="webpng/watermask1.png" width="1001" height="2927" alt=""/> 
+				<img src="webpng/watermask1.png" width="100%" alt=""/> 
 			</div>
 			<div class="watermask2">
-				<img src="webpng/watermask2.png" width="356" height="684" alt=""/>
+				<img src="webpng/watermask2.png" width="100%"  alt=""/>
 			</div>
 			<div class="fish2">
 				<img src="Animation/fish2.gif" width="166" height="126" alt=""/> 
 			</div>
-		  	<button onclick="topFunction()" id="myBtn" title="Go to top">
-				<img src="../../webpng/Attackpage/ArrowUp.png" width="100%" height="100%" alt=""/>
-			</button>
-			
-			
-			
-			
+		  
+			<div class="bg1">
+				<img src="webpng/page1bg.png"  width="100%" alt=""/> 
+			</div>
+			<div class="wave">
+				<img src="webpng/wave.png"  width="100%" alt=""/>
+			</div>
+			<div class="bg2">
+				<img src="webpng/page2bg.png"  width="100%" alt=""/> 
+			</div>
+			<div class="bg3">
+				<img src="webpng/page3bg.png" width="100%" alt=""/> 
+			</div>
+			<div class="bg4">
+				<img src="webpng/page4bg.png" width="100%" alt=""/>
+			</div>
+			<div class="bg5"></div>
 
 		</div>
 	</div>
@@ -359,26 +397,9 @@
 		});
 	
 	</script>
+	<script src="LoadingAnimation.jquery.min.js"></script>
 	<script src="pullupcard.js"></script>
 	<script src="flip-card.js"></script>
-	<script src="ScrollPage.js"></script>
-	<script src="jquery-1.8.3.min.js"></script>
-	<script src="jquery.fullPage.js"></script>
-	<script src="jquery.fullPage.min.js"></script>
-	<script>
-		$(function(){
-			$('#dowebok').fullpage({
-				afterLoad(_, index) {
-					if (index === 1) {
-					  return
-					}
-
-					const $section = $('.section').eq(index - 1)
-					$section.find('[data-aos]').addClass('aos-animate')
-			  	},
-			});
-		});
-	</script>
 		
 	<script>
 		AOS.init();  // AOS initiation

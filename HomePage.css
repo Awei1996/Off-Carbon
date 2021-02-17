@@ -7,10 +7,11 @@
 	font-family: Gen Jyuu Gothic ;
     src: url(font/GenJyuuGothic-Normal.ttf);
 }
+
+
 html{
 	font-family: Gen Jyuu Gothic ;
-	scroll-behavior: smooth;
-
+	overflow-x: hidden;
 
 }
 body{
@@ -20,7 +21,7 @@ body{
     border: 0;
     display: block;
     width: 100%;
-    height: 100%;
+    height: 500%;
 
 }
 
@@ -32,75 +33,67 @@ h3,p{
 
 .allpg{
 	font-family: Gen Jyuu Gothic ;
+	position: relative;
 	font-weight: 800;
-	width: 1920px;
-	
-}
-#myBtn {
-  	
-  	position: fixed; /* Fixed/sticky position */
-  	bottom: 20px; /* Place the button at the bottom of the page */
-  	right: 30px; /* Place the button 30px from the right */
-  	z-index: 99; /* Make sure it does not overlap */
-	width: 80px;
-	height: 60px;
-  	border: none; /* Remove borders */
-  	outline: none; /* Remove outline */
-  	background-color: #333; /* Set a background color */
-	opacity: 0;
-  	cursor: pointer; /* Add a mouse pointer on hover */
-  	padding: 15px; /* Some padding */
-  	border-radius: 10px; /* Rounded corners */
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 280%;
+	border: solid 10px red;
+	overflow: hidden;
 }
 
-#myBtn:hover {
-  -webkit-filter:brightness(1.2); /* Add a dark-grey background on hover */
-}
 .iceberg{
 	position: absolute;
-	z-index: -1;
-	left: -109px;
-	top: 305px;	
+	z-index: 2;
+	margin-left: -6%;
+	margin-top: 15%;	
+	width: 57.76%;
+	height: 335.56%;
 	background-color: transparent;
-	animation-name:i1,i2;
-	animation-duration:0.8s,2s;
-	animation-iteration-count: 1,infinite;
+	/*animation-name: i1,i2;
+	animation-duration: 0.8s,2s;
+	animation-iteration-count:  1,infinite;
+	animation-delay: 0s,0s;*/
+	
 	
 }
 @keyframes i1{
-	0%{width:1109px;height:3624px;left:-500px;top:305px;opacity:1;}
-	100%{width:1109px;height:3624px;left:-109px;top:305px;opacity:1;}
+	0%{margin-left:-32%;opacity:1;}
+	100%{margin-left: -6%;opacity:1;}
 }
 @keyframes i2{
-	0%{top:305px;}
-	50%{top:315px;}
-	100%{top:305px;}
+	0%{margin-top: 15%}
+	50%{margin-top: 15.93%;}
+	100%{margin-top: 15%}
 }
 .penguin{
 	position: absolute;
-	z-index: 2;
-	top: 180px;
-	left: 480px;
-	animation-name:p1;
+	z-index: 3;
+	margin-top: -312%;
+	left: 45%;
+	width: 7.21%;
+	height: 2.76%;
+	animation-name: p1;
 	animation-duration: 16s;
-	animation-iteration-count: infinite;
+	animation-iteration-count:  infinite;
+	animation-delay: 1s;
+	
 }
 @keyframes p1{
-	0%{top:180px; left:480px;}
-	49.99%{top: 170px; left: 620px; transform: scaleX(1);}
-	50%{top: 170px; left: 620px; transform: scaleX(-1);}
-	100%{top: 180px; left: 480px; transform: scaleX(-1);}
+	0%{margin-top: -312%;left: 45%;}
+	49.99%{margin-top:-313%; left: 55%; transform: scaleX(1);}
+	50%{margin-top:-313%; left: 55%;  transform: scaleX(-1);}
+	100%{margin-top:-312%; left: 45%; transform: scaleX(-1);}
 	
 }
 .watermark1{
 	position: absolute;
-	z-index: -1;
-	left: -44px;
-	top: 774px;	
-	background-color: transparent;
+	z-index: 2;
+	width: 46.2%;
+	left: -2.29%;
+	margin-top: 40.5%;	
 	animation-name:h1,wm1;
 	animation-duration: 0.8s,2s;
 	animation-iteration-count: 1,infinite;
@@ -117,26 +110,27 @@ h3,p{
 }
 .cliff{
 	position: absolute;
-	left:1471px;
-	top: 348px;
-	z-index: -1;
-	width: 451px;
-	height: 1407px;
-	background-color: transparent;
+	margin-top: 18%;
+	left: 76.65%;
+	z-index: 2;
+	width: 23.49%;
 	animation-name:c1;
-	animation-duration: 0.8s;
-	animation-iteration-count: 1;
+	animation-duration: 0.8s ;
+	animation-iteration-count:  1;
+	animation-delay: 0s;
 }
 @keyframes c1{
-	0%{left: 2080px;}
-	100%{left:1485px;}
+	0%{left: 100%;}
+	100%{left:76.65;}
 }
+
 .watermask1{
 	
 	position: absolute;
-	z-index: 0;
-	left: -1px;
-	top: 1002px;
+	z-index: 2;
+	width: 52.14%;
+	left: -0.1%;
+	margin-top: 52%;
 }
 .watermask2{
 	max-width: 1920px;
@@ -164,17 +158,34 @@ h3,p{
 	100%{left: -180px; top: 3050px; transform: scaleX(-1)}
 }
 
-.view1{
+/*.LoadingAnimate{
+	position: absolute;
+	z-index: 20;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	padding-bottom: 56%;
+	background-color: #fff;
 	
-	width: 1920px;
-	height: 100%;
+}*/
+
+.view1{
+	position: absolute;
+	z-index: 5;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	padding-bottom: 56%;
+	background-color: transparent;
+	border: solid 2px #000;
 }
 .bar{
 	position: absolute;
+	margin-left: 0%;
 	z-index: 2;
-	font-size: 28px;
-	left: 535px;
-	top: 40px;
+	font-size: 1.75rem;
+	left: 27.86%;
+	margin-top: 2%;
 	font-weight: normal;
 	
 }
@@ -188,34 +199,31 @@ h3,p{
 }
 .bg1{
 	position: absolute;
-	max-width: 1920px;
-	max-height: 1077px;
-	top: 0px;
+	width: 100%;
+	top: 0%;
 	left: -5px;
-	z-index: -3;
+	z-index: -1;
 	
 }
 
 .wave{
 	position: absolute;
-	max-width: 1920px;
-	max-height: 1077px;
-	top: 6000px;
-	left: -50px;
+	margin-top: 39%;
+	margin-left: -2.52%;
 	opacity: 80%;
-	z-index: -2;
-	animation-name:w1;
+	z-index: 1;
+	/*animation-name:w1;
 	animation-duration: 4s;
-	animation-iteration-count: infinite;
+	animation-iteration-count: infinite;*/
 }
 .wave1{
 	position: absolute;
-	z-index: -3;
-	left: -14px;
-	top: 800px;
-	width: 1920px;
-	height: 280px;
-	background-color: transparent;
+	z-index: 10;
+	margin-left: -0.73%;
+	margin-top: 40.48%;
+	width: 100%;
+	height: 25.93%;
+	background-color: #fff;
 	opacity: 0.5;
 	overflow: hidden;
 }
@@ -254,7 +262,7 @@ h3,p{
 	}
 	
   	100% {
-  	  transform: translateX(-50%) rotateZ(360deg);
+  		transform: translateX(-50%) rotateZ(360deg);
   	}
 }
 
@@ -267,22 +275,26 @@ h3,p{
 }
 .littleIce{
 	position: absolute;
-	top: 978px;
-	left: 1228px;
+	z-index: 1;
+	margin-top: 51.36%;
+	left: 64.46%;
+	width: 14.63%;
 	animation-name:li1;
 	animation-duration: 2s;
 	animation-delay: 0.5s;
 	animation-iteration-count: infinite;
 }
 @keyframes li1{
-	0%{top:968px;}
-	50%{top:978px;}
-	100%{top:968px;}
+	0%{margin-top:51.36%;}
+	50%{margin-top:51.48%;}
+	100%{margin-top:51.36%;}
 }
 .watermark2{
 	position: absolute;
-	top: 969px;
-	left: 1202px;
+	z-index: 3;
+	width: 16.46%;
+	margin-top: 51%;
+	margin-left: 63%;
 	animation-name:wm2;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
@@ -294,9 +306,36 @@ h3,p{
 }
 .title{
 	position: absolute;
-	z-index: 1 ;
-	left: 510px;
-	top: 245px;
-	filter:drop-shadow(0px 0px 10px rgba(0,0,0,.5));
-    
+	z-index:  1;
+	width: 52.66%;
+	margin-left: 26.56%;
+	margin-top: 12.8%;
+	filter:drop-shadow(0px 0px 10px rgba(0,0,0,.5));    
+}
+
+@media (min-width: 1000px) and (max-width: 1600px){
+	
+	.bar{
+		font-size: calc(1rem + (1.5-1) * ((100vw - 1000px) / (1600 - 1000)));
+	}
+	
+	
+}
+
+@media (min-width: 700px) and (max-width: 1000px){
+	
+	.bar{
+		font-size: calc(0.75rem + (1-0.75) * ((100vw - 700px) / (1000 - 700)));
+	}
+	
+	
+}
+
+@media (min-width: 300px) and (max-width: 700px){
+	
+	.bar{
+		font-size: 0.75rem;
+	}
+	
+	
 }
