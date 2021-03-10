@@ -12,6 +12,8 @@
 html{
 	font-family: Gen Jyuu Gothic ;
 	overflow-x: hidden;
+	scroll-behavior: smooth;
+
 
 }
 body{
@@ -22,6 +24,7 @@ body{
     display: block;
     width: 100%;
     height: 500%;
+	
 
 }
 
@@ -31,6 +34,118 @@ h3,p{
 	font-weight: normal;
 }
 
+.myBtn {
+  	
+  	position: fixed; /* Fixed/sticky position */
+  	margin-top: 2%; /* Place the button at the bottom of the page */
+  	margin-left: 95%; /* Place the button 30px from the right */
+  	z-index: 30; /* Make sure it does not overlap */
+	width: 4%;
+	padding-bottom: 1%;
+	border-radius: 50%;
+  	border: none; /* Remove borders */
+  	outline: none; /* Remove outline */
+  	background-color: #fff; /* Set a background color */
+	opacity: 0;
+  	cursor: pointer; /* Add a mouse pointer on hover */
+	transition: background-color 200ms,transform 1s; 
+	
+
+	
+	
+}
+
+.myBtn.open{
+	background-color: #f0a550;
+	transform: scale(80);
+
+	
+	
+}
+
+
+
+.MenuContent{
+	width: 0%;
+	height: 0%;
+	opacity: 0;
+	
+}
+.MenuContent.open{
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+}
+.MenuBtn{
+	width: 0%;
+	height: 0%;
+	font-size: 0px;
+}
+.MenuBtn.open{
+	margin-left: 60%;
+	margin-top: 80%;
+	width: 60%;
+	height: 100%;
+	font-size: 12px;
+	background-color: blue;
+}
+
+.AllCross{
+	position: fixed;
+	z-index: 35;
+	width: 4%;
+	padding-bottom: 4%;
+	margin-left: 95%;
+	margin-top: 2%;
+	border-radius: 50%;
+	opacity: 0;
+}
+.Cross1{
+	position: fixed;
+	z-index: 40;
+	margin-top: 1.3%;
+	margin-left: 0.70%;
+	width: 2.6%;
+	padding-bottom: 0.25%;
+	border-radius: 3px 3px 3px 3px;
+	background-color: #296177;
+	box-shadow: 0px 3px 6px #00000029;
+	transition: 0.5s; 
+
+}
+.Cross1.open{
+	margin-top: 1.8%;
+	transform: rotate(45deg);
+}
+.Cross2{
+	position: fixed;	
+	margin-top: 1.8%;
+	margin-left: 0.70%;
+	width: 2.6%;
+	padding-bottom: 0.25%;
+	border-radius: 3px 3px 3px 3px;
+	background-color: #296177;
+	box-shadow: 0px 3px 6px #00000029;
+	transition: 0.5s; 
+}
+.Cross2.open{
+	opacity: 0;
+}
+.Cross3{
+	position: fixed;	
+	margin-top: 2.3%;
+	margin-left: 0.70%;
+	width: 2.6%;
+	padding-bottom: 0.25%;
+	border-radius: 3px 3px 3px 3px;
+	background-color: #296177;
+	box-shadow: 0px 3px 6px #00000029;
+	transition: 0.5s; 
+}
+.Cross3.open{
+	margin-top: 1.8%;
+	transform: rotate(-45deg);
+}
 .allpg{
 	font-family: Gen Jyuu Gothic ;
 	position: relative;
@@ -51,10 +166,10 @@ h3,p{
 	width: 57.76%;
 	height: 335.56%;
 	background-color: transparent;
-	/*animation-name: i1,i2;
+	animation-name: i1,i2;
 	animation-duration: 0.8s,2s;
 	animation-iteration-count:  1,infinite;
-	animation-delay: 0s,0s;*/
+	animation-delay: 0s,0s;
 	
 	
 }
@@ -110,7 +225,7 @@ h3,p{
 .cliff{
 	position: absolute;
 	margin-top: 18%;
-	left: 76.65%;
+	margin-left: 77%;
 	z-index: 2;
 	width: 23.49%;
 	animation-name:c1;
@@ -132,17 +247,18 @@ h3,p{
 	margin-top: 52%;
 }
 .watermask2{
-	max-width: 1920px;
 	position: absolute;
-	z-index: 0;
-	left: 1567px;
-	top: 1088px;
+	width: 18.54%;
+	z-index: 3;
+	margin-left: 81.74%;
+	margin-top: 56.35%;
 }
 .fish2{
 	position: absolute;
-	z-index: 9;
-	left: 0px;
-	top: 3180px;
+	z-index: 4;
+	width: 8.64%;
+	margin-left: 0%;
+	margin-top: 160%;
 	animation-name:f2;
 	animation-duration:24s;
 	animation-iteration-count: infinite;
@@ -150,15 +266,15 @@ h3,p{
 	opacity: 0.6;
 }
 @keyframes f2{
-	0%{left:-180px;}
-	49.99%{left: 1750px; top: 3150px; transform: scaleX(1);opacity: 0.6;}
+	0%{	margin-left: -8%;}
+	49.99%{margin-left: 100%; margin-top: 158%; transform: scaleX(1);opacity: 0.6;}
 	50%{opacity: 0;transform: scaleX(-1)}
-	50.01%{left: 1750px; top: 3150px; transform: scaleX(-1);opacity: 0.6;}
-	100%{left: -180px; top: 3050px; transform: scaleX(-1)}
+	50.01%{margin-left: 100%; margin-top: 158%;transform: scaleX(-1);opacity: 0.6;}
+	100%{margin-left: -8%; margin-top: 160%; transform: scaleX(-1)}
 }
 
-/*.LoadingAnimate{
-	position: absolute;
+.LoadingAnimate{
+	position: fixed;
 	z-index: 20;
 	top: 0%;
 	left: 0%;
@@ -166,7 +282,113 @@ h3,p{
 	padding-bottom: 56%;
 	background-color: #fff;
 	
-}*/
+}
+
+.loadingwrap {
+    width: 100%;
+    height: 100vh; 
+    position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+
+.l-word {
+    position: absolute;
+    top: 55%;
+    font-size: 28px;
+    letter-spacing: 12px;
+	text-align: center;
+   
+}
+
+.circle {
+    width: 1%;
+    left: 45%;
+    top: 45%; 
+    background-color: #999;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    transform-origin: 50%;
+    animation: circle .5s alternate infinite ease ;
+	animation-delay: 0.5s;		
+}
+
+
+
+.circle:nth-child(2) {
+    left: 50%;
+    animation-delay: .2s
+}
+
+.circle:nth-child(3) {
+    left: 55%;
+    animation-delay: .3s
+}
+
+@keyframes circle {
+    0% {
+        top: 45%;
+        height: 5px;
+        border-radius: 50px 50px 25px 25px;
+        transform: scaleX(1.7);
+    }
+    40% {
+        height: 20px;
+        border-radius: 50%;
+        transform: scaleX(1);
+    }
+    100% {
+        top: 30%;
+    }
+}
+
+.shadow {
+    width: 20px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, .125);
+    position: absolute;
+    top: 60px;
+    animation: shadow .5s alternate infinite ease;
+}
+
+
+
+.shadow:nth-child(4) {
+    left: 35%;
+    animation-delay: .2s
+}
+
+.shadow:nth-child(5) {
+    left: 70%;
+    animation-delay: .3s
+}
+
+@keyframes shadow {
+    0% {
+        transform: scaleX(1.5);
+    }
+    40% {
+        transform: scaleX(1);
+        opacity: .7;
+    }
+    100% {
+        transform: scaleX(.2);
+        opacity: .4;
+    }
+}
+
+.CountTo100{
+	color: #000;
+	width: 500px;
+	height: 100px;
+	font-size: 32px;
+}
 
 .view1{
 	position: absolute;
@@ -199,7 +421,7 @@ h3,p{
 	position: absolute;
 	width: 100%;
 	top: 0%;
-	left: -5px;
+	left: 0%;
 	z-index: -1;
 	
 }
@@ -311,7 +533,7 @@ h3,p{
 	filter:drop-shadow(0px 0px 10px rgba(0,0,0,.5));    
 }
 
-@media (min-width: 1000px) and (max-width: 1600px){
+@media (min-width: 768px) and (max-width: 1440px){
 	
 	.bar{
 		font-size: calc(1rem + (1.5-1) * ((100vw - 1000px) / (1600 - 1000)));
@@ -320,7 +542,7 @@ h3,p{
 	
 }
 
-@media (min-width: 700px) and (max-width: 1000px){
+@media (min-width: 375px) and (max-width: 1000px){
 	
 	.bar{
 		font-size: calc(0.75rem + (1-0.75) * ((100vw - 700px) / (1000 - 700)));

@@ -32,5 +32,29 @@ function flip(event){
       element.style.transform = "rotateY(180deg)";
     }
   }
-};// JavaScript Document
+}// JavaScript Document
+
+$(document).ready(function () {
+	
+	var count = 0;
+	var counting = setInterval(function(){
+		if(count < 100) {
+			$('.CountTo100').text('Loading '+ count + '%');
+			count++
+					
+					
+		}
+			else {
+				clearInterval(counting)
+				
+			}
+		}, 30);
+	$(window).load(function(){
+		count = 100;
+		$(".LoadingAnimate").fadeOut(500);
+		$('.CountTo100').text('Loading '+ count + '%');
+	});
+		
+});
+
 

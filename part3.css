@@ -146,9 +146,103 @@
 	100%{top:2500px;}
 	
 }
-.p3cover2{
-	position: absolute;
-	z-index: 2;
-	left: 908px;
-	top: 2500px;
+
+@media (min-width: 1000px) and (max-width: 1450px){
+	
+	.subtitle3{
+		
+		font-size: 8.8rem;
+		
+	}
+	.burn{
+	
+	
+	font-size: 10rem;
+	
+	}
+	.burninfor{
+		
+		font-size: 1.6rem;
+		
+	}
+
+	.breath{
+		
+		font-size: 10rem;
+		
+	}
+	.breathinfor{
+		
+		font-size: 1.6rem;
+		
+	}
+
+	.fermentation{
+		
+		font-size: 10rem;
+		
+	}
+	.fermentationinfor{
+		
+		font-size: 1.6rem;
+		
+
+	}
+	
+	
+}
+
+@media (min-width: 600px) and (max-width: 1000px){
+	
+	.subtitle3{
+		
+		font-size: 7.2rem;
+		
+	}
+	
+	.burn{
+	
+	
+		font-size: 10rem;
+	
+	}
+	.burninfor{
+		
+		font-size: 1.6rem;
+		
+	}
+
+	.breath{
+		
+		font-size: 10rem;
+		
+	}
+	.breathinfor{
+		
+		font-size: 1.6rem;
+		
+	}
+
+	.fermentation{
+		
+		font-size: 10rem;
+		
+	}
+	.fermentationinfor{
+		
+		font-size: 1.6rem;
+		
+
+	}
+	
+}
+@media (min-width: 300px) and (max-width: 600px){
+	
+	.subtitle3{
+		
+		font-size: 6rem;
+		
+	}
+	
+	
 }
