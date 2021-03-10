@@ -32,7 +32,7 @@
 	<div id="dowebok">
 		
 		<div class="section">
-			<!--<div class="LoadingAnimate">
+			<div class="LoadingAnimate">
 				<div class="loadingwrap">
 					<div class="circle"> </div>
 					<div class="circle"> </div>
@@ -40,12 +40,34 @@
 					<div class="shadow"> </div>
 					<div class="shadow"> </div>
 					<div class="shadow"> </div>
-					<div class="l-word">
-						Loading
+					<div class="l-word">						
+						<div class="CountTo100"></div>				
 					</div>
     			</div>
-			</div>-->
-			<div class="view1">
+			</div>
+			<!---<button class="myBtn" onclick="topFunction()" id="myBtn">
+				<span class="MenuContent">
+					<a class="MenuBtn" href="index.html" style="color: white; text-decoration: none; font-weight: normal;">成因</a>
+						<t>&emsp;&emsp;</t>
+				  	<a class="MenuBtn" href="網頁/AttackPage/AttackPage.html" style="color:white; text-decoration: none">威脅</a>
+						<t>&emsp;&emsp;</t>
+					<a class="MenuBtn" href="網頁/ConvertPage/ConvertPage.html" style="color:white; text-decoration: none">換算</a>
+						<t>&emsp;&emsp;</t>
+					<a class="MenuBtn" href="網頁/WayPage/WayPage.html" style="color:white;text-decoration: none ">方法</a>
+						<t>&emsp;&emsp;</t>
+					<a class="MenuBtn" href="網頁/MonitorPage/MonitorPage.html" style="color: white;text-decoration: none">環境監測儀</a>
+						<t>&emsp;&emsp;</t>
+					<a class="MenuBtn" href="網頁/AboutUsPage/AboutUsPage.html" style="color: white;text-decoration: none">關於我們</a>	
+					
+				</span>				
+			</button>
+			<span class="AllCross" onclick="topFunction()" >
+					<span class="Cross1"></span>
+					<span class="Cross2"></span>
+					<span class="Cross3"></span>
+			</span>
+-->
+		  	<div class="view1">
 				
 
 		  	  	
@@ -152,7 +174,7 @@
 				
 				<div class="Proportioncoverline"></div>
 				<div class="fish1">
-					<img src="Animation/fish1.gif" width="200" height="168" alt=""/>
+					<img src="Animation/fish1.gif" width="100%" alt=""/>
 				</div>	
 
 			</div>
@@ -207,7 +229,8 @@
 					<t>在環境中扮演的角色</t>
 				</div>
 				<div  class="gas" value = "close" data-aos="slide-up">
-					<t>溫室氣體</t>
+				  <t>溫室氣體</t>
+					
 					<div class="textcardgas">
 						<div class="gascard" onclick="flip(event)">
 							<div class="gasfront">
@@ -368,7 +391,7 @@
 				<img src="webpng/watermask2.png" width="100%"  alt=""/>
 			</div>
 			<div class="fish2">
-				<img src="Animation/fish2.gif" width="166" height="126" alt=""/> 
+				<img src="Animation/fish2.gif" width="100%"  alt=""/> 
 			</div>
 		  
 			<div class="bg1">
@@ -400,14 +423,14 @@
 	<script src="LoadingAnimation.jquery.min.js"></script>
 	<script src="pullupcard.js"></script>
 	<script src="flip-card.js"></script>
+	<script src="littleMenu.js"></script>
+
 		
 	<script>
 		AOS.init();  // AOS initiation
 
 		
 	</script>
-	<script>
-		
-	</script>
+	
 </body>
 </html>
