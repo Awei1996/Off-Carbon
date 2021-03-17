@@ -352,14 +352,15 @@
 	opacity: 0.6;
 }
 @keyframes f1{
-	0%{	margin-left: 100%; margin-top: 50.16%;}
-	45%{margin-left: -10%; margin-top: 52.16%; transform: scaleX(1);}
-	55%{margin-left: -10%;margin-top: 52.16%; transform:  scaleX(-1);}
+	0%{	margin-left: 100%; margin-top: 50.16%;opacity: 0.6;}
+	49.99%{margin-left: -10%; margin-top: 52.16%; transform: scaleX(1);}
+	50%{transform: scaleX(-1);opacity: 0;}
+	50.01%{margin-left: -10%;margin-top: 52.16%; transform:  scaleX(-1);opacity: 0.6;}
 	100%{margin-left: 100%; margin-top: 50.16%;}
 }
 
 
-@media (min-width: 1280px) and (max-width: 1500px){
+@media (min-width: 1281px) and (max-width: 1500px){
 	
 	
 	.Carbon{
@@ -396,7 +397,7 @@
 	
 }
 
-@media (min-width: 960px) and (max-width: 1280px){
+@media (min-width: 961px) and (max-width: 1280px){
 	
 	
 	.Carbon{
@@ -433,7 +434,7 @@
 	}
 }
 
-@media (min-width: 600px) and (max-width: 960px){
+@media (min-width: 601px) and (max-width: 960px){
 	
 	
 	.Carbon{
@@ -468,7 +469,7 @@
 		font-size: 12px;
 	}
 }
-@media (min-width: 375px) and (max-width: 600px){
+@media (min-width: 376px) and (max-width: 600px){
 	
 	
 	.Carbon{
@@ -476,6 +477,43 @@
 	}
 	
 	.Two{
+		font-size: 32px;
+	}
+	.CO2infor{
+		font-size: 8px;
+	}
+	.C,.O1,.O2,.price1,.price2{
+		font-size: 12px;
+	}
+	.CO2ani{
+		margin-left: 70%;
+	}
+	.Chemicalpro{
+		font-size: 48px;
+	}
+	.Chemicalproinfor{
+		width: 50%;
+		font-size: 12px;
+	}
+	.Proportion{
+		font-size: 54px;
+	}
+	.Proportioninfor{
+		font-size: 12px;
+	}
+	.Pietext{
+		font-size: 10px;
+	}
+}
+@media (min-width: 100px) and (max-width: 375px){
+	
+	
+	.Carbon{
+		font-size: 52px;
+	}
+	
+	.Two{
+		margin-left: 90%;
 		font-size: 28px;
 	}
 	.CO2infor{
@@ -485,53 +523,17 @@
 		font-size: 12px;
 	}
 	.CO2ani{
-		margin-left: 70%;
+		margin-left: 80%;
 	}
 	.Chemicalpro{
-		font-size: 3rem;
-	}
-	.Chemicalproinfor{
-		width: 50%;
-		font-size: 0.5rem;
-	}
-	.Proportion{
-		font-size: 3.2rem;
-	}
-	.Proportioninfor{
-		font-size: 0.8rem;
-	}
-	.Pietext{
-		font-size: 0.7rem;
-	}
-}
-@media (min-width: 100px) and (max-width: 375px){
-	
-	
-	.Carbon{
-		font-size: 64px;
-	}
-	
-	.Two{
-		font-size: 24px;
-	}
-	.CO2infor{
-		font-size: 8px;
-	}
-	.C,.O1,.O2,.price1,.price2{
-		font-size: 12px;
-	}
-	.CO2ani{
-		margin-left: 70%;
-	}
-	.Chemicalpro{
-		font-size: 48px;
+		font-size: 36px;
 	}
 	.Chemicalproinfor{
 		width: 50%;
 		font-size: 8px;
 	}
 	.Proportion{
-		font-size: 48px;
+		font-size: 36px;
 	}
 	.Proportioninfor{
 		font-size: 8px;

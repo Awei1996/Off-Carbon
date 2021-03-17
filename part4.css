@@ -563,7 +563,7 @@
 	
 	
 }
-@media (min-width: 600px) and (max-width: 960px){
+@media (min-width: 601px) and (max-width: 960px){
 	
 	.subtitle4{
 		font-size: 40px;
@@ -606,7 +606,7 @@
 	}
 }
 
-@media (min-width: 375px) and (max-width: 600px){
+@media (min-width: 376px) and (max-width: 600px){
 	
 	.subtitle4{
 		font-size: 28px;
@@ -615,37 +615,37 @@
 		font-size: 36px;
 	}
 	.gasback{
-		font-size: 12px;
+		font-size: 10px;
 	}
 	.gascontent{
-		font-size: 12px;
+		font-size: 10px;
 	}
 	.sun{
 		font-size: 36px;
 	}
 	.sunback{
-		font-size: 12px;
+		font-size: 10px;
 	}
 	.suncontent{
-		font-size: 12px;
+		font-size: 10px;
 	}
 	.oil{
 		font-size: 36px;
 	}
 	.oilback{
-		font-size: 12px;
+		font-size: 10px;
 	}
 	.oilcontent{
-		font-size: 12px;
+		font-size: 10px;
 	}
 	.life{
 		font-size: 36px;
 	}
 	.lifeback{
-		font-size: 12px;
+		font-size: 10px;
 	}
 	.lifecontent{
-		font-size: 12px;
+		font-size: 10px;
 	}
 		
 }
@@ -659,37 +659,37 @@
 		font-size: 20px;
 	}
 	.gasback{
-		font-size: 12px;
+		font-size: 8px;
 	}
 	.gascontent{
-		font-size: 12px;
+		font-size: 8px;
 	}
 	.sun{
 		font-size: 20px;
 	}
 	.sunback{
-		font-size: 12px;
+		font-size: 8px;
 	}
 	.suncontent{
-		font-size: 12px;
+		font-size: 8px;
 	}
 	.oil{
 		font-size: 20px;
 	}
 	.oilback{
-		font-size: 12px;
+		font-size: 8px;
 	}
 	.oilcontent{
-		font-size: 12px;
+		font-size: 8px;
 	}
 	.life{
 		font-size: 20px;
 	}
 	.lifeback{
-		font-size: 12px;
+		font-size: 8px;
 	}
 	.lifecontent{
-		font-size: 12px;
+		font-size: 8px;
 	}
 	
 }
