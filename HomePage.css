@@ -404,10 +404,9 @@ h3,p{
 }
 .bar{
 	position: absolute;
-	margin-left: 0%;
 	z-index: 2;
 	font-size: 1.75rem;
-	left: 27.86%;
+	margin-left: 27.86%;
 	margin-top: 2%;
 	font-weight: normal;
 	-webkit-text-size-adjust:none;
@@ -549,7 +548,8 @@ h3,p{
 @media (min-width: 960px) and (max-width: 1280px){
 	
 	.bar{
-		font-size: 18px;
+		font-size: 20px;
+		margin-left: 25%;
 	}
 	
 	
@@ -558,7 +558,8 @@ h3,p{
 @media (min-width: 600px) and (max-width: 960px){
 	
 	.bar{
-		font-size: 12px;
+		font-size: 16px;
+		margin-left: 20%;
 	}
 	
 	
@@ -567,7 +568,8 @@ h3,p{
 @media (min-width: 376px) and (max-width: 600px){
 	
 	.bar{
-		font-size: 7px;
+		font-size: 10px;
+		margin-left: 15%;
 	}
 	
 	
@@ -576,7 +578,8 @@ h3,p{
 @media (min-width: 100px) and (max-width: 375px){
 	
 	.bar{
-		font-size: 6px;
+		margin-left: 10%;
+		font-size: 10px;
 	}
 	
 	
