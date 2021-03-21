@@ -66,6 +66,7 @@
 	opacity: 1;
 	line-height: 1;
 	font-weight: normal;
+	-webkit-text-size-adjust: none;
 
 }
 .CO2ani{
@@ -174,6 +175,8 @@
 	perspective: 1000px;
 	font-weight: normal;
 	line-height: 1.2;
+	-webkit-text-size-adjust: none ;
+
 }
 .Chemicalproinfor2{
 	position: absolute;
@@ -184,6 +187,8 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	-webkit-text-size-adjust: none ;
+
 }
 .nocolor{
 	position: absolute;
@@ -205,6 +210,8 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	-webkit-text-size-adjust:none;
+
 
 }
 
@@ -218,6 +225,8 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	-webkit-text-size-adjust:none;
+
 
 	
 }
@@ -229,6 +238,8 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	-webkit-text-size-adjust:none;
+
 
 }
 .noburn{
@@ -289,6 +300,8 @@
 	font-size: 20px;
 	background-color: transparent;
 	opacity: 1;
+	-webkit-text-size-adjust:none;
+
   	
 }
 .Pieline{
@@ -353,10 +366,10 @@
 }
 @keyframes f1{
 	0%{	margin-left: 100%; margin-top: 50.16%;opacity: 0.6;}
-	49.99%{margin-left: -10%; margin-top: 52.16%; transform: scaleX(1);}
+	49.99%{margin-left: -10%; margin-top: 52.16%; transform: scaleX(1);opacity: 0.6;}
 	50%{transform: scaleX(-1);opacity: 0;}
-	50.01%{margin-left: -10%;margin-top: 52.16%; transform:  scaleX(-1);opacity: 0.6;}
-	100%{margin-left: 100%; margin-top: 50.16%;}
+	50.01%{margin-left: -10%;margin-top: 52.16%; opacity: 0.6;}
+	100%{margin-left: 100%; margin-top: 50.16%;transform:  scaleX(-1);}
 }
 
 
@@ -394,14 +407,16 @@
 	.Pietext{
 		font-size: 16px;
 	}
-	
+	.Two1{
+		font-size: 10px; 
+	}
 }
 
 @media (min-width: 961px) and (max-width: 1280px){
 	
 	
 	.Carbon{
-		font-size: 128px;
+		font-size: 120px;
 	}
 	
 	.Two{
@@ -418,19 +433,23 @@
 		margin-left: 60%;
 	}
 	.Chemicalpro{
-		font-size: 108px;
+		font-size: 84px;
 	}
 	.Chemicalproinfor{
 		font-size: 14px;
 	}
 	.Proportion{
-		font-size: 108px;
+		font-size: 96px;
 	}
 	.Proportioninfor{
 		font-size: 0.9rem;
+		line-height: 1.5;
 	}
 	.Pietext{
 		font-size: 12px;
+	}
+	.Two1{
+		font-size: 8px; 
 	}
 }
 
@@ -454,7 +473,7 @@
 		margin-left: 55%;
 	}
 	.Chemicalpro{
-		font-size: 72px;
+		font-size: 64px;
 	}
 	.Chemicalproinfor{
 		font-size: 10px;
@@ -464,45 +483,54 @@
 	}
 	.Proportioninfor{
 		font-size: 10px;
+		
 	}
 	.Pietext{
 		font-size: 12px;
+	}
+	.Two1{
+		font-size: 8px; 
 	}
 }
 @media (min-width: 376px) and (max-width: 600px){
 	
 	
 	.Carbon{
-		font-size: 72px;
+		font-size: 56px;
 	}
 	
 	.Two{
-		font-size: 32px;
+		font-size: 28px;
+		margin-left: 90%;
 	}
 	.CO2infor{
-		font-size: 8px;
+		font-size: 6px;
 	}
 	.C,.O1,.O2,.price1,.price2{
 		font-size: 12px;
 	}
 	.CO2ani{
-		margin-left: 70%;
+		margin-left: 75%;
 	}
 	.Chemicalpro{
-		font-size: 48px;
+		font-size: 36px;
 	}
 	.Chemicalproinfor{
 		width: 50%;
-		font-size: 12px;
+		font-size: 5px;
 	}
 	.Proportion{
-		font-size: 54px;
+		font-size: 48px;
 	}
 	.Proportioninfor{
-		font-size: 12px;
+		font-size: 6px;
+		line-height: 1.2;
 	}
 	.Pietext{
-		font-size: 10px;
+		font-size: 6px;
+	}
+	.Two1{
+		font-size: 3px; 
 	}
 }
 @media (min-width: 100px) and (max-width: 375px){
@@ -514,32 +542,37 @@
 	
 	.Two{
 		margin-left: 90%;
-		font-size: 28px;
+		font-size: 24px;
 	}
 	.CO2infor{
-		font-size: 8px;
+		font-size: 5px;
 	}
 	.C,.O1,.O2,.price1,.price2{
 		font-size: 12px;
 	}
 	.CO2ani{
-		margin-left: 80%;
+		margin-left: 70%;
 	}
 	.Chemicalpro{
-		font-size: 36px;
+		font-size: 32px;
 	}
 	.Chemicalproinfor{
 		width: 50%;
-		font-size: 8px;
+		font-size: 4px;
 	}
 	.Proportion{
 		font-size: 36px;
 	}
 	.Proportioninfor{
-		font-size: 8px;
+		line-height: 1;
+		font-size: 3px;
+		
 	}
 	.Pietext{
-		font-size: 10px;
+		font-size: 3px;
+	}
+	.Two1{
+		font-size: 2px; 
 	}
 }
 

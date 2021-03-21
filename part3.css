@@ -67,6 +67,7 @@
 	opacity: 1;
 	font-weight: normal;
 	text-align: center;
+	-webkit-text-size-adjust:none;
 	
 	
 }
@@ -83,6 +84,7 @@
 	margin-left: 38%;
 	margin-top: 15%;
 	color: #ffffff;
+	
 }
 .breathinfor{
 	position: absolute;
@@ -98,6 +100,7 @@
 	opacity: 1;
 	font-weight: normal;
 	text-align: center;
+	-webkit-text-size-adjust:none;
 
 	
 }
@@ -129,6 +132,7 @@
 	opacity: 1;
 	font-weight: normal;
 	text-align: center;
+	-webkit-text-size-adjust:none;
 
 	
 }
@@ -183,41 +187,44 @@
 	
 	.subtitle3{
 		
-		font-size: 108px;
+		font-size: 96px;
 		
 	}
 	
 	.burn{
 	
 	
-		font-size: 128px;
+		font-size: 120px;
 	
 	}
 	.burninfor{
 		
 		font-size: 20px;
+		margin-left: 6%;
 		
 	}
 
 	.breath{
 		
-		font-size: 128px;
+		font-size: 120px;
 		
 	}
 	.breathinfor{
 		
 		font-size: 20px;
+		margin-left: 38%;
 		
 	}
 
 	.fermentation{
 		
-		font-size: 128px;
+		font-size: 120px;
 		
 	}
 	.fermentationinfor{
 		
 		font-size: 20px;
+		margin-left: 69%;
 		
 
 	}
@@ -227,15 +234,12 @@
 	
 	.subtitle3{
 		
-		font-size: 96px;
+		font-size: 72px;
 		
 	}
 	
-	.burn{
-	
-	
-		font-size: 108px;
-	
+	.burn{	
+		font-size: 84px;
 	}
 	.burninfor{
 		
@@ -245,7 +249,7 @@
 
 	.breath{
 		
-		font-size: 108px;
+		font-size: 84px;
 		
 	}
 	.breathinfor{
@@ -256,7 +260,7 @@
 
 	.fermentation{
 		
-		font-size: 108px;
+		font-size: 84px;
 		
 	}
 	.fermentationinfor{
@@ -269,46 +273,48 @@
 	
 }
 
-@media (min-width: 375px) and (max-width: 600px){
+@media (min-width: 376px) and (max-width: 600px){
 	
 	.subtitle3{
 		
-		font-size: 48px;
+		font-size: 36px;
 		
 	}
 	
 	.burn{
 	
 	
-		font-size: 60px;
+		font-size: 48px;
 	
 	}
 	.burninfor{
 		
-		font-size: 12px;
+		font-size: 8px;
+		margin-left: 6%;
 		
 	}
 
 	.breath{
 		
-		font-size: 60px;
+		font-size: 48px;
 		
 	}
 	.breathinfor{
 		
-		font-size: 12px;
+		font-size: 8px;
+		margin-left: 38%;
 		
 	}
 
 	.fermentation{
 		
-		font-size: 60px;
+		font-size: 48px;
 		
 	}
 	.fermentationinfor{
 		
-		font-size: 12px;
-		
+		font-size: 8px;
+		margin-left: 69%;
 
 	}
 	
@@ -331,7 +337,7 @@
 	}
 	.burninfor{
 		
-		font-size: 12px;
+		font-size: 7px;
 		
 	}
 
@@ -342,7 +348,7 @@
 	}
 	.breathinfor{
 		
-		font-size: 12px;
+		font-size: 7px;
 		
 	}
 
@@ -353,7 +359,7 @@
 	}
 	.fermentationinfor{
 		
-		font-size: 12px;
+		font-size: 7px;
 		
 
 	}

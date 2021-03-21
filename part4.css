@@ -151,12 +151,15 @@
   	transform: rotateY(180deg);
 	line-height: 1.5;
 	padding-bottom: 20.5%;
+	-webkit-text-size-adjust:none;
+
 	
 	
 }
 .gascontent{
 	font-size: 16px;
 	line-height: 0;
+	-webkit-text-size-adjust:none;
 }
 
 
@@ -246,10 +249,13 @@
 .sunback {
 	padding-bottom: 28.5%;
   	transform: rotateY(180deg);
+	-webkit-text-size-adjust:none;
+
 }
 
 .suncontent{
 	font-size: 15px;
+	-webkit-text-size-adjust:none;
 }
 
 .textcardsun.open {
@@ -336,11 +342,14 @@
 .oilback {
 	padding-bottom: 49.5%;
   	transform: rotateY(180deg);
+	-webkit-text-size-adjust:none;
+
 }
 
 .oilcontent{
 	font-size: 13px;
 	line-height: 0;
+	-webkit-text-size-adjust:none;
 }
 .textcardoil.open {
 	-webkit-transition: 2s;
@@ -427,12 +436,15 @@
 	padding-bottom: 17%;
 	transform: rotateY(180deg);
 	align-items: center;
+	-webkit-text-size-adjust:none;
+
 
 }
 
 .lifecontent{
 	font-size: 18px;
 	line-height: 0;
+	-webkit-text-size-adjust:none;
 }
 
 .textcardlife.open {
@@ -522,43 +534,44 @@
 @media (min-width: 960px) and (max-width: 1280px){
 	
 	.subtitle4{
-		font-size: 56px;
+		font-size: 40px;
 	}
 	.gas{
-		font-size: 64px;
+		font-size: 56px;
 	}
 	.gasback{
-		font-size: 14px;
+		font-size: 10px;
 	}
 	.gascontent{
-		font-size: 12px;
+		font-size: 8px;
 	}
 	.sun{
-		font-size: 64px;
+		font-size: 56px;
 	}
 	.sunback{
-		font-size: 14px;
+		font-size: 10px;
 	}
 	.suncontent{
-		font-size: 12px;
+		font-size: 8px;
 	}
 	.oil{
-		font-size: 64px;
+		font-size: 56px;
 	}
 	.oilback{
-		font-size: 14px;
+		font-size: 8px;
 	}
 	.oilcontent{
-		font-size: 12px;
+		font-size: 6px;
 	}
 	.life{
-		font-size: 64px;
+		font-size: 56px;
 	}
 	.lifeback{
-		font-size: 14px;
+		font-size: 9px;
+		padding-bottom: 12.5%;
 	}
 	.lifecontent{
-		font-size: 12px;
+		font-size: 8px;
 	}
 	
 	
@@ -566,86 +579,99 @@
 @media (min-width: 601px) and (max-width: 960px){
 	
 	.subtitle4{
-		font-size: 40px;
+		font-size: 32px;
 	}	
 	.gas{
-		font-size: 56px;
+		font-size: 40px;
+	}
+	.gasfront {
+		padding-bottom: 5%;
 	}
 	.gasback{
-		font-size: 12px;
+		font-size: 7px;
+		padding-bottom: 30%;
 	}
 	.gascontent{
-		font-size: 12px;
+		font-size: 6px;
 	}
 	.oil{
-		font-size: 56px;
+		font-size: 40px;
 	}
 	.oilback{
-		font-size: 12px;
+		font-size: 6px;
+		padding-bottom: 35%;		
 	}
 	.oilcontent{
-		font-size: 12px;
+		font-size: 6px;
 	}
 	.sun{
-		font-size: 56px;
+		font-size: 40px;
 	}
 	.sunback{
-		font-size: 12px;
+		font-size: 6px;
+		padding-bottom: 30%;
 	}
 	.suncontent{
-		font-size: 12px;
+		font-size: 6px;
 	}
 	.life{
-		font-size: 56px;
+		font-size: 40px;
 	}
 	.lifeback{
-		font-size: 12px;
+		font-size: 6px;
+		
 	}
 	.lifecontent{
-		font-size: 12px;
+		font-size: 6px;
 	}
 }
 
 @media (min-width: 376px) and (max-width: 600px){
 	
 	.subtitle4{
-		font-size: 28px;
+		font-size: 16px;
 	}
 	.gas{
-		font-size: 36px;
+		font-size: 22px;
+	}
+	.gasfront {
+		padding-bottom: 0%;
 	}
 	.gasback{
-		font-size: 10px;
+		font-size: 2px;
+		line-height: 2 ;
+		padding-bottom: 20%;
 	}
 	.gascontent{
-		font-size: 10px;
+		font-size: 2px;
 	}
 	.sun{
-		font-size: 36px;
+		font-size: 22px;
 	}
 	.sunback{
-		font-size: 10px;
+		font-size: 2px;
 	}
 	.suncontent{
-		font-size: 10px;
+		font-size: 2px;
+
 	}
 	.oil{
-		font-size: 36px;
+		font-size: 22px;
 	}
 	.oilback{
-		font-size: 10px;
+		font-size: 2px;
 	}
 	.oilcontent{
-		font-size: 10px;
+		font-size: 2px;
 	}
 	.life{
-		font-size: 36px;
+		font-size: 22px;
 	}
 	.lifeback{
-		font-size: 10px;
+		font-size: 2px;
 	}
 	.lifecontent{
-		font-size: 10px;
+		font-size: 2px;
 	}
 		
 }
@@ -658,38 +684,49 @@
 	.gas{
 		font-size: 20px;
 	}
+	.gasfront {
+	padding-bottom: 0%;
+	}
 	.gasback{
-		font-size: 8px;
+		font-size: 2px;
+		
 	}
 	.gascontent{
-		font-size: 8px;
+		font-size: 2px;
 	}
 	.sun{
 		font-size: 20px;
 	}
+	
 	.sunback{
-		font-size: 8px;
+		font-size: 1px;
 	}
 	.suncontent{
-		font-size: 8px;
+		font-size: 1px;
 	}
+	
 	.oil{
 		font-size: 20px;
 	}
+	
 	.oilback{
-		font-size: 8px;
+		font-size: 2px;
+		line-height: 1.2;
+
 	}
 	.oilcontent{
-		font-size: 8px;
+		font-size: 2px;
 	}
 	.life{
 		font-size: 20px;
 	}
+	
 	.lifeback{
-		font-size: 8px;
+		line-height: 1.2;
+		font-size: 2px;
 	}
 	.lifecontent{
-		font-size: 8px;
+		font-size: 2px;
 	}
 	
 }

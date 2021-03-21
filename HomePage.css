@@ -13,6 +13,7 @@ html{
 	font-family: Gen Jyuu Gothic ;
 	overflow-x: hidden;
 	scroll-behavior: smooth;
+	
 
 
 }
@@ -409,6 +410,7 @@ h3,p{
 	left: 27.86%;
 	margin-top: 2%;
 	font-weight: normal;
+	-webkit-text-size-adjust:none;
 	
 }
 
@@ -565,7 +567,7 @@ h3,p{
 @media (min-width: 375px) and (max-width: 600px){
 	
 	.bar{
-		font-size: 16px;
+		font-size: 14px;
 	}
 	
 	
@@ -574,7 +576,7 @@ h3,p{
 @media (min-width: 100px) and (max-width: 375px){
 	
 	.bar{
-		font-size: 10px;
+		font-size: 8px;
 	}
 	
 	
