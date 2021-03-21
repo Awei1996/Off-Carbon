@@ -638,40 +638,40 @@
 		padding-bottom: 0%;
 	}
 	.gasback{
-		font-size: 2px;
+		font-size: 1px;
 		line-height: 2 ;
 		padding-bottom: 20%;
 	}
 	.gascontent{
-		font-size: 2px;
+		font-size: 1px;
 	}
 	.sun{
 		font-size: 22px;
 	}
 	.sunback{
-		font-size: 2px;
+		font-size: 1px;
 	}
 	.suncontent{
-		font-size: 2px;
+		font-size: 1px;
 
 	}
 	.oil{
 		font-size: 22px;
 	}
 	.oilback{
-		font-size: 2px;
+		font-size: 1px;
 	}
 	.oilcontent{
-		font-size: 2px;
+		font-size: 1px;
 	}
 	.life{
 		font-size: 22px;
 	}
 	.lifeback{
-		font-size: 2px;
+		font-size: 1px;
 	}
 	.lifecontent{
-		font-size: 2px;
+		font-size: 1px;
 	}
 		
 }
@@ -688,11 +688,11 @@
 	padding-bottom: 0%;
 	}
 	.gasback{
-		font-size: 2px;
+		font-size: 1px;
 		
 	}
 	.gascontent{
-		font-size: 2px;
+		font-size: 1px;
 	}
 	.sun{
 		font-size: 20px;
@@ -710,12 +710,12 @@
 	}
 	
 	.oilback{
-		font-size: 2px;
+		font-size: 1px;
 		line-height: 1.2;
 
 	}
 	.oilcontent{
-		font-size: 2px;
+		font-size: 1px;
 	}
 	.life{
 		font-size: 20px;
@@ -723,10 +723,10 @@
 	
 	.lifeback{
 		line-height: 1.2;
-		font-size: 2px;
+		font-size: 1px;
 	}
 	.lifecontent{
-		font-size: 2px;
+		font-size: 1px;
 	}
 	
 }
