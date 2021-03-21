@@ -122,7 +122,7 @@
 .gasfront, .gasback {
 	position: absolute;
 	display: flex;
-	font-size: 20px;
+	font-size: 18px;
 	color: #0B3140;
 	width: 100%;
 	flex-direction: column;
@@ -149,16 +149,19 @@
 .gasback {
 	
   	transform: rotateY(180deg);
-	line-height: 1.5;
-	padding-bottom: 20.5%;
+	line-height: 1.2;
+	padding-bottom: 25%;
+	-webkit-text-size-adjust:none;	
+	
+}
+.gasspace{
+	font-size: 20px;
+	line-height: 1;
 	-webkit-text-size-adjust:none;
-
-	
-	
 }
 .gascontent{
 	font-size: 16px;
-	line-height: 0;
+	text-align: center;
 	-webkit-text-size-adjust:none;
 }
 
@@ -222,7 +225,7 @@
 .sunfront, .sunback {
 	position: absolute;
 	display: flex;
-	font-size: 22px;
+	font-size: 20px;
 	color: #0B3140;
 	width: 100%;
 	flex-direction: column;
@@ -247,14 +250,18 @@
 }
 
 .sunback {
-	padding-bottom: 28.5%;
+	padding-bottom: 20%;
   	transform: rotateY(180deg);
 	-webkit-text-size-adjust:none;
 
 }
-
+.sunspace{
+	font-size: 12px;
+	line-height: 1;
+	-webkit-text-size-adjust:none;
+}
 .suncontent{
-	font-size: 15px;
+	font-size: 18px;
 	-webkit-text-size-adjust:none;
 }
 
@@ -314,7 +321,7 @@
 .oilfront, .oilback {
 	position: absolute;
 	display: flex;
-	font-size: 16px;
+	font-size: 20px;
 	color: #0B3140;
 	width: 100%;
 	flex-direction: column;
@@ -340,15 +347,24 @@
 }
 
 .oilback {
-	padding-bottom: 49.5%;
+	padding-bottom: 27.5%;
   	transform: rotateY(180deg);
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	-webkit-text-size-adjust:none;
 
 }
 
+.oilspace{
+	font-size: 52px;
+	line-height: 1;
+	-webkit-text-size-adjust:none;
+}
+
 .oilcontent{
-	font-size: 13px;
-	line-height: 0;
+	font-size: 16px;
+	line-height: 1;
 	-webkit-text-size-adjust:none;
 }
 .textcardoil.open {
@@ -433,12 +449,18 @@
 }
 
 .lifeback {
-	padding-bottom: 17%;
+	padding-bottom: 10%;
 	transform: rotateY(180deg);
 	align-items: center;
+	text-align: center;
+	line-height: 1.5;
 	-webkit-text-size-adjust:none;
 
 
+}
+.lifespace{
+	font-size: 10px;
+	-webkit-text-size-adjust:none;
 }
 
 .lifecontent{
@@ -498,6 +520,11 @@
 	}
 	.gasback{
 		font-size: 14px;
+		padding-bottom: 20%;
+	}
+	.gasspace{
+		font-size: 12px;
+		line-height: 0.8;
 	}
 	.gascontent{
 		font-size: 12px;
@@ -507,6 +534,7 @@
 	}
 	.sunback{
 		font-size: 14px;
+		padding-bottom: 27.5%;
 	}
 	.suncontent{
 		font-size: 12px;
@@ -516,6 +544,7 @@
 	}
 	.oilback{
 		font-size: 14px;
+		padding-bottom: 22.5%;
 	}
 	.oilcontent{
 		font-size: 12px;
@@ -524,10 +553,10 @@
 		font-size: 76px;
 	}
 	.lifeback{
-		font-size: 14px;
+		font-size: 12px;
 	}
 	.lifecontent{
-		font-size: 12px;
+		font-size: 10px;
 	}
 }
 
@@ -542,6 +571,10 @@
 	.gasback{
 		font-size: 10px;
 	}
+	.gasspace{
+		font-size: 12px;
+		line-height: 0.8;
+	}
 	.gascontent{
 		font-size: 8px;
 	}
@@ -549,26 +582,40 @@
 		font-size: 56px;
 	}
 	.sunback{
+		font-size: 11px;
+	}
+	.sunspace{
 		font-size: 10px;
+		line-height: 1;
 	}
 	.suncontent{
-		font-size: 8px;
+		font-size: 9px;
 	}
 	.oil{
 		font-size: 56px;
 	}
 	.oilback{
-		font-size: 8px;
+		font-size: 12px;
+		padding-bottom: 20%;
+	}
+	.oilspace{
+		font-size: 12px;
+		line-height: 1;
 	}
 	.oilcontent{
-		font-size: 6px;
+		font-size: 10px;
+		line-height: 1.2;
 	}
 	.life{
 		font-size: 56px;
 	}
 	.lifeback{
 		font-size: 9px;
-		padding-bottom: 12.5%;
+		padding-bottom: 5%;
+	}
+	.lifespace{
+		font-size: 8px;
+		line-height: 1;
 	}
 	.lifecontent{
 		font-size: 8px;
@@ -588,32 +635,41 @@
 		padding-bottom: 5%;
 	}
 	.gasback{
-		font-size: 7px;
-		padding-bottom: 30%;
+		font-size: 8px;
+		padding-bottom: 15%;
+	}
+	.gasspace{
+		font-size: 12px;
+		line-height: 0.8;
 	}
 	.gascontent{
-		font-size: 6px;
-	}
-	.oil{
-		font-size: 40px;
-	}
-	.oilback{
-		font-size: 6px;
-		padding-bottom: 35%;		
-	}
-	.oilcontent{
 		font-size: 6px;
 	}
 	.sun{
 		font-size: 40px;
 	}
 	.sunback{
-		font-size: 6px;
-		padding-bottom: 30%;
+		font-size: 8px;
+		padding-bottom: 15%;
 	}
 	.suncontent{
-		font-size: 6px;
+		font-size: 7px;
 	}
+	.oil{
+		font-size: 40px;
+	}
+	.oilback{
+		font-size: 8px;
+		padding-bottom: 22.5%;		
+	}
+	.oilspace{
+		font-size: 12px;
+		line-height: 1;
+	}
+	.oilcontent{
+		font-size: 8px;
+	}
+	
 	.life{
 		font-size: 40px;
 	}
@@ -621,8 +677,12 @@
 		font-size: 6px;
 		
 	}
+	.lifespace{
+		font-size: 8px;
+		line-height: 1;
+	}
 	.lifecontent{
-		font-size: 6px;
+		font-size: 8px;
 	}
 }
 
@@ -639,8 +699,12 @@
 	}
 	.gasback{
 		font-size: 1px;
-		line-height: 2 ;
+		line-height: 1.5;
 		padding-bottom: 20%;
+	}
+	.gasspace{
+		font-size: 8px;
+		line-height: 0.8;
 	}
 	.gascontent{
 		font-size: 1px;
@@ -650,6 +714,11 @@
 	}
 	.sunback{
 		font-size: 1px;
+		padding-bottom: 20%;
+	}
+	.sunspace{
+		font-size: 8px;
+		line-height: 0.8;
 	}
 	.suncontent{
 		font-size: 1px;
@@ -660,6 +729,11 @@
 	}
 	.oilback{
 		font-size: 1px;
+		padding-bottom: 35%;
+	}
+	.oilspace{
+		font-size: 10px;
+		line-height: 1;
 	}
 	.oilcontent{
 		font-size: 1px;
@@ -669,9 +743,15 @@
 	}
 	.lifeback{
 		font-size: 1px;
+		
+	}
+	.lifespace{
+		font-size: 1px;
+		line-height: 0.5;
 	}
 	.lifecontent{
 		font-size: 1px;
+		
 	}
 		
 }
@@ -688,8 +768,13 @@
 	padding-bottom: 0%;
 	}
 	.gasback{
-		font-size: 1px;
+		font-size: 2px;
+		padding-bottom: 17.5%;
 		
+	}
+	.gasspace{
+		font-size: 8px;
+		line-height: 1;
 	}
 	.gascontent{
 		font-size: 1px;
@@ -700,6 +785,12 @@
 	
 	.sunback{
 		font-size: 1px;
+		padding-bottom: 15%;
+	}
+	.sunspace{
+		font-size: 8px;
+		line-height: 0.6;
+		-webkit-text-size-adjust:none;
 	}
 	.suncontent{
 		font-size: 1px;
@@ -711,9 +802,16 @@
 	
 	.oilback{
 		font-size: 1px;
-		line-height: 1.2;
+		line-height: 1;
+		padding-bottom: 40%;
+		
 
 	}
+	.oilspace{
+		font-size: 10px;
+		line-height: 1;
+	}
+
 	.oilcontent{
 		font-size: 1px;
 	}
@@ -724,9 +822,15 @@
 	.lifeback{
 		line-height: 1.2;
 		font-size: 1px;
+		padding-bottom: 12.5%;
+	}
+	.lifespace{
+		font-size: 1px;
+		line-height: 0.5;
 	}
 	.lifecontent{
 		font-size: 1px;
+		line-height: 1.2;
 	}
 	
 }
