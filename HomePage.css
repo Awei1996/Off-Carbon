@@ -598,6 +598,65 @@ h3,p{
 	
 		font-size: 32px;
 	}
+	.myBtn{
+		width: 12%;
+		padding-bottom: 12%;
+		margin-left: 85%;
+		margin-top: 6%;
+	}
+	.MenuBtn{
+	
+		font-size: 16px;
+	}
+	.MenuContent{
+		margin-top: 15%;
+	}
+	.AllCross{
+		
+		width: 12%;
+		padding-bottom: 12%;
+		margin-left: 85%;
+		margin-top: 6%;
+		border-radius: 50%;
+		opacity: 0;
+		
+	}
+	
+	.Cross1{
+		
+		margin-top: 4.4%;
+		margin-left: 2.5%;
+		width: 7.5%;
+		padding-bottom: 0.8%;
+		
+
+	}
+	.Cross1.open{
+		margin-top: 5.6%;
+		transform: rotate(45deg);
+	}
+	.Cross2{
+		margin-top: 5.6%;
+		margin-left: 2.5%;
+		width: 7.5%;
+		padding-bottom: 0.8%;
+	}
+	.Cross2.open{
+		margin-top: 5.6%;
+		opacity: 0;
+	}
+	.Cross3{
+		
+		margin-top: 7%;
+		margin-left: 2.5%;
+		width: 7.5%;
+		padding-bottom: 0.8%;
+		
+	}
+	.Cross3.open{
+		margin-top: 5.6%;
+		transform: rotate(-45deg);
+	}
 	
 }
 
