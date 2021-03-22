@@ -36,6 +36,7 @@ function scrollFunction() {
 	Cross1Control.classList.remove('open');
 	Cross2Control.classList.remove('open');
 	Cross3Control.classList.remove('open');
+	MenuContentControl.classList.remove('open');
 	MenuValue = 0;
   }
 }

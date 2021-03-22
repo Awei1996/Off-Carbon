@@ -110,7 +110,7 @@ h3,p{
 	margin-top: 2%;
 	border-radius: 50%;
 	opacity: 0;
-	border: 2px solid red;
+	
 	
 }
 .Cross1{
@@ -608,20 +608,24 @@ h3,p{
 		font-size: 10px;
 	}
 	.myBtn{
-		width: 8%;
-		padding-bottom: 8%;
-		margin-left: 90%;
+		width: 12%;
+		padding-bottom: 12%;
+		margin-left: 85%;
+		margin-top: 6%;
 	}
 	.MenuBtn{
 	
 		font-size: 16px;
 	}
+	.MenuContent{
+		margin-top: 15%;
+	}
 	.AllCross{
 		
-		width: 8%;
-		padding-bottom: 8%;
-		margin-left: 90%;
-		margin-top: 2%;
+		width: 12%;
+		padding-bottom: 12%;
+		margin-left: 85%;
+		margin-top: 6%;
 		border-radius: 50%;
 		opacity: 0;
 		
@@ -629,37 +633,37 @@ h3,p{
 	
 	.Cross1{
 		
-		margin-top: 3.2%;
-		margin-left: 1.5%;
-		width: 5.2%;
-		padding-bottom: 0.5%;
+		margin-top: 4.4%;
+		margin-left: 2.5%;
+		width: 7.5%;
+		padding-bottom: 0.8%;
 		
 
 	}
 	.Cross1.open{
-		margin-top: 4%;
+		margin-top: 5.6%;
 		transform: rotate(45deg);
 	}
 	.Cross2{
-		margin-top: 4%;
-		margin-left: 1.5%;
-		width: 5.2%;
-		padding-bottom: 0.5%;
+		margin-top: 5.6%;
+		margin-left: 2.5%;
+		width: 7.5%;
+		padding-bottom: 0.8%;
 	}
 	.Cross2.open{
-		margin-top: 4%;
+		margin-top: 5.6%;
 		opacity: 0;
 	}
 	.Cross3{
 		
-		margin-top: 4.8%;
-		margin-left: 1.5%;
-		width: 5.2%;
-		padding-bottom: 0.5%;
+		margin-top: 7%;
+		margin-left: 2.5%;
+		width: 7.5%;
+		padding-bottom: 0.8%;
 		
 	}
 	.Cross3.open{
-		margin-top: 4%;
+		margin-top: 5.6%;
 		transform: rotate(-45deg);
 	}
 	
