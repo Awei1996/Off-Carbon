@@ -596,7 +596,7 @@ h3,p{
 	}
 	.MenuBtn{
 	
-		font-size: 32px;
+		font-size: 28px;
 	}
 	.myBtn{
 		width: 12%;
@@ -604,10 +604,7 @@ h3,p{
 		margin-left: 85%;
 		margin-top: 6%;
 	}
-	.MenuBtn{
 	
-		font-size: 16px;
-	}
 	.MenuContent{
 		margin-top: 15%;
 	}
