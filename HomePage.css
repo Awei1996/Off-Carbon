@@ -44,7 +44,7 @@ h3,p{
   	margin-left: 95%; /* Place the button 30px from the right */
   	z-index: 30; /* Make sure it does not overlap */
 	width: 4%;
-	padding-bottom: 1%;
+	padding-bottom: 4%;
 	border-radius: 50%;
   	border: none; /* Remove borders */
   	outline: none; /* Remove outline */
@@ -69,30 +69,38 @@ h3,p{
 
 
 .MenuContent{
-	width: 0%;
-	height: 0%;
+	z-index: 0;
+	position: fixed;
+	margin-left: 55%;
+	margin-top: 5%;
+	width: 30%;
+	padding-bottom: 30%;
 	opacity: 0;
-	
+	text-align: right;
+	transition: 1s;
 }
 .MenuContent.open{
-	width: 100%;
-	height: 100%;
+	
 	opacity: 1;
 }
 .MenuBtn{
-	width: 0%;
-	height: 0%;
-	font-size: 0px;
+	
+	font-size: 92px;
+	font-weight: bolder;
+	color: #CE7E24;
+	
+	
+}
+.MenuBtn:hover{
+	color: #184557;
+	
 }
 .MenuBtn.open{
-	margin-left: 60%;
-	margin-top: 80%;
-	width: 60%;
-	height: 100%;
-	font-size: 12px;
-	background-color: blue;
-}
 
+}
+.Ab{
+	font-size: 72px;
+}
 .AllCross{
 	position: fixed;
 	z-index: 35;
@@ -102,6 +110,7 @@ h3,p{
 	margin-top: 2%;
 	border-radius: 50%;
 	opacity: 0;
+	
 }
 .Cross1{
 	position: fixed;
@@ -541,7 +550,13 @@ h3,p{
 	.bar{
 		font-size: 28px;
 	}
+	.MenuBtn{
 	
+		font-size: 80px;
+		
+
+
+	}
 	
 }
 
@@ -551,7 +566,10 @@ h3,p{
 		font-size: 20px;
 		margin-left: 25%;
 	}
+	.MenuBtn{
 	
+		font-size: 64px;
+	}
 	
 }
 
@@ -562,6 +580,10 @@ h3,p{
 		margin-left: 20%;
 	}
 	
+	.MenuBtn{
+	
+		font-size: 48px;
+	}
 	
 }
 
@@ -571,7 +593,10 @@ h3,p{
 		font-size: 10px;
 		margin-left: 15%;
 	}
+	.MenuBtn{
 	
+		font-size: 32px;
+	}
 	
 }
 
@@ -581,6 +606,59 @@ h3,p{
 		margin-left: 10%;
 		font-size: 10px;
 	}
+	.myBtn{
+		width: 8%;
+		padding-bottom: 8%;
+		margin-left: 90%;
+	}
+	.MenuBtn{
 	
+		font-size: 16px;
+	}
+	.AllCross{
+		
+		width: 8%;
+		padding-bottom: 8%;
+		margin-left: 90%;
+		margin-top: 2%;
+		border-radius: 50%;
+		opacity: 0;
+	}
+	
+	.Cross1{
+		
+		margin-top: 3.2%;
+		margin-left: 1.5%;
+		width: 5.2%;
+		padding-bottom: 0.5%;
+		
+
+	}
+	.Cross1.open{
+		margin-top: 4%;
+		transform: rotate(45deg);
+	}
+	.Cross2{
+		margin-top: 4%;
+		margin-left: 1.5%;
+		width: 5.2%;
+		padding-bottom: 0.5%;
+	}
+	.Cross2.open{
+		margin-top: 4%;
+		opacity: 0;
+	}
+	.Cross3{
+		
+		margin-top: 4.8%;
+		margin-left: 1.5%;
+		width: 5.2%;
+		padding-bottom: 0.5%;
+		
+	}
+	.Cross3.open{
+		margin-top: 4%;
+		transform: rotate(-45deg);
+	}
 	
 }

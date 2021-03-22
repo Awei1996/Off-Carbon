@@ -20,7 +20,7 @@ window.onscroll = function() {scrollFunction();};
 function scrollFunction() {
 	if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
 		mybutton.style.display = "block"; 
-	  	mybutton.style.opacity = 0.95;
+	  	mybutton.style.opacity = 0.98;
 		AllCrossControl.style.display = "block"; 
 	  	AllCrossControl.style.opacity = 1;
 		
@@ -49,6 +49,7 @@ document.getElementsByClassName('AllCross')[0].onclick = function() {
 		Cross3Control.classList.add('open');
 		MenuContentControl.classList.add('open');
 		MenuBtnControl.classList.add('open');
+		MenuContentControl.style.zIndex = 50;
 
 
 	
@@ -60,6 +61,7 @@ document.getElementsByClassName('AllCross')[0].onclick = function() {
 		Cross2Control.classList.remove('open');
 		Cross3Control.classList.remove('open');
 		MenuBtnControl.classList.remove('open');
+		MenuContentControl.classList.remove('open');
 
 		
 	}	
