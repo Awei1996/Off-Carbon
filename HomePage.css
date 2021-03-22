@@ -53,8 +53,6 @@ h3,p{
   
 	transition: background-color 200ms,transform 1s; 
 	
-
-	
 	
 }
 
@@ -87,6 +85,7 @@ h3,p{
 	font-size: 92px;
 	font-weight: bolder;
 	color: #CE7E24;
+	-webkit-text-size-adjust:none;
 	
 	
 }
@@ -669,7 +668,6 @@ h3,p{
 		margin-top: 6%;
 	}
 	.MenuBtn{
-	
 		font-size: 20px;
 	}
 	.MenuContent{
