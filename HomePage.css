@@ -588,7 +588,7 @@ h3,p{
 	
 }
 
-@media (min-width: 376px) and (max-width: 600px){
+@media (min-width: 377px) and (max-width: 600px){
 	
 	.bar{
 		font-size: 10px;
@@ -657,7 +657,7 @@ h3,p{
 	
 }
 
-@media (min-width: 100px) and (max-width: 375px){
+@media (min-width: 100px) and (max-width: 376px){
 	
 	.bar{
 		margin-left: 10%;
