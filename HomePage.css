@@ -68,9 +68,9 @@ h3,p{
 .MenuContent{
 	z-index: 0;
 	position: fixed;
-	margin-left: 55%;
+	margin-left: 45%;
 	margin-top: 5%;
-	width: 30%;
+	width: 40%;
 	padding-bottom: 30%;
 	opacity: 0;
 	text-align: right;
@@ -93,9 +93,7 @@ h3,p{
 	color: #184557;
 	
 }
-.MenuBtn.open{
 
-}
 .Ab{
 	font-size: 72px;
 }
@@ -594,6 +592,9 @@ h3,p{
 	}
 	.MenuBtn{
 	
+		font-size: 20px;
+	}
+	.Ab{
 		font-size: 16px;
 	}
 	.myBtn{
@@ -662,12 +663,15 @@ h3,p{
 		font-size: 10px;
 	}
 	.myBtn{
-		width: 20%;
-		padding-bottom: 20%;
+		width: 12%;
+		padding-bottom: 12%;
 		margin-left: 85%;
 		margin-top: 6%;
 	}
 	.MenuBtn{
+		font-size: 16px;
+	}
+	.Ab{
 		font-size: 12px;
 	}
 	.MenuContent{
