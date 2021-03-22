@@ -337,7 +337,7 @@
 	}
 	.burninfor{
 		
-		font-size: 7px;
+		font-size: 6px;
 		
 	}
 
@@ -348,21 +348,19 @@
 	}
 	.breathinfor{
 		
-		font-size: 7px;
+		font-size: 6px;
 		
 	}
 
 	.fermentation{
 		
-		font-size: 40px;
-		
+		font-size: 40px;		
+	
 	}
 	.fermentationinfor{
 		
-		font-size: 7px;
+		font-size: 6px;
 		
-
 	}
-	
-	
+		
 }
