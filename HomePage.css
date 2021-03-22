@@ -594,11 +594,11 @@ h3,p{
 	}
 	.MenuBtn{
 	
-		font-size: 28px;
+		font-size: 16px;
 	}
 	.myBtn{
-		width: 12%;
-		padding-bottom: 12%;
+		width: 120%;
+		padding-bottom: 120%;
 		margin-left: 85%;
 		margin-top: 6%;
 	}
@@ -668,7 +668,7 @@ h3,p{
 		margin-top: 6%;
 	}
 	.MenuBtn{
-		font-size: 20px;
+		font-size: 12px;
 	}
 	.MenuContent{
 		margin-top: 15%;
