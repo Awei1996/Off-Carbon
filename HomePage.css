@@ -50,7 +50,7 @@ h3,p{
   	outline: none; /* Remove outline */
   	background-color: #fff; /* Set a background color */
 	opacity: 0;
-  	cursor: pointer; /* Add a mouse pointer on hover */
+  
 	transition: background-color 200ms,transform 1s; 
 	
 
@@ -61,8 +61,7 @@ h3,p{
 .myBtn.open{
 	background-color: #f0a550;
 	transform: scale(120);
-
-	
+	user-select: none;	
 	
 }
 
