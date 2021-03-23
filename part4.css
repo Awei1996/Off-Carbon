@@ -774,7 +774,7 @@
 		
 	}
 	.gasspace{
-		font-size: 6px;
+		font-size: 8px;
 		line-height: 1;
 	}
 	.gascontent{
@@ -790,7 +790,8 @@
 	}
 	.sunspace{
 		font-size: 8px;
-		line-height: 0.5;
+		line-height: 0.6;
+		-webkit-text-size-adjust:none;
 	}
 	.suncontent{
 		font-size: 1px;
@@ -809,7 +810,7 @@
 	}
 	.oilspace{
 		font-size: 10px;
-		line-height: 0.8;
+		line-height: 1;
 	}
 
 	.oilcontent{
@@ -830,7 +831,7 @@
 	}
 	.lifecontent{
 		font-size: 1px;
-		line-height: 1.1;
+		line-height: 1.2;
 	}
 	
 }
