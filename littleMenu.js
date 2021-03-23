@@ -19,7 +19,7 @@ var ShowRange = window.matchMedia("(max-width: 960px)")
 window.onscroll = function() {scrollFunction();};
 
 function scrollFunction() {
-	if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100 || (ShowRange.matches)) {
+	if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100  ) {
 		mybutton.style.display = "block"; 
 		mybutton.style.opacity = 0.98;
 		AllCrossControl.style.display = "block"; 
@@ -30,6 +30,12 @@ function scrollFunction() {
 	
 	
 	} 
+	if(ShowRange.matches){
+		mybutton.style.display = "block"; 
+		mybutton.style.opacity = 0.98;
+		AllCrossControl.style.display = "block"; 
+		AllCrossControl.style.opacity = 1;
+	}
 	else {
 		mybutton.style.display = "none";
 		AllCrossControl.style.display = "none";
