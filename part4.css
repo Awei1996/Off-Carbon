@@ -117,6 +117,7 @@
   	transition: transform 2s;
   	transform-style: preserve-3d;
   	cursor: pointer;
+	
 }
 
 .gasfront, .gasback {
@@ -764,9 +765,6 @@
 	.gas{
 		font-size: 20px;
 	}
-	.gascard{
-		overflow: hidden;
-	}
 	.gasfront {
 	padding-bottom: 0%;
 	}
@@ -776,7 +774,7 @@
 		
 	}
 	.gasspace{
-		font-size: 8px;
+		font-size: 6px;
 		line-height: 1;
 	}
 	.gascontent{
@@ -785,17 +783,14 @@
 	.sun{
 		font-size: 20px;
 	}
-	.suncard{
-		overflow: hidden;
-	}
+	
 	.sunback{
 		font-size: 1px;
 		padding-bottom: 15%;
 	}
 	.sunspace{
 		font-size: 8px;
-		line-height: 0.6;
-		-webkit-text-size-adjust:none;
+		line-height: 0.5;
 	}
 	.suncontent{
 		font-size: 1px;
@@ -804,9 +799,7 @@
 	.oil{
 		font-size: 20px;
 	}
-	.oilcard{
-		overflow: hidden;
-	}
+	
 	.oilback{
 		font-size: 1px;
 		line-height: 1;
@@ -816,7 +809,7 @@
 	}
 	.oilspace{
 		font-size: 10px;
-		line-height: 1;
+		line-height: 0.8;
 	}
 
 	.oilcontent{
@@ -825,9 +818,7 @@
 	.life{
 		font-size: 20px;
 	}
-	.lifecard{
-		overflow: hidden;
-	}
+	
 	.lifeback{
 		line-height: 1.2;
 		font-size: 1px;
@@ -839,7 +830,7 @@
 	}
 	.lifecontent{
 		font-size: 1px;
-		line-height: 1.2;
+		line-height: 1.1;
 	}
 	
 }
