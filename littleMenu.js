@@ -8,8 +8,9 @@ var Cross3Control = document.getElementsByClassName('Cross3')[0];
 var MenuContentControl = document.getElementsByClassName('MenuContent')[0];
 var MenuBtnControl = document.getElementsByClassName('MenuBtn')[0];
 
-
 var MenuValue = 0 ;
+
+var ShowRange = window.matchMedia("(max-width: 960px)") 
 
 
 
@@ -18,11 +19,11 @@ var MenuValue = 0 ;
 window.onscroll = function() {scrollFunction();};
 
 function scrollFunction() {
-	if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+	if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100 || (ShowRange.matches)) {
 		mybutton.style.display = "block"; 
-	  	mybutton.style.opacity = 0.98;
+		mybutton.style.opacity = 0.98;
 		AllCrossControl.style.display = "block"; 
-	  	AllCrossControl.style.opacity = 1;
+		AllCrossControl.style.opacity = 1;
 		
 
 		
@@ -30,14 +31,14 @@ function scrollFunction() {
 	
 	} 
 	else {
-    mybutton.style.display = "none";
-    AllCrossControl.style.display = "none";
-  	BtnControl.classList.remove('open');
-	Cross1Control.classList.remove('open');
-	Cross2Control.classList.remove('open');
-	Cross3Control.classList.remove('open');
-	MenuContentControl.classList.remove('open');
-	MenuValue = 0;
+		mybutton.style.display = "none";
+		AllCrossControl.style.display = "none";
+		BtnControl.classList.remove('open');
+		Cross1Control.classList.remove('open');
+		Cross2Control.classList.remove('open');
+		Cross3Control.classList.remove('open');
+		MenuContentControl.classList.remove('open');
+		MenuValue = 0;
   }
 }
 
