@@ -769,12 +769,12 @@
 	}
 	.gasback{
 		font-size: 2px;
-		padding-bottom: 10%;
+		padding-bottom: 17.5%;
 		
 	}
 	.gasspace{
 		font-size: 8px;
-		line-height: 1;
+		line-height: 0.8;
 	}
 	.gascontent{
 		font-size: 1px;
@@ -785,11 +785,11 @@
 	
 	.sunback{
 		font-size: 1px;
-		padding-bottom: 7.5%;
+		padding-bottom: 15%;
 	}
 	.sunspace{
 		font-size: 8px;
-		line-height: 0.6;
+		line-height: 0.5;
 		-webkit-text-size-adjust:none;
 	}
 	.suncontent{
@@ -803,13 +803,13 @@
 	.oilback{
 		font-size: 1px;
 		line-height: 1;
-		padding-bottom: 32.5%;
+		padding-bottom: 40%;
 		
 
 	}
 	.oilspace{
 		font-size: 10px;
-		line-height: 1;
+		line-height: 0.9;
 	}
 
 	.oilcontent{
@@ -822,11 +822,11 @@
 	.lifeback{
 		line-height: 1.2;
 		font-size: 1px;
-		padding-bottom: 5%;
+		padding-bottom: 12.5%;
 	}
 	.lifespace{
 		font-size: 1px;
-		line-height: 0.5;
+		line-height: 0.3;
 	}
 	.lifecontent{
 		font-size: 1px;
