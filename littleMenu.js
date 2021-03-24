@@ -43,14 +43,14 @@ function scrollFunction() {
 		
 	}
 	else {
-			mybutton.style.display = "none";
-			AllCrossControl.style.display = "none";
-			BtnControl.classList.remove('open');
-			Cross1Control.classList.remove('open');
-			Cross2Control.classList.remove('open');
-			Cross3Control.classList.remove('open');
-			MenuContentControl.classList.remove('open');
-			MenuValue = 0;
+		mybutton.style.display = "none";
+		AllCrossControl.style.display = "none";
+		BtnControl.classList.remove('open');
+		Cross1Control.classList.remove('open');
+		Cross2Control.classList.remove('open');
+		Cross3Control.classList.remove('open');
+		MenuContentControl.classList.remove('open');
+		MenuValue = 0;
 	}
 	
 }
