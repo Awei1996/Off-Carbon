@@ -13,7 +13,6 @@ var MenuValue = 0 ;
 var ShowRange = window.matchMedia("(max-width: 376px)") 
 
 
-window.matchMedia = function(){MenuShow();};
 window.onscroll = function() {MenuShow();};
 
 function MenuShow(){
