@@ -1,35 +1,35 @@
 function flip(event){
 	var element = event.currentTarget;
 	if (element.className === "gascard") {
-    if(element.style.webkittransform == "rotateY(180deg)") {
-      element.style.webkittransform = "rotateY(0deg)";
+    if(element.style.webkitTransform == "rotateY(180deg)") {
+      element.style.webkitTransform = "rotateY(0deg)";
     }
     else {
-      element.style.webkittransform = "rotateY(180deg)";
+      element.style.webkitTransform = "rotateY(180deg)";
     }
   }
 	if (element.className === "suncard") {
-    if(element.style.webwebkittransform == "rotateY(180deg)") {
-      element.style.webkittransform = "rotateY(0deg)";
+    if(element.style.webkitTransform == "rotateY(180deg)") {
+      element.style.webkitTransform = "rotateY(0deg)";
     }
     else {
-      element.style.webkittransform = "rotateY(180deg)";
+      element.style.webkitTransform = "rotateY(180deg)";
     }
   }
 	if (element.className === "oilcard") {
-    if(element.style.webkittransform == "rotateY(180deg)") {
-      element.style.webkittransform = "rotateY(0deg)";
+    if(element.style.webkitTransform == "rotateY(180deg)") {
+      element.style.webkitTransform = "rotateY(0deg)";
     }
     else {
-      element.style.webkittransform = "rotateY(180deg)";
+      element.style.webkitTransform = "rotateY(180deg)";
     }
   }
 	if (element.className === "lifecard") {
-    if(element.style.webkittransform == "rotateY(180deg)") {
-      element.style.webkittransform = "rotateY(0deg)";
+    if(element.style.webkitTransform == "rotateY(180deg)") {
+      element.style.webkitTransform = "rotateY(0deg)";
     }
     else {
-      element.style.webkittransform = "rotateY(180deg)";
+      element.style.webkitTransform = "rotateY(180deg)";
     }
   }
 }// JavaScript Document

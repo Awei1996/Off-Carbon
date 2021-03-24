@@ -114,7 +114,7 @@
 
 .gascard {
 	width: 100%;
-  	-wbekit-transition: transform 2s;
+  	transition: transform 2s;
   	transform-style: preserve-3d;
   	cursor: pointer;
 	
@@ -218,7 +218,7 @@
 
 .suncard {
 	width: 100%;
-  	-wbekit-transition: transform 2s;
+  	transition: transform 2s;
   	transform-style: preserve-3d;
   	cursor: pointer;
 }
@@ -314,7 +314,7 @@
 }
 .oilcard {
 	width: 100%;
-  	-wbekit-transition: transform 2s;
+  	transition: transform 2s;
   	transform-style: preserve-3d;
   	cursor: pointer;
 }
@@ -415,7 +415,7 @@
 	-webkit-filter:brightness(1.2);
 }
 .lifecard {
-  	-wbekit-transition: transform 2s;
+  	transition: transform 2s;
   	transform-style: preserve-3d;
   	cursor: pointer;
 }
