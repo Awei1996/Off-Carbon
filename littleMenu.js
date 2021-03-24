@@ -15,7 +15,7 @@ var ShowRange = window.matchMedia("(max-width: 376px)")
 
 window.matchMedia = function(){MenuShow();};
 
-function MenuShow(){
+function MenuShow(ShowRange){
 	if (ShowRange.matches){
 		mybutton.style.display = "block"; 
 		mybutton.style.opacity = 0.98;
