@@ -5,7 +5,10 @@
 
 @font-face {
 	font-family: Gen Jyuu Gothic ;
-    src: url(font/GenJyuuGothic-Normal.ttf);
+    src: url(font/GenJyuuGothic-Normal.ttf) format('truetype');
+	src: url(font/GenJyuuGothic-Bold.ttf) format('truetype');
+	src: url(font/GenJyuuGothic-Bolder.ttf) format('truetype');
+	
 }
 
 
