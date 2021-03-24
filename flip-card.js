@@ -40,8 +40,7 @@ $(document).ready(function () {
 	var counting = setInterval(function(){
 		if(count < 100) {
 			$('.CountTo100').text('Loading '+ count + '%');
-			count++
-					
+			count++					
 					
 		}
 			else {
@@ -56,5 +55,3 @@ $(document).ready(function () {
 	});
 		
 });
-
-

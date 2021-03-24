@@ -11,20 +11,7 @@
 	<!--<script src="jquery.fullPage.js"></script>
 	<script src="jquery.fullPage.css"></script>
 	<script src="jquery.fullPage.min.js"></script>-->
-	<script>
-		$(function(){
-			$('#dowebok').fullpage({
-				afterLoad(_, index) {
-					if (index === 1) {
-					  return
-					}
-
-					const $section = $('.section').eq(index - 1)
-					$section.find('[data-aos]').addClass('aos-animate')
-			  	},
-			});
-		});
-	</script>
+	
 	
 </head>
 
@@ -425,8 +412,7 @@
 		});
 	
 	</script>
-	<script src="LoadingAnimation.jquery.min.js"></script>
-	<script src="pullupcard.js"></script>
+	<script src="LoadingAnimation.jquery.min.js"></script>	
 	<script src="flip-card.js"></script>
 	<script src="littleMenu.js"></script>
 
