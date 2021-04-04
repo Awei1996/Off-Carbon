@@ -15,20 +15,7 @@
 	
 	</script>
 
-	<script>
-		$(function(){
-			$('#dowebok').fullpage({
-				afterLoad(_, index) {
-					if (index === 1) {
-					  return
-					}
-
-					const $section = $('.section').eq(index - 1)
-					$section.find('[data-aos]').addClass('aos-animate')
-			  	},
-			});
-		});
-	</script>
+	
 
 </head>
 
