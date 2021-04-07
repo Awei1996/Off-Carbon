@@ -1357,7 +1357,9 @@ td{
 	z-index: 9;
 	margin-top: 52.5%;
 	margin-left: 93.75%;
+	width: 4.5%;
 	opacity: 0;
+	
 }
 .ArrowDown.open{
 	opacity: 1;
