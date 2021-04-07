@@ -80,7 +80,7 @@ select{
 }
 .MenuBtn{
 	
-	font-size: 90px;
+	font-size: 7.5rem;
 	font-weight: bolder;
 	color: #CE7E24;
 	-webkit-text-size-adjust:none;
@@ -93,7 +93,7 @@ select{
 }
 
 .Ab{
-	font-size: 72px;
+	font-size: 6rem;
 }
 .AllCross{
 	position: fixed;
