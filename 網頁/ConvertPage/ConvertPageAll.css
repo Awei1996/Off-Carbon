@@ -8,6 +8,7 @@ html{
 	font-family: Gen Jyuu Gothic ;
 	scroll-behavior: smooth;
 	font-size: 12px;
+	overflow-x: hidden;
 }
 
 body{
