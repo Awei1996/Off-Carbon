@@ -292,6 +292,7 @@ select{
 
 button{
 	font-family: Gen Jyuu Gothic ;
+	font-size: 1.66rem;
 	
 	
 }
@@ -668,7 +669,6 @@ button{
 	margin-top: 12.5%;
 	width: 10%;
 	height: 10%;
-	font-size: 1.66rem;
 	border-radius: 16.66%;
 	outline: none;
 
@@ -690,7 +690,6 @@ button{
 	margin-top: 12.5%;
 	width: 10%;
 	height: 10%;
-	font-size: 1.66rem;
 	border-radius: 16.66%;
 	outline: none;
 
@@ -701,7 +700,6 @@ button{
 	margin-top: 12.5%;
 	width: 10%;
 	height: 10%;
-	font-size: 1.66rem;
 	border-radius: 16.66%;
 	outline: none;
 
@@ -712,7 +710,6 @@ button{
 	margin-top: 12.5%;
 	width: 10%;
 	height: 10%;
-	font-size: 1.66rem;
 	border-radius: 16.66%;
 	outline: none;
 
@@ -777,7 +774,6 @@ button{
 	margin-top: 12.5%;
 	width: 10%;
 	height: 10%;
-	font-size: 1.66rem;
 	border-radius: 16.66%;
 	outline: none;
 
@@ -799,7 +795,6 @@ button{
 	margin-top: 12.5%;
 	width: 10%;
 	height: 10%;
-	font-size: 1.66rem;
 	border-radius: 16.66%;
 	outline: none;
 
@@ -810,7 +805,6 @@ button{
 	margin-top: 12.5%;
 	width: 10%;
 	height: 10%;
-	font-size: 1.66rem;
 	border-radius: 16.66%;
 	outline: none;
 
@@ -821,7 +815,6 @@ button{
 	margin-top: 12.5%;
 	width: 10%;
 	height: 10%;
-	font-size: 1.66rem;
 	border-radius: 16.66%;
 	outline: none;
 
@@ -1695,13 +1688,18 @@ td{
 	html{
 		font-size: 2px;
 	}
-	
+	button{
+		font-size: 1.3rem
+	}
 }
 
 @media (min-width: 100px) and (max-width: 375px){
 	
 	html{
 		font-size: 1px;
+	}
+	button{
+		font-size: 1.3rem
 	}
 		
 }
