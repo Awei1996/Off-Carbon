@@ -1,16 +1,16 @@
 @charset "utf-8";
-
 @font-face {
 	font-family: Gen Jyuu Gothic ;
     src: url(../../font/GenJyuuGothic-Normal.ttf);
 
 }
 html{
-	
 	font-family: Gen Jyuu Gothic ;
 	scroll-behavior: smooth;
-
+	font-size: 12px;
+	overflow-x: hidden;
 }
+
 body{
 	overflow-x: hidden;
 	font-family: Gen Jyuu Gothic ;
@@ -19,51 +19,31 @@ body{
     border: 0;
     display: block;
     width: 100%;
-    height: 100%;
+    height: 300%;
 
 }
-iframe{
+video{
 	width: 100%;
 	height: 100%;
 	outline:none;
 
 }
 .allpg{
+	position: absolute;
+	z-index: 1;
 	font-family: Gen Jyuu Gothic ;
 	font-weight: normal;
-	width: 1920px;
+	width: 100%;
+	padding-bottom: 168%;
 	overflow: hidden;
-}
-#myBtn {
-  	
-  	position: fixed; /* Fixed/sticky position */
-  	bottom: 20px; /* Place the button at the bottom of the page */
-  	right: 30px; /* Place the button 30px from the right */
-  	z-index: 99; /* Make sure it does not overlap */
-	width: 80px;
-	height: 60px;
-  	border: none; /* Remove borders */
-  	outline: none; /* Remove outline */
-  	background-color: #333; /* Set a background color */
-	opacity: 0;
-  	cursor: pointer; /* Add a mouse pointer on hover */
-  	padding: 15px; /* Some padding */
-  	border-radius: 10px; /* Rounded corners */
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-#myBtn:hover {
-  -webkit-filter:brightness(1.2); /* Add a dark-grey background on hover */
 }
 .VideoTitle{
 	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 0px;
-	height: 0px;
-	font-size: 0px;
+	margin-left: 0%;
+	margin-top: 0%;
+	width: 0%;
+	height: 0%;
+	font-size: 0rem;
 	color: transparent;
 	display: flex;
 	align-items: center;
@@ -94,17 +74,18 @@ iframe{
 .Torch {
 	position: absolute;
 	z-index: 1;
-	left: 1560px;
-	top: 240px;
+	margin-left: 81.25%;
+	margin-top: 12.5%;
 	opacity: 0.25;
-  	width: 800px;
-  	height: 80px;
+  	width: 41.67%;
+  	height: 2.5%;
 	clip-path: polygon(0 45%, 100% 0, 100% 100%, 0 65%);
 	background: linear-gradient(90deg, #FFDE6D 10%, transparent 70%);
   	transform-origin: left;
-  	animation: rotate 12s infinite linear;
+  	
+	/*animation: rotate 12s infinite linear;
   	display: flex;
-  	justify-content: flex-end;
+  	justify-content: flex-end;*/
 }
 /*.Torch  origin{
 	position: absolute;
@@ -274,18 +255,20 @@ iframe{
 }
 .Rock{
 	position: absolute;
-	z-index: 2;
-	left: 0px;
-	top: 0px;
+	z-index: 3;
+	margin-left: 0%;
+	margin-top: 0%;
 }
 
 
 .bar{
 	position: absolute;
-	z-index: 3;
-	font-size: 28px;
-	left: 535px;
-	top: 40px;
+	z-index: 2;
+	font-size: 2.33rem;
+	margin-left: 27.86%;
+	margin-top: 2%;
+	font-weight: normal;
+	-webkit-text-size-adjust:none;
 	
 }
 
@@ -302,58 +285,66 @@ button{
 }
 
 .view1{
-	width: 1920px;
-	height: 100%;
+	position: absolute;
+	z-index: 5;
+	margin-left: 0%;
+	margin-top: 0%;
+	width: 100%;
+	padding-bottom: 56%;
 	overflow: hidden;
 }
 .bg1{
 	position: absolute;
 	z-index: 0;
-	left: 0px;
-	top: 0px;
+	margin-left: 0%;
+	margin-top: 0%;
 }
 
 .P1Title{
 	position: absolute;
-	z-index: 3;
-	left: 160px;
-	top: 153px;
+	z-index: 50;
+	margin-left: 8.33%;
+	margin-top: 8%;
 	color: #ffffff;
-	font-size: 163px;
+	font-size: 13.5rem;
 	font-weight: bold;
-	line-height: 192px;
+	line-height: 1.2;
 
 }
 .light{
 	position: absolute;
-	left: 1546px;
-	top: 273px;
-	z-index: 1;
-	width: 20px;
-	height: 20px;
+	margin-left: 80.35%;
+	margin-top: 14.25%;
+	z-index: 6;
+	width: 1.04%;
+	padding-bottom: 1%;
 	background-color: #F0BB00;
-	opacity: 0.3;
+	opacity: 0.5;
 	border-radius: 10px;
 }
 .view2{
-	width: 1920px;
-	height: 100%;
+	position: absolute;
+	z-index: 6;
+	margin-left: 0%;
+	margin-top: 56%;
+	width: 100%;
+	padding-bottom: 56%;
 	overflow: hidden;
 }
 .bg2{
 	position: absolute;
 	z-index: 0;
-	left: 0px;
-	top: 1080px;
+	margin-left: 0%;
+	margin-top: 56.25%;
 }
 .FoodAnimation{
 	position: absolute;
-	z-index: 6;
-	left: 112px;
-	top: 1382px;
-	width: 514px;
-	height: 390px;
-	border-radius: 20px;
+	z-index: 7;
+	margin-left: 5.83%;
+	margin-top: 15%;
+	width: 26.77%;
+	height: 36.11%;
+	border-radius: 5%;
 	color: transparent;
 	font-size: 100px;
 	background-color: #0C617B;
@@ -366,35 +357,37 @@ button{
 }
 
 .FoodAnimation.open{
-	left: 0px;
-	top: 1080px;
-	width: 1920px;
-	height: 1080px;
+	margin-left: 0%;
+	margin-top: 0%;
+	width: 100%;
+	height: 100%;
 	background-color: rgba(12,97,123,0);
 	
 }
 .FATitle{
 	position: absolute;
+	margin-left: 0%;
+	margin-top: 0%;
 	z-index: 7;
-	width: 514px;
-	height: 390px;
-	border-radius: 20px;
-	font-size: 100px;
+	width: 100%;
+	height: 36.11%;
+	border-radius: 5%;
+	font-size: 8.33rem;
 	opacity: 1;
-	color: #fff;
+	color: #ffffff;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	transition: 1s;
+	transition: 1s ,color 0.01s;
 
 
 }
 .FATitle.open{
-	width: 1920px;
-	height: 1080px;
+	width: 100%;
+	height: 100%;
 	color: transparent;
-	font-size: 0px;
-	border-radius: 0px;
+	font-size: 0rem;
+	border-radius: 0%;
 	background-color:  rgba(12,97,123,0.98);
 
 }
@@ -403,72 +396,73 @@ button{
 
 }
 .FATitle:hover{
-	color: #0E2932;
+	color: #fff;
 }
 .Food.open{
-	top: 150px;	
+	margin-left: 0%;
+	margin-top: -42.5%;
 	width: 100%;
-	height: 0px;
-	font-size: 64px;
-	color: #0E2932;
+	height: 5%;
+	font-size: 5.33rem;
+	color: #65B9D3;
 	font-weight: bold;
 }
 .FAVideo{
 	position: absolute;
-	left: 0px;
-	top: 0px;
+	margin-left: 0%;
+	margin-top: 0%;
 	z-index: 1;
-	width: 0px;
-	height: 0px;
+	width: 0%;
+	height: 0%;
 	align-items: center;
 
 	
 }
 .FAVideo.open{
-	left: 80px;
-	top: 315px;
-	width: 800px;
-	height: 450px;
-	border-radius: 10px;
+	margin-left: -45%;
+	margin-top: 0%;
+	width: 41.67%;
+	height: 41.67%;
+	border-radius: 5%;
 
 }
 .FAText{
 	position: absolute;
 	z-index: 1;
-	width: 0px;
-	height: 0px;
-	font-size: 0px;
+	width: 0%;
+	height: 0%;
+	font-size: 0rem;
 	color: transparent;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .FAText.open{
-	left: 960px;
-	top: 0px;
-	width: 960px;
-	height: 1080px;
-	font-size: 40px;
+	margin-left: 50%;
+	margin-top: 0%;
+	width: 50%;
+	height: 100%;
+	font-size: 3.33rem;
 	color: #ffffff;
 	line-height: 2;
 }
 .Back{
 	position: absolute;
 	z-index: 8;
-	left: 50px;
-	top: 1100px;
-	width: 72px;
+	margin-left: 2.6%;
+	margin-top: 1.2%;
+	width: 3.75%;
 	height: 78px;
 	opacity: 0;
 }
 .LifeAnimation{
 	position: absolute;
-	z-index: 6;
-	left: 706px;
-	top: 1382px;
-	width: 514px;
-	height: 390px;
-	border-radius: 20px;
+	z-index: 7;
+	margin-left: 36.77%;
+	margin-top: 15%;
+	width: 26.77%;
+	height: 36.11%;
+	border-radius: 5%;
 	color: transparent;
 	background-color: #F78700;
 	display: flex;
@@ -479,18 +473,22 @@ button{
 
 }
 .LifeAnimation.open{
-	left: 0px;
-	top: 1080px;
-	width: 1920px;
-	height: 1080px;
+	margin-left: 0%;
+	margin-top: 0%;
+	width: 100%;
+	height: 100%;
 	background-color: rgba(247,135,00,0);
 }
 .LATitle{
-	width: 514px;
-	height: 390px;
-	border-radius: 20px;
-	font-size: 100px;
-	color: #fff;
+	position: absolute;
+	margin-left: 0%;
+	margin-top: 0%;
+	z-index: 7;
+	width: 100%;
+	height: 36.11%;
+	border-radius: 5%;
+	font-size: 8.33rem;
+	color: #ffffff;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -499,16 +497,16 @@ button{
 
 }
 .LATitle:hover{
-	color: #6A3C04;
+	color: #fff;
 	font-style: normal;
 
 }
 .LATitle.open{
-	width: 1920px;
-	height: 1080px;
+	width: 100%;
+	height: 100%;
 	color: transparent;
-	border-radius: 0px;
-	font-size: 0px;
+	font-size: 0rem;
+	border-radius: 0%;
 	background-color:  rgba(247,135,0,0.98);
 
 }
@@ -517,60 +515,61 @@ button{
 
 }
 .Life.open{
-	top: 150px;	
+	margin-left: 0%;
+	margin-top: -42.5%;
 	width: 100%;
-	height: 0px;
-	font-size: 64px;
+	height: 5%;
+	font-size: 5.33rem;
 	color: #6A3C04;
 	font-weight: bold;
 }
 .LAVideo{
 	position: absolute;
-	left: 0px;
-	top: 0px;
+	margin-left: 0%;
+	margin-top: 0%;
 	z-index: 1;
-	width: 0px;
-	height: 0px;
+	width: 0%;
+	height: 0%;
 	align-items: center;
 
 	
 }
 .LAVideo.open{
-	left: 80px;
-	top: 315px;
-	width: 800px;
-	height: 450px;
-	border-radius: 10px;
+	margin-left: -45%;
+	margin-top: 0%;
+	width: 41.67%;
+	height: 41.67%;
+	border-radius: 5%;
 
 }
 .LAText{
 	position: absolute;
 	z-index: 1;
-	width: 0px;
-	height: 0px;
-	font-size: 0px;
+	width: 0%;
+	height: 0%;
+	font-size: 0rem;
 	color: transparent;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .LAText.open{
-	left: 960px;
-	top: 0px;
-	width: 960px;
-	height: 1080px;
-	font-size: 40px;
+	margin-left: 50%;
+	margin-top: 0%;
+	width: 50%;
+	height: 100%;
+	font-size: 3.33rem;
 	color: #ffffff;
 	line-height: 2;
 }
 .HappyAnimation{
 	position: absolute;
-	z-index: 6;
-	left: 1293px;
-	top: 1382px;
-	width: 514px;
-	height: 390px;
-	border-radius: 20px;
+	z-index: 7;
+	margin-left: 67.34%;
+	margin-top: 15%;
+	width: 26.77%;
+	height: 36.11%;
+	border-radius: 5%;
 	color: transparent;
 	background-color: #B2CE65;
 	display: flex;
@@ -582,33 +581,37 @@ button{
 }
 
 .HappyAnimation.open{
-	left: 0px;
-	top: 1080px;
-	width: 1920px;
-	height: 1080px;
+	margin-left: 0%;
+	margin-top: 0%;
+	width: 100%;
+	height: 100%;
 	background-color: rgba(12,97,123,0);
 	
 }
 
 .HATitle{
-	width: 514px;
-	height: 390px;
-	border-radius: 20px;
-	font-size: 100px;
-	color: #fff;
+	position: absolute;
+	margin-left: 0%;
+	margin-top: 0%;
+	z-index: 7;
+	width: 100%;
+	height: 36.11%;
+	border-radius: 5%;
+	font-size: 8.33rem;
+	color: #ffffff;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	transition: 1s ;
+	transition: 1s;
 
 
 }
 .HATitle.open{
-	width: 1920px;
-	height: 1080px;
+	width: 100%;
+	height: 100%;
 	color: transparent;
-	border-radius: 0px;
-	font-size: 0px;
+	font-size: 0rem;
+	border-radius: 0%;
 	background-color:  rgba(160,206,101,0.98);
 
 }
@@ -617,76 +620,81 @@ button{
 
 }
 .HATitle:hover{
-	color: #5F7622;
+	color: #fff;
 	font-style: normal;
 
 }
 .Happy.open{
-	top: 150px;	
+	margin-left: 0%;
+	margin-top: -42.5%;
 	width: 100%;
-	height: 0px;
-	font-size: 64px;
+	height: 5%;
+	font-size: 5.33rem;
 	color: #5F7622;
 	font-weight: bold;
 }
 .HAVideo{
 	position: absolute;
-	left: 0px;
-	top: 0px;
+	margin-left: 0%;
+	margin-top: 0%;
 	z-index: 1;
-	width: 0px;
-	height: 0px;
+	width: 0%;
+	height: 0%;
 	align-items: center;
 
 	
 }
 .HAVideo.open{
-	left: 80px;
-	top: 315px;
-	width: 800px;
-	height: 450px;
-	border-radius: 10px;
+	margin-left: -45%;
+	margin-top: 0%;
+	width: 41.67%;
+	height: 41.67%;
+	border-radius: 5%;
 
 }
 .HAText{
 	position: absolute;
 	z-index: 1;
-	width: 0px;
-	height: 0px;
-	font-size: 0px;
+	width: 0%;
+	height: 0%;
+	font-size: 0rem;
 	color: transparent;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .HAText.open{
-	left: 960px;
-	top: 0px;
-	width: 960px;
-	height: 1080px;
-	font-size: 40px;
+	margin-left: 50%;
+	margin-top: 0%;
+	width: 50%;
+	height: 100%;
+	font-size: 3.33rem;
 	color: #ffffff;
 	line-height: 2;
 }
 .view3{
-	width: 1920px;
-	height: 100%;
+	position: absolute;
+	z-index: 6;
+	margin-left: 0%;
+	margin-top: 112%;
+	width: 100%;
+	padding-bottom: 56%;
+	overflow: hidden;
 }
 .bg3{
 	position: absolute;
-	z-index: 10;
-	left: 0px;
-	top: 2160px;
+	z-index: 0;
+	margin-left: 0%;
+	margin-top: 112%;
 }
 .references{
 	position: absolute;
-	z-index: 21;
-	font-size: 60px;
-	top: 2313px;
-	left: 822px;
-	width: 240px;
-	height: 89px;
-	text-align: left;
+	z-index: 1;
+	font-size: 5rem;
+	margin-top: 8%;
+	margin-left: 0%;
+	width: 100%;
+	text-align: center;
 	letter-spacing: 0px;
 	color: #FFFFFF;
 	text-shadow: 2px 3px 6px #FFFFFF22;
@@ -695,19 +703,19 @@ button{
 .rectangle{
 	position: absolute;
 	background-color: transparent;
-	z-index: 21;
-	top: 2418px;
-	left: 162px;
-	width: 1593px;
-	height: 667px;
+	z-index: 1;
+	margin-top: 15%;
+	margin-left: 8.44%;
+	width: 83%;
+	height: 62%;
 	border: 1px solid #D1D9E4;
 	opacity: 1;
 }
 .Part1{
 	position: absolute;
-	left: 0px;
-	width: 531px;
-	height: 100%;
+	margin-left: 0%;
+	width: 33.3%;
+	padding-bottom: 40%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -716,8 +724,8 @@ button{
 }
 .UnderSky{
 	position: absolute;
-	top: 20%;
-	font-size: 24px;
+	margin-top: 35%;
+	font-size: 2rem;
 
 }
 
@@ -725,10 +733,9 @@ button{
 
 .Part2{
 	position: absolute;
-	top: 0px;
-	left: 531px;
-	width: 531px;
-	height: 100%;
+	margin-left: 33.3%;
+	width: 33.3%;
+	padding-bottom: 40%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -737,16 +744,15 @@ button{
 }
 .FutureLab{
 	position: absolute;
-	top: 20%;
-	font-size: 24px;
+	margin-top: 40%;
+	font-size: 2rem;
 }
 
 .Part3{
 	position: absolute;
-	left: 1062px;
-	top: 0px;
-	width: 531px;
-	height: 667px;
+	margin-left: 66.6%;
+	width: 33.3%;
+	padding-bottom: 40%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -756,6 +762,48 @@ button{
 }
 .HEHO{
 	position: absolute;
-	top: 20%;
-	font-size: 24px;
+	margin-top: 40%;
+	font-size: 2rem;
+}
+
+@media (min-width: 1280px) and (max-width: 1500px){
+	
+	html{
+		font-size: 8px;
+	}
+	
+}
+
+@media (min-width: 960px) and (max-width: 1280px){
+	
+	html{
+		font-size: 6px;
+	}
+	
+}
+@media (min-width: 600px) and (max-width: 960px){
+	
+	
+	html{
+		font-size: 4px;
+	}
+	
+	
+}
+
+@media (min-width: 376px) and (max-width: 600px){
+	
+	
+	html{
+		font-size: 2px;
+	}
+	
+}
+
+@media (min-width: 100px) and (max-width: 375px){
+	
+	html{
+		font-size: 1px;
+	}
+		
 }
