@@ -83,9 +83,9 @@ video{
 	background: linear-gradient(90deg, #FFDE6D 10%, transparent 70%);
   	transform-origin: left;
   	
-	/*animation: rotate 12s infinite linear;
+	animation: rotate 12s infinite linear;
   	display: flex;
-  	justify-content: flex-end;*/
+  	justify-content: flex-end;
 }
 /*.Torch  origin{
 	position: absolute;
@@ -155,11 +155,11 @@ video{
 .Torch2 {
 	position: absolute;
 	z-index: 1;
-	left: 1560px;
-	top: 240px;
+	margin-left: 81.25%;
+	margin-top: 12.5%;
 	opacity: 0.25;
-  	width: 800px;
-  	height: 80px;
+  	width: 41.67%;
+  	height: 2.5%;
 	clip-path: polygon(0 45%, 100% 0, 100% 100%, 0 65%);
 	background: linear-gradient(90deg, #FFDE6D 10%, transparent 70%);
   	transform-origin: left;
@@ -223,9 +223,10 @@ video{
 }
 .Halo{
 	position: absolute;
-	z-index: 3;
-	left: 6px;
-	top: 363px;
+	z-index: 4;
+	margin-left: 0.032%;
+	margin-top: 19%;
+	width: 99.6%;
   	animation: H1 12s infinite linear;
 
 }
@@ -683,7 +684,7 @@ button{
 }
 .bg3{
 	position: absolute;
-	z-index: 0;
+	z-index: 5;
 	margin-left: 0%;
 	margin-top: 112%;
 }
