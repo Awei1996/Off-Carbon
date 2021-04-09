@@ -14,26 +14,48 @@
 	
 	</script>
 
-	<script>
-		$(function(){
-			$('#dowebok').fullpage({
-				afterLoad(_, index) {
-					if (index === 1) {
-					  return
-					}
-
-					const $section = $('.section').eq(index - 1)
-					$section.find('[data-aos]').addClass('aos-animate')
-			  	},
-			});
-		});
-	</script>
+	
 
 </head>
 
 <body>
 	<div id="dowebok">
 		<div class="section">
+			<div class="LoadingAnimate">
+				<div class="loadingwrap">
+					<div class="circle"> </div>
+					<div class="circle"> </div>
+					<div class="circle"> </div>
+					<div class="shadow"> </div>
+					<div class="shadow"> </div>
+					<div class="shadow"> </div>
+					<div class="l-word">						
+						<div class="CountTo100"></div>				
+					</div>
+    			</div>
+			</div>
+			<div class="myBtn" onclick="topFunction()" id="myBtn">
+							
+			</div>
+			<span class="AllCross" onclick="topFunction()" >
+				<span class="Cross1"></span>
+				<span class="Cross2"></span>
+				<span class="Cross3"></span>
+			</span>
+			<span class="MenuContent">
+				<a class="MenuBtn" href="../../index.html" style="text-decoration: none; ">成因</a>
+					<br>
+				<a class="MenuBtn" href="../AttackPage/AttackPage.html" style="text-decoration: none">威脅</a>
+					<br>
+				<a class="MenuBtn" href="../ConvertPage/ConvertPage.html" style="text-decoration: none">換算</a>
+					<br>
+				<a class="MenuBtn" href="../WayPage/WayPage.html" style="text-decoration: none ">方法</a>
+					<br>
+				<a class="MenuBtn" href="../MonitorPage/MonitorPage.html" style="text-decoration: none">環境監測儀</a>
+					<br>
+				<a class="MenuBtn Ab" href="../AboutUsPage/AboutUsPage.html" style="text-decoration: none ; ">關於我們</a>	
+					
+			</span>	
 			<div class="view1">
 				
 
@@ -71,9 +93,8 @@
 							<p>減碳方式 - 食衣篇</p>
 						</div>
 						<div class="FAVideo">
-                      		<video width="800" height="450" controls="controls" >
-                        		<source src="../../webpng/WayPage/食衣篇.mp4" type="video/mp4">
-                      		</video>
+                      		<iframe width="800" height="450" src="https://www.youtube.com/embed/lccX21j0LcM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+							</iframe>
                     	</div>
 						<div class="FAText">
 							<p>1．自己種植蔬果<br>2．購買本地的當季產品<br>3．使用冰箱減少開門的次數以及時間<br>4．洗衣多利用自然晾乾<br>5．淘汰衣物的布料重新使用</p>
@@ -92,9 +113,8 @@
 							<p>減碳方式 - 住行篇</p>
 						</div>
 						<div class="LAVideo">
-                      		<video width="800" height="450" controls="controls" >
-                        		<source src="../../webpng/WayPage/住行篇.mp4" type="video/mp4">
-                      		</video>
+                      		<iframe width="800" height="450" src="https://www.youtube.com/embed/UC48HCVwjvo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+							</iframe>
                     	</div>
 						<div class="LAText">
 							<p>1．多開窗戶，少開冷氣<br>2．拔插頭省能源<br>3．減少垃圾，做好資源回收<br>4．諮詢能源醫生<br>5．使用環境監測儀<br>6．聰明開車</p>
@@ -108,9 +128,8 @@
 							<p>減碳方式 - 育樂篇</p>
 						</div>
 						<div class="HAVideo">
-                      		<video width="800" height="450" controls="controls" >
-                        		<source src="../../webpng/WayPage/育樂篇.mp4" type="video/mp4">
-                      		</video>
+                      		<iframe width="800" height="450" src="https://www.youtube.com/embed/EgSolFiBmWc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+							</iframe>
                     	</div>
 						<div class="HAText">
 							<p>1．在家中養一些小植物<br>2．在國內多搭乘大眾交通工具，出國搭乘直飛航班<br>3．舉辦跳蚤市場，實現循環經濟<br>4．自備環保袋與環保餐具，減少一次性餐具使用<br>5．使用電子繳費服務，減少紙本帳單列印</p>
@@ -177,6 +196,8 @@
 	
 	<script src="pullupcard.js"></script>
 	<script src="aos.js"></script>
+	<script src="LoadingAnimation.jquery.min.js"></script>	
+	<script src="littleMenu.js"></script>
 	<script>
 		AOS.init({
 			easing:'ease-in-out-sine'
