@@ -19,12 +19,12 @@
 			'navigationTooltips': [],
 			'slidesNavigation': false,
 			'slidesNavPosition': 'bottom',
-			'scrollBar': true,
+			'scrollBar': false,
 
 			//scrolling
 			'css3': true,
 			'scrollingSpeed': 700,
-			'autoScrolling': false,
+			'autoScrolling': true,
 			'easing': 'easeInQuart',
 			'easingcss3': 'ease',
 			'loopBottom': false,

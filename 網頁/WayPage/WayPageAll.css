@@ -433,13 +433,14 @@ iframe{
 }
 .Shine{
 	position: absolute;
-	z-index: 2;
-	left: 0px;
-	top: 0px;
-	width: 1920px;
-	height: 2160px;
+	z-index: 10;
+	margin-left: 0%;
+	margin-top: 0%;
+	width: 100%;
+	height: 100%;
 	background: linear-gradient(0deg, transparent 35%, #FFDE6D 65%);
 	animation: S1 12s infinite linear;
+	border: solid 5px green;
 }
 @keyframes S1 {
   	0% {opacity: 0;}
@@ -573,6 +574,7 @@ button{
 	padding-bottom: 56%;
 	overflow: hidden;
 }
+
 .bg2{
 	position: absolute;
 	z-index: 0;
@@ -588,7 +590,7 @@ button{
 	height: 36.11%;
 	border-radius: 5%;
 	color: transparent;
-	font-size: 100px;
+	font-size: 8.33rem;
 	background-color: #0C617B;
 	display: flex;
 	align-items: center;
@@ -666,6 +668,7 @@ button{
 	width: 41.67%;
 	height: 41.67%;
 	border-radius: 5%;
+	border: solid 2px red;
 
 }
 .FAText{
@@ -694,7 +697,7 @@ button{
 	margin-left: 2.6%;
 	margin-top: 1.2%;
 	width: 3.75%;
-	height: 78px;
+	
 	opacity: 0;
 }
 .LifeAnimation{
@@ -1039,6 +1042,24 @@ button{
 	html{
 		font-size: 2px;
 	}
+	.FoodAnimation.open{
+		position: fixed;
+		margin-left: 0%;
+		margin-top: -56%;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(12,97,123,0);
+
+	}
+	.FAVideo.open{
+		margin-left: -45%;
+		margin-top: 0%;
+		width: 41.67%;
+		height: 13.89%;
+		border-radius: 5%;
+		border: solid 2px red;
+
+	}
 	
 }
 
@@ -1047,5 +1068,22 @@ button{
 	html{
 		font-size: 1px;
 	}
-		
+	.FoodAnimation.open{
+		position: fixed;
+		margin-left: 0%;
+		margin-top: -56%;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(12,97,123,0);
+
+	}
+	.FAVideo.open{
+		margin-left: -45%;
+		margin-top: 0%;
+		width: 41.67%;
+		height: 13.89%;
+		border-radius: 5%;
+		border: solid 2px red;
+
+	}
 }

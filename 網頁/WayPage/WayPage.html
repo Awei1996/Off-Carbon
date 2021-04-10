@@ -7,13 +7,28 @@
 	<link href="WayPageAll.css" rel="stylesheet" type="text/css">
 	<link href="aos.css" rel="stylesheet" type="text/css">
 	<script src="jquery-1.8.3.min.js"></script>
+	<script src="jquery.fullPage.min.js"></script>
+	<script src="jquery.fullPage.js"></script>
 	<script>
 		AOS.init({
 			easing:'ease-in-out-sine'
 		});
 	
 	</script>
+	<script>
+		$(function(){
+			$('#dowebok').fullpage({
+				afterLoad(_, index) {
+					if (index === 1) {
+					  return
+					}
 
+					const $section = $('.section').eq(index - 1)
+					$section.find('[data-aos]').addClass('aos-animate')
+			  	},
+			});
+		});
+	</script>
 	
 
 </head>
@@ -93,7 +108,7 @@
 							<p>減碳方式 - 食衣篇</p>
 						</div>
 						<div class="FAVideo">
-                      		<iframe width="800" height="450" src="https://www.youtube.com/embed/lccX21j0LcM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                      		<iframe width="100%"  src="https://www.youtube.com/embed/lccX21j0LcM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 							</iframe>
                     	</div>
 						<div class="FAText">
@@ -113,7 +128,7 @@
 							<p>減碳方式 - 住行篇</p>
 						</div>
 						<div class="LAVideo">
-                      		<iframe width="800" height="450" src="https://www.youtube.com/embed/UC48HCVwjvo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                      		<iframe width="100%"  src="https://www.youtube.com/embed/UC48HCVwjvo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 							</iframe>
                     	</div>
 						<div class="LAText">
@@ -128,7 +143,7 @@
 							<p>減碳方式 - 育樂篇</p>
 						</div>
 						<div class="HAVideo">
-                      		<iframe width="800" height="450" src="https://www.youtube.com/embed/EgSolFiBmWc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                      		<iframe width="100%"  src="https://www.youtube.com/embed/EgSolFiBmWc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 							</iframe>
                     	</div>
 						<div class="HAText">
