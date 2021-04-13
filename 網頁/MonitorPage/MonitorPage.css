@@ -5,64 +5,275 @@
 
 }
 html{
-	overflow: hidden;
+	overflow-x: hidden;
+	font-size: 12px;
 	font-family: Gen Jyuu Gothic ;
 	scroll-behavior: smooth;
 
-
 }
 body{
-	overflow-x: hidden;
 	font-family: Gen Jyuu Gothic ;
 	margin: 0;
     padding: 0;
     border: 0;
     display: block;
-    width: 1920px;
-    height: 100%;
-	overflow: hidden;
+    width: 100%;
+    height: 800%;
+	overflow-x: hidden;
 
+}
+.myBtn {
+  	
+  	position: fixed; /* Fixed/sticky position */
+  	margin-top: 2%; /* Place the button at the bottom of the page */
+  	margin-left: 92.5%; /* Place the button 30px from the right */
+  	z-index: 99; /* Make sure it does not overlap */
+	width: 5%;
+	padding-bottom: 5%;
+	border-radius: 50%;
+  	border: none; /* Remove borders */
+  	outline: none; /* Remove outline */
+  	background-color: #fff; /* Set a background color */
+	opacity: 0;
+  
+	transition: background-color 200ms,transform 1s; 
+	
+	
+}
+
+.myBtn.open{
+	background-color: #f0a550;
+	transform: scale(120);
+	user-select: none;	
+	
+}
+
+
+
+.MenuContent{
+	z-index: 0;
+	position: fixed;
+	margin-left: 45%;
+	margin-top: 5%;
+	width: 40%;
+	padding-bottom: 30%;
+	opacity: 0;
+	text-align: right;
+	transition: 1s;
+}
+.MenuContent.open{
+	
+	opacity: 1;
+}
+.MenuBtn{
+	
+	font-size: 7.5rem;
+	font-weight: bolder;
+	color: #CE7E24;
+	-webkit-text-size-adjust:none;
+	
+	
+}
+.MenuBtn:hover{
+	color: #184557;
+	
+}
+
+.Ab{
+	font-size: 6rem;
+}
+.AllCross{
+	position: fixed;
+	z-index: 100;
+	width: 5%;
+	padding-bottom: 5%;
+	margin-left: 92.5%;
+	margin-top: 2%;
+	border-radius: 50%;
+	opacity: 0;
+	
+	
+}
+.Cross1{
+	position: fixed;
+	z-index: 40;
+	margin-top: 1.7%;
+	margin-left: 1.125%;
+	width: 2.6%;
+	padding-bottom: 0.25%;
+	border-radius: 3px 3px 3px 3px;
+	background-color: #296177;
+	box-shadow: 0px 3px 6px #00000029;
+	transition: 0.5s; 
+
+}
+.Cross1.open{
+	margin-top: 2.3%;
+	transform: rotate(45deg);
+}
+.Cross2{
+	position: fixed;	
+	margin-top: 2.3%;
+	margin-left: 1.125%;
+	width: 2.6%;
+	padding-bottom: 0.25%;
+	border-radius: 3px 3px 3px 3px;
+	background-color: #296177;
+	box-shadow: 0px 3px 6px #00000029;
+	transition: 0.5s; 
+}
+.Cross2.open{
+	opacity: 0;
+}
+.Cross3{
+	position: fixed;	
+	margin-top: 2.9%;
+	margin-left: 1.125%;
+	width: 2.6%;
+	padding-bottom: 0.25%;
+	border-radius: 3px 3px 3px 3px;
+	background-color: #296177;
+	box-shadow: 0px 3px 6px #00000029;
+	transition: 0.5s; 
+}
+.Cross3.open{
+	margin-top: 2.3%;
+	transform: rotate(-45deg);
+}
+
+.LoadingAnimate{
+	position: fixed;
+	z-index: 20;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	padding-bottom: 56%;
+	background-color: #fff;
+	
+}
+
+.loadingwrap {
+    width: 100%;
+    height: 100vh; 
+    position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+
+.l-word {
+    position: absolute;
+    top: 55%;
+    font-size: 28px;
+    letter-spacing: 12px;
+	text-align: center;
+   
+}
+
+.circle {
+    width: 1%;
+    left: 45%;
+    top: 45%; 
+    background-color: #999;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    transform-origin: 50%;
+    animation: circle .5s alternate infinite ease ;
+	animation-delay: 0.5s;		
+}
+
+
+
+.circle:nth-child(2) {
+    left: 50%;
+    animation-delay: .2s
+}
+
+.circle:nth-child(3) {
+    left: 55%;
+    animation-delay: .3s
+}
+
+@keyframes circle {
+    0% {
+        top: 45%;
+        height: 5px;
+        border-radius: 50px 50px 25px 25px;
+        transform: scaleX(1.7);
+    }
+    40% {
+        height: 20px;
+        border-radius: 50%;
+        transform: scaleX(1);
+    }
+    100% {
+        top: 30%;
+    }
+}
+
+.shadow {
+    width: 20px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, .125);
+    position: absolute;
+    top: 60px;
+    animation: shadow .5s alternate infinite ease;
+}
+
+
+
+.shadow:nth-child(4) {
+    left: 35%;
+    animation-delay: .2s
+}
+
+.shadow:nth-child(5) {
+    left: 70%;
+    animation-delay: .3s
+}
+
+@keyframes shadow {
+    0% {
+        transform: scaleX(1.5);
+    }
+    40% {
+        transform: scaleX(1);
+        opacity: .7;
+    }
+    100% {
+        transform: scaleX(.2);
+        opacity: .4;
+    }
+}
+
+.CountTo100{
+	color: #000;
+	width: 500px;
+	height: 100px;
+	font-size: 32px;
 }
 
 .allpg{
 	font-family: Gen Jyuu Gothic ;
 	font-weight: normal;
-	width: 1920px;
+	width: 100%;
 	overflow: hidden;
 }
-#myBtn {
-  	
-  	position: fixed; /* Fixed/sticky position */
-  	bottom: 20px; /* Place the button at the bottom of the page */
-  	right: 30px; /* Place the button 30px from the right */
-  	z-index: 99; /* Make sure it does not overlap */
-	width: 80px;
-	height: 60px;
-  	border: none; /* Remove borders */
-  	outline: none; /* Remove outline */
-  	background-color: #333; /* Set a background color */
-	opacity: 0;
-  	cursor: pointer; /* Add a mouse pointer on hover */
-  	padding: 15px; /* Some padding */
-  	border-radius: 10px; /* Rounded corners */
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-#myBtn:hover {
-  -webkit-filter:brightness(1.2); /* Add a dark-grey background on hover */
-}
-
-
 
 
 .bar{
 	position: absolute;
-	z-index: 3;
-	font-size: 28px;
-	left: 535px;
-	top: 40px;
+	z-index: 2;
+	font-size: 2.33rem;
+	margin-left: 27.86%;
+	margin-top: 2%;
+	font-weight: normal;
+	-webkit-text-size-adjust:none;
 	
 }
 
@@ -79,57 +290,59 @@ button{
 }
 
 .view1{
-	width: 1920px;
-	height: 100%;
+	position: absolute;
+	z-index: 5;
+	margin-left: 0%;
+	margin-top: 0%;
+	width: 100%;
+	padding-bottom: 56%;
 	overflow: hidden;
 }
 .bg1{
 	position: absolute;
-	width: 1920px;
-	height: 100%;
-	z-index: 0;
-	left: 0px;
-	top: 0px;
-	overflow: hidden;
-
+	z-index: 1;
+	width: 100%;
+	padding-bottom: 56%;
+	margin-left: 0%;
+	margin-top: 0%;
+	
 }
 .P1-1{
 	position: absolute;
-	left: 0px;
-	top: 0px;
+	margin-left: 0%;
+	margin-top: 0%;
 	transition: 1s;
 }
 .P1-1.left{
 	position: absolute;
-	left: -1920px;
-	top: 0px;
+	margin-left: -100%;
 }
 
 .P1-1Title{
 	position: absolute;
-	z-index: 1;
-	left: 500px;
-	width: 1920px;
-	height: 0px;
-	top: 0px;
+	z-index: 3;
+	margin-left: 26.04%;
+	width: 100%;
+	margin-top: 0%;
 	color: #162D38;
-	font-size: 256px;
+	font-size: 21.33rem;
 
 }
 .P1-1sub{
 	position: absolute;
 	z-index: 1;
-	top: 350px;
-	left: 400px;
-	font-size: 96px;
+	width: 100%;
+	margin-top: -28%;
+	margin-left: 20.83%;
+	font-size: 8rem;
 }
 .P1-1Arrow{
 	position: absolute;
-	z-index: 2;
-	top: 0px;
-	right: 0px;
-	width: 150px;
-	height: 1080px;
+	z-index: 4;
+	margin-top: 0%;
+	margin-left: 92.19%;
+	width: 7.81%;
+	height: 100%;
 	background-color: transparent;
 	display: flex;
 	align-items: center;
@@ -142,20 +355,22 @@ button{
 }
 .Arrow1{
 	position: absolute;
-	top: 400px;
+	width: 38.67%;
+	margin-top: 0%;
 	opacity: 0.8;
 	animation: A1 2s infinite;
 	
 }
 @keyframes A1{
-	0%{left: 40px; opacity: 0.8;}
-	100%{left: 80px; opacity: 1;}
+	0%{margin-left: 20%; opacity: 0.8;}
+	100%{margin-left: 55%; opacity: 1;}
 }
 .P1-2{
 	position: absolute;
-	z-index: 1;
-	left: 1920px;
-	top: 0px;
+	z-index: 5;
+	margin-left: 100%;
+	width: 100%;
+	margin-top: 0%;
 	transition: 1s;
 	display: flex;
 	align-items: center;
@@ -163,38 +378,38 @@ button{
 }
 .P1-2.left{
 	
-	left: 0px;
-	top: 0px;
+	margin-left: 0%;
+	margin-top: 0%;
 	
 }
 .P1-2.two{
 	position: absolute;
-	left: -1920px;
-	top: 0px;
+	margin-left: -100%;
+	margin-top: 0%;
 }
 
 .P1-2.right{
 	
-	left: 1920px;
-	top: 0px;
+	margin-left: 100%;
+	margin-top: 0%;
 	
 }
 .P1-2Title{
 	position: absolute;
-	top: 700px;
+	margin-top: 35%;
+	width: 100%;
 	z-index: 1;
-	font-size: 48px;
+	font-size: 4rem;
 	font-weight: normal;
 	color: #fff;
 	text-align: center;
 }
 .P1-2ArrowL{
 	position: absolute;
-	z-index: 2;
-	top: 500px;
-	left: 0px;	
-	width: 96px;
-	height: 104px;
+	z-index: 6;
+	margin-top: 0%;
+	margin-left: -92.5%;	
+	width: 5%;
 	background-color: transparent;
 	display: flex;
 	align-items: center;
@@ -204,8 +419,9 @@ button{
 .P1-2ArrowR{
 	position: absolute;
 	z-index: 2;
-	top: 500px;
-	right: 0px;
+	margin-top: 0%;
+	margin-left: 95%;
+	width: 5%;
 	background-color: transparent;
 	display: flex;
 	align-items: center;
@@ -214,9 +430,10 @@ button{
 
 .P1-3{
 	position: absolute;
-	z-index: 2;
-	left: 1920px;
-	top: 0px;
+	z-index: 5;
+	margin-left: 100%;
+	width: 100%;
+	margin-top: 0%;
 	transition: 1s;
 	display: flex;
 	align-items: center;
@@ -224,51 +441,53 @@ button{
 }
 .P1-3.left{
 	
-	left: 0px;
-	top: 0px;
+	margin-left: 0%;
+	margin-top: 0%;
 	
 }
 .P1-3.two{
 	
-	left: -1920px;
-	top: 0px;
+	position: absolute;
+	width: 100%;
+	margin-left: -100%;
+	margin-top: 0%;
 	
 }
 .P1-3.right{
 	
-	left: 1920px;
-	top: 0px;
+	margin-left: 100%;
+	margin-top: 0%;
 	
 }
-.P1-3Title{
+.P1-3Title{	
+	z-index: 6;
 	position: absolute;
-	z-index: 2;
-	left: 200px;
-	width: 1920px;
-	height: 0px;
-	top: 280px;
+	margin-top: -7.5%;
+	margin-left: 0%;
+	width: 80%;
+	font-size: 4rem;
 	color: #162D38;
-	font-size: 48px;
+	text-align: left;
 	font-weight: 500;
 
 }
 .P1-3sub{
 	position: absolute;
-	z-index: 2;
-	left: 200px;
-	top: 700px;
-	font-size: 48px;
+	z-index: 1;
+	margin-left: 0%;
+	margin-top: 32.5%;
+	width: 80%;
+	font-size: 4rem;
 	color: #fff;
 }
 
 
 .P1-3ArrowL{
 	position: absolute;
-	z-index: 2;
-	top: 500px;
-	left: 0px;	
-	width: 96px;
-	height: 104px;
+	z-index: 6;
+	margin-top: 0%;
+	margin-left: -92.5%;	
+	width: 5%;
 	background-color: transparent;
 	display: flex;
 	align-items: center;
@@ -278,8 +497,9 @@ button{
 .P1-3ArrowR{
 	position: absolute;
 	z-index: 2;
-	top: 500px;
-	right: 0px;
+	margin-top: 0%;
+	margin-left: 95%;
+	width: 5%;
 	background-color: transparent;
 	display: flex;
 	align-items: center;
@@ -288,9 +508,10 @@ button{
 
 .P1-4{
 	position: absolute;
-	z-index: 3;
-	left: 1920px;
-	top: 0px;
+	z-index: 5;
+	margin-left: 100%;
+	width: 100%;
+	margin-top: 0%;
 	transition: 1s;
 	display: flex;
 	align-items: center;
@@ -298,47 +519,46 @@ button{
 }
 .P1-4.left{
 	
-	left: 0px;
-	top: 0px;
+	margin-left: 0%;
+	margin-top: 0%;
 	
 }
 
 .P1-4.right{
 	
-	left: 1920px;
-	top: 0px;
+	margin-left: 100%;
+	margin-top: 0%;
 	
 }
 .P1-4Title{
 	position: absolute;
-	z-index: 3;
-	left: 200px;
-	width: 1920px;
-	height: 0px;
-	top: 200px;
+	z-index: 2;
+	margin-left: 0%;
+	width: 80%;
+	margin-top: -12.5%;
 	color: #fff;
-	font-size: 64px;
+	font-size: 5.33rem;
 	font-weight: 500;
 	line-height: 1.2;
 
 }
 .P1-4sub{
 	position: absolute;
-	z-index: 3;
-	left: 200px;
-	top: 540px;
-	font-size: 48px;
+	z-index: 1;
+	margin-left: 0%;
+	width: 80%;
+	margin-top: 20%;
+	font-size: 4rem;
 	color: #fff;
 	line-height: 1.4;
 
 }
 .P1-4ArrowL{
 	position: absolute;
-	z-index: 3;
-	top: 500px;
-	left: 0px;	
-	width: 96px;
-	height: 104px;
+	z-index: 6;
+	margin-top: 0%;
+	margin-left: -92.5%;	
+	width: 5%;
 	background-color: transparent;
 	display: flex;
 	align-items: center;
@@ -347,38 +567,43 @@ button{
 .ArrowDown{
 	position: absolute;
 	z-index: 9;
-	top: 1000px;
-	left: 1800px;
+	margin-top: 45%;
+	margin-left: 90%;
+	width: 6.41%;
 	opacity: 1;
 	animation: a1 1s infinite ease-in;
 }
 
 @keyframes a1{
-	0%{top: 1000px;}
-	100%{top: 1040px;}
+	0%{margin-top: 45%;}
+	100%{margin-top: 50%;}
 }
 
 .view2{
-	width: 1920px;
-	height: 100%;
-	
+	position: absolute;
+	margin-left: 0%;
+	margin-top: 56%;
+	width: 100%;
+	padding-bottom: 56%;
+	display: flex;
+	justify-content: center;
 	overflow: hidden;
 }
 .bg2{
 	position: absolute;
+	width: 100%;
 	z-index: 0;
-	left: 0px;
-	top: 1080px;
+	margin-left: 0%;
+	margin-top: 0%;
 	
 }
 .P2Title{
 	position: absolute;
 	z-index: 2;
-	width: 1920px;
-	height: 0px;
-	top: 1400px;
+	width: 100%;
+	margin-top: 5%;
 	color: #fff;
-	font-size: 56px;
+	font-size: 4.67rem;
 	line-height: 2;
 	display: flex;
 	align-items: center;
@@ -389,37 +614,39 @@ button{
 .P2sub{
 	position: absolute;
 	z-index: 1;
-	top: 100px;
-	font-size: 96px;
+	margin-top: 30%;
+	font-size: 8rem;
 	color: #E68D33;
 	text-align: center;
 }
 .P2Arrow{
 	position: absolute;
 	z-index: 5;
-	left: 860px;
-	top: 1980px;
-	width: 200px;
-	height: 200px;
+	margin-top: 40%;
+	width: 10.42%;
+	height: 18.52%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .P2A1{
 	position: absolute;
-	top: 25px;
+	margin-top: 15%;
+	width: 43.5%;
 	opacity: 0;
 	animation: A2 1s infinite;
 }
 .P2A2{
 	position: absolute;
-	top: 50px;
+	margin-top: 40%;
+	width: 61.5%;
 	opacity: 0;
 	animation: A3 1s infinite;
 }
 .P2A3{
 	position: absolute;
-	top: 80px;
+	margin-top: 70%;
+	width: 85.2%;
 	opacity: 0;
 	animation: A4 1s infinite;
 }
@@ -439,130 +666,197 @@ button{
 	100%{opacity: 1;}
 }
 .view3{
-	width: 1920px;
-	height: 100%;
+	position: absolute;
+	margin-left: 0%;
+	margin-top: 112%;
+	width: 100%;
+	padding-bottom: 56%;
+	
 }
 .bg3{
 	position: absolute;
 	z-index: 15;
-	left: 0px;
-	top: 2160px;
+	margin-left: 0%;
+	margin-top: 0%;
 }
 
 .view4{
-	width: 1920px;
-	height: 100%;
+	position: absolute;
+	margin-left: 0%;
+	margin-top: 168%;
+	width: 100%;
+	padding-bottom: 56%;
+	display: flex;
+	
+	justify-content: center;
 }
 .bg4{
 	position: absolute;
 	z-index: 20;
-	left: 0px;
-	top: 3240px;
+	margin-left: 0%;
+	margin-top: 0%;
+	
 }
 .P4Title{
 	position: absolute;
 	z-index: 21;
-	width: 1920px;
-	height: 0px;
-	left: 200px;
-	top: 3500px;
+	width: 80%;
+	margin-left: 0%;
+	margin-top: 12.5%;
 	color: #032E1F;
-	font-size: 64px;
-	font-weight: 500px;
+	font-size:5.33rem;
+	font-weight: 500;
 	line-height: 1.5;
 	
 
 }
 
 .view5{
-	width: 1920px;
-	height: 100%;
+	position: absolute;
+	margin-left: 0%;
+	margin-top: 224%;
+	width: 100%;
+	padding-bottom: 56%;
+	display: flex;
+	justify-content: center;
 }
 .bg5{
 	position: absolute;
 	z-index: 25;
-	left: 0px;
-	top: 4320px;
+	margin-left: 0%;
+	margin-top: 0%;
 }
 .P5Title{
 	position: absolute;
 	z-index: 26;
-	width: 1920px;
-	height: 0px;
-	left: 800px;
-	top: 4580px;
+	width: 50%;
+	margin-left: 40%;
+	margin-top: 12.5%;
 	color: #032E1F;
-	font-size: 72px;
-	font-weight: 500px;
+	font-size: 6rem;
+	font-weight: 500;
 	line-height: 1.5;
 	
 }
 .view6{
-	width: 1920px;
-	height: 100%;
+	position: absolute;
+	margin-left: 0%;
+	margin-top: 280%;
+	width: 100%;
+	padding-bottom: 56%;
+	display: flex;
+	justify-content: center;
 }
 .bg6{
 	position: absolute;
 	z-index: 30;
-	left: 0px;
-	top: 5400px;
+	margin-left: 0%;
+	margin-top: 0%;
 }
 .P6Title{
 	position: absolute;
 	z-index: 31;
-	width: 1920px;
-	height: 0px;
-	left: 200px;
-	top: 5800px;
+	width: 80%;	
+	margin-top: 20%;
 	color: #032E1F;
-	font-size: 64px;
+	font-size: 5.33rem;
 	font-weight: 500;
 	line-height: 1.5;
 	
 }
 .view7{
-	width: 1920px;
-	height: 100%;
+	position: absolute;
+	margin-left: 0%;
+	margin-top: 336%;
+	width: 100%;
+	padding-bottom: 56%;
+	display: flex;
+	justify-content: center;
 }
 .bg7{
 	position: absolute;
 	z-index: 35;
-	left: 0px;
-	top: 6480px;
+	margin-left: 0%;
+	margin-top: 0%;
 }
 .P7Title{
 	position: absolute;
 	z-index: 36;
-	width: 1920px;
-	height: 0px;
-	left: 350px;
-	top: 7200px;
+	margin-left: 10%;
+	width: 75%;
+	margin-top: 37.5%;
 	color: #032E1F;
-	font-size: 56px;
+	font-size: 4.66rem;
 	font-weight: 500;
 	line-height: 1.5;
 	
 }
 .view8{
-	width: 1920px;
-	height: 100%;
+	position: absolute;
+	margin-left: 0%;
+	margin-top: 392%;
+	width: 100%;
+	padding-bottom: 56%;
+	display: flex;
+	justify-content: center;
 }
 .bg8{
 	position: absolute;
 	z-index: 40;
-	left: 0px;
-	top: 7560px;
+	margin-left: 0%;
+	margin-top: 0%;
 }
 .P8Title{
 	position: absolute;
 	z-index: 41;
-	width: 1920px;
-	height: 0px;
-	left: 250px;
-	top: 8000px;
+	width: 80%;
+	margin-left: 7.5%;
+	margin-top: 25%;
 	color: #032E1F;
-	font-size: 56px;
+	font-size: 4.66rem;
 	font-weight: 500;
 	line-height: 1.5;
+	
+}
+
+@media (min-width: 1280px) and (max-width: 1500px){
+	
+	html{
+		font-size: 8px;
+	}
+	
+}
+
+@media (min-width: 960px) and (max-width: 1280px){
+	
+	html{
+		font-size: 6px;
+	}
+	
+}
+@media (min-width: 600px) and (max-width: 960px){
+	
+	
+	html{
+		font-size: 4px;
+	}
+	
+	
+}
+
+@media (min-width: 376px) and (max-width: 600px){
+	
+	
+	html{
+		font-size: 2px;
+	}
+	
+}
+
+@media (min-width: 100px) and (max-width: 375px){
+	
+	html{
+		font-size: 1px;
+	}
 	
 }
