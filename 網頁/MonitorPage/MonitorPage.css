@@ -530,29 +530,7 @@ button{
 	margin-top: 0%;
 	
 }
-.P1-4Title{
-	position: absolute;
-	z-index: 2;
-	margin-left: 0%;
-	width: 80%;
-	margin-top: -12.5%;
-	color: #fff;
-	font-size: 5.33rem;
-	font-weight: 500;
-	line-height: 1.2;
 
-}
-.P1-4sub{
-	position: absolute;
-	z-index: 1;
-	margin-left: 0%;
-	width: 80%;
-	margin-top: 20%;
-	font-size: 4rem;
-	color: #fff;
-	line-height: 1.4;
-
-}
 .P1-4ArrowL{
 	position: absolute;
 	z-index: 6;
