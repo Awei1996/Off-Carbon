@@ -1,21 +1,25 @@
 @charset "utf-8";
 .bg2{
 	position: absolute;
-	z-index: 5;
-	left: 0px;
-	top: 1080px;
+	z-index: -1;
+	left: 0%;
+	width: 100%;
+	opacity: 1;
+	margin-top: 56%;
+	padding-bottom: 56%;
 }
 .SecondFloor{
 	position: absolute;
 	z-index: 7;
-	left: 0px;
-	top: 1080px;
+	margin-left: 0%;
+	margin-top: 0%;	
 }
 .LEDRed{
 	position: absolute;
-	z-index: 6;
-	left: 949px;
-	top: 1225px;
+	z-index: 7;
+	width: 2.81%;
+	margin-left: 49.40%;
+	margin-top: 7.75%;
 	animation: LS;
 	animation-duration: 15s;
 	animation-timing-function: linear;
@@ -25,10 +29,9 @@
 .LightRed{
 	position: absolute;
 	z-index: 6;
-	left: 950px;
-	top: 1210px;
-	width: 50px;
-	height: 50px;
+	margin-left: 49.43%;
+	margin-top: 6.9%;
+	width: 2.81%;
 	background-color: transparent;
 	border-radius: 25px;
 	box-shadow: 0px 10px 20px #FF9733;
@@ -40,12 +43,10 @@
 	
 }
 .LightGreen{
-	position: absolute;
-	z-index: 6;
-	left: 1017px;
-	top: 1210px;
-	width: 50px;
-	height: 50px;
+	z-index: 5;
+	margin-left: 52.48%;
+	margin-top: 6.9%;
+	width: 2.81%;
 	background-color: transparent;
 	border-radius: 25px;
 	box-shadow: 0px 10px 20px #B4DF96;
@@ -54,20 +55,20 @@
 	animation-duration: 15s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
-	animation-delay: 8s;
+	
 	
 }
 .LEDGreen{
 	position: absolute;
-	z-index: 6;
-	left: 1017px;
-	top: 1225px;
-	opacity: 0.5;
+	z-index: 7;
+	margin-left: 52.45%;
+	margin-top: 7.75%;
+	width: 2.81%;
 	animation: LS;
 	animation-duration: 15s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
-	animation-delay: 8s;
+	opacity: 0.5;
 }
 @keyframes LS{
 	0%{opacity: 0.5;}
@@ -79,72 +80,75 @@
 .Conveyor{
 	position: absolute;
 	z-index: 6;
-	left: -760px;
-	top: 1629px;
+	margin-left: -40.2%;
+	margin-top: 21.5%;
+	width: 64.375%;
 }
 .CO2{
 	position: absolute;
 	z-index: 7;
-	left: 82px;
-	top: 1600px;
-	width: 50px;
-	height: 520px;
-	background-size: 49px 52px;
-	overflow: hidden;
+	margin-left: 4.27%;
+	margin-top: 20%;
+	width: 2.8%;
+	background-size: 100%;
 	animation-name: Co21;
 	animation-duration: 28s ;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
+	overflow: hidden;
 }
 @keyframes Co21{
-	0% {left: -100px;}
-	10%{left: 165px; margin-top: 0px;} /*4S*/
-	15%{margin-top: 0px;}
-	25%{left: 165px; margin-top: -250px; } /*10S*/
-	35%{left: 665px; margin-top: -250px; /*background-image: url(../../webpng/Attackpage/logo.png);*/} /*14S*/
-	40%{margin-top: 0px; }/*16S*/
-	45%{left: 665px; margin-top: -250px; /*background-image: url(../../webpng/Attackpage/Logo2.png);*/}/*18S*/
-	55%{left: 1250px; margin-top: -250px;/* background-image: url(../../webpng/Attackpage/Logo2.png);*/} /*22S*/
-	60%{margin-top: 0px; } /*24S*/
-	65%{left: 1250px; margin-top: -250px;/* background-image: url(../../webpng/Attackpage/Logo3.png);*/} /*26s*/
-	70%{left: 1680px; margin-top: -250px;} /*28s*/
-	75%{left: 1680px; margin-top: -10px;} /*30S*/
-	77.5%{left: 1680px; margin-top: -5px;}/*31S*/
-	80%{left: 1680px; margin-top: 210px; opacity: 1;} /*32S*/
-	90%{left: 1920px; margin-top: 210px; opacity: 1;}
-	90.01%{left: 1920px; margin-top: 210px; opacity: 0;}
-	91%{left: -100px; opacity: 0;}
-	100%{left: -100px; opacity: 1; /*background-image: url(../../webpng/Attackpage/Logo3.png);*/}
+	0% {margin-left: -5.2%; margin-top: 20%;}
+	10%{margin-left: 8.59%; } /*4S*/
+	15%{margin-top: 20%;}
+	25%{margin-left: 8.59%; margin-top: 7%; } /*10S*/
+	35%{margin-left: 34.63%; margin-top: 7%; /*background-image: url(../../webpng/Attackpage/logo.png);*/} /*14S*/
+	40%{margin-top: 20%; }/*16S*/
+	45%{margin-left: 34.63%; margin-top: 7%; /*background-image: url(../../webpng/Attackpage/Logo2.png);*/}/*18S*/
+	55%{margin-left: 65.1%; margin-top: 7%;/* background-image: url(../../webpng/Attackpage/Logo2.png);*/} /*22S*/
+	60%{margin-top: 20%; } /*24S*/
+	65%{margin-left: 65.1%; margin-top: 7%;/* background-image: url(../../webpng/Attackpage/Logo3.png);*/} /*26s*/
+	70%{margin-left: 87.5%; margin-top: 7%;} /*28s*/
+	75%{margin-left: 87.5%; margin-top: 20%;} /*30S*/
+	77.5%{margin-left: 87.5%; ; margin-top: 20%;}/*31S*/
+	80%{margin-left: 87.5%;  margin-top: 31.5%; opacity: 1;} /*32S*/
+	90%{margin-left: 100%;  margin-top: 31.5%; opacity: 1;}
+	90.01%{margin-left: 100%;  margin-top: 31.5%; opacity: 0;}
+	91%{margin-left: -5%; ; opacity: 0;}
+	100%{margin-left: -5%; ; opacity: 1; /*background-image: url(../../webpng/Attackpage/Logo3.png);*/}
 }
 .Logo{
-	width: 160px;
-	height: 52px;
+	position: relative;
+	margin-left: 0%;
+	width: 310%;
 	animation-name: Logo1;
 	animation-duration: 28s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
+	display: block;
+
 }
 @keyframes Logo1{
 	
-	35%{margin-left: 0px; /*background-image: url(../../webpng/Attackpage/logo.png);*/} /*14S*/
-	40%{margin-left: 0px; }/*16S*/
-	42%{margin-left: -52px;}
-	45%{margin-left: -52px;  /*background-image: url(../../webpng/Attackpage/Logo2.png);*/}/*18S*/
-	60%{margin-left: -52px;} /*24S*/
-	62%{margin-left: -104px;}
-	65%{margin-left: -104px;/* background-image: url(../../webpng/Attackpage/Logo3.png);*/} /*26s*/
-	70%{margin-left: -104px;} /*28s*/
+	35%{margin-left: 0%; /*background-image: url(../../webpng/Attackpage/logo.png);*/} /*14S*/
+	40%{margin-left: 0%; }/*16S*/
+	42%{margin-left: -107%;}
+	45%{margin-left: -107%;  /*background-image: url(../../webpng/Attackpage/Logo2.png);*/}/*18S*/
+	60%{margin-left: -107%;} /*24S*/
+	62%{margin-left: -214%;}
+	65%{margin-left: -214%;/* background-image: url(../../webpng/Attackpage/Logo3.png);*/} /*26s*/
+	70%{margin-left: -214%;} /*28s*/
 	95%{opacity: 1;}
-	98%{margin-left: -104px; opacity: 0;}
-	100%{margin-left: 0px; opacity: 0; /*background-image: url(../../webpng/Attackpage/Logo3.png);*/}
+	98%{margin-left: -214%; opacity: 0;}
+	100%{margin-left: 0%; opacity: 0; /*background-image: url(../../webpng/Attackpage/Logo3.png);*/}
 }
 .Hand{
 	position: absolute;
-	z-index: 6;
-	left: 100px;
-	top: 1225px;
-	width: 90px;
-	height: 400px;
+	z-index: 7;
+	margin-left: 7.7%;
+	margin-top: 1%;	
+	width: 4.69%;
+	padding-bottom: 20%;
 	overflow: hidden;
 	display: flex;
 	align-items: center;
@@ -156,28 +160,28 @@
 
 }
 @keyframes H1{
-	0% {left: 20px;}
-	10%{left: 145px;}
-	25%{left: 145px;}
-	35%{left: 645px;}
-	45%{left: 645px;}
-	55%{left: 1230px;}
-	65%{left: 1230px;}
-	70%{left: 1660px;}
-	75%{left: 1660px;}
-	85%{left: 1660px;}
-	87%{left: 1660px;}
-	98%{left: 20px;}
-	100%{left: 20px; }
+	0% {margin-left: 1%;}
+	10%{margin-left: 7.7%;}
+	25%{margin-left: 7.7%;}
+	35%{margin-left: 33.8%;}
+	45%{margin-left: 33.8%;}
+	55%{margin-left: 64.26%;}
+	65%{margin-left: 64.26%;}
+	70%{margin-left: 86.66%;}
+	75%{margin-left: 86.66%;}
+	85%{margin-left: 86.66%;}
+	87%{margin-left: 86.66%;}
+	98%{margin-left: 1%;}
+	100%{margin-left: 1%;}
 	
 }
 
 
 .HandBase{
 	position: absolute;
-	z-index: 2;
-	left: 0px;
-	top: 0px;
+	z-index: 3;
+	margin-left: 0%;
+	margin-top: 50%;
 	opacity: 1;
 	
 
@@ -186,7 +190,8 @@
 .HandB{
 	position: absolute;
 	z-index: 1;
-	top: 46px;
+	margin-top: 280%;
+	width: 53.33%;
 	opacity: 1;
 	animation-name: HB; 
 	animation-duration: 28s;
@@ -197,29 +202,29 @@
 }
 @keyframes HB{
 	
-	12.5%{top: 46px;}
-	15%{top: 46px;}
-	25%{top: -86px;}
-	35%{top: -86px;} /*14S*/
-	40%{top: 46px;}/*16S*/
-	45%{top: -86px;}/*18S*/
-	55%{top: -86px;} /*22S*/
-	60%{top: 46px;} /*24S*/
-	65%{top: -86px;} /*26s*/
-	70%{top: -86px;} /*28s*/
-	75%{top: 46px;} /*30S*/
-	77.5%{top: 46px;}/*31S*/
-	80%{top: 46px; } /*32S*/
-	90%{top: -86px;}
-	95%{top: -86px;}
-	100%{top: 46px;}
+	12.5%{margin-top: 280%;}
+	15%{margin-top: 280%;}
+	25%{margin-top: 40%;}
+	35%{margin-top: 40%;} /*14S*/
+	40%{margin-top: 280%;}/*16S*/
+	45%{margin-top: 40%;}/*18S*/
+	55%{margin-top: 40%;} /*22S*/
+	60%{margin-top: 280%;} /*24S*/
+	65%{margin-top: 40%;} /*26s*/
+	70%{margin-top: 40%;} /*28s*/
+	75%{margin-top: 280%;} /*30S*/
+	77.5%{margin-top: 280%;}/*31S*/
+	80%{margin-top: 280%;} /*32S*/
+	90%{margin-top: 40%;}
+	95%{margin-top: 40%;}
+	100%{margin-top: 280%;}
 	
 }
 .HandS{
 	position: absolute;
 	z-index: 0;
-	top: 202px;
-	left: 21px;
+	width: 50%;
+	margin-top: 600%;	
 	opacity: 1;
 	animation-name: HS; 
 	animation-duration: 28s;
@@ -230,29 +235,30 @@
 }
 
 @keyframes HS{
-	12.5%{top: 202px;}
-	15%{top: 212px;}
-	25%{top: -38px;}
-	35%{top: -38px;} /*14S*/
-	40%{top: 202px;}/*16S*/
-	45%{top: -38px;}/*18S*/
-	55%{top: -38px;} /*22S*/
-	60%{top: 202px;} /*24S*/
-	65%{top: -38px;} /*26s*/
-	70%{top: -38px;} /*28s*/
-	75%{top: 207px;} /*30S*/
-	77.5%{top: 212px;}/*31S*/
-	80%{top: 207px; } /*32S*/
-	90%{top: -38px; ;}
-	95%{top: -38px; ;}
-	100%{top: 202px;}
+	12.5%{margin-top: 600%;}
+	15%{margin-top: 610%;}
+	25%{margin-top: 100%;}
+	35%{margin-top: 100%;} /*14S*/
+	40%{margin-top: 600%;}/*16S*/
+	45%{margin-top: 100%;}/*18S*/
+	55%{margin-top: 100%;} /*22S*/
+	60%{margin-top: 600%;} /*24S*/
+	65%{margin-top: 100%;} /*26s*/
+	70%{margin-top: 100%;} /*28s*/
+	75%{margin-top: 605%;} /*30S*/
+	77.5%{margin-top: 610%;}/*31S*/
+	80%{margin-top: 605%;} /*32S*/
+	90%{margin-top: 100%;}
+	95%{margin-top: 100%;}
+	100%{margin-top: 600%;}
 }
 .HandL{
 	position: absolute;
-	z-index: -1;
-	left: -6px;
-	top: 130px;
+	z-index: -2;
+	margin-left: -15%;
+	margin-top: -25%;
 	opacity: 1;
+	
 	animation-name: HL; 
 	animation-duration: 28s;
 	animation-timing-function: linear;
@@ -261,22 +267,23 @@
 
 }
 @keyframes HL{
-	
-	10%{left: -6px;top: 130px; transform: rotate(0deg);}
-	12.5%{left: -16px;top: 128px;transform: rotate(40deg);} 
-	15%{left: -12px;top: 129px;transform: rotate(35deg);} /*14S*/
-	75%{left: -12px;top: 129px;transform: rotate(35deg);}
-	77.5%{left: -16px;top: 128px;transform: rotate(40deg);} 
-	80%{left: -6px;top: 130px; transform: rotate(0deg);}
+	0%{margin-left: -15%; margin-top: -25%; transform: rotate(0deg);}
+	10%{margin-left: -15%; margin-top: -25%; transform: rotate(0deg);}
+	12.5%{margin-left: -25%; margin-top: -45% ;transform: rotate(40deg);} 
+	15%{margin-left: -22.5%; margin-top: -35%; transform: rotate(35deg);} /*14S*/
+	75%{margin-left: -15%; margin-top: -25%; transform: rotate(35deg);}
+	77.5%{margin-left: -22.5%; margin-top: -35% ; transform: rotate(40deg);} 
+	80%{margin-left: -15%; margin-top: -25%; transform: rotate(0deg);}
 
 
 	
 }
 .HandR{
 	position: absolute;
-	z-index: -1;
-	left: 24px;
-	top: 130px;
+	z-index: -3;
+	width: 60%;
+	margin-left: 60%;
+	margin-top: -25%;
 	opacity: 1;
 	animation-name: HR; 
 	animation-duration: 28s;
@@ -286,27 +293,28 @@
 
 }
 @keyframes HR{
-	
-	10%{left: 24px;top: 130px; transform: rotate(0deg);}
-	12.5%{left: 34px;top: 128px;transform: rotate(-40deg);} 
-	15%{left: 30px;top: 129px;transform: rotate(-35deg);} /*14S*/
-	75%{left: 30px;top: 129px;transform: rotate(-35deg);}
-	77.5%{left: 34px;top: 128px;transform: rotate(-40deg);} 
-	80%{left: 24px;top: 130px; transform: rotate(0deg);}
+	0%{margin-left: 60%; margin-top: -25%; transform: rotate(0deg);}
+	10%{margin-left: 60%; margin-top: -25%; transform: rotate(0deg);}
+	12.5%{margin-left: 65%; margin-top: -45%;transform: rotate(-40deg);} 
+	15%{margin-left: 62.5%; margin-top: -35%;transform: rotate(-35deg);} /*14S*/
+	75%{margin-left: 55%; margin-top: -25%;transform: rotate(-35deg);}
+	77.5%{margin-left: 62.5%; margin-top: -35%;transform: rotate(-40deg);} 
+	80%{margin-left: 55%; margin-top: -25%; transform: rotate(0deg);}
 	
 }
 .Machine{
 	position: absolute;
 	z-index: 6;
-	left: 880px;
-	top: 1862px;
+	margin-left: 45.83%;
+	margin-top: 34%;
 }
 .Boxoutside{
 	position: absolute;
 	z-index: 8;
 	background-color: transparent;
-	left: 477px;
-	top: 1438px;
+	margin-left: 24.84%;
+	margin-top: 12%;
+	width: 23.23%;
 	border: none;
 	outline: none;
 	display: flex;
@@ -318,8 +326,8 @@
 	position: absolute;
 	z-index: 9;
 	color: #ffffff;
-	line-height: 40px;
-	font-size: 40px;
+	line-height: 3.3;
+	font-size: 3.3rem;
 	font-weight: bold;
 	
 }
@@ -327,8 +335,9 @@
 	position: absolute;
 	z-index: 8;
 	background-color: transparent;
-	left: 1056px;
-	top: 1437px;
+	margin-left: 55%;
+	margin-top: 12%;
+	width: 23.23%;
 	border: none;
 	outline: none;
 	display: flex;
@@ -341,8 +350,8 @@
 	position: absolute;
 	z-index: 9;
 	color: #ffffff;
-	font-size: 40px;
-	line-height: 40px;
+	line-height: 3.3;
+	font-size: 3.3rem;
 	font-weight: bold;
 	
 	

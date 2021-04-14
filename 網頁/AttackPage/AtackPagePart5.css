@@ -1,44 +1,45 @@
 @charset "utf-8";
 .bg5{
 	position: absolute;
-	z-index: 20;
-	left: 0px;
-	top: 4310px;
+	z-index: 9;
+	left: 0%;
+	width: 100%;
+	margin-top: 224%;
+	padding-bottom: 0%;
+	opacity: 1;
+	
 }
 
 
 .references{
 	position: absolute;
-	z-index: 21;
-	font-size: 60px;
-	top: 4473px;
-	left: 822px;
-	width: 240px;
-	height: 89px;
-	text-align: left;
+	z-index: 1;
+	font-size: 5rem;
+	margin-top: 8%;
+	margin-left: 0%;
+	width: 100%;
+	text-align: center;
 	letter-spacing: 0px;
 	color: #FFFFFF;
+	text-shadow: 2px 3px 6px #FFFFFF22;
 	opacity: 1;
 }
 .rectangle{
 	position: absolute;
 	background-color: transparent;
-	z-index: 21;
-	top: 4578px;
-	left: 162px;
-	width: 1593px;
-	height: 667px;
+	z-index: 1;
+	margin-top: 15%;
+	margin-left: 8.44%;
+	width: 83%;
+	height: 62%;
 	border: 1px solid #D1D9E4;
-	color: #fff;
-	font-size: 26px;
 	opacity: 1;
-	overflow: hidden;
 }
 .Part1{
 	position: absolute;
-	left: 0px;
-	width: 531px;
-	height: 100%;
+	margin-left: 0%;
+	width: 33.3%;
+	padding-bottom: 40%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -47,31 +48,30 @@
 }
 .CO2temp{
 	position: absolute;
-	top: 5%;
-	font-size: 20px;
+	margin-top:  30%;
+	font-size: 1.66rem;
 
 }
 .IceMelting{
 	position: absolute;
-	top: 20%;
-	font-size: 20px;
+	margin-top: 80%;
+	font-size: 1.66rem;
 }
 .HeatWaveinfor{
 	position: absolute;
-	top: 45%;
-	font-size: 20px;
+	margin-top: 130%;
+	font-size: 1.66rem;
 }
 .FireForestinfor{
 	position: absolute;
-	top: 65%;
-	font-size: 20px;
+	margin-top: 180%;
+	font-size: 1.66rem;
 }
 .Part2{
 	position: absolute;
-	top: 0px;
-	left: 531px;
-	width: 531px;
-	height: 100%;
+	margin-left: 33.3%;
+	width: 33.3%;
+	padding-bottom: 40%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -80,31 +80,30 @@
 }
 .Extinction{
 	position: absolute;
-	top: 5%;
-	font-size: 20px;
+	margin-top:  30%;
+	font-size: 1.66rem;
 
 }
 .SeaSour{
 	position: absolute;
-	top: 25%;
-	font-size: 20px;
+	margin-top:  80%;
+	font-size: 1.66rem;
 }
 .ExtremeWeather{
 	position: absolute;
-	top: 45%;
-	font-size: 20px;
+	margin-top:  130%;
+	font-size: 1.66rem;
 }
 .DiseaseRage{
 	position: absolute;
-	top: 65%;
-	font-size: 20px;
+	margin-top:  180%;
+	font-size: 1.66rem;
 }
 .Part3{
 	position: absolute;
-	left: 1062px;
-	top: 0px;
-	width: 531px;
-	height: 667px;
+	margin-left: 66.6%;
+	width: 33.3%;
+	padding-bottom: 40%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -114,16 +113,16 @@
 }
 .FoodLess{
 	position: absolute;
-	top: 5%;
-	font-size: 20px;
+	margin-top:  30%;
+	font-size: 1.66rem;
 }
 .EconomicAffect{
 	position: absolute;
-	top: 25%;
-	font-size: 20px;
+	margin-top:  80%;
+	font-size: 1.66rem;
 }
 .Other{
 	position: absolute;
-	top: 45%;
-	font-size: 20px;
+	margin-top:  130%;
+	font-size: 1.66rem;
 }

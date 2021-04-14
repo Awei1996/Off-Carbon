@@ -1,11 +1,15 @@
 @charset "utf-8";
 @font-face {
 	font-family: Gen Jyuu Gothic ;
-    src: url(../../font/GenJyuuGothic-Normal.ttf);
+    src: url(font/GenJyuuGothic-Normal.ttf) format('truetype');
+	src: url(font/GenJyuuGothic-Bold.ttf) format('truetype');
+	src: url(font/GenJyuuGothic-Bolder.ttf) format('truetype');
 }
 html{
 	scroll-behavior: smooth;
 	font-family: Gen Jyuu Gothic ;
+	font-size: 12px;
+	
 
 }
 body{
@@ -15,44 +19,37 @@ body{
     border: 0;
     display: block;
     width: 100%;
-    height: 100%;
+    height: 500%;
+	overflow-x: hidden;
+	background-color: #000;
+	
+	
+	
 
 }
 
 .allpg{
 	font-family: Gen Jyuu Gothic ;
-	font-weight: normal;
-	width: 1920px;
-}
-#myBtn {
-  	
-  	position: fixed; /* Fixed/sticky position */
-  	bottom: 20px; /* Place the button at the bottom of the page */
-  	right: 30px; /* Place the button 30px from the right */
-  	z-index: 99; /* Make sure it does not overlap */
-	width: 80px;
-	height: 60px;
-  	border: none; /* Remove borders */
-  	outline: none; /* Remove outline */
-  	background-color: #333; /* Set a background color */
-	opacity: 0;
-  	cursor: pointer; /* Add a mouse pointer on hover */
-  	padding: 15px; /* Some padding */
-  	border-radius: 10px; /* Rounded corners */
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	position: relative;
+	margin-left: 0%;
+	margin-top:  0%;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 280%;
+	overflow: hidden;
+
+
 }
 
-#myBtn:hover {
-  -webkit-filter:brightness(1.2); /* Add a dark-grey background on hover */
-}
 .bar{
 	position: absolute;
 	z-index: 2;
-	font-size: 28px;
-	left: 535px;
-	top: 40px;
+	font-size: 2.33rem;
+	margin-left: 27.86%;
+	margin-top: 2%;
+	font-weight: normal;
+	-webkit-text-size-adjust:none;
+	
 	
 }
 .active:hover{
@@ -68,27 +65,340 @@ button{
 
 .view1{
 	font-family: Gen Jyuu Gothic ;
-	width: 1920px;
-	height: 100%;
+	position: absolute;
+	z-index: 5;
+	margin-top: 0%;
+	left: 0%;
+	width: 100%;
+	padding-bottom: 56%;
+	background-color: transparent;
 }
 .view2{
 	font-family: Gen Jyuu Gothic ;
-	width: 1920px;
-	height: 100%;
+	position: absolute;
+	z-index: 5;
+	margin-top: 56%;
+	left: 0%;
+	width: 100%;
+	padding-bottom: 56%;
+	background-color: transparent;
 }
 .view3{
 	font-family: Gen Jyuu Gothic ;
-	width: 1920px;
-	height: 100%;
+	position: absolute;
+	z-index: 5;
+	margin-top: 112%;
+	left: 0%;
+	width: 100%;
+	padding-bottom: 56%;
+	background-color: transparent;
+	border: 2px solid white;
+	font-size: 1.33rem;
 }
 .view4{
 	font-family: Gen Jyuu Gothic ;
-	width: 1920px;
-	height: 100%;
+	position: absolute;
+	z-index: 5;
+	margin-top: 168%;
+	left: 0%;
+	width: 100%;
+	padding-bottom: 56%;
+	background-color: transparent;
+	overflow: hidden;
+
 }
 .view5{
 	font-family: Gen Jyuu Gothic ;
-	width: 1920px;
-	height: 100%;
-	overflow: hidden;
+	position: absolute;
+	z-index: 10;
+	margin-top: 224%;
+	left: 0%;
+	width: 100%;
+	padding-bottom: 56%;
+	background-color: transparent;
+	
+
+}
+
+.myBtn {
+  	
+  	position: fixed; /* Fixed/sticky position */
+  	margin-top: 2%; /* Place the button at the bottom of the page */
+  	margin-left: 92.5%; /* Place the button 30px from the right */
+  	z-index: 30; /* Make sure it does not overlap */
+	width: 5%;
+	padding-bottom: 5%;
+	border-radius: 50%;
+  	border: none; /* Remove borders */
+  	outline: none; /* Remove outline */
+  	background-color: #fff; /* Set a background color */
+	opacity: 0;
+	transition: background-color 200ms,transform 1s; 
+	
+	
+	
+}
+
+.myBtn.open{
+	background-color: #f0a550;
+	transform: scale(120);
+	user-select: none;	
+	
+}
+
+
+
+.MenuContent{
+	z-index: 0;
+	position: fixed;
+	margin-left: 45%;
+	margin-top: 5%;
+	width: 40%;
+	padding-bottom: 30%;
+	opacity: 0;
+	text-align: right;
+	transition: 1s;
+	display: none;
+	
+}
+.MenuContent.open{
+	
+	opacity: 1;
+	display: block;
+}
+.MenuBtn{
+	
+	font-size: 92px;
+	font-weight: bolder;
+	color: #CE7E24;
+	-webkit-text-size-adjust:none;
+	
+	
+}
+.MenuBtn:hover{
+	color: #184557;
+	
+}
+
+.Ab{
+	font-size: 72px;
+}
+.AllCross{
+	position: fixed;
+	z-index: 35;
+	width: 5%;
+	padding-bottom: 5%;
+	margin-left: 92.5%;
+	margin-top: 2%;
+	border-radius: 50%;
+	opacity: 0;
+	
+	
+}
+.Cross1{
+	position: fixed;
+	z-index: 40;
+	margin-top: 1.7%;
+	margin-left: 1.125%;
+	width: 2.6%;
+	padding-bottom: 0.25%;
+	border-radius: 3px 3px 3px 3px;
+	background-color: #296177;
+	box-shadow: 0px 3px 6px #00000029;
+	transition: 0.5s; 
+
+}
+.Cross1.open{
+	margin-top: 2.3%;
+	transform: rotate(45deg);
+}
+.Cross2{
+	position: fixed;	
+	margin-top: 2.3%;
+	margin-left: 1.125%;
+	width: 2.6%;
+	padding-bottom: 0.25%;
+	border-radius: 3px 3px 3px 3px;
+	background-color: #296177;
+	box-shadow: 0px 3px 6px #00000029;
+	transition: 0.5s; 
+}
+.Cross2.open{
+	opacity: 0;
+}
+.Cross3{
+	position: fixed;	
+	margin-top: 2.9%;
+	margin-left: 1.125%;
+	width: 2.6%;
+	padding-bottom: 0.25%;
+	border-radius: 3px 3px 3px 3px;
+	background-color: #296177;
+	box-shadow: 0px 3px 6px #00000029;
+	transition: 0.5s; 
+}
+.Cross3.open{
+	margin-top: 2.3%;
+	transform: rotate(-45deg);
+}
+
+
+.LoadingAnimate{
+	position: fixed;
+	z-index: 999;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	padding-bottom: 56%;
+	background-color: #fff;
+	
+}
+
+.loadingwrap {
+    width: 100%;
+    height: 100vh; 
+    position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+
+
+}
+
+
+.l-word {
+    position: absolute;
+    top: 55%;
+    font-size: 28px;
+    letter-spacing: 12px;
+	text-align: center;
+   
+}
+
+.circle {
+    width: 1%;
+    left: 45%;
+    top: 45%; 
+    background-color: #999;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    transform-origin: 50%;
+    animation: circle .5s alternate infinite ease ;
+	animation-delay: 0.5s;		
+}
+
+
+
+.circle:nth-child(2) {
+    left: 50%;
+    animation-delay: .2s
+}
+
+.circle:nth-child(3) {
+    left: 55%;
+    animation-delay: .3s
+}
+
+@keyframes circle {
+    0% {
+        top: 45%;
+        height: 5px;
+        border-radius: 50px 50px 25px 25px;
+        transform: scaleX(1.7);
+    }
+    40% {
+        height: 20px;
+        border-radius: 50%;
+        transform: scaleX(1);
+    }
+    100% {
+        top: 30%;
+    }
+}
+
+.shadow {
+    width: 20px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, .125);
+    position: absolute;
+    top: 60px;
+    animation: shadow .5s alternate infinite ease;
+}
+
+
+
+.shadow:nth-child(4) {
+    left: 35%;
+    animation-delay: .2s
+}
+
+.shadow:nth-child(5) {
+    left: 70%;
+    animation-delay: .3s
+}
+
+@keyframes shadow {
+    0% {
+        transform: scaleX(1.5);
+    }
+    40% {
+        transform: scaleX(1);
+        opacity: .7;
+    }
+    100% {
+        transform: scaleX(.2);
+        opacity: .4;
+    }
+}
+
+.CountTo100{
+	color: #000;
+	width: 500px;
+	height: 100px;
+	font-size: 32px;
+}
+
+@media (min-width: 1280px) and (max-width: 1500px){
+	
+	html{
+		font-size: 8px;
+	}
+	
+}
+
+@media (min-width: 960px) and (max-width: 1280px){
+	
+	html{
+		font-size: 6px;
+	}
+	
+}
+@media (min-width: 600px) and (max-width: 960px){
+	
+	
+	html{
+		font-size: 4px;
+	}
+	
+	
+}
+
+@media (min-width: 376px) and (max-width: 600px){
+	
+	
+	html{
+		font-size: 2px;
+	}
+	
+}
+
+@media (min-width: 100px) and (max-width: 375px){
+	
+	html{
+		font-size: 1px;
+	}
+		
 }

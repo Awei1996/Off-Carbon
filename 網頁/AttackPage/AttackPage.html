@@ -12,49 +12,52 @@
 	<link href="AtackPagePart4.css" rel="stylesheet" type="text/css">
 	<link href="AtackPagePart5.css" rel="stylesheet" type="text/css">
 	<link href="aos.css" rel="stylesheet" type="text/css">
-	<script src="jquery.fullPage.min.js"></script>
 	<script src="jquery-1.8.3.min.js"></script>
-	<script src="jquery.fullPage.js"></script>
-	<script>
-		$(function(){
-			$('#dowebok').fullpage({
-				afterLoad(_, index) {
-					if (index === 1) {
-					  return
-					}
-
-					const $section = $('.section').eq(index - 1)
-					$section.find('[data-aos]').addClass('aos-animate')
-			  	},
-			});
-		});
-	</script>
 
 
-	<script>
-		$(function(){
-			$('#dowebok').fullpage({
-				
-				afterLoad(_, index) {
-					if (index === 1) {
-					  return
-					}
-					const $section = $('.section').eq(index - 1)
-					$section.find('[data-aos]').addClass('aos-animate')
-
-			  	},
-			});
-		});
-	</script>
+	
 </head>
 
 <body>
 	<div id="dowebok">
 		<div class="section">
+			<div class="LoadingAnimate">
+				<div class="loadingwrap">
+					<div class="circle"> </div>
+					<div class="circle"> </div>
+					<div class="circle"> </div>
+					<div class="shadow"> </div>
+					<div class="shadow"> </div>
+					<div class="shadow"> </div>
+					<div class="l-word">						
+						<div class="CountTo100"></div>				
+					</div>
+    			</div>
+			</div>
+			<div class="myBtn" onclick="topFunction()" id="myBtn">
+							
+			</div>
+			<span class="AllCross" onclick="topFunction()" >
+					<span class="Cross1"></span>
+					<span class="Cross2"></span>
+					<span class="Cross3"></span>
+			</span>
+			<span class="MenuContent">
+					<a class="MenuBtn" href="../../index.html" style="text-decoration: none; ">成因</a>
+						<br>
+				  	<a class="MenuBtn" href="../AttackPage/AttackPage.html" style="text-decoration: none">威脅</a>
+						<br>
+					<a class="MenuBtn" href="../ConvertPage/ConvertPage.html" style="text-decoration: none">換算</a>
+						<br>
+					<a class="MenuBtn" href="../WayPage/WayPage.html" style="text-decoration: none ">方法</a>
+						<br>
+					<a class="MenuBtn" href="../MonitorPage/MonitorPage.html" style="text-decoration: none">環境監測儀</a>
+						<br>
+					<a class="MenuBtn Ab" href="../AboutUsPage/AboutUsPage.html" style="text-decoration: none ; ">關於我們</a>	
+					
+			</span>	
 			<div class="view1">
-				<div class="bg1">
-			    	<img src="../../Animation/flood-2.gif" width="1920" height="1080" alt=""/> 
-				</div>
+				
 				<div class="P2Title">
 					<p>二氧化碳的攻擊</p>
 					<div class="P2SubTitle">
@@ -81,53 +84,49 @@
 		</div>
 		<div class="section">
 			<div class="view2">
-				<div class="bg2">
-					<img src="../../webpng/Attackpage/Part2BG.png" width="1920" height="1076" alt=""/> 
-				</div>
+				
 				<div class="SecondFloor">
-					<img src="../../webpng/Attackpage/SecondFloor.png" width="1918" height="743" alt=""/> 
+					<img src="../../webpng/Attackpage/SecondFloor.png" width="100%" alt=""/> 
 				</div>
 				<div class="LEDRed">
-			    	<img src="../../webpng/Attackpage/RedLight.png" width="54" height="35" alt=""/> 
+			    	<img src="../../webpng/Attackpage/RedLight.png" width="100%"  alt=""/> 
 				</div>
 				<div class="LightRed"></div>
 				<div class="LEDGreen">
-			    	<img src="../../webpng/Attackpage/GreenLight.png" width="54" height="35" alt=""/> 
+			    	<img src="../../webpng/Attackpage/GreenLight.png" width="100%" alt=""/> 
 				</div>
 				<div class="LightGreen"></div>
 				<div class="Conveyor">
-					<img src="../../webpng/Attackpage/Conveyor.png" width="1236" height="516" alt=""/> 
+					<img src="../../webpng/Attackpage/Conveyor.png" width="100%"  alt=""/> 
 				</div>
-			  <div class="CO2">
+			  	<div class="CO2">
 					<div class="Logo">
-						<img src="../../webpng/Attackpage/logo.png" width="49" height="52" alt=""/>
-						<img src="../../webpng/Attackpage/Logo2.png" width="49" height="52" alt=""/> 
-						<img src="../../webpng/Attackpage/Logo3.png" width="49" height="52" alt=""/> 
+				    	<img src="../../webpng/Attackpage/Alllogo.png" width="100%"  alt=""/> 
 					</div>
 				</div>
 
 				<div class="Hand">
-					<div class="HandBase"><img src="../../webpng/Attackpage/HandAll/HandBase.png" width="89" height="52" alt=""/></div>
-					<div class="HandB"><img src="../../webpng/Attackpage/HandAll/HandB.png" width="48" height="170" alt=""/></div>
-					<div class="HandS"><img src="../../webpng/Attackpage/HandAll/HandS.png" width="47" height="141" alt=""/>
-						<div class="HandL"><img src="../../webpng/Attackpage/HandAll/HandL.png" width="31" height="49" alt=""/></div>
-						<div class="HandR"><img src="../../webpng/Attackpage/HandAll/HandR.png" width="30" height="49" alt=""/></div>
+					<div class="HandBase"><img src="../../webpng/Attackpage/HandAll/HandBase.png" width="100%" alt=""/></div>
+					<div class="HandB"><img src="../../webpng/Attackpage/HandAll/HandB.png" width="100%"  alt=""/></div>
+					<div class="HandS"><img src="../../webpng/Attackpage/HandAll/HandS.png" width="100%" alt=""/>
+						<div class="HandL"><img src="../../webpng/Attackpage/HandAll/HandL.png" width="90%"  alt=""/></div>
+						<div class="HandR"><img src="../../webpng/Attackpage/HandAll/HandR.png" width="100%"  alt=""/></div>
 					</div>
 
 				</div>
 
 			  <div class="Machine">
-					<img src="../../webpng/Attackpage/Machine.png" width="1040" height="269" alt=""/> 
+					<img src="../../webpng/Attackpage/Machine.png" width="100%"  alt=""/> 
 				</div>
 			  <a href="#menu" class="Boxoutside" id="outside">
-					<img src="../../webpng/Attackpage/Box.png" width="446" height="591" alt=""/> 
+					<img src="../../webpng/Attackpage/Box.png" width="100%"  alt=""/> 
 					<div class="Outsidetitle">
 						<h1>大環境</h1>
 						<p>Environment</p>
 					</div>
 				</a>
 				<a href="#Inside" class="Boxinside">
-					<img src="../../webpng/Attackpage/Box.png" width="446" height="591" alt=""/> 
+					<img src="../../webpng/Attackpage/Box.png" width="100%"  alt=""/> 
 				<div class="Insidetitle">
 						<h1>室內</h1>
 						<h4>&thinsp;&thinsp;&thinsp;Indoor</h4>
@@ -145,11 +144,9 @@
 		</div>
 		<div class="section">
 			<div class="view3">
-				<div class="bg3">
-					<img src="../../webpng/Attackpage/Part3BG.png" width="1920" height="1076" alt=""/> 
-				</div>
+				
 				<div class="tube" id="Inside">
-						<img src="../../webpng/Attackpage/tube.png" width="1920" height="185" alt=""/> 
+						<img src="../../webpng/Attackpage/tube.png" width="100%"  alt=""/> 
 					</div>
 				<div class="indoor" >
 					<h1>室內</h1>
@@ -161,45 +158,58 @@
 				<div class="Barchart">
 					<div class="Bar350" data-aos="slide-right" data-aos-once="true" data-aos-duration="3000"></div>
 					<div class="Bar350content" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
-						<p>350~1000ppm</p>
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;空氣清新，呼吸順暢</p>
+						<div class="Bar350value" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
+							<p>350~1000ppm</p>						
+						</div>
+						<p>空氣清新，呼吸順暢</p>
 					</div>
 					<div class="Bar1000" data-aos="slide-right" data-aos-once="true" data-aos-duration="3500"></div>
 					<div class="Bar1000content" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
-						<p>1000~2000ppm</p>
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人會感覺空氣混濁，並開始覺得昏昏欲睡</p>
+						<div class="Bar1000value" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
+							<p>1000~2000ppm</p>
+						</div>
+						<p>人會感覺空氣混濁，並開始覺得昏昏欲睡</p>
 					</div>
 					<div class="Bar2000" data-aos="slide-right" data-aos-once="true" data-aos-duration="3000"></div>
 					<div class="Bar2000content" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
-						<p>2000~5000ppm</p>
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人會感覺頭痛、嗜睡、呆滯、注意力無法集中、心跳加速、輕度噁心</p>
+						<div class="Bar2000value" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
+							<p>2000~5000ppm</p>
+						</div>
+						<p>人會感覺頭痛、嗜睡、呆滯、注意力無法集中、心跳加速、輕度噁心</p>
 					</div>
 					<div class="Bar5000" data-aos="slide-right" data-aos-once="true" data-aos-duration="2500"></div>
 					<div class="Bar5000content" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
-						<p>5000~10000ppm</p>
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;對健康相當不利</p>
+						<div class="Bar5000value" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
+							<p>5000~10000ppm</p>
+						</div>
+						<p>對健康相當不利</p>
 					</div>
 					<div class="Bar10000" data-aos="slide-right" data-aos-once="true" data-aos-duration="2000"></div>
-				  <div class="Bar10000content" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
-						<p>10,000~70,000ppm (1-7%)</p>
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;呼吸急促、心跳加快</p>
+				  	<div class="Bar10000content" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
+						<div class="Bar10000value" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
+							<p>10,000~70,000ppm (1-7%)</p>
+						</div>
+						<p>呼吸急促、心跳加快</p>
 					</div>
 					<div class="Bar10000mark" >
 						<p>≈</p>
 					</div>
 					<div class="Bar70000" data-aos="slide-right" data-aos-once="true" data-aos-duration="2000"></div>
 					<div class="Bar70000content" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
-						<p>&gt;70,000ppm (&gt;7%)</p>
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;暈眩、頭痛、噁心</p>
+						<div class="Bar70000value" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
+							<p>&gt;70,000ppm (&gt;7%)</p>	
+						</div>
+						<p>暈眩、頭痛、噁心</p>
 					</div>
 					<div class="Bar70000mark" >
 						<p>≈</p>
 					</div>
 					<div class="Bar100000" data-aos="slide-right" data-aos-once="true" data-aos-duration="3000"></div>
-				  <div class="Bar100000content" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
-						<p>&gt;100,000ppm (&gt;10%)
-						<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;可能會導致嚴重缺氧</p>
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;造成永久性腦損傷、昏迷、甚至死亡</p>
+				  	<div class="Bar100000content" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
+						<div class="Bar100000value" data-aos="fade-up" data-aos-once="true" data-aos-duration="2000">
+							<p>&gt;100,000ppm (&gt;10%)</p>
+						</div>
+						<p>可能會導致嚴重缺氧<br>造成永久性腦損傷、昏迷、甚至死亡</p>
 					</div>
 				  <div class="Bar100000mark">
 						<p>≈</p>
@@ -214,33 +224,27 @@
 							<br>小孩和孕婦由於長期待在室內，所以是最容易受到二氧化碳的危害。
 						</p>
 				</div>
-				<div class="LongtimeShapeR">
-					<img src="../../webpng/Attackpage/mask/Lontime.png" width="448" height="178" alt=""/> 
+				<div class="LongtimeShapeRT">
+					<img src="../../webpng/Attackpage/mask/LongtimeCover.png" width="100%"  alt=""/> 
 				</div>
-				<div class="LongtimeShapeT"></div>
-
 
 			</div>
 		</div>
 		<div class="section">
 			<div class="view4" >
-				<div class="bg4">
-					<img src="../../webpng/Attackpage/Part4BG.png" width="1920" height="1078" alt=""/> 
-			  </div>
-
+				
 				<div class="Disaster" >
 					<h1>工業革命至今帶來的災難</h1>
 				</div>
 				<div class="MainMenu" >
 					<div class="Backbutton">
-						<div class="Rectangle"></div>
-						<div class="Triangle"></div>
+				    	<img src="../../webpng/Attackpage/Backbutton.png" width="100%"  alt=""/> 
 					</div>
 					
 					<div class="Menu" data-aos="slide-right" data-aos-duration="500" id="menu" >
 						<button class="SpeciesDiversity" value="close" >
 							<h1>&nbsp;&nbsp;&nbsp;物種多樣性減少</h1>
-							<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#085439" size="3" style="font-weight: normal">全世界有1/5的職務面臨滅絕威脅大約38萬種植物存在滅絕風險</font></h5>
+							<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#085439" size="3rem" >全世界有1/5的職務面臨滅絕威脅大約38萬種植物存在滅絕風險</font></h5>
 						</button>
 						<div class="SpeciesDiversityContent">
 							<div class="SDCBG"></div>
@@ -261,7 +265,7 @@
 									<p>由於海平面上升<br>泰國在過去的 35 年內，已有 50％ 的紅樹林消失 <br>在過去數十年間，全球的沿岸濕地面積 <br>平均每年減少 0.5-1.5％<br> 紅樹林與溼地孕育了許多特殊物種如彈塗魚招潮蟹等<br> 如紅樹林消失將會造成嚴重後果</p>	
 								</div>
 								<div class="SDC1BA">
-					   				<img src="../../webpng/Attackpage/BackArrow.png" width="72" height="78" alt=""/> 
+					   				<img src="../../webpng/Attackpage/BackArrow.png" width="100%"  alt=""/> 
 								</div>
 							</div>
 
@@ -273,10 +277,10 @@
 							</div>	
 							<div class="SDCpart2Content">
 								<div class="SDCpart2Contenttext" data-aos="fade right">
-									<p>2016年James Kerry進行空拍調查<br>從大堡礁南端往北到巴布亞紐幾內亞約2300公里長的海域<br>飛行總距離超過9,000公里<br>檢視超過911座珊瑚礁體，只有7％ (68座) 礁體躲過一劫<br>其餘 93％ 的礁體都受到不同程度的白化事件影響<br>絕大多數的珊瑚礁 (316座)  都因為有 60~100％ 的珊瑚發生白化<br>而被評為  嚴重白化</p>	
+									<p>2016年James Kerry進行空拍調查<br>從大堡礁南端往北到巴布亞紐幾內亞約2300公里長的海域<br>飛行總距離超過9,000公里<br>檢視超過911座珊瑚礁體，只有7％ (68座) 礁體躲過一劫<br>其餘 93％ 的礁體都受到不同程度的白化事件影響<br>絕大多數的珊瑚礁 (316座)  都因為有 60~100％ 的珊瑚發生白化<br>而被評為嚴重白化</p>	
 								</div>
 								<div class="SDC2BA">
-					   				<img src="../../webpng/Attackpage/BackArrow.png" width="72" height="78" alt=""/> 
+					   				<img src="../../webpng/Attackpage/BackArrow.png" width="100%"  alt=""/> 
 								</div>
 								
 							</div>
@@ -291,7 +295,7 @@
 									<p>在1960年到2010年期間，海洋中氣體含量降低了 2% <br>在1960年代，全球僅有45處被列為海水低氧區<br>至今已成長到約 700 處<br>若人類不改變對待海洋的方式<br>至2100年，海洋中的氧氣量將比現在減少 3-4% <br>在熱帶地區情況更嚴峻，氧氣含量將下降至少 40% <br>換言之，在生物多樣性最豐富的海平面下0至1000公尺<br>將有大量海洋生物消失，包含鯊魚、鮪魚等</p>	
 								</div>
 								<div class="SDC3BA">
-					   				<img src="../../webpng/Attackpage/BackArrow.png" width="72" height="78" alt=""/> 
+					   				<img src="../../webpng/Attackpage/BackArrow.png" width="100%"  alt=""/> 
 								</div>
 							</div>
 
@@ -306,7 +310,7 @@
 									<p>隨著地球越來越熱，動植物為了生存只能往更高緯度的地方生活<br>在2001 到2008年間<br>歐洲17座山脈上66個山頂，植物有向高海拔遷移之趨勢<br>動物每十年北移 6.1 km <br>除了影響棲地以外<br>原本僅生存在高山的物種，因為已無退路，將有滅絕的可能</p>	
 								</div>
 								<div class="SDC4BA">
-					   				<img src="../../webpng/Attackpage/BackArrow.png" width="72" height="78" alt=""/> 
+					   				<img src="../../webpng/Attackpage/BackArrow.png" width="100%"  alt=""/> 
 								</div>
 							</div>
 
@@ -314,7 +318,7 @@
 
 						<button class="OceanAcidification" value="close">
 							<h1>&nbsp;&nbsp;&nbsp;海洋酸化</h1>
-							<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="3" color="#085439">全球海洋表水的pH 值已經下降了0.1</font></h5>
+							<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="3rem" color="#085439">全球海洋表水的pH 值已經下降了0.1</font></h5>
 						</button>
 						<div class="OceanAcidificationContent">
 							<div class="OACBG"></div>
@@ -335,7 +339,7 @@
 									<p>二氧化碳在我們的大氣層，<br>有二分之一是由大氣吸收、四分之一由植物吸收，<br>其中有26 億噸（約四分之一到三分之一）都是被海洋吸收進去的，<br>由於二氧化碳屬於酸性氣體，海洋吸收了這麼多的二氧化碳，<br>所以它現在一直不斷酸化。</p>	
 								</div>
 								<div class="OAC1BA">
-					   				<img src="../../webpng/Attackpage/BackArrow.png" width="72" height="78" alt=""/> 
+					   				<img src="../../webpng/Attackpage/BackArrow.png" width="100%"  alt=""/> 
 								</div>
 							</div>
 
@@ -351,7 +355,7 @@
 									導致海洋的垂直對流減緩，甚至暫停，<br>上層的有機物掉到深海慢慢分解，缺少上層海水的調節，<br>深層海水會變得更酸。<br>根據美國的研究，推估自工業革命以來，<br>全球海洋表水的pH 值已經下降了0.1 （原約為8.2）<br>對應H+離子濃度約增加30％，CO32- 離子的濃度則減少16％。<br>根據IPCC 所預估之CO2 排放量進行模擬的結果顯示，<br>至本世紀末，全球表水的pH 值會再下降約0.4。</p>	
 								</div>
 								<div class="OAC2BA">
-					   				<img src="../../webpng/Attackpage/BackArrow.png" width="72" height="78" alt=""/> 
+					   				<img src="../../webpng/Attackpage/BackArrow.png" width="100%"  alt=""/> 
 								</div>
 							</div>
 							<div class="OACpart3">
@@ -365,7 +369,7 @@
 									<p>國內外許多研究都顯示海水pH值若低於7.8，海洋生物就會受傷害，<br>如牡蠣幼生的附苗與生長。<br>另外，曾庸哲的研究團隊養了各種海洋生物，<br>包括烏賊、軟絲、海水青鱂魚、海膽，還有馬祖來的淡菜。<br>他發現，海水酸化導致馬祖淡菜的殼變得更脆，肉質也有影響。<br>另一個恆溫的熱帶物種實驗室，從pH7.9一直到7.4，<br>觀察海膽對酸化的適應力，<br>在酸化海水中的海膽體型小，很容易死亡。<br>此外，海洋中一些植物性浮游生物，例如球石藻，亦會形成碳酸鈣殼體。<br>一旦這些重要的基礎生產者因缺乏鈣化外殼而數量減少，<br>將會衝擊以牠們為主食的消費者，<br>透過食物鏈的傳遞亦可間接威脅到魚類的生存。<br>而生活在沿海水域的珍寶蟹（Dungeness Crab）<br>也被發現其幼蟹的外殼受到部分溶解。</p>	
 								</div>
 								<div class="OAC3BA">
-					   				<img src="../../webpng/Attackpage/BackArrow.png" width="72" height="78" alt=""/> 
+					   				<img src="../../webpng/Attackpage/BackArrow.png" width="100%"  alt=""/> 
 								</div>
 							</div>
 
@@ -380,14 +384,14 @@
 									<p>在海洋酸化的影響下，珊瑚鈣化作用的減緩，<br>進而造成珊瑚礁分布面積逐漸縮小。<br>澳洲大堡礁（Great Barrier Reef） 造礁速率自1990 年以來已減緩了14％，<br>甚至有朝一日會完全消失在地球上。<br>酸化帶來的結果，就是整個海洋的生物都受到了衝擊。<br>而更可怕是海洋暖化也讓熱帶地區或溫帶地區的魚類開始大量的搬家，<br>好比加拿大的外海，過去看不到的熱帶魚種，現在都看得到。</p>	
 								</div>
 								<div class="OAC4BA">
-					   				<img src="../../webpng/Attackpage/BackArrow.png" width="72" height="78" alt=""/> 
+					   				<img src="../../webpng/Attackpage/BackArrow.png" width="100%"  alt=""/> 
 								</div>
 							</div>
 
 						</div>
 						<button class="MeltingIce" value="close">
 							<h1>&nbsp;&nbsp;&nbsp;冰層融化</h1>
-							<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="3" color="#085439">1992年至今南極洲融化約3兆噸冰層</font></h5>
+							<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="3rem" color="#085439">1992年至今南極洲融化約3兆噸冰層</font></h5>
 						</button>
 						<div class="MeltingIceContent">
 							<div class="MICBG"></div>
@@ -408,7 +412,7 @@
 									<p>1992年至今，<br>南極洲共融化約3兆噸的冰層，導致海平面上升近8公釐。<br>1992至1997年間，每年約有490億噸冰川融化，<br>但2012年至2017年之間，每年融化的數量急遽增加到2190噸，<br>導致每年海平面上升0.5公釐。<br>最大的羅斯冰棚也已在2000年崩下一塊冰山，面積大約是台灣的2/3。<br>若南極洲冰層快速消融的嚴重危機無法緩解，<br>那麼2070年之前，大約1/4的南極冰川將會融化消失。<br>海平面比起2000年時的基準，還要再上升50公分。<br>以台灣而言，如果情況再不減緩西部濱海低窪地區可能被淹沒。</p>	
 								</div>
 								<div class="MIC1BA">
-					   				<img src="../../webpng/Attackpage/BackArrow.png" width="72" height="78" alt=""/> 
+					   				<img src="../../webpng/Attackpage/BackArrow.png" width="100%"  alt=""/> 
 								</div>
 							</div>
 
@@ -423,7 +427,7 @@
 									<p>1985年與2018年冰層厚度比較。<br>深藍色是1年冰，淺藍色是2年冰，綠色是3年冰，<br>橘色是4年冰，紅色是5年以上「老冰」。<br>比較下，<br>可以明顯看到2018年已幾乎沒有5年以上的老冰。<br>1985年3月的老冰範圍從254萬平方公里降到2018年3月的13萬平方公里，<br>銳減了95%。<br> 1979-2018每年11月北極冰域範圍呈現一路縮減趨勢，<br>相對於1981-2010年平均值的縮減率為每年約<br>53500km<sup>2</sup>（中華民國領土總面積為36000km<sup>2</sup>）<br>或每十年5.0%。</p>	
 								</div>
 								<div class="MIC2BA">
-					   				<img src="../../webpng/Attackpage/BackArrow.png" width="72" height="78" alt=""/> 
+					   				<img src="../../webpng/Attackpage/BackArrow.png" width="100%"  alt=""/> 
 								</div>
 							</div>
 							<div class="MICpart3">
@@ -437,7 +441,7 @@
 									<p>歐洲最北格陵蘭的冰山也逐漸溶解，<br>2019酷夏蔓延歐洲冰原融化的嚴重程度比2012年7月的基準紀錄還要厲害，<br>當時冰層表面98%出現融化，加速了冰山剝落流入海洋。<br>夏天冰原表面融化和雪量不足，是格陵蘭島造成海平面上升的主要原因。<br>打個比喻，如果整個格陵蘭冰原融化，海平面將會上升7.01公尺。<br>位於蘇黎世的「世界冰河觀測局」（WGMC）在會中發表報告指出，<br>歐洲阿爾卑斯山的冰河，將有75%在下個世紀內融化。<br>WGMC的科學家贊普（Michael Zemp）對與會者表示：<br>「從1850年到1970年代之間，<br>阿爾卑斯山冰河的融化速度不過是每十年流失2.9%而已。<br>但現在流失速度卻逐漸加快，從1970到2000年間，<br>流失速度是每十年8.2%，而且多集中在1985年以後發生。」</p>	
 								</div>
 								<div class="MIC3BA">
-					   				<img src="../../webpng/Attackpage/BackArrow.png" width="72" height="78" alt=""/> 
+					   				<img src="../../webpng/Attackpage/BackArrow.png" width="100%"  alt=""/> 
 								</div>
 							</div>
 
@@ -452,18 +456,20 @@
 									<p>而凍土融化形成「酒醉林」，<br>釋放大量甲烷，<br>而古老有機物含碳量是當代大氣含碳量的兩倍。<br>將造成碳排急遽增加的惡性循環。</p>	
 								</div>
 								<div class="MIC4BA">
-					   				<img src="../../webpng/Attackpage/BackArrow.png" width="72" height="78" alt=""/> 
+					   				<img src="../../webpng/Attackpage/BackArrow.png" width="100%"  alt=""/> 
 								</div>
 							</div>
 
 						</div>
 						<button class="FireForest" value="close">
 							<h1>&nbsp;&nbsp;&nbsp;森林野火頻率增加</h1>
-							<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="3" color="#085439">WNO統計顯示北極圈地帶在6月之後發生了超過100起大規模山火</font></h5>
+							<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="3rem" color="#085439">WNO統計顯示北極圈地帶在6月之後發生了超過100起大規模山火</font></h5>
 						</button>
 						<div class="FireForestContent">
 							<div class="FFCBG">
-						    	<img src="../../webpng/Attackpage/FFCWorldMap-n-n.png" width="1060" height="517" alt=""/> 
+								<div class="WorldMap">
+									<img src="../../webpng/Attackpage/FFCWorldMap-n-n.png" width="100%"  alt=""/> 
+								</div>
 							</div>
 					  		<div class="FFCMain">
 								<h1>森林野火頻率增加</h1>
@@ -472,37 +478,35 @@
 								<h2>&nbsp;&nbsp;&nbsp;&nbsp;WNO統計顯示北極圈地帶在6月之後發生了超過100起大規模山火</h2>
 							</div>
 							<div class="FFCBA">
-			   				  <img src="../../webpng/Attackpage/BackArrow.png" width="72" height="78" alt=""/> 
+			   				  <img src="../../webpng/Attackpage/BackArrow.png" width="100%"  alt=""/> 
 							</div>
 							<div class="FFCAmazon">
-						    	<img src="../../webpng/Attackpage/Amazon.png" width="138" height="134" alt=""/> 
+						    	<img src="../../webpng/Attackpage/Amazon.png" width="100%"  alt=""/> 
 							</div>
 							<div class="FFCAmazonContent">
 
 								<div class="FFCAmazonContenttext" data-aos="fade right">
-									<!---<div class="FFCAmazonTitle">
-										<h1>亞馬遜雨林</h1>
-									</div>--->
+									
 									<p>炎熱乾燥的氣候條件下容易自然發生野火，<br>有些森林通過野火清理出較大空間，<br>使得樹木長得更高更壯。<br>但先前亞馬遜雨林的大火不是這種『良性』大火。<br>英國牛津大學生態系統科學教授馬利（Yadvinder Malhi）<br>說道：「亞馬遜雨林起火不是大自然的自我清理機制，<br>只會對森林造成嚴重破壞。 <br>潮濕的雨林起火，幾乎都是人禍，極少是天災。<br>2016年，亞馬遜雨林多處起火，部分原因是乾旱導致，<br>因為那一年被認為是『旱災年』，降雨少，森林更容易著火。<br>但2019年雨水充沛，並不乾旱。因此，那麼多森林火災，<br>
 									更可能是因為有人點火。」</p>	
 								</div>
 							</div>
 
 							<div class="FFCNAEUJP">
-								<img src="../../webpng/Attackpage/EUNA.png" width="632" height="262" alt=""/>
+								<img src="../../webpng/Attackpage/EUNA.png" width="100%"  alt=""/>
 								<div class="FFCJapan">
-							    	<img src="../../webpng/Attackpage/Japan.png" width="47" height="48" alt=""/> 
+							    	<img src="../../webpng/Attackpage/Japan.png" width="100%"  alt=""/> 
 								</div>
 					  	  </div>
 							<div class="FFCNAEUJPContent">
 
 								<div class="FFCNAEUJPContenttext" data-aos="fade right">
 
-									<p>自 2018 年底起至 2019 年， <br>全球副熱帶地區可以說隨時都在燃燒，<br>從北半球步入春夏之際，溫帶地區的歐洲、日本、北美洲，<br>甚至西伯利東北（俄羅斯西伯利亞針葉林）都出現野火。<br>北半球仲夏，<br>全世界除了沒有植被的沙漠地區和我們的寶島台灣，<br>可以說是都深陷火海，<br>調查顯示，美國森林大火燃燒面積自1980年開始有逐漸增加的現象，<br>2017與2018年更有驚人成長。<br>其中非洲草原北部因為迎來雨季而火勢稍緩。</p>	
+									<p>自 2018 年底起至 2019 年， <br>全球副熱帶地區可以說隨時都在燃燒，<br>從北半球步入春夏之際，溫帶地區的歐洲、日本、北美洲，<br>甚至西伯利東北（俄羅斯西伯利亞針葉林）都出現野火。<br>北半球仲夏，<br>全世界除了沒有植被的沙漠地區和我們的寶島台灣，<br>可以說是都深陷火海，<br>調查顯示，美國森林大火燃燒面積自1980年開始有漸增的現象，<br>2017與2018年更有驚人成長。<br>其中非洲草原北部因為迎來雨季而火勢稍緩。</p>	
 								</div>
 							</div>
 							<div class="FFCSBL">
-							    <img src="../../webpng/Attackpage/Silberia.png" width="479" height="166" alt=""/> 
+							    <img src="../../webpng/Attackpage/Silberia.png" width="100%"  alt=""/> 
 							</div>
 							<div class="FFCSBLContent">
 
@@ -513,19 +517,16 @@
 							</div>
 
 							<div class="FFCAus">
-						    	<img src="../../webpng/Attackpage/Australia.png" width="119" height="105" alt=""/> 
+						    	<img src="../../webpng/Attackpage/Australia.png" width="100%" alt=""/> 
 							</div>
 							<div class="FFCAusContent">
 
 								<div class="FFCAusContenttext" data-aos="fade right">
-									<div class="FFCAusTitle">
-										<h1>澳洲東部</h1>
-									</div>
 									<p>澳洲當地的消防員也表示叢林野火（bushfires）<br>發生的頻率愈來愈高。<br>根據研究顯示，許多發生野火的地區1月至8月的降雨量，<br>低於平均水平的50%，<br>部分地區更是遇上有史以來最乾旱的八個月，<br>使土壤、草、植物都極為乾燥，為今年火季提供了充分「燃料」。</p>	
 								</div>
 							</div>
 							<div class="FFCIcon">
-						    	<img src="../../webpng/Attackpage/FFCICON.png" width="150" height="150" alt=""/> 
+						    	<img src="../../webpng/Attackpage/FFCICON.png" width="100%"  alt=""/> 
 							</div>
 							<div class="FFCIconContent">
 								<div class="FFCIconContenttext" data-aos="fade right">
@@ -536,11 +537,13 @@
 						</div>
 						<button class="HeatWave" value="close">
 							<h1>&nbsp;&nbsp;&nbsp;熱浪肆虐</h1>
-							<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="3" color="#085439">2015-19可能是地球史上最熱的5年</font></h5>
+							<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="3rem" color="#085439">2015-19可能是地球史上最熱的5年</font></h5>
 						</button>
 						<div class="HeatWaveContent">
 							<div class="HWCBG">
-						    <img src="../../webpng/Attackpage/HWCWorldMap-n.png" width="1048" height="657" alt=""/> 
+						    	<div class="WorldMap">
+							    	<img src="../../webpng/Attackpage/HWCWorldMap-n.png" width="100%"  alt=""/> 
+								</div>
 							</div>
 							<div class="HWCMain">
 								<h1>熱浪肆虐</h1>
@@ -549,7 +552,7 @@
 								<h2>&nbsp;&nbsp;&nbsp;&nbsp;2015-2019可能是地球史上最熱的五年</h2>
 							</div>
 							<div class="HWCBA">
-					   				<img src="../../webpng/Attackpage/BackArrow.png" width="72" height="78" alt=""/> 
+					   				<img src="../../webpng/Attackpage/BackArrow.png" width="100%"  alt=""/> 
 							</div>
 
 							<div class="HWCALLContent">
@@ -558,7 +561,7 @@
 								</div>
 							</div>
 							<div class="HWCpart1">
-						    	<img src="../../webpng/Attackpage/FRSPGRIT.png" width="137" height="120" alt=""/> 
+						    	<img src="../../webpng/Attackpage/FRSPGRIT.png" width="100%" alt=""/> 
 							</div>
 							<div class="HWCpart1Content">
 								<div class="HWCpart1Contenttext" data-aos="fade right">
@@ -567,7 +570,7 @@
 							</div>
 
 							<div class="HWCpart2">
-						    	<img src="../../webpng/Attackpage/ENNL.png" width="64" height="59" alt=""/> 
+						    	<img src="../../webpng/Attackpage/ENNL.png" width="100%"  alt=""/> 
 							</div>
 							<div class="HWCpart2Content">
 								<div class="HWCpart2Contenttext" data-aos="fade right">
@@ -575,9 +578,9 @@
 								</div>
 							</div>
 							<div class="HWCpart3">
-								<img src="../../webpng/Attackpage/SWE.png" width="63" height="107" alt=""/>
+								<img src="../../webpng/Attackpage/SWE.png" width="100%"  alt=""/>
 								<div class="HWCSWL">
-							    	<img src="../../webpng/Attackpage/SWL.png" width="20" height="14" alt=""/> 
+							    	<img src="../../webpng/Attackpage/SWL.png" width="100%"  alt=""/> 
 								</div>
 							</div>
 							<div class="HWCpart3Content">
@@ -587,7 +590,7 @@
 							</div>
 
 							<div class="HWCpart4">
-						    	<img src="../../webpng/Attackpage/HWCJapan.png" width="79" height="82" alt=""/> 
+						    	<img src="../../webpng/Attackpage/HWCJapan.png" width="100%"  alt=""/> 
 							</div>
 							<div class="HWCpart4Content">
 								<div class="HWCpart4Contenttext" data-aos="fade right">
@@ -599,12 +602,14 @@
 
 						<button class="ExtremeClimate" value="close">
 							<h1>&nbsp;&nbsp;&nbsp;極端氣候</h1>
-							<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="3" color="#085439">該準備好面對極端氣候如日常的生活</font></h5>
+							<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size=" 3rem" color="#085439">該準備好面對極端氣候如日常的生活</font></h5>
 						</button>
 						<div class="ExtremeClimateContent">
 							<div class="ECCBG">
-						    	<img src="../../webpng/Attackpage/ECCWorldMap-n.png" width="1060" height="517" alt=""/> 
-							</div>
+						    	<div class="WorldMap">
+							    	<img src="../../webpng/Attackpage/ECCWorldMap-n.png" width="100%" alt=""/> 
+								</div>
+						  </div>
 							<div class="ECCMain">
 								<h1>極端氣候</h1>
 							</div>
@@ -612,15 +617,15 @@
 								<h2>&nbsp;&nbsp;&nbsp;&nbsp;全球暖化情形再不減緩，將面對極端氣候如日常的生活</h2>
 							</div>
 							<div class="ECCBA">
-			   				  <img src="../../webpng/Attackpage/BackArrow.png" width="72" height="78" alt=""/> 
+			   				  <img src="../../webpng/Attackpage/BackArrow.png" width="100%"  alt=""/> 
 							</div>
 							<div class="ECCALLContent">
-								<div class="HWCALLContenttext" data-aos="fade right">
+								<div class="ECCALLContenttext" data-aos="fade right">
 									<p>2018年全球多處出現極端天氣，<br>中國多處出現汛情，日本經歷暴雨和酷熱，奪去多人性命，<br>原本多雨水的英國卻正在經歷有紀錄以來最乾旱的夏季，<br>南半球澳洲也在經歷特別寒冷的冬天。<br>墨西哥7月下冰雹，美國佛羅里達颶風侵襲總統坐鎮，<br>印度水災、日本九州暑假每個月水災，頻率過高。</p>	
 								</div>
 							</div>
 							<div class="ECCIcon">
-						    	<img src="../../webpng/Attackpage/Earth.png" width="150" height="150" alt=""/> 
+						    	<img src="../../webpng/Attackpage/Earth.png" width="100%"  alt=""/> 
 							</div>
 							<div class="ECCIconContent">
 								<div class="ECCIconContenttext" data-aos="fade right">
@@ -631,7 +636,7 @@
 
 
 							<div class="ECCpart1">
-							    <img src="../../webpng/Attackpage/Japan.png" width="47" height="48" alt=""/> 
+							    <img src="../../webpng/Attackpage/Japan.png" width="100%"  alt=""/> 
 							</div>
 							<div class="ECCpart1Content">
 								<div class="ECCpart1Contenttext" data-aos="fade right">
@@ -641,7 +646,7 @@
 							</div>
 
 							<div class="ECCpart2">
-						    	<img src="../../webpng/Attackpage/CN.png" width="180" height="120" alt=""/> 
+						    	<img src="../../webpng/Attackpage/CN.png" width="100%"  alt=""/> 
 							</div>
 							<div class="ECCpart2Content">
 								<div class="ECCpart2Contenttext" data-aos="fade right">
@@ -650,7 +655,7 @@
 								
 							</div>
 							<div class="ECCpart3">
-						    	<img src="../../webpng/Attackpage/Australia.png" width="119" height="105" alt=""/> 
+						    	<img src="../../webpng/Attackpage/Australia.png" width="100%"  alt=""/> 
 							</div>
 							<div class="ECCpart3Content">
 								<div class="ECCpart3Contenttext" data-aos="fade right">
@@ -660,7 +665,7 @@
 							</div>
 
 							<div class="ECCpart4">
-						    	<img src="../../webpng/Attackpage/TW.png" width="4" height="8" alt=""/> 
+						    	<img src="../../webpng/Attackpage/TW.png" width="100%"  alt=""/> 
 							</div>
 							<div class="ECCpart4Content">
 								<div class="ECCpart4Contenttext" data-aos="fade right">
@@ -669,9 +674,9 @@
 								
 							</div>
 					  	  	<div class="ECCpart5">
-							  	<img src="../../webpng/Attackpage/USA.png" width="169" height="81" alt=""/>
+							  	<img src="../../webpng/Attackpage/USA.png" width="100%"  alt=""/>
 								<div class="ECCAlaska">
-							  		<img src="../../webpng/Attackpage/Alaska.png" width="110" height="80" alt=""/> 
+							  		<img src="../../webpng/Attackpage/Alaska.png" width="100%"  alt=""/> 
 							  	</div>
 							</div>
 						  	<div class="ECCpart5Content">
@@ -683,7 +688,7 @@
 						</div>
 						<button class="Disease" value="close">
 							<h1>&nbsp;&nbsp;&nbsp;疾病肆虐</h1>
-							<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="3" color="#085439">2030年前全球每年將增加25萬人死亡</font></h5>
+							<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="3rem" color="#085439">2030年前全球每年將增加25萬人死亡</font></h5>
 						</button>
 						<div class="DiseaseContent">
 							<div class="DSCBG"></div>
@@ -704,7 +709,7 @@
 									<p>根據WHO報告，1970年前，<br>全球僅有9國出現登革熱疫情，目前則已超過50國，<br>甚至擴及美國、法國等中緯度國家。<br>預估全球每年將有5千萬個感染案例、2萬2千個死亡案例。<br>美國各大城市的蚊蟲也變多了。<br>美國政府統計，在過去13年（2004-2016）間，<br>蚊子、蜱蟲和跳蚤傳染病增加了兩倍，出現超過64萬2600例病例。<br>根據美國疾病預防管制中心（CDC）最新的<br>《生命徵象》（vital signs）報告，<br>同一時期由蚊子和蜱蟲引入的傳播新病原體就多達九種。</p>	
 								</div>
 								<div class="DSC1BA">
-					   				<img src="../../webpng/Attackpage/BackArrow.png" width="72" height="78" alt=""/> 
+					   				<img src="../../webpng/Attackpage/BackArrow.png" width="100%"  alt=""/> 
 								</div>
 							</div>
 
@@ -719,7 +724,7 @@
 									<p>登在PLOS期刊的研究，<br>針對兩種最常見的病媒蚊－埃及斑蚊和白線斑蚊，<br>移動路徑進行調查，<br>結果發現隨著氣溫上升，蚊子的活動範圍已經擴大到南北半球的溫帶地區，<br>甚至遠及地勢較高的丘陵地。<br>過去只威脅熱帶居民的疾病，未來將蔓延到這些「冷地帶」。<br>這些人群缺乏免疫保護，他們將面臨嚴重的發病率和死亡率。<br>以哥倫比亞的安蒂奧基亞省地區為例，<br>有3700萬人生活在農村地區，暴露於瘧疾的高風險下，<br>氣候變暖只要增加攝氏一度，估計每年將導致額外的300萬兒童感染瘧疾。<br>諷刺的是，研究也發現，一旦地球升溫難以控制，<br>熱帶地區將會熱到不適合蚊子生存，包括西非和東南亞地區，<br>傳染病情況可望因此和緩些。</p>	
 								</div>
 								<div class="DSC2BA">
-					   				<img src="../../webpng/Attackpage/BackArrow.png" width="72" height="78" alt=""/> 
+					   				<img src="../../webpng/Attackpage/BackArrow.png" width="100%"  alt=""/> 
 								</div>
 							</div>
 							<div class="DSCpart3">
@@ -733,7 +738,7 @@
 									<p>除了傳染病，氣溫升高還會直接衝擊健康。<br>例如：根據衛福部統計，2015上半年，<br>因熱傷害至急診就醫的人次為1036，較12年同期增加近兩倍。<br>熱傷害疾病包含：熱痙攣、熱暈厥、熱衰竭及熱中暑。<br>當持續暴露在高溫環境且水分攝取不足，疾病便容易找上身。<br>其中，中暑最為嚴重，可能導致意識不清或死亡。<br>WHO今年發布的報告指出，<br>持續高溫還會增加罹患心血管、呼吸道及腎臟等慢性病的風險。</p>	
 								</div>
 								<div class="DSC3BA">
-					   				<img src="../../webpng/Attackpage/BackArrow.png" width="72" height="78" alt=""/> 
+					   				<img src="../../webpng/Attackpage/BackArrow.png" width="100%"  alt=""/> 
 								</div>
 							</div>
 
@@ -748,14 +753,14 @@
 									<p>除常見瘧疾外，研究顯示氣候越炎熱的地區，罹患腎結石的機會越高。<br>當平均氣溫越高或溼度越低時，流汗導致水分不足，<br>使得腦垂體後葉(posterior pituitary) 分泌<br>抗利尿激素(antidiuretic hormone)，造成尿量減少，<br>尿液中草酸鈣(calcium oxalate)及其他物質的濃度升高，<br>而增加腎結石的發生機率。<br>夏天發生腎結石的比例比冬天高，男性比女性高，<br>職業為軍人、廚師和機房的高溫作業人員也比較容易有腎結石 。<br>研究發現當熱浪(heat wave)來襲時，<br>因急性腎衰竭或相關腎臟問題而住院的發生率，<br> 比在非熱浪期間的發生率分別高1.26倍和1.10 倍，<br>其中介於15至64歲的男性發生急性腎衰竭的機會為1.79倍，<br>可能原因與從事勞動工作期間並未獲得足夠的水分有關 ，<br>因此在天氣炎熱時，應適時補充水分以減少罹患腎臟疾病。</p>	
 								</div>
 								<div class="DSC4BA">
-					   				<img src="../../webpng/Attackpage/BackArrow.png" width="72" height="78" alt=""/> 
+					   				<img src="../../webpng/Attackpage/BackArrow.png" width="100%"  alt=""/> 
 								</div>
 							</div>
 
 						</div>
 						<button class="FoodShortage" value="close">
 							<h1>&nbsp;&nbsp;&nbsp;糧食短缺</h1>
-							<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="3" color="#085439">2050年穀物價格可能會上漲1-29％</font></h5>
+							<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="3rem" color="#085439">2050年穀物價格可能會上漲1-29％</font></h5>
 						</button>
 
 
@@ -778,7 +783,7 @@
 									<p>國際稻米研究所的資料顯示，<br>若晚間最低氣溫上升 1℃ ，稻米收成便會減少一成。<br>稻米是全球過半人口的主要糧食，所以全球暖化的輕微變化，<br>可能造成糧食短缺。<br>當作物停止生長，有一半的情況要歸咎於極端天氣，<br>當牲畜受到大規模影響，也有大約四分之一的情況和極端天氣有關，<br>通常極端天氣影響牲畜食物來源。<br>過去的一項研究發現，世界主要商品化作物產量下降高達7％的糧食危機，<br>發生機率將在25年內增加三倍。<br>因為氣候變遷，我們可以看到乾旱的面積一直在擴大，<br>全世界本來有3分之1的土地屬於乾旱的沙漠，<br>但在過去一個世紀幾乎擴大了一成以上，<br>我們生長環境也就越來越少。</p>	
 								</div>
 								<div class="FSC1BA">
-					   				<img src="../../webpng/Attackpage/BackArrow.png" width="72" height="78" alt=""/> 
+					   				<img src="../../webpng/Attackpage/BackArrow.png" width="100%"  alt=""/> 
 								</div>
 							</div>
 
@@ -793,7 +798,7 @@
 									<p>國際水稻研究所(IRRI)的預測指出在2050年，<br>水稻的產量可能會因為氣候變遷減少10~15%，<br>而國際稻米價格會提升32~37%。<br>水稻最主要面臨的問題是溫度上升，在氣候變遷下，<br>溫度上升會使得北方地區目前每年只種植一期稻作的區域提升至兩期作，<br>因而提高產量，但總產量仍是下降的趨勢。中國大陸是最明顯的例子。<br>近年來中國大陸東北地區(如黑龍江)的水稻生產面積<br>因氣候暖化而顯著增加，已成為中國大陸的稻米主要生產區。<br>中國大陸的糧食作物生產供應形勢也由過去的<br>”南糧北運”轉而為”北糧南運"。</p>	
 								</div>
 								<div class="FSC2BA">
-					   				<img src="../../webpng/Attackpage/BackArrow.png" width="72" height="78" alt=""/> 
+					   				<img src="../../webpng/Attackpage/BackArrow.png" width="100%"  alt=""/> 
 								</div>
 							</div>
 							<div class="FSCpart3">
@@ -807,7 +812,7 @@
 									<p>圖為在嚴重的氣候變遷情境下<br>（RCP8.5，即各國未減碳、CO2濃度達1370ppm的高排放情境），<br>2070~2099年間預期產量與1980~2010年的比較。<br>顯示玉米、小麥、大豆和稻米的變化。<br>圖中，紅色顯示產量下降50％，而藍色顯示增加50％。<br>值得注意的是，此預測納入了二氧化碳施肥效應和氮含量壓力的潛在影響。<br>該地圖顯示，如果未來氣候變遷非常嚴重，<br>南美洲和撒哈拉以南非洲部分地區可能會發生嚴重的小麥減產。<br>1980到2018之間，溫度變化與作物產量的關聯性。<br>他們發現玉米產量下降3.8%，而小麥掉了5.5%。<br>在大約華氏50度到80度之間，有助玉米生產，但高過於此，產量下滑。<br>根據美國過去經驗，當玉米產量下降25%和大豆產量10%時，<br>全世界食物會減產4%至5% ，而價格上漲30%。<br>一項2019年的研究發現，從1920以來升溫的海洋已經導致<br>全球的漁獲量下降，相當於1400公噸（1.4 million metric tons）。<br>在北極海和日本鄰近海洋漁獲量甚至下降了35％。</p>	
 								</div>
 								<div class="FSC3BA">
-					   				<img src="../../webpng/Attackpage/BackArrow.png" width="72" height="78" alt=""/> 
+					   				<img src="../../webpng/Attackpage/BackArrow.png" width="100%"  alt=""/> 
 								</div>
 							</div>
 
@@ -822,14 +827,14 @@
 									<p>另一個造成糧食震盪的因素，即是生質能源（Biofuel）的開發。<br>因為全球暖化的緣故，生質能源成為一種發展趨勢。<br>發展生質能源已經成為現在許多國家用來改善全球暖化的方針。<br>然大量種植生質能源作物，卻排擠了糧食作物的種植，<br>有心人士疾呼，各國政府應該瞭解其中的風險，<br>糧食的震盪並不會因為大量囤積糧食而有所改善。</p>	
 								</div>
 								<div class="FSC4BA">
-					   				<img src="../../webpng/Attackpage/BackArrow.png" width="72" height="78" alt=""/> 
+					   				<img src="../../webpng/Attackpage/BackArrow.png" width="100%"  alt=""/> 
 								</div>
 							</div>
 
 						</div>
 						<button class="EconomicShock" value="close">
 							<h1>&nbsp;&nbsp;&nbsp;經濟衝擊</h1>
-							<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="3" color="#085439">2030年前全球經濟可能損失2.4兆美元</font></h5>
+							<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="3rem" color="#085439">2030年前全球經濟可能損失2.4兆美元</font></h5>
 						</button>
 						<div class="EconomicShockContent">
 							<div class="ESCBG"></div>
@@ -850,7 +855,7 @@
 									<p>科學家研究，相較2010年，<br>如果全球氣溫上升2度，全球的GDP會下降15%。<br>而溫度上升至3度，GDP將下降25%。<br>假如我們再不行動，到了2100年，<br>溫度將會上升至4度，而全球GDP將會下降超過30%，<br>這樣將會比當年經濟大蕭條時期全球GDP跌了25％還嚴重。<br>更可怕的是，這樣的情況會一直持續下去。<br>來自國際貨幣基金、劍橋大學和南加大的研究人員，<br>幾乎沒有發現降雨對 GDP 會有太多影響，<br>反而觀察到溫度與經濟成長絕對相關。<br>由於溫度上升，預計美國人均 GDP 將下降 10.5%，<br>中國將下降 4.3%，歐盟將在未來 81 年內下降 4.6%。<br>換句話說，無論到 2100 年全球 GDP 倍增或減半，<br>結果顯示人均實質 GDP 都將低於任何一個結果的 7.22%。<br>就近期而言，假設沒有重大的政策變化加上溫室氣體持續排放，<br>到 2050 年全球人均 GDP 遭氣候拖累程度預計將超過 2.5%，<br>美國將超過 3.7%。</p>	
 								</div>
 								<div class="ESC1BA">
-					   				<img src="../../webpng/Attackpage/BackArrow.png" width="72" height="78" alt=""/> 
+					   				<img src="../../webpng/Attackpage/BackArrow.png" width="100%"  alt=""/> 
 								</div>
 							</div>
 
@@ -863,7 +868,7 @@
 									<p>國際勞工組織(ILO)2019年7月發佈的報告表示，<br>氣候的異常將對室外作業較多的建築業和農業産生嚴重影響，<br>發展中國家無可避免首當其衝。<br>報告預估，2030年之前全球的勞動時間將比目前平均減少2%，<br>其中南亞（5.3%）和西非（4.8%）等地的減幅較大。<br>研究顯示，溫度24到26度有一定的程度會降低勞工的工作能力。<br>而當溫度上升到33-34度時，<br>勞工在操作中等強度工作時的工作能力會降低50％。<br>長期暴露在極高的溫度下會導致心臟疾病，嚴重時甚至可能致命。<br>然而，保守估計顯示，除了假設全球溫度長期下來不會增加超過1.5度，<br>且建立在農業和建築業的工作可以在陰涼處執行。<br>而這個假設是建立在少數的熱帶國家一天有40%是陰天，<br>而且在有些個案上，尤其是那些維持生計的農業，<br>可以常常移動他的作物當他不需要這麼熱的時候。<br>如果不是，那我們假設這些農業和建築業都是需要在烈日下工作，<br>而他們預估全球的工作時數會在2030年時損失3.8%，<br>相當於一億三千六百萬個全職工作的時間。</p>	
 								</div>
 								<div class="ESC2BA">
-					   				<img src="../../webpng/Attackpage/BackArrow.png" width="72" height="78" alt=""/> 
+					   				<img src="../../webpng/Attackpage/BackArrow.png" width="100%"  alt=""/> 
 								</div>
 							</div>
 							<div class="ESCpart3">
@@ -877,7 +882,7 @@
 									<p>當全球暖化持續到2030年時，地球持續升溫，<br>研究顯示將一定程度的減少勞工產能。<br>1995年時全球經濟因為勞工在工作時的熱壓力症 (Heat Stress) <br>損失了28億美金，而研究預測這樣的損失會因為熱壓力症在中低收入<br>或低收入國家造成更大的影響，在2030年時會上升到2.4兆美金。<br>世界銀行曾提出警訊，若溫度不斷上升至 2050 年，<br>這將改變印度的雨季，造成每個人每年 GDP 2.8% 損失，<br>並直接影響居住在炎熱區域 6 億印度人口的生活品質。<br>聯合國政府間氣候變化專門委員會（IPCC）在八月份發佈的報告表示，<br>由於極端氣候變化令乾旱和洪水增加，導致農業的收穫率下降，<br>影響糧食的穩定供應，2050年穀物價格最高可能上漲23%。</p>	
 								</div>
 								<div class="ESC3BA">
-					   				<img src="../../webpng/Attackpage/BackArrow.png" width="72" height="78" alt=""/> 
+					   				<img src="../../webpng/Attackpage/BackArrow.png" width="100%"  alt=""/> 
 								</div>
 							</div>
 
@@ -892,7 +897,7 @@
 									<p>目前為止，由於2019年的降雨量低於平均值，<br>使泰國面臨近10年來最嚴重的乾旱，<br>目前農業損失達到30億泰銖(約新台幣27億元)。<br>加州每年難逃野火肆虐，造成難以估計的人命財產損失，<br>氣候變遷是元凶之一。<br>從1980年開始，美國已經為了極端氣候損失了1.6兆美金。<br>全市最大的保險公司，慕尼黑再保險，<br>控訴由於氣候變遷導致的加州大火該公司已損失240億。<br>聯準會（Fed）官員提出一驚人數據，<br>近5年內美國經濟因氣候事件損失超過5,000億美元。<br></p>	
 								</div>
 								<div class="ESC4BA">
-					   				<img src="../../webpng/Attackpage/BackArrow.png" width="72" height="78" alt=""/> 
+					   				<img src="../../webpng/Attackpage/BackArrow.png" width="100%"  alt=""/> 
 								</div>
 							</div>
 
@@ -901,7 +906,7 @@
 
 				</div>
 				<div class="Steam">
-					<img src="../../Animation/wheel.gif" width="1050" height="940" alt=""/> 
+					<img src="../../Animation/wheel.gif" width="100%"  alt=""/> 
 				</div>
 
 
@@ -909,9 +914,7 @@
 		</div>
 		<div class="section">
 			<div class="view5">
-				<div class="bg5">
-					<img src="../../webpng/Attackpage/Part5BG.png" width="1920" height="1080" alt=""/>
-				</div>
+				
 				
 				
 				<div class="references">
@@ -960,7 +963,7 @@
 						</div>
 						<div class="Other">
 							<p>其它<br><a href="https://anntw.com/articles/20191008-2UNs" style="text-decoration:none; color:#FFFFFF;"  >台灣醒報</a><br><a href="http://www.swan.org.tw/docdir/O9AWLRS5C6.pdf" style="text-decoration:none; color:#FFFFFF;"  >環境變遷下的生物多樣性保育
-</a></p>
+							</a></p>
 						</div>
 					</div>
 
@@ -969,9 +972,21 @@
 		</div>
 	</div>
 		<div class="allpg">
-			<button onclick="topFunction()" id="myBtn" title="Go to top">
-				<img src="../../webpng/Attackpage/ArrowUp.png" width="100%" height="100%" alt=""/>
-			</button>
+			<div class="bg1">
+			    <img src="../../Animation/flood-2.gif" width="100%" alt=""/> 
+			</div>
+			<div class="bg2">
+				<img src="../../webpng/Attackpage/Part2BG.png" width="100%"  alt=""/> 
+			</div>
+			<div class="bg3">
+				<img src="../../webpng/Attackpage/Part3BG.png" width="100%"  alt=""/> 
+			</div>
+			<div class="bg4">
+				<img src="../../webpng/Attackpage/Part4BG.png" width="100%" alt=""/> 
+			</div>
+			<div class="bg5">
+				<img src="../../webpng/Attackpage/Part5BG.png" width="100%" alt=""/>
+			</div>
 
 		</div>
 	
@@ -983,8 +998,8 @@
 	
 	</script>
 	<script src="pullupcard.js"></script>
-	<script src="ScrollPage.js"></script>
-	
+	<script src="littleMenu.js"></script>
+	<script src="LoadingAnimation.jquery.min.js"></script>	
 	<script>
 		AOS.init({
 			
