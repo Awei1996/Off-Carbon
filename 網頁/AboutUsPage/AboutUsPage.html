@@ -5,9 +5,8 @@
 	<title>關於我們</title>
 
 	<link href="AboutUsPage.css" rel="stylesheet" type="text/css">
-	<script src="jquery.fullPage.min.js"></script>
 	<script src="jquery-1.8.3.min.js"></script>
-	<script src="jquery.fullPage.js"></script>
+	
 	<script>
 		AOS.init({
 			easing:'ease-in-out-sine'
@@ -16,15 +15,49 @@
 	</script>
 
 	
-
 </head>
 
 <body>
 	<div id="dowebok">
 		<div class="section">
+			<div class="LoadingAnimate">
+				<div class="loadingwrap">
+					<div class="circle"> </div>
+					<div class="circle"> </div>
+					<div class="circle"> </div>
+					<div class="shadow"> </div>
+					<div class="shadow"> </div>
+					<div class="shadow"> </div>
+					<div class="l-word">						
+						<div class="CountTo100"></div>				
+					</div>
+    			</div>
+			</div>
+			<div class="myBtn" onclick="topFunction()" id="myBtn">
+							
+			</div>
+			<span class="AllCross" onclick="topFunction()" >
+					<span class="Cross1"></span>
+					<span class="Cross2"></span>
+					<span class="Cross3"></span>
+			</span>
+			<span class="MenuContent">
+					<a class="MenuBtn" href="index.html" style="text-decoration: none; ">成因</a>
+						<br>
+				  	<a class="MenuBtn" href="網頁/AttackPage/AttackPage.html" style="text-decoration: none">威脅</a>
+						<br>
+					<a class="MenuBtn" href="網頁/ConvertPage/ConvertPage.html" style="text-decoration: none">換算</a>
+						<br>
+					<a class="MenuBtn" href="網頁/WayPage/WayPage.html" style="text-decoration: none ">方法</a>
+						<br>
+					<a class="MenuBtn" href="網頁/MonitorPage/MonitorPage.html" style="text-decoration: none">環境監測儀</a>
+						<br>
+					<a class="MenuBtn Ab" href="網頁/AboutUsPage/AboutUsPage.html" style="text-decoration: none ; ">關於我們</a>	
+					
+			</span>	
 			<div class="view1">
 				<div class="bg1">
-			    	<img src="../../webpng/AboutUsPage/P1.png" width="1920" height="1080" alt=""/> 
+			    	<img src="../../webpng/AboutUsPage/P1.png" width="100%"  alt=""/> 
 				</div>
 				<div class="P1Title">
 					<p>關於<br>我們</p>
@@ -54,7 +87,7 @@
 		<div class="section">
 			<div class="view2">
 				<div class="bg2">
-			    	<img src="../../webpng/AboutUsPage/P2.png" width="1920" height="1080" alt=""/>
+			    	<img src="../../webpng/AboutUsPage/P2.png" width="100%"  alt=""/>
 				</div>
 				<div class="TeamMember">
 					<p>團隊成員</p>
@@ -62,7 +95,7 @@
 				</div>
 				<div class="Teacher">
 					<div class="TeacherImg">
-				    	<img src="../../webpng/AboutUsPage/Teacher.png" width="255" height="313" alt=""/> 
+				    	<img src="../../webpng/AboutUsPage/Teacher.png" width="100%" alt=""/> 
 					</div>
 					<div class="TeaName">
 						<p>李佩倫</p>
@@ -74,7 +107,7 @@
 				</div>
 				<div class="Wei">
 					<div class="WeiImg">
-				    	<img src="../../webpng/AboutUsPage/Wei.png" width="209" height="262" alt=""/> 
+				    	<img src="../../webpng/AboutUsPage/Wei.png" width="100%" alt=""/> 
 					</div>
 				  	<div class="WeiName">
 						<p>魏湘錡</p>
@@ -86,7 +119,7 @@
 				</div>
 				<div class="Guan">
 					<div class="GuanImg">
-				    	<img src="../../webpng/AboutUsPage/Guan.png" width="208" height="260" alt=""/> 
+				    	<img src="../../webpng/AboutUsPage/Guan.png" width="100%" alt=""/> 
 					</div>
 				  <div class="GuanName">
 						<p>關靖蓉</p>
@@ -98,7 +131,7 @@
 				</div>
 				<div class="Chang">
 					<div class="ChangImg">
-				    	<img src="../../webpng/AboutUsPage/Chang.png" width="221" height="255" alt=""/> 
+				    	<img src="../../webpng/AboutUsPage/Chang.png" width="100%" alt=""/> 
 					</div>
 					<div class="ChangName">
 						<p>張尹甄</p>
@@ -110,7 +143,7 @@
 				</div>
 				<div class="Tseng">
 					<div class="TsengImg">
-				    	<img src="../../webpng/AboutUsPage/Tseng.png" width="207" height="253" alt=""/> 
+				    	<img src="../../webpng/AboutUsPage/Tseng.png" width="100%" alt=""/> 
 					</div>
 				  <div class="TsengName">
 						<p>曾承偉</p>
@@ -128,6 +161,8 @@
 		
 		
 	</div>
+	<script src="LoadingAnimation.jquery.min.js"></script>	
+	<script src="littleMenu.js"></script>
 	
 	
 </body>
