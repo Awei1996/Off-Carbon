@@ -18,6 +18,7 @@
 	margin-top: 10%;
 	width:4.79%;	
 	opacity: 0;
+	border: 2px red solid;
 }
 .SDC2BA{
 	position: absolute;
@@ -25,6 +26,8 @@
 	margin-top: 10%;
 	width:4.79%;	
 	opacity: 0;
+	border: 2px red solid;
+
 }
 .SDC3BA{
 	position: absolute;
@@ -507,6 +510,9 @@
 	color: transparent;
 	font-size: 2.2rem;
 	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 }
 .SDCpart1Content.open{
 	position: absolute;
@@ -517,13 +523,14 @@
 	background-color: #1E3239;
 	opacity: 0.95;
 	display: flex;
+	
 	color: #ffffff;
 	
 }
 
 .SDCpart1Contenttext{
 	position: absolute;
-	margin-top: 18%;
+	margin-top: 54%;
 	margin-left: 55.21%;
 	width: 44.79%;
 	background-color: transparent;
@@ -531,7 +538,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	line-height: 50px;
+	line-height: 1.8;
 }
 .SDCpart1Contenttext.open{
 	transition: 1s opacity  0.5s;
@@ -1081,6 +1088,9 @@
 	color: transparent;
 	font-size: 2.2rem;
 	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 }
 .OACpart1Content.open{
 	position: absolute;
@@ -1097,7 +1107,7 @@
 
 .OACpart1Contenttext{
 	position: absolute;
-	margin-top: 18%;
+	margin-top: 54%;
 	margin-left: 55.21%;
 	width: 44.79%;
 	background-color: transparent;
@@ -1105,7 +1115,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	line-height: 50px;
+	line-height: 1.8;
 }
 .OACpart1Contenttext.open{
 	transition: 1s opacity  0.5s;
@@ -1655,6 +1665,9 @@
 	color: transparent;
 	font-size: 2.2rem;
 	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 }
 .MICpart1Content.open{
 	position: absolute;
@@ -1671,7 +1684,7 @@
 
 .MICpart1Contenttext{
 	position: absolute;
-	margin-top: 12.5%;
+	margin-top: 54%;
 	margin-left: 55.21%;
 	width: 44.79%;
 	background-color: transparent;
@@ -2668,6 +2681,9 @@
 	color: transparent;
 	font-size: 2.2rem;
 	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 }
 .HWCpart1Content.open{
 	position: absolute;
@@ -2685,7 +2701,7 @@
 .HWCpart1Contenttext{
 	position: absolute;
 	margin-top: 35%;
-	margin-left: 12.5%;
+	margin-left: 54%;
 	width: 100%;
 	padding-bottom: 20%;
 	background-color: transparent;
@@ -3142,6 +3158,9 @@
 	color: transparent;
 	font-size: 2.2rem;
 	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 }
 .ECCpart1Content.open{
 	position: absolute;
@@ -3159,7 +3178,7 @@
 .ECCpart1Contenttext{
 	position: absolute;
 	margin-top: 40%;
-	margin-left: 12.5%;
+	margin-left: 54%;
 	width: 100%;
 	padding-bottom: 20%;
 	background-color: transparent;
@@ -3633,6 +3652,9 @@
 	color: transparent;
 	font-size: 2.2rem;
 	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 }
 .DSCpart1Content.open{
 	position: absolute;
@@ -3649,7 +3671,7 @@
 
 .DSCpart1Contenttext{
 	position: absolute;
-	margin-top: 12.5%;
+	margin-top: 54%;
 	margin-left: 55.21%;
 	width: 44.79%;
 	background-color: transparent;
@@ -3657,7 +3679,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	line-height: 50px;
+	line-height: 1.8;
 }
 .DSCpart1Contenttext.open{
 	transition: 1s opacity  0.5s;
@@ -4211,6 +4233,9 @@
 	color: transparent;
 	font-size: 2.2rem;
 	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 }
 .FSCpart1Content.open{
 	position: absolute;
@@ -4227,7 +4252,7 @@
 
 .FSCpart1Contenttext{
 	position: absolute;
-	margin-top: 12.5%;
+	margin-top: 54%;
 	margin-left: 55.21%;
 	width: 44.79%;
 	background-color: transparent;
@@ -4235,7 +4260,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	line-height: 50px;
+	line-height: 2.1;
 }
 .FSCpart1Contenttext.open{
 	transition: 1s opacity  0.5s;
@@ -4790,6 +4815,9 @@
 	color: transparent;
 	font-size: 2.2rem;
 	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 }
 .ESCpart1Content.open{
 	position: absolute;
@@ -4806,7 +4834,7 @@
 
 .ESCpart1Contenttext{
 	position: absolute;
-	margin-top: 5%;
+	margin-top: 54%;
 	margin-left: 55.21%;
 	width: 44.79%;
 	background-color: transparent;
@@ -4814,7 +4842,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	line-height: 50px;
+	line-height: 2.1;
 }
 .ESCpart1Contenttext.open{
 	transition: 1s opacity  0.5s;
@@ -4926,7 +4954,7 @@
 
 .ESCpart2Contenttext{
 	position: absolute;
-	margin-top: 5%;
+	margin-top: 54%;
 	margin-left: 55.21%;
 	width: 44.79%;
 	background-color: transparent;
