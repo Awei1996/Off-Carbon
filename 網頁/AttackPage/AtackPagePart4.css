@@ -1668,7 +1668,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	line-height: 50px;
+	line-height: 2;
 }
 .MICpart1Contenttext.open{
 	transition: 1s opacity  0.5s;
@@ -3827,7 +3827,7 @@
 	z-index: 19;
 	margin-top: 41.5%;
 	margin-left: 10.42%;
-	font-size: 20px;
+	font-size: 1.66rem;
 	width: 39.06%;
 	background-color: #1E3239;
 	color: #fff;
@@ -4406,7 +4406,7 @@
 	z-index: 19;
 	margin-top: 41.5%;
 	margin-left: 10.42%;
-	font-size: 20px;
+	font-size: 1.66rem;
 	width: 39.06%;
 	background-color: #1E3239;
 	color: #fff;
@@ -4985,7 +4985,7 @@
 	z-index: 19;
 	margin-top: 41.5%;
 	margin-left: 10.42%;
-	font-size: 20px;
+	font-size: 1.66rem;
 	width: 39.06%;
 	background-color: #1E3239;
 	color: #fff;
