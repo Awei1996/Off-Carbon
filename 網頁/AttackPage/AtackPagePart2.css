@@ -258,6 +258,7 @@
 	z-index: -2;
 	margin-left: -15%;
 	margin-top: -25%;
+	width: 66%;
 	opacity: 1;
 	
 	animation-name: HL; 
@@ -282,10 +283,11 @@
 .HandR{
 	position: absolute;
 	z-index: -3;
-	width: 60%;
-	margin-left: 60%;
+	margin-left: 55%;
 	margin-top: -25%;
+	width: 66%;
 	opacity: 1;
+	
 	animation-name: HR; 
 	animation-duration: 28s;
 	animation-timing-function: linear;
@@ -294,13 +296,13 @@
 
 }
 @keyframes HR{
-	0%{margin-left: 60%; margin-top: -25%; transform: rotate(0deg);}
-	10%{margin-left: 60%; margin-top: -25%; transform: rotate(0deg);}
-	12.5%{margin-left: 65%; margin-top: -45%;transform: rotate(-40deg);} 
-	15%{margin-left: 62.5%; margin-top: -35%;transform: rotate(-35deg);} /*14S*/
-	75%{margin-left: 55%; margin-top: -25%;transform: rotate(-35deg);}
-	77.5%{margin-left: 62.5%; margin-top: -35%;transform: rotate(-40deg);} 
-	80%{margin-left: 55%; margin-top: -25%; transform: rotate(0deg);}
+	0%{margin-left: 55%; margin-top: -25%; transform: rotate(0deg);}
+	10%{margin-left: 55%; margin-top: -25%; transform: rotate(0deg);}
+	12.5%{margin-left: 60%; margin-top: -45%;transform: rotate(-40deg);} 
+	15%{margin-left: 57.5%; margin-top: -35%;transform: rotate(-35deg);} /*14S*/
+	75%{margin-left: 50%; margin-top: -25%;transform: rotate(-35deg);}
+	77.5%{margin-left: 57.5%; margin-top: -35%;transform: rotate(-40deg);} 
+	80%{margin-left: 50%; margin-top: -25%; transform: rotate(0deg);}
 	
 }
 .Machine{
