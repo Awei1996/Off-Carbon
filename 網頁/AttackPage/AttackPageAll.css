@@ -1,9 +1,8 @@
 @charset "utf-8";
 @font-face {
 	font-family: Gen Jyuu Gothic ;
-    src: url(font/GenJyuuGothic-Normal.ttf) format('truetype');
-	src: url(font/GenJyuuGothic-Bold.ttf) format('truetype');
-	src: url(font/GenJyuuGothic-Bolder.ttf) format('truetype');
+    src: url(font/GenJyuuGothic-Normal.ttf) ;
+	
 }
 html{
 	scroll-behavior: smooth;
