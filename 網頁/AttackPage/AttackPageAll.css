@@ -61,6 +61,8 @@ body{
 }
 button{
 	font-family: Gen Jyuu Gothic ;
+	display: flex;
+	align-items: center;
 }
 
 .view1{

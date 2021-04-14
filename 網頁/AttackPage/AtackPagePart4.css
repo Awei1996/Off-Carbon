@@ -314,8 +314,19 @@
 	transition: 1s;
 	opacity: 0.5;
 }
-
-
+.ButtonTitle{
+	position: absolute;
+	margin-left: 5%;
+	margin-top: -5%;
+}
+.ButtonSub{
+	position: absolute;
+	margin-left: 5%;
+	margin-top: 7.5%;
+	color: #085439 ;
+	font-size: 1.33rem;
+	font-weight: bold;
+}
 .SpeciesDiversity{
 	width: 100%;
 	background-color: #6B8898 ;
