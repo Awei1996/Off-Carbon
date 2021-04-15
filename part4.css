@@ -68,7 +68,7 @@
 	position: absolute;
 	z-index: 5;
 	width: 100%;
-	font-size: 70px;
+	font-size: 5.8rem;
 	margin-left: 0%;
 	margin-top: 6%;
 	color: #c98c24;
@@ -81,7 +81,7 @@
 	font-family: Gen Jyuu Gothic;
 	font-weight: bold;
 	z-index: 5;
-	font-size: 100px;
+	font-size: 8.33rem;
 	background-color: transparent;
 	outline: none;
 	margin-left: 2%;
@@ -99,7 +99,7 @@
 	margin-top: 0%;
 	margin-left: 3%;
 	width: 77%;
-	padding-bottom: 92%;
+	height: 90%;
 	opacity: 1;
   	perspective: 1000px;
 
@@ -114,6 +114,7 @@
 
 .gascard {
 	width: 100%;
+	height: 100%;
   	-webkit-transition: transform 2s;
   	-webkit-transform-style: preserve-3d;
   	cursor: pointer;
@@ -123,9 +124,10 @@
 .gasfront, .gasback {
 	position: absolute;
 	display: flex;
-	font-size: 18px;
+	font-size: 1.5rem;
 	color: #0B3140;
 	width: 100%;
+	height: 100%;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -139,7 +141,6 @@
 
 
 .gasfront {
-	padding-bottom: 7.5%;
 }
 
 .gasfimg{
@@ -151,17 +152,12 @@
 	
   	transform: rotateY(180deg);
 	line-height: 1.2;
-	padding-bottom: 25%;
 	-webkit-text-size-adjust:none;	
 	
 }
-.gasspace{
-	font-size: 20px;
-	line-height: 1;
-	-webkit-text-size-adjust:none;
-}
+
 .gascontent{
-	font-size: 16px;
+	font-size: 1.33rem;
 	text-align: center;
 	-webkit-text-size-adjust:none;
 }
@@ -174,7 +170,7 @@
 	font-family: Gen Jyuu Gothic;
 	font-weight: bold;
 	z-index: 5;
-	font-size: 100px;
+	font-size: 8.33rem;
 	background-color: transparent;
 	outline: none;
 	margin-left: 27%;
@@ -189,7 +185,7 @@
 	margin-top: 0%;
 	margin-left: 3%;
 	width: 77%;
-	padding-bottom: 92%;
+	height: 90%;
 	opacity: 1;
   	perspective: 1000px;
 }
@@ -200,6 +196,7 @@
 
 .suncard {
 	width: 100%;
+	height: 100%;
   	-webkit-transition: transform 2s;
   	-webkit-transform-style: preserve-3d;
   	cursor: pointer;
@@ -208,9 +205,10 @@
 .sunfront, .sunback {
 	position: absolute;
 	display: flex;
-	font-size: 20px;
+	font-size: 1.67rem;
 	color: #0B3140;
 	width: 100%;
+	height: 100%;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -221,7 +219,7 @@
 }
 
 .sunfront {
-	padding-bottom: 20%;
+	
 }
 
 .sunfimg{
@@ -233,18 +231,13 @@
 }
 
 .sunback {
-	padding-bottom: 20%;
   	transform: rotateY(180deg);
 	-webkit-text-size-adjust:none;
 
 }
-.sunspace{
-	font-size: 12px;
-	line-height: 1;
-	-webkit-text-size-adjust:none;
-}
+
 .suncontent{
-	font-size: 18px;
+	font-size: 1.5rem;
 	-webkit-text-size-adjust:none;
 }
 
@@ -255,7 +248,7 @@
 	font-family: Gen Jyuu Gothic;
 	font-weight: bold;
 	z-index: 5;
-	font-size: 100px;
+	font-size: 8.33rem;
 	background-color: transparent;
 	outline: none;
 	margin-left: 52%;
@@ -270,7 +263,7 @@
 	margin-top: 0%;
 	margin-left: 3%;
 	width: 77%;
-	padding-bottom: 92%;
+	height: 90%;
 	opacity: 1;
   	perspective: 1000px;
 }
@@ -279,6 +272,7 @@
 }
 .oilcard {
 	width: 100%;
+	height: 100%;
   	-webkit-transition: transform 2s;
   	-webkit-transform-style: preserve-3d;
   	cursor: pointer;
@@ -287,9 +281,10 @@
 .oilfront, .oilback {
 	position: absolute;
 	display: flex;
-	font-size: 20px;
+	font-size: 1.67rem;
 	color: #0B3140;
 	width: 100%;
+	height: 100%;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -300,7 +295,6 @@
 }
 
 .oilfront {
-	padding-bottom: 20%;
 }
 
 .oilfimg{
@@ -313,7 +307,6 @@
 }
 
 .oilback {
-	padding-bottom: 27.5%;
   	transform: rotateY(180deg);
 	display: flex;
 	align-items: center;
@@ -322,14 +315,9 @@
 
 }
 
-.oilspace{
-	font-size: 52px;
-	line-height: 1;
-	-webkit-text-size-adjust:none;
-}
 
 .oilcontent{
-	font-size: 16px;
+	font-size: 1.33rem;
 	line-height: 1;
 	-webkit-text-size-adjust:none;
 }
@@ -340,7 +328,7 @@
 	font-family: Gen Jyuu Gothic;
 	font-weight: bold;
 	z-index: 5;
-	font-size: 100px;
+	font-size: 8.33rem;
 	background-color: transparent;
 	outline: none;
 	margin-left: 77%;
@@ -355,7 +343,7 @@
 	margin-top: 0%;
 	margin-left: 3%;
 	width: 77%;
-	padding-bottom: 92%;
+	height: 90%;
 	opacity: 1;
   	perspective: 1000px;
 }
@@ -363,6 +351,8 @@
 	-webkit-filter:brightness(1.2);
 }
 .lifecard {
+	width: 100%;
+	height: 100%;
   	-webkit-transition: transform 2s;
   	-webkit-transform-style: preserve-3d;
   	cursor: pointer;
@@ -371,9 +361,10 @@
 .lifefront, .lifeback {
 	position: absolute;
 	display: flex;
-	font-size: 16px;
+	font-size: 1.33rem;
 	color: #0B3140;
 	width: 100%;
+	height: 100%;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -384,7 +375,6 @@
 }
 
 .lifefront {
-	padding-bottom: 19%;
 	
 
 }
@@ -398,7 +388,6 @@
 }
 
 .lifeback {
-	padding-bottom: 10%;
 	transform: rotateY(180deg);
 	align-items: center;
 	text-align: center;
@@ -407,13 +396,10 @@
 
 
 }
-.lifespace{
-	font-size: 10px;
-	-webkit-text-size-adjust:none;
-}
+
 
 .lifecontent{
-	font-size: 18px;
+	font-size: 1.5rem;
 	line-height: 0;
 	-webkit-text-size-adjust:none;
 }
@@ -442,327 +428,3 @@
 	100%{opacity: 0;}
 }
 
-@media (min-width: 1280px) and (max-width: 1500px){
-	
-	.subtitle4{
-		font-size: 64px;
-	}
-	.gas{
-		font-size: 76px;
-	}
-	.gasback{
-		font-size: 14px;
-		padding-bottom: 20%;
-	}
-	.gasspace{
-		font-size: 12px;
-		line-height: 0.8;
-	}
-	.gascontent{
-		font-size: 12px;
-	}
-	.sun{
-		font-size: 76px;
-	}
-	.sunback{
-		font-size: 14px;
-		padding-bottom: 27.5%;
-	}
-	.suncontent{
-		font-size: 12px;
-	}
-	.oil{
-		font-size: 76px;
-	}
-	.oilback{
-		font-size: 14px;
-		padding-bottom: 22.5%;
-	}
-	.oilcontent{
-		font-size: 12px;
-	}
-	.life{
-		font-size: 76px;
-	}
-	.lifeback{
-		font-size: 12px;
-	}
-	.lifecontent{
-		font-size: 10px;
-	}
-}
-
-@media (min-width: 960px) and (max-width: 1280px){
-	
-	.subtitle4{
-		font-size: 40px;
-	}
-	.gas{
-		font-size: 56px;
-	}
-	.gasback{
-		font-size: 10px;
-	}
-	.gasspace{
-		font-size: 12px;
-		line-height: 0.8;
-	}
-	.gascontent{
-		font-size: 8px;
-	}
-	.sun{
-		font-size: 56px;
-	}
-	.sunback{
-		font-size: 11px;
-	}
-	.sunspace{
-		font-size: 10px;
-		line-height: 1;
-	}
-	.suncontent{
-		font-size: 9px;
-	}
-	.oil{
-		font-size: 56px;
-	}
-	.oilback{
-		font-size: 12px;
-		padding-bottom: 20%;
-	}
-	.oilspace{
-		font-size: 12px;
-		line-height: 1;
-	}
-	.oilcontent{
-		font-size: 10px;
-		line-height: 1.2;
-	}
-	.life{
-		font-size: 56px;
-	}
-	.lifeback{
-		font-size: 9px;
-		padding-bottom: 5%;
-	}
-	.lifespace{
-		font-size: 8px;
-		line-height: 1;
-	}
-	.lifecontent{
-		font-size: 8px;
-	}
-	
-	
-}
-@media (min-width: 601px) and (max-width: 960px){
-	
-	.subtitle4{
-		font-size: 32px;
-	}	
-	.gas{
-		font-size: 40px;
-	}
-	.gasfront {
-		padding-bottom: 5%;
-	}
-	.gasback{
-		font-size: 8px;
-		padding-bottom: 15%;
-	}
-	.gasspace{
-		font-size: 12px;
-		line-height: 0.8;
-	}
-	.gascontent{
-		font-size: 6px;
-	}
-	.sun{
-		font-size: 40px;
-	}
-	.sunback{
-		font-size: 8px;
-		padding-bottom: 15%;
-	}
-	.suncontent{
-		font-size: 7px;
-	}
-	.oil{
-		font-size: 40px;
-	}
-	.oilback{
-		font-size: 8px;
-		padding-bottom: 22.5%;		
-	}
-	.oilspace{
-		font-size: 12px;
-		line-height: 1;
-	}
-	.oilcontent{
-		font-size: 8px;
-	}
-	
-	.life{
-		font-size: 40px;
-	}
-	.lifeback{
-		font-size: 6px;
-		
-	}
-	.lifespace{
-		font-size: 8px;
-		line-height: 1;
-	}
-	.lifecontent{
-		font-size: 8px;
-	}
-}
-
-@media (min-width: 376px) and (max-width: 600px){
-	
-	.subtitle4{
-		font-size: 16px;
-	}
-	.gas{
-		font-size: 22px;
-	}
-	.gasfront {
-		padding-bottom: 0%;
-	}
-	.gasback{
-		font-size: 1px;
-		line-height: 1.5;
-		padding-bottom: 20%;
-	}
-	.gasspace{
-		font-size: 8px;
-		line-height: 0.8;
-	}
-	.gascontent{
-		font-size: 1px;
-	}
-	.sun{
-		font-size: 22px;
-	}
-	.sunback{
-		font-size: 1px;
-		padding-bottom: 20%;
-	}
-	.sunspace{
-		font-size: 8px;
-		line-height: 0.8;
-	}
-	.suncontent{
-		font-size: 1px;
-
-	}
-	.oil{
-		font-size: 22px;
-	}
-	.oilback{
-		font-size: 1px;
-		padding-bottom: 35%;
-	}
-	.oilspace{
-		font-size: 10px;
-		line-height: 1;
-	}
-	.oilcontent{
-		font-size: 1px;
-	}
-	.life{
-		font-size: 22px;
-	}
-	.lifeback{
-		font-size: 1px;
-		
-	}
-	.lifespace{
-		font-size: 1px;
-		line-height: 0.5;
-	}
-	.lifecontent{
-		font-size: 1px;
-		
-	}
-		
-}
-
-@media (min-width: 100px) and (max-width: 375px){
-	
-	.subtitle4{
-		font-size: 16px;
-	}
-	.gas{
-		font-size: 20px;
-	}
-	.gasfront {
-	padding-bottom: 0%;
-	}
-	.gasback{
-		font-size: 2px;
-		padding-bottom: 17.5%;
-		
-	}
-	.gasspace{
-		font-size: 8px;
-		line-height: 1;
-	}
-	.gascontent{
-		font-size: 1px;
-	}
-	.sun{
-		font-size: 20px;
-	}
-	
-	.sunback{
-		font-size: 1px;
-		padding-bottom: 15%;
-	}
-	.sunspace{
-		font-size: 8px;
-		line-height: 0.6;
-		-webkit-text-size-adjust:none;
-	}
-	.suncontent{
-		font-size: 1px;
-	}
-	
-	.oil{
-		font-size: 20px;
-	}
-	
-	.oilback{
-		font-size: 1px;
-		line-height: 1;
-		padding-bottom: 40%;
-		
-
-	}
-	.oilspace{
-		font-size: 10px;
-		line-height: 1;
-	}
-
-	.oilcontent{
-		font-size: 1px;
-	}
-	.life{
-		font-size: 20px;
-	}
-	
-	.lifeback{
-		line-height: 1.2;
-		font-size: 1px;
-		padding-bottom: 12.5%;
-	}
-	.lifespace{
-		font-size: 1px;
-		line-height: 0.5;
-	}
-	.lifecontent{
-		font-size: 1px;
-		line-height: 1.2;
-	}
-	
-}

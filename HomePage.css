@@ -5,10 +5,8 @@
 
 @font-face {
 	font-family: Gen Jyuu Gothic ;
-    src: url(font/GenJyuuGothic-Normal.ttf) format('truetype');
-	src: url(font/GenJyuuGothic-Bold.ttf) format('truetype');
-	src: url(font/GenJyuuGothic-Bolder.ttf) format('truetype');
-	
+    src: url(font/GenJyuuGothic-Normal.ttf);
+		
 }
 
 
@@ -16,6 +14,7 @@ html{
 	font-family: Gen Jyuu Gothic ;
 	overflow-x: hidden;
 	scroll-behavior: smooth;
+	font-size: 12px;
 	
 
 
@@ -85,7 +84,7 @@ h3,p{
 }
 .MenuBtn{
 	
-	font-size: 92px;
+	font-size: 7.5rem;
 	font-weight: bolder;
 	color: #CE7E24;
 	-webkit-text-size-adjust:none;
@@ -98,7 +97,7 @@ h3,p{
 }
 
 .Ab{
-	font-size: 72px;
+	font-size: 6rem;
 }
 .AllCross{
 	position: fixed;
@@ -162,8 +161,8 @@ h3,p{
 	font-family: Gen Jyuu Gothic ;
 	position: relative;
 	font-weight: 800;
-	left: 0px;
-	top: 0px;
+	margin-left: 0%;
+	margin-top:  0%;
 	width: 100%;
 	height: 100%;
 	padding-bottom: 280%;
@@ -414,7 +413,7 @@ h3,p{
 .bar{
 	position: absolute;
 	z-index: 2;
-	font-size: 1.75rem;
+	font-size: 2.33rem;
 	margin-left: 27.86%;
 	margin-top: 2%;
 	font-weight: normal;
@@ -547,194 +546,42 @@ h3,p{
 
 @media (min-width: 1280px) and (max-width: 1500px){
 	
-	.bar{
-		font-size: 28px;
-	}
-	.MenuBtn{
-	
-		font-size: 80px;
-		
-
-
+	html{
+		font-size: 8px;
 	}
 	
 }
 
 @media (min-width: 960px) and (max-width: 1280px){
 	
-	.bar{
-		font-size: 20px;
-		margin-left: 25%;
-	}
-	.MenuBtn{
-	
-		font-size: 64px;
+	html{
+		font-size: 6px;
 	}
 	
 }
-
 @media (min-width: 600px) and (max-width: 960px){
 	
-	.bar{
-		font-size: 16px;
-		margin-left: 20%;
+	
+	html{
+		font-size: 4px;
 	}
 	
-	.MenuBtn{
 	
-		font-size: 48px;
+}
+
+@media (min-width: 376px) and (max-width: 600px){
+	
+	
+	html{
+		font-size: 2px;
 	}
 	
 }
 
-@media (min-width: 377px) and (max-width: 600px){
+@media (min-width: 100px) and (max-width: 375px){
 	
-	.bar{
-		font-size: 10px;
-		margin-left: 15%;
-	}
-	.MenuBtn{
-	
-		font-size: 20px;
-	}
-	.Ab{
-		font-size: 16px;
+	html{
+		font-size: 1px;
 	}
 	
-	.myBtn{
-	/*	width: 12%;
-		padding-bottom: 12%;
-		margin-left: 85%;
-		margin-top: 6%;
-	*/
-		opacity: 1;
-	}
-	/*
-	.MenuContent{
-		margin-top: 15%;
-	}
-	*/
-	.AllCross{
-		
-	/*	width: 12%;
-		padding-bottom: 12%;
-		margin-left: 85%;
-		margin-top: 6%;
-		border-radius: 50%;
-	*/
-		opacity: 1;
-		
-	}
-	/*
-	.Cross1{
-		
-		margin-top: 4.4%;
-		margin-left: 2.5%;
-		width: 7.5%;
-		padding-bottom: 0.8%;
-		
-
-	}
-	.Cross1.open{
-		margin-top: 5.6%;
-		transform: rotate(45deg);
-	}
-	.Cross2{
-		margin-top: 5.6%;
-		margin-left: 2.5%;
-		width: 7.5%;
-		padding-bottom: 0.8%;
-	}
-	.Cross2.open{
-		margin-top: 5.6%;
-		opacity: 0;
-	}
-	.Cross3{
-		
-		margin-top: 7%;
-		margin-left: 2.5%;
-		width: 7.5%;
-		padding-bottom: 0.8%;
-		
-	}
-	.Cross3.open{
-		margin-top: 5.6%;
-		transform: rotate(-45deg);
-	}
-	*/
-}
-
-@media (min-width: 100px) and (max-width: 376px){
-	
-	.bar{
-		margin-left: 10%;
-		font-size: 10px;
-	}
-	.myBtn{
-	/*	width: 12%;
-		padding-bottom: 12%;
-		margin-left: 85%;
-		margin-top: 6%;
-	*/
-		opacity: 1;
-	}
-	.MenuBtn{
-		font-size: 16px;
-	}
-	.Ab{
-		font-size: 12px;
-	}
-	/*
-	.MenuContent{
-		margin-top: 12%;
-	}
-	*/
-	.AllCross{
-		
-	/*	width: 12%;
-		padding-bottom: 12%;
-		margin-left: 85%;
-		margin-top: 6%;
-		border-radius: 50%;
-	*/	
-		opacity: 1;
-		
-	}
-	/*
-	.Cross1{
-		
-		margin-top: 4.4%;
-		margin-left: 2.5%;
-		width: 7.5%;
-		padding-bottom: 0.8%;
-		
-
-	}
-	.Cross1.open{
-		margin-top: 5.6%;
-		transform: rotate(45deg);
-	}
-	.Cross2{
-		margin-top: 5.6%;
-		margin-left: 2.5%;
-		width: 7.5%;
-		padding-bottom: 0.8%;
-	}
-	.Cross2.open{
-		margin-top: 5.6%;
-		opacity: 0;
-	}
-	.Cross3{
-		
-		margin-top: 7%;
-		margin-left: 2.5%;
-		width: 7.5%;
-		padding-bottom: 0.8%;
-		
-	}
-	.Cross3.open{
-		margin-top: 5.6%;
-		transform: rotate(-45deg);
-	}
-	*/
 }

@@ -384,6 +384,8 @@
 	background-color: #163C4B;
 	opacity: 1;
 
+	
+
 }
 .SDCBG.open{
 	-webkit-transition: 2s;
@@ -392,7 +394,7 @@
     -o-transition: 2s;
     transition: 0.01s,opacity 2s;
 	opacity: 0.9;
-	margin-left: 100%;
+	margin-left: 0%;
 }
 .SDCMain{
 	position: absolute;
@@ -970,7 +972,7 @@
     -o-transition: 2s;
     transition: 0.01s,opacity 2s;
 	opacity: 0.9;
-	margin-left: 100%;
+	margin-left: 0%;
 }
 .OACMain{
 	position: absolute;
@@ -1548,7 +1550,7 @@
     -o-transition: 2s;
     transition: 0.01s,opacity 2s;
 	opacity: 0.9;
-	margin-left: 100%;
+	margin-left: 0%;
 }
 .MICMain{
 	position: absolute;
@@ -3525,6 +3527,7 @@
 	background-color: #163C4B;
 	opacity: 1;
 
+
 }
 .DSCBG.open{
 	-webkit-transition: 2s;
@@ -3533,7 +3536,7 @@
     -o-transition: 2s;
     transition: 0.01s,opacity 2s;
 	opacity: 0.9;
-	margin-left: 100%;
+	margin-left: 0%;
 }
 .DSCMain{
 	position: absolute;
@@ -4114,7 +4117,7 @@
     -o-transition: 2s;
     transition: 0.01s,opacity 2s;
 	opacity: 0.9;
-	margin-left: 100%;
+	margin-left: 0%;
 }
 .FSCMain{
 	position: absolute;
@@ -4696,7 +4699,7 @@
     -o-transition: 2s;
     transition: 0.01s,opacity 2s;
 	opacity: 0.9;
-	margin-left: 100%;
+	margin-left: 0%;
 }
 .ESCMain{
 	position: absolute;
