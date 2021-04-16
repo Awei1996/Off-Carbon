@@ -1,4 +1,3 @@
-///ㄍㄋㄋ跑不動Q
 var mybutton = document.getElementById("myBtn");
 var BtnControl = document.getElementsByClassName('myBtn')[0];
 var AllCrossControl = document.getElementsByClassName('AllCross')[0];

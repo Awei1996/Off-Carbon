@@ -19,6 +19,8 @@ var HAVideoControl = document.getElementsByClassName('HAVideo')[0];
 var HATextControl = document.getElementsByClassName('HAText')[0];
 var HATitleControl = document.getElementsByClassName('HATitle')[0];
 var HappyVideoTitleControl = document.getElementsByClassName('Happy')[0];
+var view2Control = document.getElementsByClassName('view2')[0];
+
 
 
 document.getElementsByClassName('FoodAnimation')[0].onclick = function() 
@@ -30,6 +32,7 @@ document.getElementsByClassName('FoodAnimation')[0].onclick = function()
 	FATextControl.classList.add('open');
 	VideoTitleControl.classList.add('open');
 	FoodVideoTitleControl.classList.add('open');
+	view2Control.classList.add('open');
 
 	LifeAnimationControl.style.zIndex = 5;
 	HappyAnimationControl.style.zIndex = 5;
@@ -61,6 +64,8 @@ document.getElementsByClassName('Back')[0].onclick = function() {
 		HATextControl.classList.remove('open');
 		VideoTitleControl.classList.remove('open');
 		HappyVideoTitleControl.classList.remove('open');
+	
+		view2Control.classList.remove('open');
 
 		LifeAnimationControl.style.zIndex = 6;
 		FoodAnimationControl.style.zIndex = 6;

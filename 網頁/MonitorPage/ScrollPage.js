@@ -1,5 +1,4 @@
 ///ㄍㄋㄋ跑不動Q
-
 var mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
@@ -8,7 +7,8 @@ window.onscroll = function() {scrollFunction();};
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     mybutton.style.display = "block";
-	mybutton.style.opacity = 0.7;  
+	mybutton.style.opacity = 0.7;
+	  
   } else {
     mybutton.style.display = "none";
   }
@@ -22,6 +22,7 @@ function topFunction() {
 }
 
 
+
 (document).on("click", 'a[href^="#"]', function (event) {
 	event.preventDefault();
 
@@ -32,4 +33,5 @@ function topFunction() {
     500
   );
 });
+
 

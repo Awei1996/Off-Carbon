@@ -14,7 +14,6 @@ var explainControl = document.getElementsByClassName('explain')[0];
 
 
 
-
 document.getElementsByClassName('Food')[0].onclick = function() 
 {	
 	FoodControl.classList.add('open');
