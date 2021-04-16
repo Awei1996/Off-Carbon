@@ -112,8 +112,8 @@
 	75%{margin-left: 87.5%; margin-top: 20%;} /*30S*/
 	77.5%{margin-left: 87.5%; ; margin-top: 20%;}/*31S*/
 	80%{margin-left: 87.5%;  margin-top: 31.5%; opacity: 1;} /*32S*/
-	90%{margin-left: 100%;  margin-top: 31.5%; opacity: 1;}
-	90.01%{margin-left: 100%;  margin-top: 31.5%; opacity: 0;}
+	90%{margin-left: 97%;  margin-top: 31.5%; opacity: 1;}
+	90.01%{margin-left: 97%;  margin-top: 31.5%; opacity: 0;}
 	91%{margin-left: -5%; ; opacity: 0;}
 	100%{margin-left: -5%; ; opacity: 1; /*background-image: url(../../webpng/Attackpage/Logo3.png);*/}
 }
