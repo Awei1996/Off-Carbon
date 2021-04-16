@@ -12,6 +12,7 @@ html{
 
 }
 body{
+	
 	font-family: Gen Jyuu Gothic ;
 	margin: 0;
     padding: 0;
@@ -22,9 +23,6 @@ body{
 	overflow-x: hidden;
 	background-color: #000;
 	
-	
-	
-
 }
 
 .allpg{
@@ -83,6 +81,7 @@ button{
 	width: 100%;
 	padding-bottom: 56%;
 	background-color: transparent;
+	overflow-x: hidden;
 }
 .view3{
 	font-family: Gen Jyuu Gothic ;
