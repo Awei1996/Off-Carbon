@@ -68,7 +68,6 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 		DisasterControl.classList.add('open');
 		DisasterControl.classList.remove('close');
 		SDCBGControl.classList.add('open');
-		SDCpart1ContenttextControl.style.opacity = 0;
 		BbtnControl.classList.add('open');
   
 	  
@@ -363,7 +362,6 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 		DisasterControl.classList.add('open');
 		DisasterControl.classList.remove('close');
 		OACBGControl.classList.add('open');
-		OACpart1ContenttextControl.style.opacity = 0;
 		BbtnControl.classList.add('open');
 
   
@@ -651,7 +649,6 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 		DisasterControl.classList.add('open');
 		DisasterControl.classList.remove('close');
 		MICBGControl.classList.add('open');
-		MICpart1ContenttextControl.style.opacity = 0;
 		BbtnControl.classList.add('open');
   
 	  
@@ -982,6 +979,11 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCSBLContentControl.style.zIndex = 17;
 			FFCAusContentControl.style.zIndex = 17;
 			FFCIconContentControl.style.zIndex = 17;
+			
+			FFCNAEUJPContentControl.style.opacity = 0;
+			FFCSBLContentControl.style.opacity = 0;
+			FFCAusContentControl.style.opacity = 0;
+			FFCIconContentControl.style.opacity = 0;
 
 			
 			FFCBAControl.style.opacity = 1;
@@ -1041,6 +1043,12 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCAusContentControl.style.zIndex = 17;
 			FFCIconContentControl.style.zIndex = 17;
 			
+			FFCAmazonContentControl.style.opacity = 0;
+			FFCSBLContentControl.style.opacity = 0;
+			FFCAusContentControl.style.opacity = 0;
+			FFCIconContentControl.style.opacity = 0;
+
+
 			
 			FFCBAControl.style.opacity = 1;
 
@@ -1092,6 +1100,12 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCAusContentControl.style.zIndex = 17;
 			FFCIconContentControl.style.zIndex = 17;
 			
+			FFCAmazonContentControl.style.opacity = 0;
+			FFCNAEUJPContentControl.style.opacity = 0;
+			
+			FFCAusContentControl.style.opacity = 0;
+			FFCIconContentControl.style.opacity = 0;
+			
 			FFCBAControl.style.opacity = 1;
 
 		
@@ -1141,6 +1155,11 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCNAEUJPContentControl.style.zIndex = 17;
 			FFCSBLContentControl.style.zIndex = 17;
 			FFCIconContentControl.style.zIndex = 17;
+			
+			FFCAmazonContentControl.style.opacity = 0;
+			FFCNAEUJPContentControl.style.opacity = 0;
+			FFCSBLContentControl.style.opacity = 0;
+			FFCIconContentControl.style.opacity = 0;
 			
 			FFCBAControl.style.opacity = 1;
 
@@ -1192,6 +1211,11 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 			FFCNAEUJPContentControl.style.zIndex = 17;
 			FFCSBLContentControl.style.zIndex = 17;
 			FFCAusContentControl.style.zIndex = 17;
+			
+			FFCAmazonContentControl.style.opacity = 0;
+			FFCNAEUJPContentControl.style.opacity = 0;
+			FFCSBLContentControl.style.opacity = 0;
+			FFCAusContentControl.style.opacity = 0;
 			
 			FFCBAControl.style.opacity = 1;
 
@@ -1322,7 +1346,6 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 		DisasterControl.classList.add('open');
 		DisasterControl.classList.remove('close');
 		HWCBGControl.classList.add('open');
-		HWCpart1ContenttextControl.style.opacity = 0;
   		BbtnControl.classList.add('open');
 
 	  
@@ -1351,6 +1374,12 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			HWCpart3ContentControl.style.zIndex = 17;
 			HWCpart4ContentControl.style.zIndex = 17;
 			HWCALLContentControl.style.zIndex = 17;
+			
+			
+			HWCpart2ContentControl.style.opacity = 0;
+			HWCpart3ContentControl.style.opacity = 0;
+			HWCpart4ContentControl.style.opacity = 0;
+			
 			
 			HWCBAControl.style.opacity = 1;
 			
@@ -1400,6 +1429,10 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			HWCpart4ContentControl.style.zIndex = 17;
 			HWCALLContentControl.style.zIndex = 17;
 			
+			HWCpart1ContentControl.style.opacity = 0;
+			HWCpart3ContentControl.style.opacity = 0;
+			HWCpart4ContentControl.style.opacity = 0;
+			
 			HWCBAControl.style.opacity = 1;
 
 			
@@ -1447,6 +1480,9 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			HWCpart4ContentControl.style.zIndex = 17;
 			HWCALLContentControl.style.zIndex = 17;
 			
+			HWCpart1ContentControl.style.opacity = 0;
+			HWCpart2ContentControl.style.opacity = 0;
+			HWCpart4ContentControl.style.opacity = 0;
 			
 			HWCBAControl.style.opacity = 1;
 
@@ -1494,6 +1530,10 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 			HWCpart2ContentControl.style.zIndex = 17;
 			HWCpart3ContentControl.style.zIndex = 17;
 			HWCALLContentControl.style.zIndex = 17;
+			
+			HWCpart1ContentControl.style.opacity = 0;
+			HWCpart2ContentControl.style.opacity = 0;
+			HWCpart3ContentControl.style.opacity = 0;
 			
 			HWCBAControl.style.opacity = 1;
 
@@ -1641,7 +1681,6 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 		DisasterControl.classList.add('open');
 		DisasterControl.classList.remove('close');
 		ECCBGControl.classList.add('open');
-		ECCpart1ContenttextControl.style.opacity = 0;
   		BbtnControl.classList.add('open');
 
 	  
@@ -1672,7 +1711,13 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCpart4ContentControl.style.zIndex = 17;
 			ECCpart5ContentControl.style.zIndex = 17;
 			ECCIconContentControl.style.zIndex = 17;
-
+			
+			ECCpart2ContentControl.style.opacity = 0;
+			ECCpart3ContentControl.style.opacity = 0;
+			ECCpart4ContentControl.style.opacity = 0;
+			ECCpart5ContentControl.style.opacity = 0;
+			ECCIconContentControl.style.opacity = 0;
+			
 			
 			ECCBAControl.style.opacity = 1;
 
@@ -1729,6 +1774,12 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCpart4ContentControl.style.zIndex = 17;
 			ECCpart5ContentControl.style.zIndex = 17;
 			ECCIconContentControl.style.zIndex = 17;
+			
+			ECCpart1ContentControl.style.opacity = 0;
+			ECCpart3ContentControl.style.opacity = 0;
+			ECCpart4ContentControl.style.opacity = 0;
+			ECCpart5ContentControl.style.opacity = 0;
+			ECCIconContentControl.style.opacity = 0;
 			
 			ECCBAControl.style.opacity = 1;
 
@@ -1787,6 +1838,12 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCpart5ContentControl.style.zIndex = 17;
 			ECCIconContentControl.style.zIndex = 17;
 			
+			ECCpart1ContentControl.style.opacity = 0;
+			ECCpart2ContentControl.style.opacity = 0;
+			ECCpart4ContentControl.style.opacity = 0;
+			ECCpart5ContentControl.style.opacity = 0;
+			ECCIconContentControl.style.opacity = 0;
+			
 			ECCBAControl.style.opacity = 1;
 			
 			ECCpart2ContentControl.classList.remove('open');
@@ -1841,6 +1898,12 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCpart3ContentControl.style.zIndex = 17;
 			ECCpart5ContentControl.style.zIndex = 17;
 			ECCIconContentControl.style.zIndex = 17;
+			
+			ECCpart1ContentControl.style.opacity = 0;
+			ECCpart2ContentControl.style.opacity = 0;
+			ECCpart3ContentControl.style.opacity = 0;
+			ECCpart5ContentControl.style.opacity = 0;
+			ECCIconContentControl.style.opacity = 0;
 			
 			ECCBAControl.style.opacity = 1;
 			
@@ -1897,6 +1960,12 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCpart3ContentControl.style.zIndex = 17;
 			ECCpart4ContentControl.style.zIndex = 17;
 			ECCIconContentControl.style.zIndex = 17;
+			
+			ECCpart1ContentControl.style.opacity = 0;
+			ECCpart2ContentControl.style.opacity = 0;
+			ECCpart3ContentControl.style.opacity = 0;
+			ECCpart4ContentControl.style.opacity = 0;
+			ECCIconContentControl.style.opacity = 0;
 			
 			ECCBAControl.style.opacity = 1;
 			
@@ -1960,6 +2029,12 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 			ECCpart3ContentControl.style.zIndex = 17;
 			ECCpart4ContentControl.style.zIndex = 17;
 			ECCpart5ContentControl.style.zIndex = 17;
+			
+			ECCpart1ContentControl.style.opacity = 0;
+			ECCpart2ContentControl.style.opacity = 0;
+			ECCpart3ContentControl.style.opacity = 0;
+			ECCpart4ContentControl.style.opacity = 0;
+			ECCpart5ContentControl.style.opacity = 0;
 			
 			ECCBAControl.style.opacity = 1;
 			
@@ -2043,7 +2118,6 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 
 			ECCpart1ContentControl.style.zIndex = 15;
 			ECCpart1Control.style.zIndex = 19;		
-			ECCpart1ContenttextControl.style.opacity = 0;			
 			ECCpart2Control.style.zIndex = 19;
 			ECCpart3Control.style.zIndex = 19;
 			ECCpart4Control.style.zIndex = 19;
@@ -2114,7 +2188,6 @@ document.getElementsByClassName('Disease')[0].onclick = function() {
 		DisasterControl.classList.add('open');
 		DisasterControl.classList.remove('close');
 		DSCBGControl.classList.add('open');
-		DSCpart1ContenttextControl.style.opacity = 0;
   		BbtnControl.classList.add('open');
 
 	  
@@ -2398,7 +2471,6 @@ document.getElementsByClassName('FoodShortage')[0].onclick = function() {
 		DisasterControl.classList.add('open');
 		DisasterControl.classList.remove('close');
 		FSCBGControl.classList.add('open');
-		FSCpart1ContenttextControl.style.opacity = 0;
   		BbtnControl.classList.add('open');
 
 	  
@@ -2683,7 +2755,6 @@ document.getElementsByClassName('EconomicShock')[0].onclick = function() {
 		DisasterControl.classList.add('open');
 		DisasterControl.classList.remove('close');
 		ESCBGControl.classList.add('open');
-		ESCpart1ContenttextControl.style.opacity = 0;
   		BbtnControl.classList.add('open');
 
 	  

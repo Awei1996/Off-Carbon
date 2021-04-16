@@ -80,7 +80,7 @@
 	position: absolute;
 	z-index: 12;
 	margin-top: 20%;
-	left: 0px;
+	margin-left: 0%;
 	width: 100%;
 }
 .Bar350{
@@ -91,6 +91,9 @@
 	padding-bottom: 1.5%;
 	background-color: #1C623F;
 	opacity: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .Bar350:before{
 	position: absolute;
@@ -237,8 +240,9 @@
 .Bar10000mark{
 	position: absolute;
 	z-index: 13;
-	margin-top: 14.5%;
-	margin-left: 31.77%;
+	margin-top: 3%;
+	height: 10%;
+	margin-left: 160%;
 	font-size: 4rem;
 	transform: rotate(90deg);
 	color: #ffffff;
@@ -279,8 +283,9 @@
 .Bar70000mark{
 	position: absolute;
 	z-index: 13;
-	margin-top: 19%;
-	margin-left: 47.91%;
+	margin-top: 2%;
+	height: 10%;
+	margin-left: 145%;
 	font-size: 4rem;
 	transform: rotate(90deg);
 	color: #ffffff;
@@ -320,8 +325,9 @@
 .Bar100000mark{
 	position: absolute;
 	z-index: 13;
-	margin-top: 23.5%;
-	margin-left: 66.67%;
+	margin-top: 1%;
+	height: 10%;
+	margin-left: 130%;
 	font-size: 4rem;
 	transform: rotate(90deg);
 	color: #ffffff;
