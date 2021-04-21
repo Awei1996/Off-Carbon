@@ -156,7 +156,7 @@ select{
 
 .LoadingAnimate{
 	position: fixed;
-	z-index: 20;
+	z-index: 25;
 	top: 0%;
 	left: 0%;
 	width: 100%;
