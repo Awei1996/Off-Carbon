@@ -13,12 +13,41 @@
 	-webkit-text-size-adjust:none;
 
 }
+.view5 a{
+	font-size:  2rem
+}
+.view5-Mobile{
+	position: absolute;
+	z-index: 5;
+	margin-top: 840%;
+	left: 0%;
+	width: 100vw;
+	padding-bottom: 56%;
+	background-color: transparent;
+	overflow: hidden;
+	opacity: 1;
+	-webkit-text-size-adjust:none;
+	display: none;
+}
+.view5-Mobile a{
+	font-size:  4.2rem
+}
 .bg5{
 	position: absolute;
 	z-index: -1;
 	left: 0%;
 	width: 100%;
 	margin-top: 224%;
+	padding-bottom: 56%;
+    background: transparent linear-gradient(180deg, #3d4650 0%, #121212 100%) 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+.bg5-Mobile{
+	position: absolute;
+	z-index: -1;
+	left: 0%;
+	width: 100%;
+	margin-top: 840%;
 	padding-bottom: 56%;
     background: transparent linear-gradient(180deg, #3d4650 0%, #121212 100%) 0% 0% no-repeat padding-box;
 	opacity: 1;
@@ -80,7 +109,19 @@
 	opacity: 1;
 }
 	
-
+.references-Mobile{
+	position: absolute;
+	z-index: 1;
+	font-size: 8rem;
+	margin-top: 8%;
+	margin-left: 0%;
+	width: 100%;
+	text-align: center;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	text-shadow: 2px 3px 6px #FFFFFF22;
+	opacity: 1;
+}
 .CO2role{
 	position: absolute;
 	margin-top: 5%;
@@ -93,4 +134,74 @@
 	color: #ACD3D2;
 	opacity: 1;
 	
+}
+.CO2pro-Mobile{
+	position: absolute;
+	margin-top: 5%;
+	font-size: 4.5rem;
+	margin-left: 12%;
+	width: 16%;
+	height: 5%;
+	text-align: left;
+	letter-spacing: 0px;
+	color: #ACD3D2;
+	opacity: 1;
+}
+.inforfrom-Mobile{
+	position: absolute;
+	z-index: 5;
+	font-size: 3rem;
+	magin-top: 25%;
+	margin-left: 2%;
+	text-align: left;
+}
+.CO2cause-Mobile{
+	position: absolute;
+	margin-top: 20%;
+	font-size: 4.5rem;
+	margin-left: 12%;
+	width: 16%;
+	height: 5%;
+	text-align: left;
+	letter-spacing: 0px;
+	color: #ACD3D2;
+	opacity: 1;
+}
+	
+
+.CO2role-Mobile{
+	position: absolute;
+	margin-top: 5%;
+	font-size: 4.5rem;
+	margin-left: 60%;
+	width: 30%;
+	height: 5%;
+	text-align: left;
+	letter-spacing: 0px;
+	color: #ACD3D2;
+	opacity: 1;
+	
+}
+@media screen and (min-device-width: 375px) and (max-device-width: 600px){
+	
+	.view5{
+		display: none;
+	}
+	
+	.view5-Mobile{
+		display: block;
+	}
+	
+	
+}
+
+@media screen and (min-device-width: 100px) and (max-device-width: 375px){
+	
+	.view5{
+		display: none;
+	}
+	
+	.view5-Mobile{
+		display: block;
+	}
 }

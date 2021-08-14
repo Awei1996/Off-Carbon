@@ -12,9 +12,9 @@
 
 html{
 	font-family: Gen Jyuu Gothic ;
-	overflow-x: hidden;
 	scroll-behavior: smooth;
 	font-size: 12px;
+	overflow-x: hidden;
 	
 
 
@@ -23,12 +23,10 @@ body{
 	font-family: Gen Jyuu Gothic ;
 	margin: 0;
     padding: 0;
-    border: 0;
     display: block;
     width: 100%;
-    height: 500%;
+    height: 100%;
 	overflow-x: hidden;
-
 	
 
 }
@@ -38,7 +36,22 @@ h3,p{
 	margin-bottom: 5px;
 	font-weight: normal;
 }
-
+.allpg{
+	margin-top: 0%;
+	margin-left: 0%;
+	width: 100%;
+}
+.allpg{
+	font-family: Gen Jyuu Gothic ;
+	position: relative;
+	font-weight: 800;
+	margin-left: 0%;
+	margin-top:  0%;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 280%;
+	overflow: hidden;
+}
 .myBtn {
   	
   	position: fixed; /* Fixed/sticky position */
@@ -74,13 +87,13 @@ h3,p{
 	margin-top: 5%;
 	width: 40%;
 	padding-bottom: 30%;
-	opacity: 0;
 	text-align: right;
 	transition: 1s;
+	display: none
 }
 .MenuContent.open{
 	
-	opacity: 1;
+	display: block;
 }
 .MenuBtn{
 	
@@ -157,17 +170,7 @@ h3,p{
 	margin-top: 2.3%;
 	transform: rotate(-45deg);
 }
-.allpg{
-	font-family: Gen Jyuu Gothic ;
-	position: relative;
-	font-weight: 800;
-	margin-left: 0%;
-	margin-top:  0%;
-	width: 100%;
-	height: 100%;
-	padding-bottom: 280%;
-	overflow: hidden;
-}
+
 
 .iceberg{
 	position: absolute;
@@ -413,7 +416,7 @@ h3,p{
 .bar{
 	position: absolute;
 	z-index: 2;
-	font-size: 2.33rem;
+	font-size: 2.66rem;
 	margin-left: 27.86%;
 	margin-top: 2%;
 	font-weight: normal;
@@ -559,29 +562,166 @@ h3,p{
 	}
 	
 }
-@media (min-width: 600px) and (max-width: 960px){
+@media (min-device-width: 600px) and (max-device-width: 960px){
+	
+	
+	html{
+		font-size: 5px;
+	}
+	
+	
+}
+
+@media (min-device-width: 375px) and (max-device-width: 600px){
 	
 	
 	html{
 		font-size: 4px;
 	}
+	.allpg{
+		padding-bottom: 896%;
+	}
+	.myBtn {
+  	
+  	
+		margin-top: 4%; /* Place the button at the bottom of the page */
+		margin-left: 90%; /* Place the button 30px from the right */
+		width: 8%;
+		padding-bottom: 8%;
+		border-radius: 50%;
+  	
+	}
+	.AllCross{
+		
+		width: 8%;
+		padding-bottom: 8%;
+		margin-left: 90%;
+		margin-top: 4%;
+
+	}
+	.Cross1{	
+		margin-top: 2.8%;
+		margin-left: 2%;
+		width: 4%;
+		padding-bottom: 0.5%;
 	
-	
+		
+
+	}
+	.Cross1.open{
+		margin-top: 3.8%;
+		transform: rotate(45deg);
+	}
+	.Cross2{
+		
+		margin-top: 3.8%;
+		margin-left: 2%;
+		width: 4%;
+		padding-bottom: 0.5%;
+		
+	}
+	.Cross2.open{
+		opacity: 0;
+	}
+	.Cross3{
+		
+		margin-top: 4.8%;
+		margin-left: 2%;
+		width: 4%;
+		padding-bottom: 0.5%;
+		
+	}
+	.Cross3.open{
+		margin-top: 3.8%;
+		transform: rotate(-45deg);
+	}
+	.MenuContent{
+		
+		margin-top: 15%;
+		
+	}
+	.MenuBtn{
+		font-size: 18rem;
+	}
+	.Ab{
+		font-size: 16rem;
+	}
 }
 
-@media (min-width: 376px) and (max-width: 600px){
-	
+@media (min-device-width: 100px) and (max-device-width: 375px){
 	
 	html{
-		font-size: 2px;
+		font-size: 3px;
 	}
-	
-}
+	.bar{
+		font-size: 6rem;
+	}
+	.allpg{
+		padding-bottom: 896%;
+	}
+	.myBtn {
+  	
+  	
+		margin-top: 4%; /* Place the button at the bottom of the page */
+		margin-left: 90%; /* Place the button 30px from the right */
+		width: 8%;
+		padding-bottom: 8%;
+		border-radius: 50%;
+  	
+	}
+	.AllCross{
+		
+		width: 8%;
+		padding-bottom: 8%;
+		margin-left: 90%;
+		margin-top: 4%;
 
-@media (min-width: 100px) and (max-width: 375px){
-	
-	html{
-		font-size: 1px;
 	}
+	.Cross1{	
+		margin-top: 2.8%;
+		margin-left: 2%;
+		width: 4%;
+		padding-bottom: 0.5%;
 	
+		
+
+	}
+	.Cross1.open{
+		margin-top: 3.8%;
+		transform: rotate(45deg);
+	}
+	.Cross2{
+		
+		margin-top: 3.8%;
+		margin-left: 2%;
+		width: 4%;
+		padding-bottom: 0.5%;
+		
+	}
+	.Cross2.open{
+		opacity: 0;
+	}
+	.Cross3{
+		
+		margin-top: 4.8%;
+		margin-left: 2%;
+		width: 4%;
+		padding-bottom: 0.5%;
+		
+	}
+	.Cross3.open{
+		margin-top: 3.8%;
+		transform: rotate(-45deg);
+	}
+	.MenuContent{
+		
+		margin-top: 15%;
+		
+	}
+	.MenuBtn{
+		font-size: 18rem;
+	}
+	.Ab{
+		font-size: 16rem;
+	}
 }

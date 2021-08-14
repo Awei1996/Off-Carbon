@@ -363,7 +363,7 @@ button{
 @media (min-device-width: 1280px) and (max-device-width: 1500px){
 	
 	html{
-		font-size: 8px;
+		font-size: 9px;
 	}
 	
 }
@@ -371,7 +371,7 @@ button{
 @media (min-device-width: 960px) and (max-device-width: 1280px){
 	
 	html{
-		font-size: 6px;
+		font-size: 8px;
 	}
 	
 }
@@ -379,7 +379,7 @@ button{
 	
 	
 	html{
-		font-size: 4px;
+		font-size: 7px;
 	}
 	
 	
@@ -389,7 +389,7 @@ button{
 	
 	
 	html{
-		font-size: 2px;
+		font-size: 6px;
 	}
 	
 }
@@ -397,7 +397,7 @@ button{
 @media (min-device-width: 100px) and (max-device-width: 375px){
 	
 	html{
-		font-size: 1px;
+		font-size: 5px;
 	}
 		
 }

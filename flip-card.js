@@ -1,21 +1,14 @@
 function flip(event){
 	var element = event.currentTarget;
-	if (element.className === "gascard") {
-    if(element.style.webkitTransform == "rotateY(180deg)") {
-      element.style.webkitTransform = "rotateY(0deg)";
-    }
-    else {
-      element.style.webkitTransform = "rotateY(180deg)";
-    }
-  }
-	if (element.className === "suncard") {
-    if(element.style.webkitTransform == "rotateY(180deg)") {
-      element.style.webkitTransform = "rotateY(0deg)";
-    }
-    else {
-      element.style.webkitTransform = "rotateY(180deg)";
-    }
-  }
+	if (element.className == "card") {
+		if(element.style.webkitTransform == "rotateY(180deg)") {
+			element.style.webkitTransform = "rotateY(0deg)";
+		}
+		else {
+			element.style.webkitTransform = "rotateY(180deg)";
+		}
+	}
+	
 	if (element.className === "oilcard") {
     if(element.style.webkitTransform == "rotateY(180deg)") {
       element.style.webkitTransform = "rotateY(0deg)";

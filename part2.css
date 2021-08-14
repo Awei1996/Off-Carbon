@@ -10,6 +10,42 @@
 	opacity: 1;
 		
 }
+.view21Mobile{
+	position: absolute;
+	z-index: 6;
+	margin-top: 56%;
+	left: 0%;
+	width: 100vw;
+	padding-bottom: 56%;
+	background-color: transparent;
+	opacity: 1;
+	display:none;
+		
+}
+.view22Mobile{
+	position: absolute;
+	z-index: 6;
+	margin-top: 112%;
+	left: 0%;
+	width: 100vw;
+	padding-bottom: 56%;
+	background-color: transparent;
+	opacity: 1;
+	display:none;
+		
+}
+.view23Mobile{
+	position: absolute;
+	z-index: 6;
+	margin-top: 168%;
+	left: 0%;
+	width: 100vw;
+	padding-bottom: 56%;
+	background-color: transparent;
+	opacity: 1;
+	display:none;
+		
+}
 .bg2{
 	position: absolute;
 	z-index: -1;
@@ -20,7 +56,15 @@
 	padding-bottom: 56%;
 
 }
-
+.bg2-2Moblie{
+	position: absolute;
+	z-index: 1;
+	left: 0%;
+	width: 100%;
+	opacity: 1;
+	margin-top: 168%;
+	display: none;
+}
 .CO2{
 	color: #FFFFFF;
 	position: absolute;
@@ -35,6 +79,20 @@
 	margin-left: 4.17%;
 	font-weight: bold;
 }
+.CO2Mobile{
+	color: #FFFFFF;
+	position: absolute;
+	background-color: transparent;
+	outline: none;
+	font-family: Gen Jyuu Gothic;
+	z-index: 2;
+	font-size: 33.34rem;
+	width: 20.83%;
+	height: 27.78%;
+	margin-top: 5.11%;
+	margin-left: 4.17%;
+	font-weight: bold;
+}
 .Carbon{
 	position: absolute;
 	margin-left: 0%;
@@ -42,7 +100,7 @@
 }
 .Two{
 	
-	color: #FFFFFF; 
+	color: #FFFFFF;
 	position: absolute;
 	z-index: 0;
 	font-size: 5rem;
@@ -51,12 +109,21 @@
 	font-weight: 600;
 
 }
+.TwoMobile{
+	color: #FFFFFF;
+	position: absolute;
+	z-index: 0;
+	font-size: 12rem;
+	margin-top: 35%;
+	margin-left: 20%;
+	font-weight: 600;
+}
 
 .CO2infor{
 	position: absolute;
 	z-index: 4;
-	margin-top: 8%;
-	font-size: 1.5rem;
+	margin-top: 10%;
+	font-size: 1.66rem;
 	color: #FFFFFF;
 	margin-left: 32.55%;
 	height: 27.78%;
@@ -68,9 +135,31 @@
 	-webkit-text-size-adjust: none;
 
 }
+.CO2inforMobile{
+	position: absolute;
+	z-index: 4;
+	margin-top: 25%;
+	font-size: 5rem;
+	color: #FFFFFF;
+	margin-left: 8.17%;
+	height: 27.78%;
+	width: 80%;
+	background-color: transparent;
+	opacity: 1;
+	line-height: 1;
+	font-weight: normal;
+	-webkit-text-size-adjust: none;
+}
 .CO2ani{
 	position: absolute;
 	margin-left: 55%;
+	margin-top: -5%;
+	width: 37.5%;
+	padding-bottom: 10%;
+}
+.CO2aniMobile{
+	position: absolute;
+	margin-left: 70%;
 	margin-top: -5%;
 	width: 37.5%;
 	padding-bottom: 10%;
@@ -81,7 +170,21 @@
 	font-weight: 600;
 	color: #ffffff;
 }
+.CMobile,.O1Mobile,.O2Mobile,.price1Mobile,.price2Mobile{
+	position: absolute;
+	font-size: 10rem;
+	font-weight: 600;
+	color: #ffffff;
+}
 .O1{
+	margin-left: -25%;
+	margin-top: 10%;
+	animation: Oa1;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	
+}
+.O1Mobile{
 	margin-left: -25%;
 	margin-top: 10%;
 	animation: Oa1;
@@ -96,8 +199,22 @@
 	animation-duration: 6s;
 	animation-iteration-count: infinite;
 }
+.O2Mobile{
+	margin-left: 25%;
+	margin-top: 10%;
+	animation: Oa2;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+}
 .price1{
-	font-size: 3.75rem;
+	margin-left: -10%;
+	margin-top: 5%;
+	transform: rotate(-30deg);
+	animation: Pa;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+}
+.price1Mobile{
 	margin-left: -10%;
 	margin-top: 5%;
 	transform: rotate(-30deg);
@@ -106,7 +223,14 @@
 	animation-iteration-count: infinite;
 }
 .price2{
-	font-size: 3.75rem;
+	margin-left: 10%;
+	margin-top: 5%;
+	transform: rotate(30deg);
+	animation: Pa;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+}
+.price2Mobile{
 	margin-left: 10%;
 	margin-top: 5%;
 	transform: rotate(30deg);
@@ -144,6 +268,16 @@
 	margin-left: 28%;
 }
 
+.CO2coverlineMobile{
+	z-index: 6;
+	position: absolute;
+	width: 0.5%;
+	height: 30.67%;
+	border-radius: 5px;
+	background-color: #fff;
+	margin-top: 27.5%;
+	margin-left: 4.17%;
+}
 
 
 .Chemicalpro{
@@ -160,12 +294,28 @@
 	margin-left: 4.17%;
 	font-weight: bold;
 }
+.Chemicalpro-Mobile{
+	color: #FFFFFF;
+	position: absolute;
+	background-color: transparent;
+	outline: none;
+	font-family: Gen Jyuu Gothic;
+	z-index: 2;
+	font-size: 18rem;
+	width: 30.83%;
+	height: 27.78%;
+	margin-top: 5.11%;
+	margin-left: 4.17%;
+	font-weight: bold;
+}
+
+
 .Chemicalproinfor{
 	position: absolute;
 	z-index: 2;
-	margin-top: 25%;
+	margin-top: 27.5%;
 	margin-left: 44.27%;
-	font-size: 1.5rem;
+	font-size: 1.66rem;
 	color: #ffffff;
 	height: 18.52%;
 	width: 50%;
@@ -177,7 +327,40 @@
 	-webkit-text-size-adjust: none ;
 
 }
+.Chemicalproinfor-Mobile{
+	position: absolute;
+	z-index: 4;
+	margin-top: 22.5%;
+	font-size: 5rem;
+	color: #FFFFFF;
+	margin-left: 8.17%;
+	height: 27.78%;
+	width: 70%;
+	background-color: transparent;
+	opacity: 1;
+	line-height: 1;
+	font-weight: 200;
+	-webkit-text-size-adjust: none;
+
+}
+.Chemicalproinfor-Mobile h3{
+	
+	font-size: 5.5rem;
+	font-weight: 200;
+}
 .Chemicalproinfor2{
+	position: absolute;
+	width: 20%;
+	height: 15%;
+	margin-top: 0%;
+	margin-left: 65%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	-webkit-text-size-adjust: none ;
+
+}
+.Chemicalproinfor2-Mobile{
 	position: absolute;
 	width: 20%;
 	height: 15%;
@@ -201,6 +384,18 @@
 	align-items: center;
 	
 }
+.nocolor-Mobile{
+	position: absolute;
+	z-index: 2;
+	margin-left: 20%;
+	margin-top: -7.5%;
+	width: 20.85%;
+	height: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
 .nocolortext{
 	position: absolute;
 	width: 100%;
@@ -214,10 +409,37 @@
 
 }
 
+.nocolortext{
+	position: absolute;
+	width: 100%;
+	height: 60%;
+	margin-top: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	-webkit-text-size-adjust:none;
+
+
+}
 .noassist{
 	position: absolute;
 	z-index: 2;
 	margin-left: 30%;
+	margin-top: -7.5%;
+	width: 16.68%;
+	height: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	-webkit-text-size-adjust:none;
+
+
+	
+}
+.noassist-Mobile{
+	position: absolute;
+	z-index: 2;
+	margin-left: 37.5%;
 	margin-top: -7.5%;
 	width: 16.68%;
 	height: 30%;
@@ -253,6 +475,18 @@
 	align-items: center;
 	
 }
+.noburn-Mobile{
+	position: absolute;
+	z-index: 2;
+	margin-left: 50%;
+	margin-top: -7.5%;
+	width: 16.68%;
+	height: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
 .noburntext{
 	position: absolute;
 	width: 100%;
@@ -273,6 +507,16 @@
 	margin-top: 25%;
 	margin-left: 40%;
 }
+.Chemicalcoverline-Mobile{
+	z-index: 6;
+	position: absolute;
+	width: 0.5%;
+	height: 30.67%;
+	border-radius: 5px;
+	background-color: #fff;
+	margin-top: 20%;
+	margin-left: 4.17%;
+}
 .Proportion{
 	color: #ffffff;
 	position: absolute;
@@ -287,26 +531,63 @@
 	margin-left: 4.17%;
 	font-weight: bold;
 }
+
+.Proportion-Mobile{
+	color: #FFFFFF;
+	position: absolute;
+	background-color: transparent;
+	outline: none;
+	font-family: Gen Jyuu Gothic;
+	z-index: 2;
+	font-size: 22rem;
+	width: 30.83%;
+	height: 27.78%;
+	margin-top: 5.11%;
+	margin-left: 4.17%;
+	font-weight: bold;
+}
 .Proportioninfor{
 	position: absolute;
 	z-index: 3;
 	line-height: 2;
-	margin-top: 35%;
+	margin-top: 37%;
 	margin-left: 45%;
 	height: 18.52%;
 	width: 50%;
 	color: #ffffff;
-	font-size: 1.66rem;
+	font-size: 1.8rem;
 	background-color: transparent;
 	opacity: 1;
 	-webkit-text-size-adjust:none;
 
   	
 }
+.Proportioninfor-Mobile{
+	position: absolute;
+	z-index: 4;
+	margin-top: 20%;
+	font-size: 5.2rem;
+	color: #FFFFFF;
+	margin-left: 8.17%;
+	height: 27.78%;
+	width: 70%;
+	background-color: transparent;
+	opacity: 1;
+	line-height: 1.2;
+	font-weight: normal;
+	-webkit-text-size-adjust: none;
+
+  	
+}
+.Proportioninfor-Mobile h3{
+	margin-left: 25%;
+
+  	
+}
 .Pieline{
 	position: absolute;
 	z-index: 2;
-	margin-top: 8%;
+	margin-top: 4%;
 	margin-left: 3.2%;
 	width: 2.8%;
 	height: 10%;
@@ -314,21 +595,44 @@
 	border-image: linear-gradient(143deg, #FFFFFF 50%, transparent 50%);
 	border-image-slice: 1;
 }
+.Pieline-Mobile{
+	position: absolute;
+	z-index: 2;
+	margin-top: 2.5%;
+	margin-left: 9%;
+	width: 2.8%;
+	height: 10%;
+	border: solid 1px transparent;
+	border-image: linear-gradient(143deg, #FFFFFF 50%, transparent 50%);
+	border-image-slice: 1;
+}
 .Pietext{
 	position: absolute;
 	z-index: 2;
-	margin-top: 6%;
-	margin-left: 7.5%;
+	margin-top: 2.5%;
+	margin-left: 10%;
 	width: 5%;
 	height: 15%;
 	font-size: 1.66rem;
 }
-.Two1{
-	font-size: 1.16rem;
+.Pietext-Mobile{
+	position: absolute;
+	z-index: 2;
+	margin-top: 2%;
+	margin-left: 13%;
+	width: 5%;
+	height: 15%;
+	font-size: 4rem;
 }
 
+.Two1{
+	font-size: 1.66rem;
+}
+.Two1-Mobile{
+	font-size: 2rem;
+}
 .Piechart{
-	margin-top:10%;
+	margin-top:5%;
 	margin-left:-5%;
 	position:absolute;
 	z-index: 4;
@@ -339,7 +643,18 @@
     animation-fill-mode: forwards;
 	
 }
-
+.Piechart-Mobile{
+	margin-top:5%;
+	margin-left:0%;
+	position:absolute;
+	z-index: 4;
+	width:20%;
+	overflow:hidden;
+	border-radius:0 80px 80px 0;
+	animation:a 3s linear;
+    animation-fill-mode: forwards;
+	
+}
 
 .Proportioncoverline{
 	z-index: 3;
@@ -351,7 +666,16 @@
 	top: 70%;
 	left: 40%;
 }
-
+.Proportioncoverline-Mobile{
+	z-index: 6;
+	position: absolute;
+	width: 0.5%;
+	height: 30.67%;
+	border-radius: 5px;
+	background-color: #fff;
+	margin-top: 21%;
+	margin-left: 4.17%;
+}
 .fish1{
 	position: absolute;
 	z-index: 4;
@@ -371,4 +695,45 @@
 	100%{margin-left: 90%; margin-top: 50.16%;transform:  scaleX(-1);}
 }
 
+@media screen and (min-device-width: 375px) and (max-device-width: 600px){
+	
+	.view2{
+		display: none;
+	}
+	.view21Mobile{
+		display: block;
+	}
+	
+	.view22Mobile{
+		display: block;
+	}
+	.bg2-2Moblie{
+		display: block;
+	}
+	.view23Mobile{
+		display: block;
+	}
+	
+	
+	
+}
 
+@media screen and (min-device-width: 100px) and (max-device-width: 375px){
+	
+	.view2{
+		display: none;
+	}
+	.view21Mobile{
+		display: block;
+	}
+	.view22Mobile{
+		display: block;
+	}
+	.bg2-2Moblie{
+		display: block;
+	}
+	.view23Mobile{
+		display: block;
+	}
+	
+	}

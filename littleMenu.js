@@ -9,7 +9,7 @@ var MenuBtnControl = document.getElementsByClassName('MenuBtn')[0];
 
 var MenuValue = 0 ;
 
-var ShowRange = window.matchMedia("(max-width: 376px)") 
+var ShowRange = window.matchMedia("(max-device-width: 960px)") 
 
 
 window.matchMedia = function(){MenuShow();};
