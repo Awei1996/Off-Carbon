@@ -56,10 +56,10 @@ h3,p{
   	
   	position: fixed; /* Fixed/sticky position */
   	margin-top: 2%; /* Place the button at the bottom of the page */
-  	margin-left: 92.5%; /* Place the button 30px from the right */
+  	margin-left: 95%; /* Place the button 30px from the right */
   	z-index: 30; /* Make sure it does not overlap */
-	width: 5%;
-	padding-bottom: 5%;
+	width: 3%;
+	padding-bottom: 3%;
 	border-radius: 50%;
   	border: none; /* Remove borders */
   	outline: none; /* Remove outline */
@@ -83,8 +83,8 @@ h3,p{
 .MenuContent{
 	z-index: 0;
 	position: fixed;
-	margin-left: 45%;
-	margin-top: 5%;
+	margin-left: 47%;
+	margin-top: 3%;
 	width: 40%;
 	padding-bottom: 30%;
 	text-align: right;
@@ -97,7 +97,7 @@ h3,p{
 }
 .MenuBtn{
 	
-	font-size: 7.5rem;
+	font-size: 7.2rem;
 	font-weight: bolder;
 	color: #CE7E24;
 	-webkit-text-size-adjust:none;
@@ -115,9 +115,9 @@ h3,p{
 .AllCross{
 	position: fixed;
 	z-index: 35;
-	width: 5%;
-	padding-bottom: 5%;
-	margin-left: 92.5%;
+	width: 3%;
+	padding-bottom: 3%;
+	margin-left: 95%;
 	margin-top: 2%;
 	border-radius: 50%;
 	opacity: 0;
@@ -127,9 +127,9 @@ h3,p{
 .Cross1{
 	position: fixed;
 	z-index: 40;
-	margin-top: 1.7%;
-	margin-left: 1.125%;
-	width: 2.6%;
+	margin-top: 0.9%;
+	margin-left: 0.5%;
+	width: 2%;
 	padding-bottom: 0.25%;
 	border-radius: 3px 3px 3px 3px;
 	background-color: #296177;
@@ -138,14 +138,14 @@ h3,p{
 
 }
 .Cross1.open{
-	margin-top: 2.3%;
+	margin-top: 1.4%;
 	transform: rotate(45deg);
 }
 .Cross2{
 	position: fixed;	
-	margin-top: 2.3%;
-	margin-left: 1.125%;
-	width: 2.6%;
+	margin-top: 1.4%;
+	margin-left: 0.5%;
+	width: 2%;
 	padding-bottom: 0.25%;
 	border-radius: 3px 3px 3px 3px;
 	background-color: #296177;
@@ -157,9 +157,9 @@ h3,p{
 }
 .Cross3{
 	position: fixed;	
-	margin-top: 2.9%;
-	margin-left: 1.125%;
-	width: 2.6%;
+	margin-top: 1.9%;
+	margin-left: 0.5%;
+	width: 2%;
 	padding-bottom: 0.25%;
 	border-radius: 3px 3px 3px 3px;
 	background-color: #296177;
@@ -167,7 +167,7 @@ h3,p{
 	transition: 0.5s; 
 }
 .Cross3.open{
-	margin-top: 2.3%;
+	margin-top: 1.4%;
 	transform: rotate(-45deg);
 }
 
@@ -289,7 +289,7 @@ h3,p{
 
 .LoadingAnimate{
 	position: fixed;
-	z-index: 20;
+	z-index: 999;
 	top: 0%;
 	left: 0%;
 	width: 100%;
@@ -306,95 +306,20 @@ h3,p{
 	justify-content: center;
 	align-items: center;
 
-
 }
 
-
+.l-earth{
+	position: absolute;
+	top: 30%;
+	width: 12.5%;
+}
 .l-word {
     position: absolute;
-    top: 55%;
+    top: 62.5%;
     font-size: 28px;
     letter-spacing: 12px;
 	text-align: center;
    
-}
-
-.circle {
-    width: 1%;
-    left: 45%;
-    top: 45%; 
-    background-color: #999;
-    border-radius: 50%;
-    display: inline-block;
-    position: absolute;
-    transform-origin: 50%;
-    animation: circle .5s alternate infinite ease ;
-	animation-delay: 0.5s;		
-}
-
-
-
-.circle:nth-child(2) {
-    left: 50%;
-    animation-delay: .2s
-}
-
-.circle:nth-child(3) {
-    left: 55%;
-    animation-delay: .3s
-}
-
-@keyframes circle {
-    0% {
-        top: 45%;
-        height: 5px;
-        border-radius: 50px 50px 25px 25px;
-        transform: scaleX(1.7);
-    }
-    40% {
-        height: 20px;
-        border-radius: 50%;
-        transform: scaleX(1);
-    }
-    100% {
-        top: 30%;
-    }
-}
-
-.shadow {
-    width: 20px;
-    height: 4px;
-    border-radius: 50%;
-    background-color: rgba(0, 0, 0, .125);
-    position: absolute;
-    top: 60px;
-    animation: shadow .5s alternate infinite ease;
-}
-
-
-
-.shadow:nth-child(4) {
-    left: 35%;
-    animation-delay: .2s
-}
-
-.shadow:nth-child(5) {
-    left: 70%;
-    animation-delay: .3s
-}
-
-@keyframes shadow {
-    0% {
-        transform: scaleX(1.5);
-    }
-    40% {
-        transform: scaleX(1);
-        opacity: .7;
-    }
-    100% {
-        transform: scaleX(.2);
-        opacity: .4;
-    }
 }
 
 .CountTo100{
@@ -442,6 +367,7 @@ h3,p{
 
 .wave{
 	position: absolute;
+	width: 100%;
 	margin-top: 39%;
 	margin-left: -2.52%;
 	opacity: 80%;

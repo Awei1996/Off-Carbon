@@ -326,6 +326,7 @@
 	align-items: center;
 	justify-content: center;
 }
+
 .Outsidetitle{
 	font-family: Gen Jyuu Gothic;
 	position: absolute;
@@ -360,4 +361,129 @@
 	font-weight: bold;
 	
 	
+}
+
+.Boxoutside-Mobile{
+	position: absolute;
+	z-index: 8;
+	background-color: transparent;
+	margin-left: 24.84%;
+	margin-top: 12%;
+	width: 23.23%;
+	border: none;
+	outline: none;
+	align-items: center;
+	justify-content: center;
+	display: none;
+}
+.Outsidetitle-Mobile{
+	font-family: Gen Jyuu Gothic;
+	position: absolute;
+	z-index: 10;
+	color: #ffffff;
+	line-height: 3.3;
+	font-size: 3.3rem;
+	font-weight: bold;
+	
+}
+.Boxinside-Mobile{
+	position: absolute;
+	z-index: 8;
+	background-color: transparent;
+	margin-left: 55%;
+	margin-top: 12%;
+	width: 23.23%;
+	border: none;
+	outline: none;
+	align-items: center;
+	justify-content: center;
+	display: none;
+	
+}
+
+.Insidetitle-Mobile{
+	font-family: Gen Jyuu Gothic;
+	position: absolute;
+	z-index: 10;
+	color: #ffffff;
+	line-height: 3.3;
+	font-size: 3.3rem;
+	font-weight: bold;
+	
+	
+}
+@media (min-device-width: 376px) and (max-device-width: 600px){
+	
+	.Outsidetitle{
+		font-size: 3.5rem;
+	
+	
+	}
+	.Insidetitle{
+		font-size: 3.5rem;
+	
+	
+	}
+	.boxinside{
+		position: absolute;
+		z-index: 8;
+		background-color: transparent;
+		margin-left: 55%;
+		margin-top: 12%;
+		width: 23.23%;
+		border: none;
+		outline: none;
+		align-items: center;
+		justify-content: center;
+		display: none;
+	
+	}
+	.Boxoutside{
+		
+		display: none;
+	
+	}
+	
+	.Boxinside{
+	
+		display: none;
+	}
+	.Boxoutside-Mobile{
+		
+		display: flex;
+	}
+	.Boxinside-Mobile{
+		display: flex;
+	}
+}
+
+@media (min-device-width: 100px) and (max-device-width: 375px){
+	
+	.Outsidetitle{
+		font-size: 4rem;
+	
+	
+	}
+	.Insidetitle{
+		font-size: 4rem;
+	
+	
+	}
+	.Boxoutside{
+		
+		display: none;
+	
+	}
+
+	.Boxinside{
+	
+		display: none;
+	}
+	.Boxoutside-Mobile{
+		
+		display: flex;
+	}
+	.Boxinside-Mobile{
+		display: flex;
+	}
 }
