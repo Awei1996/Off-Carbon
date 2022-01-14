@@ -36,11 +36,7 @@ h3,p{
 	margin-bottom: 5px;
 	font-weight: normal;
 }
-.allpg{
-	margin-top: 0%;
-	margin-left: 0%;
-	width: 100%;
-}
+
 .allpg{
 	font-family: Gen Jyuu Gothic ;
 	position: relative;
@@ -572,6 +568,19 @@ h3,p{
 	.Ab{
 		font-size: 16rem;
 	}
+	.l-earth{
+		position: absolute;
+		top: 40%;
+		width: 20%;
+		}
+	.l-word {
+		position: absolute;
+		top: 55%;
+		font-size: 28px;
+		letter-spacing: 12px;
+		text-align: center;
+
+	}
 }
 
 @media (min-device-width: 100px) and (max-device-width: 375px){
@@ -649,5 +658,18 @@ h3,p{
 	}
 	.Ab{
 		font-size: 16rem;
+	}
+	.l-earth{
+		position: absolute;
+		top: 40%;
+		width: 20%;
+		}
+	.l-word {
+		position: absolute;
+		top: 55%;
+		font-size: 28px;
+		letter-spacing: 12px;
+		text-align: center;
+
 	}
 }
