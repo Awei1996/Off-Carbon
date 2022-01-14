@@ -7,89 +7,92 @@
 	opacity: 1;
 	margin-top: 112%;
 }
+.bg3-1{
+	position: absolute;
+	z-index: -1;
+	left: 0%;
+	width: 100%;
+	opacity: 1;
+	margin-top: 168%;
+	display: block;
+}
+
 .tube{
 	position: absolute;
 	z-index: 11;
 	width: 100%;
 	margin-left: 0%;
-	margin-top: 1%;
+	margin-top: 5%;
 }
 
 .indoor{
 	position: absolute;
 	z-index: 11;
 	margin-left: 28.125%;
-	margin-top: -1.5%;
+	margin-top: 1.5%;
 	width: 26.04%;
 	color: #ffffff;
-	font-size: 4rem;
+	font-size: 4.5rem;
 	font-weight: bold;
 	text-align: center;
+	
 }
 .indoorline{
 	z-index: 11;
 	position: absolute;
 	width: 1%;
-	padding-bottom: 20%;
+	padding-bottom: 25%;
 	border-radius: 5px;
 	background-color: #fff;
-	margin-top: -32.5%;
+	margin-top: -37.5%;
 	margin-left: 72.5%;
 }
 .indoorpra{
 	position: absolute;
-	font-size: 2rem;
+	font-size: 2.8rem;
 	width: 100%;
-	margin-left: 75%;
-	margin-top: -35%;
+	margin-left: 80%;
+	margin-top: -42%;
 	text-align: left;
 	font-weight: normal;
 
 }
 .Longtime{
 	position: absolute;
-	z-index: 12;
+	z-index: 11;
 	margin-top: 17.5%;
-	margin-left: 62%;
+	margin-left: 65%;
 	color: #ffffff;
 	font-weight: 400;
-	font-size: 2.66rem;
+	font-size: 4.2rem;
 	
 }
 .LongtimeContent{
 	margin-top: -13.5%;
-	font-size: 1.2rem;
+	font-size: 3rem;
 	line-height: 1.5;
 }
 .AfterLongtime{
-	margin-left: 15%;
-	margin-top: 10%;
+	margin-left: 20%;
+	margin-top: -12.5%;
 	line-height: 0;
 }
 .LongtimeShapeRT{
 	position: absolute;
-	z-index: 13;
-	margin-top: 18%;
-	margin-left: 32%;
-	width: 25%;
-	
-	
+	z-index: 11;
+	margin-top: 18.5%;
+	margin-left: 32.5%;
+	width: 30%;
+	opacity: 1;
 }
 
-.Barchart{
-	position: absolute;
-	z-index: 12;
-	margin-top: 20%;
-	margin-left: 0%;
-	width: 100%;
-	padding-bottom: 35%;
-}
+
 .Bar350{
 	position: absolute;
-	margin-top: 0%;
+	margin-top: 24%;
 	margin-left: 0%;
 	width: 0.7%;
-	padding-bottom: 1.5%;
+	padding-bottom: 3%;
 	background-color: #1C623F;
 	opacity: 1;
 	display: flex;
@@ -99,9 +102,9 @@
 .Bar350:before{
 	position: absolute;
 	content: "";
-	margin-top: 225%;
+	margin-top: 440%;
 	width: 285%;
-	padding-bottom: 220%;
+	padding-bottom: 440%;
 	background-color: rgba(28,98,63,0.5);
 	
 }
@@ -109,19 +112,24 @@
 	position: absolute;
 	z-index: 12;
 	color: #ffffff;
-	margin-left: 2.5%;
-	margin-top: -2%;
+	margin-left: 5%;
+	margin-top: 21%;
 	line-height: 0.8;
+	padding-bottom: 2%;
+	font-size: 3.5rem;
 }
+
 .Bar350value{
 	margin-left: -20%;
+	margin-top: -7.5%;
 }
+
 .Bar1000{
 	position: absolute;
-	margin-top: 4.5%;
+	margin-top: 35%;
 	margin-left: 0%;
 	width: 2%;
-	padding-bottom: 1.5%;
+	padding-bottom: 3%;
 	background: #518551 0% 0% no-repeat padding-box;
 	opacity: 1;
 	
@@ -130,7 +138,7 @@
 	position: absolute;
 	content: "";
 	width: 200%;
-	padding-bottom: 75%;
+	padding-bottom: 150%;
 	background-color: rgba(81,136,81,0.2);
 	
 }
@@ -138,19 +146,22 @@
 	position: absolute;
 	z-index: 12;
 	color: #ffffff;
-	margin-left: 4.5%;
-	margin-top: 2.5%;
+	margin-left: 7.5%;
+	margin-top: 31.5%;
+	padding-bottom: 2%;
 	line-height: 0.8;
+	font-size: 3.5rem;
 }
 .Bar1000value{
 	margin-left: -15%;
+	margin-top: -5%;
 }
 .Bar2000{
 	position: absolute;
-	margin-top: 9%;
+	margin-top: 46%;
 	margin-left: 0%;
 	width: 4%;
-	padding-bottom: 1.5%;
+	padding-bottom: 3%;
 	background-color: #8AAD64;
 	opacity: 1;
 }
@@ -158,7 +169,7 @@
 	position: absolute;
 	content: "";
 	width: 250%;
-	padding-bottom: 37.5%;
+	padding-bottom: 75%;
 	background-color:#8AAD64;
 	opacity: 0.2;
 	
@@ -167,20 +178,23 @@
 	position: absolute;
 	z-index: 12;
 	color: #ffffff;
-	margin-left: 10.5%;
-	margin-top: 7%;
+	margin-left: 13%;
+	margin-top: 44%;
+	padding-bottom: 2%;
 	line-height: 0.8;
-	
+	font-size: 3.5rem;
 }
 .Bar2000value{
-	margin-left: -25%;
+	margin-left: -15%;
+	margin-top: -5%;
 }
+
 .Bar5000{
 	position: absolute;
-	margin-top: 13.5%;
+	margin-top: 57%;
 	margin-left: 0%;
 	width: 10%;
-	padding-bottom: 1.5%;
+	padding-bottom: 3%;
 	background: #B9CA70 0% 0% no-repeat padding-box;
 	opacity: 1;
 	
@@ -189,7 +203,7 @@
 	position: absolute;
 	content: "";
 	width: 200%;
-	padding-bottom: 15%;
+	padding-bottom: 30%;
 	opacity: 0.2;
 	background-color: #B9CA70;
 	
@@ -198,21 +212,22 @@
 	position: absolute;
 	z-index: 12;
 	color: #ffffff;
-	margin-left: 20.5%;
-	margin-top: 11.5%;
+	margin-left: 23%;
+	margin-top: 52%;
 	line-height: 0.8;
+	font-size: 3.5rem;
 	
 }
 .Bar5000value{
-	margin-left: -135%;
+	margin-left: -80%;
 }
 
 .Bar10000{
 	position: absolute;
-	margin-top: 18%;
+	margin-top: 68%;
 	margin-left: 0%;
 	width: 20%;
-	padding-bottom: 1.5%;
+	padding-bottom:3%;
 	background: #C8B557 0% 0% no-repeat padding-box;
 	opacity: 1;
 	
@@ -222,7 +237,7 @@
 	position: absolute;
 	content: "";
 	width: 200%;
-	padding-bottom: 7.5%;
+	padding-bottom: 15%;
 	opacity: 0.2;
 	background-color: #C8B557;
 	
@@ -231,21 +246,23 @@
 	position: absolute;
 	z-index: 12;
 	color: #ffffff;
-	margin-left: 40.5%;
-	margin-top: 16%;
+	margin-left: 43%;
+	margin-top: 63%;
 	line-height: 0.8;
+	font-size: 3.5rem;
 	
 }
 .Bar10000value{
-	margin-left: -75%;
+	margin-left: -70%;
 }
 .Bar10000mark{
 	position: absolute;
 	z-index: 13;
-	margin-top: 3%;
+	margin-top: 7.5%;
 	height: 10%;
-	margin-left: 160%;
-	font-size: 4rem;
+	margin-left: 170%;
+	font-size: 8rem;
+	font-weight: lighter;
 	transform: rotate(90deg);
 	color: #ffffff;
 	
@@ -253,10 +270,10 @@
 
 .Bar70000{
 	position: absolute;
-	margin-top: 22.5%;
+	margin-top: 79%;
 	margin-left: 0%;
 	width: 36%;
-	padding-bottom: 1.5%;
+	padding-bottom: 3%;
 	background: #D7A23F 0% 0% no-repeat padding-box;
 	opacity: 1;
 }
@@ -265,7 +282,7 @@
 	position: absolute;
 	content: "";
 	width: 150%;
-	padding-bottom: 4.5%;
+	padding-bottom: 9%;
 	opacity: 0.3;
 	background-color: #D7A23F;
 	
@@ -274,31 +291,33 @@
 	position: absolute;
 	z-index: 12;
 	color: #ffffff;
-	margin-left: 54.5%;
-	margin-top: 20.5%;
+	margin-left: 57.5%;
+	margin-top: 74%;
 	line-height: 0.8;
+	font-size: 3.5rem;
 	
 }
 .Bar70000value{
-	margin-left: -100%;
+	margin-left: -75%;
 }
 .Bar70000mark{
 	position: absolute;
 	z-index: 13;
-	margin-top: 2%;
+	margin-top: 4.5%;
 	height: 10%;
 	margin-left: 145%;
-	font-size: 4rem;
+	font-size: 8rem;
 	transform: rotate(90deg);
 	color: #ffffff;
+	font-weight: lighter;
 	
 }
 .Bar100000{
 	position: absolute;
-	margin-top: 27%;
+	margin-top: 90%;
 	margin-left: 0%;
 	width: 54%;
-	padding-bottom: 1.5%;
+	padding-bottom: 3%;
 	background: #E4912B 0% 0% no-repeat padding-box;
 	opacity: 1;
 }
@@ -307,7 +326,7 @@
 	position: absolute;
 	content: "";
 	width: 135%;
-	padding-bottom: 2.75%;
+	padding-bottom: 5.5%;
 	opacity: 0.3;
 	background-color: #E4912B;
 	
@@ -316,27 +335,26 @@
 	position: absolute;
 	z-index: 12;
 	color: #ffffff;
-	margin-left: 73.5%;
-	margin-top: 24%;
+	margin-left: 76%;
+	margin-top: 84%;
 	line-height: 1.2;
+	font-size: 3.5rem;
 	
 }
 .Bar100000value{
-	margin-left: -65%;
+	margin-left: -62.5%;
 }
 .Bar100000mark{
 	position: absolute;
 	z-index: 13;
-	margin-top: 1%;
+	margin-top: 2.5%;
 	height: 10%;
 	margin-left: 130%;
-	font-size: 4rem;
+	font-size: 8rem;
 	transform: rotate(90deg);
 	color: #ffffff;
 	
 }
-
-
 @media (min-device-width: 1280px) and (max-device-width: 1500px){
 	
 	.indoor{
@@ -373,10 +391,37 @@
 
 @media (min-device-width: 376px) and (max-device-width: 600px){
 	
+	.indoor{
+		margin-top: 0.8%;
+	}
+	.indoorline{
+		margin-top: -42.5%;
+		padding-bottom: 27.5%;
+		margin-left: 75%;
+	}
 	
+	.indoorpra{
+		
+		margin-top: -52.5%;
+	
+	}
+	.Longtime{
+		margin-top: 15%;
+		
+	}
+	.AfterLongtime{
+		margin-top: -15%;
+		margin-left: 22.5%;
+	}
+	.LongtimeContent{
+		margin-top: -13.5%;
+		font-size: 2.8rem;
+		line-height: 1.5;
+	}
 	
 }
 
 @media (min-device-width: 100px) and (max-device-width: 375px){
+	
 	
 }

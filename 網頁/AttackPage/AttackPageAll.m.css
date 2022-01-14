@@ -8,7 +8,6 @@ html{
 	scroll-behavior: smooth;
 	font-family: Gen Jyuu Gothic ;
 	font-size: 14px;
-	
 
 }
 body{
@@ -30,7 +29,7 @@ body{
 	margin-top:  0%;
 	width: 100%;
 	height: 100%;
-	padding-bottom: 280%;
+	padding-bottom: 572%;
 	overflow: hidden;
 
 
@@ -88,48 +87,13 @@ button{
 	margin-top: 112%;
 	left: 0%;
 	width: 100%;
-	padding-bottom: 56%;
+	padding-bottom: 112%;
 	background-color: transparent;
 	font-size: 1.33rem;
 	display: block;
 }
-.view3-Mobile{
-	font-family: Gen Jyuu Gothic ;
-	position: absolute;
-	z-index: 5;
-	margin-top: 112%;
-	left: 0%;
-	width: 100%;
-	padding-bottom: 56%;
-	background-color: transparent;
-	font-size: 1.33rem;
-	display: none;
-}
-.view3-1Mobile{
-	font-family: Gen Jyuu Gothic ;
-	position: absolute;
-	z-index: 5;
-	margin-top: 168%;
-	left: 0%;
-	width: 100%;
-	padding-bottom: 56%;
-	background-color: transparent;
-	font-size: 1.33rem;
-	display: none;
-}
-.view4{
-	font-family: Gen Jyuu Gothic ;
-	position: absolute;
-	z-index: 5;
-	margin-top: 168%;
-	left: 0%;
-	width: 100%;
-	padding-bottom: 56%;
-	background-color: transparent;
-	overflow: hidden;
 
-}
-.view4-Mobile{
+.view4{
 	font-family: Gen Jyuu Gothic ;
 	position: absolute;
 	z-index: 5;
@@ -140,29 +104,30 @@ button{
 	background-color: transparent;
 	font-size: 1.33rem;
 	overflow: hidden;
-	display: none;
+
 }
-.view4-1Mobile{
+
+.view4-1{
 	font-family: Gen Jyuu Gothic ;
 	position: absolute;
 	z-index: 7;
 	margin-top: 308%;
 	left: 0%;
 	width: 100%;
-	padding-bottom: 168%;
+	padding-bottom: 180%;
 	background-color: transparent;
 	font-size: 1.33rem;
 	overflow: hidden;
-	display: none;
+	display: block;
 }
 .view5{
 	font-family: Gen Jyuu Gothic ;
 	position: absolute;
 	z-index: 10;
-	margin-top: 224%;
+	margin-top: 488%;
 	left: 0%;
 	width: 100%;
-	padding-bottom: 56%;
+	padding-bottom: 84%;
 	background-color: transparent;
 	boder: solid 3px orange;
 	display: flex;
@@ -184,6 +149,7 @@ button{
 	opacity: 0;
   
 	transition: background-color 200ms,transform 1s; 
+	
 	
 }
 
@@ -218,6 +184,7 @@ button{
 	color: #CE7E24;
 	-webkit-text-size-adjust:none;
 	
+	
 }
 .MenuBtn:hover{
 	color: #184557;
@@ -236,6 +203,7 @@ button{
 	margin-top: 2%;
 	border-radius: 50%;
 	opacity: 0;
+	
 	
 }
 .Cross1{
@@ -304,6 +272,8 @@ button{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	
+
 
 }
 .l-earth{
@@ -338,7 +308,7 @@ button{
 @media (min-device-width: 960px) and (max-device-width: 1280px){
 	
 	html{
-		font-size: 8px;
+		font-size: 7px;
 	}
 	
 }
@@ -346,18 +316,21 @@ button{
 	
 	
 	html{
-		font-size: 6px;
+		font-size: 7px;
 	}
+	
 	
 }
 
 @media (min-device-width: 376px) and (max-device-width: 600px){
 	
+	
 	html{
-		font-size: 4px;
+		font-size: 6px;
 	}
 	
 	.myBtn {
+  	
   	
 		margin-top: 4%; /* Place the button at the bottom of the page */
 		margin-left: 90%; /* Place the button 30px from the right */
@@ -367,10 +340,12 @@ button{
   	
 	}
 	.AllCross{
+		
 		width: 8%;
 		padding-bottom: 8%;
 		margin-left: 90%;
 		margin-top: 4%;
+
 	}
 	.Cross1{	
 		margin-top: 2.8%;
@@ -378,6 +353,8 @@ button{
 		width: 4%;
 		padding-bottom: 0.5%;
 	
+		
+
 	}
 	.Cross1.open{
 		margin-top: 3.8%;
@@ -436,10 +413,10 @@ button{
 @media (min-device-width: 100px) and (max-device-width: 375px){
 	
 	html{
-		font-size: 3px;
+		font-size: 5px;
 	}
-	
 	.myBtn {
+  	
   	
 		margin-top: 4%; /* Place the button at the bottom of the page */
 		margin-left: 90%; /* Place the button 30px from the right */
@@ -461,6 +438,9 @@ button{
 		margin-left: 2%;
 		width: 4%;
 		padding-bottom: 0.5%;
+	
+		
+
 	}
 	.Cross1.open{
 		margin-top: 3.8%;

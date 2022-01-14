@@ -4,8 +4,7 @@
 	z-index: 9;
 	left: 0%;
 	width: 100%;
-	margin-top: 224%;
-	padding-bottom: 0%;
+	margin-top: 488%;
 	display: flex;
 }
 
@@ -13,7 +12,7 @@
 .references{
 	position: absolute;
 	z-index: 1;
-	font-size: 5rem;
+	font-size: 6rem;
 	margin-top: 8%;
 	margin-left: 0%;
 	width: 100%;
@@ -34,37 +33,40 @@
 	border: 1px solid #D1D9E4;
 	opacity: 1;
 }
+.view5 a{
+	font-size: 2.4rem;
+}
 .Part1{
 	position: absolute;
 	margin-left: 0%;
 	width: 33.3%;
 	padding-bottom: 40%;
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: center;
 	text-align: center;
 	color: #ACD3D2;
 }
 .CO2temp{
 	position: absolute;
-	margin-top:  30%;
-	font-size: 1.66rem;
+	margin-top:  20%;
+	font-size: 2.8rem;
 
 }
 .IceMelting{
 	position: absolute;
-	margin-top: 80%;
-	font-size: 1.66rem;
+	margin-top: 60%;
+	font-size: 2.8rem;
 }
 .HeatWaveinfor{
 	position: absolute;
-	margin-top: 130%;
-	font-size: 1.66rem;
+	margin-top: 100%;
+	font-size: 2.8rem;
 }
 .FireForestinfor{
 	position: absolute;
-	margin-top: 180%;
-	font-size: 1.66rem;
+	margin-top: 140%;
+	font-size: 2.8rem;
 }
 .Part2{
 	position: absolute;
@@ -72,31 +74,31 @@
 	width: 33.3%;
 	padding-bottom: 40%;
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: center;
 	text-align: center;
 	color: #ACD3D2;
 }
 .Extinction{
 	position: absolute;
-	margin-top:  30%;
-	font-size: 1.66rem;
+	margin-top:  20%;
+	font-size: 2.8rem;
 
 }
 .SeaSour{
 	position: absolute;
-	margin-top:  80%;
-	font-size: 1.66rem;
+	margin-top:  60%;
+	font-size: 2.8rem;
 }
 .ExtremeWeather{
 	position: absolute;
-	margin-top:  130%;
-	font-size: 1.66rem;
+	margin-top:  100%;
+	font-size: 2.8rem;
 }
 .DiseaseRage{
 	position: absolute;
-	margin-top:  180%;
-	font-size: 1.66rem;
+	margin-top: 140%;
+	font-size: 2.8rem;
 }
 .Part3{
 	position: absolute;
@@ -104,7 +106,7 @@
 	width: 33.3%;
 	padding-bottom: 40%;
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: center;
 	text-align: center;
 	color: #ACD3D2;
@@ -112,30 +114,27 @@
 }
 .FoodLess{
 	position: absolute;
-	margin-top:  30%;
-	font-size: 1.66rem;
+	margin-top:  20%;
+	font-size: 2.8rem;
 }
 .EconomicAffect{
 	position: absolute;
-	margin-top:  80%;
-	font-size: 1.66rem;
+	margin-top:  60%;
+	font-size: 2.8rem;
 }
 .Other{
 	position: absolute;
-	margin-top:  130%;
-	font-size: 1.66rem;
+	margin-top:  100%;
+	font-size: 2.8rem;
 }
 @media (min-device-width: 1280px) and (max-device-width: 1500px){
-	
 	
 }
 
 @media (min-device-width: 960px) and (max-device-width: 1280px){
 	
-	
 }
 @media (min-device-width: 600px) and (max-device-width: 960px){
-	
 		
 }
 

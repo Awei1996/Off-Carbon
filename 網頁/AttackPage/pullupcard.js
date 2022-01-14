@@ -52,7 +52,7 @@ document.getElementsByClassName('SpeciesDiversity')[0].onclick = function() {
 	var SDCpart4Control = document.getElementsByClassName('SDCpart4')[0];
 	var SDCpart4TitleControl = document.getElementsByClassName('SDCpart4Title')[0];
 	var SDCpart4ContenttextControl = document.getElementsByClassName('SDCpart4Contenttext')[0];
-	
+	location.href = "#Menu";
 
 
 	if(this.value === 'close') 
@@ -339,6 +339,7 @@ document.getElementsByClassName('OceanAcidification')[0].onclick = function() {
 	var OACpart4Control = document.getElementsByClassName('OACpart4')[0];
 	var OACpart4TitleControl = document.getElementsByClassName('OACpart4Title')[0];
 	var OACpart4ContenttextControl = document.getElementsByClassName('OACpart4Contenttext')[0];
+	location.href = "#Menu";
 
 	if(this.value === 'close') 
 	{ 
@@ -623,6 +624,8 @@ document.getElementsByClassName('MeltingIce')[0].onclick = function() {
 	var MICpart4Control = document.getElementsByClassName('MICpart4')[0];
 	var MICpart4TitleControl = document.getElementsByClassName('MICpart4Title')[0];
 	var MICpart4ContenttextControl = document.getElementsByClassName('MICpart4Contenttext')[0];
+	location.href = "#Menu";
+
 
 	if(this.value === 'close') 
 	{ 
@@ -906,6 +909,8 @@ document.getElementsByClassName('FireForest')[0].onclick = function() {
 	
 	var FFCIconControl = document.getElementsByClassName('FFCIcon')[0];
 	var FFCIconContenttextControl = document.getElementsByClassName('FFCIconContenttext')[0];
+	location.href = "#Menu";
+	
 	if(this.value === 'close') 
 	{ 
 		this.value = 'open';
@@ -1130,6 +1135,8 @@ document.getElementsByClassName('HeatWave')[0].onclick = function() {
 	var HWCJPContenttextControl = document.getElementsByClassName('HWCJPContenttext')[0];
 	
 	var HWCintroductionControl = document.getElementsByClassName('HWCintroduction')[0];
+	location.href = "#Menu";
+	
 	if(this.value === 'close') 
 	{ 
 		this.value = 'open';
@@ -1333,6 +1340,7 @@ document.getElementsByClassName('ExtremeClimate')[0].onclick = function() {
 	var ECCIconContenttextControl = document.getElementsByClassName('ECCIconContenttext')[0];
 	
 	var ECCBAControl = document.getElementsByClassName('ECCBA')[0];
+	location.href = "#Menu";
 	
 
 	if(this.value === 'close') 
@@ -1630,6 +1638,8 @@ document.getElementsByClassName('Disease')[0].onclick = function() {
 	var DSCpart4Control = document.getElementsByClassName('DSCpart4')[0];
 	var DSCpart4TitleControl = document.getElementsByClassName('DSCpart4Title')[0];
 	var DSCpart4ContenttextControl = document.getElementsByClassName('DSCpart4Contenttext')[0];
+	location.href = "#Menu";
+
 
 	if(this.value === 'close') 
 	{ 
@@ -1644,6 +1654,7 @@ document.getElementsByClassName('Disease')[0].onclick = function() {
 		DisasterControl.classList.remove('close');
 		DSCBGControl.classList.add('open');
 		BbtnControl.classList.add('open');
+		
 		
 		DSCpart1ContenttextControl.style.opacity = 0;
 		DSCpart2ContenttextControl.style.opacity = 0;
@@ -1666,7 +1677,6 @@ document.getElementsByClassName('Disease')[0].onclick = function() {
 			DSCpart1Control.style.zIndex = 19;
 			DSCpart1TitleControl.style.zIndex = 19;
 			DSCpart1ContenttextControl.style.zIndex = 19;
-			DSCContentControl.style.opacity = 0.99;
 			DSCpart2Control.style.zIndex = 16;
 			DSCpart2TitleControl.style.zIndex = 16;
 			DSCpart2ContenttextControl.style.zIndex = 16;
@@ -1703,7 +1713,6 @@ document.getElementsByClassName('Disease')[0].onclick = function() {
 			DSCpart1Control.style.zIndex = 16;
 			DSCpart1TitleControl.style.zIndex = 16;
 			DSCpart1ContenttextControl.style.zIndex = 16;
-			DSCContentControl.style.opacity = 0.99;
 			DSCpart2Control.style.zIndex = 19;
 			DSCpart2TitleControl.style.zIndex = 19;
 			DSCpart2ContenttextControl.style.zIndex = 19;
@@ -1740,7 +1749,6 @@ document.getElementsByClassName('Disease')[0].onclick = function() {
 			DSCpart1Control.style.zIndex = 16;
 			DSCpart1TitleControl.style.zIndex = 16;
 			DSCpart1ContenttextControl.style.zIndex = 16;
-			DSCContentControl.style.opacity = 0.99;
 			DSCpart2Control.style.zIndex = 16;
 			DSCpart2TitleControl.style.zIndex = 16;
 			DSCpart2ContenttextControl.style.zIndex = 16;
@@ -1777,7 +1785,6 @@ document.getElementsByClassName('Disease')[0].onclick = function() {
 			DSCpart1Control.style.zIndex = 16;
 			DSCpart1TitleControl.style.zIndex = 16;
 			DSCpart1ContenttextControl.style.zIndex = 16;
-			DSCContentControl.style.opacity = 0.99;
 			DSCpart2Control.style.zIndex = 16;
 			DSCpart2TitleControl.style.zIndex = 16;
 			DSCpart2ContenttextControl.style.zIndex = 16;
@@ -1915,6 +1922,8 @@ document.getElementsByClassName('FoodShortage')[0].onclick = function() {
 	var FSCpart4Control = document.getElementsByClassName('FSCpart4')[0];
 	var FSCpart4TitleControl = document.getElementsByClassName('FSCpart4Title')[0];
 	var FSCpart4ContenttextControl = document.getElementsByClassName('FSCpart4Contenttext')[0];
+	location.href = "#Menu";
+
 
 	if(this.value === 'close') 
 	{ 
@@ -2200,6 +2209,8 @@ document.getElementsByClassName('EconomicShock')[0].onclick = function() {
 	var ESCpart4Control = document.getElementsByClassName('ESCpart4')[0];
 	var ESCpart4TitleControl = document.getElementsByClassName('ESCpart4Title')[0];
 	var ESCpart4ContenttextControl = document.getElementsByClassName('ESCpart4Contenttext')[0];
+	location.href = "#Menu";
+
 
 	if(this.value === 'close') 
 	{
