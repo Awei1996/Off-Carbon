@@ -93,30 +93,6 @@ button{
 	font-size: 1.33rem;
 	display: block;
 }
-.view3-Mobile{
-	font-family: Gen Jyuu Gothic ;
-	position: absolute;
-	z-index: 5;
-	margin-top: 112%;
-	left: 0%;
-	width: 100%;
-	padding-bottom: 56%;
-	background-color: transparent;
-	font-size: 1.33rem;
-	display: none;
-}
-.view3-1Mobile{
-	font-family: Gen Jyuu Gothic ;
-	position: absolute;
-	z-index: 5;
-	margin-top: 168%;
-	left: 0%;
-	width: 100%;
-	padding-bottom: 56%;
-	background-color: transparent;
-	font-size: 1.33rem;
-	display: none;
-}
 .view4{
 	font-family: Gen Jyuu Gothic ;
 	position: absolute;
@@ -128,32 +104,6 @@ button{
 	background-color: transparent;
 	overflow: hidden;
 
-}
-.view4-Mobile{
-	font-family: Gen Jyuu Gothic ;
-	position: absolute;
-	z-index: 5;
-	margin-top: 224%;
-	left: 0%;
-	width: 100%;
-	padding-bottom: 84%;
-	background-color: transparent;
-	font-size: 1.33rem;
-	overflow: hidden;
-	display: none;
-}
-.view4-1Mobile{
-	font-family: Gen Jyuu Gothic ;
-	position: absolute;
-	z-index: 7;
-	margin-top: 308%;
-	left: 0%;
-	width: 100%;
-	padding-bottom: 168%;
-	background-color: transparent;
-	font-size: 1.33rem;
-	overflow: hidden;
-	display: none;
 }
 .view5{
 	font-family: Gen Jyuu Gothic ;

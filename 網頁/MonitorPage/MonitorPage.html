@@ -4,33 +4,10 @@
 	<meta charset="utf-8">
 	<title>環境監測儀</title>
 	
-	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap" rel="stylesheet">
 	<link href="MonitorPage.css" rel="stylesheet" type="text/css">
 	
 	<script src="jquery-1.8.3.min.js"></script>
-	
-	<script>
-		AOS.init({
-			easing:'ease-in-out-sine'
-		});
-	
-	</script>
-
-	<script>
-		$(function(){
-			$('#dowebok').fullpage({
-				afterLoad(_, index) {
-					if (index === 1) {
-					  return
-					}
-
-					const $section = $('.section').eq(index - 1)
-					$section.find('[data-aos]').addClass('aos-animate')
-			  	},
-			});
-		});
-	</script>
 
 </head>
 
@@ -39,14 +16,11 @@
 		<div class="section">
 			<div class="LoadingAnimate">
 				<div class="loadingwrap">
-					<div class="circle"> </div>
-					<div class="circle"> </div>
-					<div class="circle"> </div>
-					<div class="shadow"> </div>
-					<div class="shadow"> </div>
-					<div class="shadow"> </div>
+					<div class="l-earth">
+						<img src="../../Animation/LoadingEarth.gif" width="100%"  alt=""/>
+					</div>
 					<div class="l-word">						
-						<div class="CountTo100"></div>				
+		  				<div class="CountTo100"></div>				
 					</div>
     			</div>
 			</div>
@@ -150,6 +124,12 @@
 					<a class="active" href="../AboutUsPage/AboutUsPage.html" style="color: white;text-decoration: none">關於我們</a>	
 				</div>
 				
+				<div class="Dots">
+					<div class="dot1"></div>
+					<div class="dot2"></div>
+					<div class="dot3"></div>
+					<div class="dot4"></div>
+				</div>
 
 		  </div>
 		</div>

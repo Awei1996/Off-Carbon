@@ -16,7 +16,7 @@ window.matchMedia = function(){MenuShow();};
 window.onscroll = function() {MenuShow();};
 
 function MenuShow(){
-	if (ShowRange.matches|| document.body.scrollTop > 100 || document.documentElement.scrollTop > 100 ){
+	if (ShowRange.matches|| document.body.scrollTop > 0 || document.documentElement.scrollTop > 0 ){
 		mybutton.style.display = "block"; 
 		mybutton.style.opacity = 0.98;
 		AllCrossControl.style.display = "block"; 

@@ -20,7 +20,7 @@ body{
     display: block;
     width: 100%;
     height: 100%;
-	background-color: #1d1d1d;
+	background-color: #FFF;
 
 }
 video{
@@ -60,7 +60,6 @@ iframe{
   
 	transition: background-color 200ms,transform 1s; 
 	
-	
 }
 
 .myBtn.open{
@@ -94,7 +93,6 @@ iframe{
 	color: #CE7E24;
 	-webkit-text-size-adjust:none;
 	
-	
 }
 .MenuBtn:hover{
 	color: #184557;
@@ -113,7 +111,6 @@ iframe{
 	margin-top: 2%;
 	border-radius: 50%;
 	opacity: 0;
-	
 	
 }
 .Cross1{
@@ -215,7 +212,6 @@ iframe{
 	align-items: center;
 	justify-content: center;
 }
-
 .Torch {
 	position: absolute;
 	z-index: 1;
@@ -280,7 +276,7 @@ iframe{
 		opacity: 0.25;
   	}
   	
-
+	
 	20%{
 		opacity: 0.25;	
 	}
@@ -439,45 +435,32 @@ button{
 	margin-left: 0%;
 	margin-top: 56.1%;
 	width: 100%;
-	padding-bottom: 56%;
-	overflow: hidden;
+	padding-bottom: 112%;
 }
 
-.bg2{
-	position: absolute;
-	z-index: 1;
-	margin-left: 0%;
-	margin-top: 56%;
-	background-color: #fff;
-}
 .FoodAnimation{
 	position: absolute;
 	z-index: 7;
-	margin-left: 5.83%;
-	margin-top: 15%;
-	width: 26.77%;
-	height: 36.11%;
+	margin-left: 29.93%;
+	margin-top: 5%;
+	width: 40.15%;
+	height: 27.09%;
 	border-radius: 5%;
 	color: transparent;
 	font-size: 8.33rem;
 	background-color: #0C617B;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: center;	
+	transition: 1s;
 
 }
-.FoodAnimation:hover{
-	box-shadow: 5px 5px rgba(200,200,200,0.3);
-	margin-left: 5.8%;
-	margin-top: 14.8%;
 
-
-}
 .FoodAnimation.open{
 	margin-left: 0%;
-	margin-top: 0%;
+	margin-top: -56%;
 	width: 100%;
-	height: 100%;
+	height: 200%;
 	background-color: rgba(12,97,123,0);
 	
 }
@@ -485,7 +468,7 @@ button{
 	position: absolute;
 	margin-left: 0%;
 	margin-top: 0%;
-	z-index: 7;
+	z-index: 2;
 	width: 100%;
 	height: 100%;
 	border-radius: 5%;
@@ -496,7 +479,6 @@ button{
 	align-items: center;
 	justify-content: center;
 	transition: 1s ,color 0.01s;
-
 
 }
 .FATitle.open{
@@ -517,32 +499,31 @@ button{
 }
 .Food.open{
 	margin-left: 0%;
-	margin-top: -42.5%;
+	margin-top: -210%;
 	width: 100%;
 	height: 5%;
-	font-size: 5.33rem;
+	font-size: 8rem;
 	color: #65B9D3;
 	font-weight: bold;
+	transition: 2s color 0.1s;
 }
 .FAVideo{
 	position: absolute;
 	margin-left: 0%;
 	margin-top: 0%;
-	z-index: 1;
+	z-index: 3;
 	width: 0%;
 	height: 0%;
 	align-items: center;
-
 	
 }
 .FAVideo.open{
-	margin-left: -45%;
-	margin-top: 0%;
-	width: 41.67%;
-	height: 41.67%;
+	
+	margin-top: -150%;
+	width: 83.33%;
+	height: 20.84%;
 	border-radius: 5%;
 	
-
 }
 .FAText{
 	position: absolute;
@@ -553,33 +534,33 @@ button{
 	color: transparent;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: flex-start;
 }
 .FAText.open{
-	margin-left: 50%;
-	margin-top: 0%;
-	width: 50%;
+	margin-left: 8.75%;
+	margin-top: -50%;
+	width: 82.5%;
 	height: 100%;
-	font-size: 3.33rem;
+	font-size: 6rem;
 	color: #ffffff;
 	line-height: 2;
 }
 .Back{
 	position: absolute;
 	z-index: 8;
-	margin-left: 2.6%;
-	margin-top: 1.2%;
-	width: 3.75%;
+	margin-top: 75%;
+	margin-left: 45%;
+	width: 10%;
 	
 	opacity: 0;
 }
 .LifeAnimation{
 	position: absolute;
 	z-index: 7;
-	margin-left: 36.77%;
-	margin-top: 15%;
-	width: 26.77%;
-	height: 36.11%;
+	margin-left: 29.93%;
+	margin-top: 40%;
+	width: 40.15%;
+	height: 27.09%;
 	border-radius: 5%;
 	color: transparent;
 	background-color: #F78700;
@@ -590,18 +571,11 @@ button{
 
 
 }
-.LifeAnimation:hover{
-	box-shadow: 5px 5px rgba(200,200,200,0.3);
-	margin-left: 36.74%;
-	margin-top: 14.8%;
-
-
-}
 .LifeAnimation.open{
 	margin-left: 0%;
-	margin-top: 0%;
+	margin-top: -56%;
 	width: 100%;
-	height: 100%;
+	height: 200%;
 	background-color: rgba(247,135,00,0);
 }
 .LATitle{
@@ -610,7 +584,7 @@ button{
 	margin-top: 0%;
 	z-index: 7;
 	width: 100%;
-	height: 100%;
+	height: 18.06%;
 	border-radius: 5%;
 	font-size: 8.33rem;
 	color: #ffffff;
@@ -641,12 +615,13 @@ button{
 }
 .Life.open{
 	margin-left: 0%;
-	margin-top: -42.5%;
+	margin-top: -210%;
 	width: 100%;
 	height: 5%;
-	font-size: 5.33rem;
+	font-size: 8rem;
 	color: #6A3C04;
 	font-weight: bold;
+	transition: 2s color 0.1s;
 }
 .LAVideo{
 	position: absolute;
@@ -660,10 +635,9 @@ button{
 	
 }
 .LAVideo.open{
-	margin-left: -45%;
-	margin-top: 0%;
-	width: 41.67%;
-	height: 41.67%;
+	margin-top: -150%;
+	width: 83.33%;
+	height: 20.84%;
 	border-radius: 5%;
 
 }
@@ -676,24 +650,24 @@ button{
 	color: transparent;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: flex-start;
 }
 .LAText.open{
-	margin-left: 50%;
-	margin-top: 0%;
-	width: 50%;
+	margin-left: 8.75%;
+	margin-top: -50%;
+	width: 82.5%;
 	height: 100%;
-	font-size: 3.33rem;
+	font-size: 6rem;
 	color: #ffffff;
 	line-height: 2;
 }
 .HappyAnimation{
 	position: absolute;
 	z-index: 7;
-	margin-left: 67.34%;
-	margin-top: 15%;
-	width: 26.77%;
-	height: 36.11%;
+	margin-left: 29.93%;
+	margin-top: 75%;
+	width: 40.15%;
+	height: 27.09%;
 	border-radius: 5%;
 	color: transparent;
 	background-color: #B2CE65;
@@ -704,18 +678,12 @@ button{
 
 
 }
-.HappyAnimation:hover{
-	box-shadow: 5px 5px rgba(200,200,200,0.3);
-	margin-left: 67.31%;
-	margin-top: 14.8%;
 
-
-}
 .HappyAnimation.open{
 	margin-left: 0%;
-	margin-top: 0%;
+	margin-top: -56%;
 	width: 100%;
-	height: 100%;
+	height: 200%;
 	background-color: rgba(12,97,123,0);
 	
 }
@@ -726,7 +694,7 @@ button{
 	margin-top: 0%;
 	z-index: 7;
 	width: 100%;
-	height: 100%;
+	height: 18.06%;
 	border-radius: 5%;
 	font-size: 8.33rem;
 	color: #ffffff;
@@ -734,6 +702,7 @@ button{
 	align-items: center;
 	justify-content: center;
 	transition: 1s;
+
 
 }
 .HATitle.open{
@@ -743,7 +712,7 @@ button{
 	font-size: 0rem;
 	border-radius: 0%;
 	background-color:  rgba(160,206,101,0.98);
-
+	
 }
 .HATitle.open:hover{
 	color: transparent;
@@ -756,12 +725,13 @@ button{
 }
 .Happy.open{
 	margin-left: 0%;
-	margin-top: -42.5%;
+	margin-top: -210%;
 	width: 100%;
 	height: 5%;
-	font-size: 5.33rem;
+	font-size: 8rem;
 	color: #5F7622;
 	font-weight: bold;
+	transition: 2s color 0.1s;
 }
 .HAVideo{
 	position: absolute;
@@ -772,12 +742,12 @@ button{
 	height: 0%;
 	align-items: center;
 
+	
 }
 .HAVideo.open{
-	margin-left: -45%;
-	margin-top: 0%;
-	width: 41.67%;
-	height: 41.67%;
+	margin-top: -150%;
+	width: 83.33%;
+	height: 20.84%;
 	border-radius: 5%;
 
 }
@@ -790,41 +760,39 @@ button{
 	color: transparent;
 	display: flex;
 	align-items: center;
-	justify-content: center;
-
+	justify-content: flex-start;
 }
-
 .HAText.open{
-	margin-left: 50%;
-	margin-top: 0%;
-	width: 50%;
+	margin-left: 8.75%;
+	margin-top: -50%;
+	width: 82.5%;
 	height: 100%;
-	font-size: 3.33rem;
+	font-size: 6rem;
 	color: #ffffff;
 	line-height: 2;
 }
-
 .view3{
 	position: absolute;
-	z-index: 6;
+	z-index: 5;
 	margin-left: 0%;
-	margin-top: 112%;
+	margin-top: 168%;
 	width: 100%;
 	padding-bottom: 56%;
 	overflow: hidden;
 }
-
+.view3 a{
+	font-size: 2.5rem;
+}
 .bg3{
 	position: absolute;
 	z-index: 5;
 	margin-left: 0%;
 	margin-top: 112%;
 }
-
 .references{
 	position: absolute;
 	z-index: 1;
-	font-size: 5rem;
+	font-size: 6rem;
 	margin-top: 8%;
 	margin-left: 0%;
 	width: 100%;
@@ -834,7 +802,6 @@ button{
 	text-shadow: 2px 3px 6px #FFFFFF22;
 	opacity: 1;
 }
-
 .rectangle{
 	position: absolute;
 	background-color: transparent;
@@ -852,15 +819,15 @@ button{
 	width: 33.3%;
 	padding-bottom: 40%;
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: center;
 	text-align: center;
 	color: #ACD3D2;
 }
 .UnderSky{
 	position: absolute;
-	margin-top: 35%;
-	font-size: 2rem;
+	margin-top: 10%;
+	font-size: 3.2rem;
 
 }
 
@@ -870,15 +837,15 @@ button{
 	width: 33.3%;
 	padding-bottom: 40%;
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: center;
 	text-align: center;
 	color: #ACD3D2;
 }
 .FutureLab{
 	position: absolute;
-	margin-top: 40%;
-	font-size: 2rem;
+	margin-top: 10%;
+	font-size: 3.2rem;
 }
 
 .Part3{
@@ -887,7 +854,7 @@ button{
 	width: 33.3%;
 	padding-bottom: 40%;
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: center;
 	text-align: center;
 	color: #ACD3D2;
@@ -895,8 +862,8 @@ button{
 }
 .HEHO{
 	position: absolute;
-	margin-top: 40%;
-	font-size: 2rem;
+	margin-top: 10%;
+	font-size: 3.2rem;
 }
 
 @media (min-device-width: 1280px) and (max-device-width: 1500px){
@@ -921,7 +888,6 @@ button{
 		font-size: 7px;
 	}
 	
-	
 }
 
 @media (min-device-width: 376px) and (max-device-width: 600px){
@@ -929,6 +895,89 @@ button{
 	
 	html{
 		font-size: 6px;
+	}
+	.myBtn {
+  	
+		margin-top: 4%; /* Place the button at the bottom of the page */
+		margin-left: 90%; /* Place the button 30px from the right */
+		width: 8%;
+		padding-bottom: 8%;
+		border-radius: 50%;
+  	
+	}
+	.AllCross{
+		
+		width: 8%;
+		padding-bottom: 8%;
+		margin-left: 90%;
+		margin-top: 4%;
+
+	}
+	.Cross1{	
+		margin-top: 2.8%;
+		margin-left: 2%;
+		width: 4%;
+		padding-bottom: 0.5%;
+	
+	}
+	.Cross1.open{
+		margin-top: 3.8%;
+		transform: rotate(45deg);
+	}
+	.Cross2{
+		
+		margin-top: 3.8%;
+		margin-left: 2%;
+		width: 4%;
+		padding-bottom: 0.5%;
+		
+	}
+	.Cross2.open{
+		opacity: 0;
+	}
+	.Cross3{
+		
+		margin-top: 4.8%;
+		margin-left: 2%;
+		width: 4%;
+		padding-bottom: 0.5%;
+		
+	}
+	.Cross3.open{
+		margin-top: 3.8%;
+		transform: rotate(-45deg);
+	}
+	.MenuContent{
+		
+		margin-top: 15%;
+		
+	}
+	.MenuBtn{
+		font-size: 12rem;
+	}
+	.Ab{
+		font-size: 10rem;
+	}
+	.l-earth{
+		position: absolute;
+		top: 40%;
+		width: 20%;
+		}
+	.l-word {
+		position: absolute;
+		top: 55%;
+		font-size: 28px;
+		letter-spacing: 12px;
+		text-align: center;
+
+	}
+	
+}
+
+@media (min-device-width: 100px) and (max-device-width: 375px){
+	
+	html{
+		font-size: 5px;
 	}
 	
 	.myBtn {
@@ -1000,93 +1049,6 @@ button{
 		top: 40%;
 		width: 20%;
 		}
-	.l-word {
-		position: absolute;
-		top: 55%;
-		font-size: 28px;
-		letter-spacing: 12px;
-		text-align: center;
-
-	}
-	
-}
-
-@media (min-device-width: 100px) and (max-device-width: 375px){
-	
-	html{
-		font-size: 5px;
-	}
-	
-	.myBtn {
-  	
-  	
-		margin-top: 4%; /* Place the button at the bottom of the page */
-		margin-left: 90%; /* Place the button 30px from the right */
-		width: 8%;
-		padding-bottom: 8%;
-		border-radius: 50%;
-  	
-	}
-	.AllCross{
-		
-		width: 8%;
-		padding-bottom: 8%;
-		margin-left: 90%;
-		margin-top: 4%;
-
-	}
-	.Cross1{	
-		margin-top: 2.8%;
-		margin-left: 2%;
-		width: 4%;
-		padding-bottom: 0.5%;
-	
-		
-
-	}
-	.Cross1.open{
-		margin-top: 3.8%;
-		transform: rotate(45deg);
-	}
-	.Cross2{
-		
-		margin-top: 3.8%;
-		margin-left: 2%;
-		width: 4%;
-		padding-bottom: 0.5%;
-		
-	}
-	.Cross2.open{
-		opacity: 0;
-	}
-	.Cross3{
-		
-		margin-top: 4.8%;
-		margin-left: 2%;
-		width: 4%;
-		padding-bottom: 0.5%;
-		
-	}
-	.Cross3.open{
-		margin-top: 3.8%;
-		transform: rotate(-45deg);
-	}
-	.MenuContent{
-		
-		margin-top: 15%;
-		
-	}
-	.MenuBtn{
-		font-size: 26rem;
-	}
-	.Ab{
-		font-size: 24rem;
-	}
-	.l-earth{
-		position: absolute;
-		top: 40%;
-		width: 20%;
-	}
 	.l-word {
 		position: absolute;
 		top: 55%;

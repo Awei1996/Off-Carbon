@@ -18,7 +18,7 @@ body{
     border: 0;
     display: block;
     width: 100%;
-    height: 400%;
+    height: 100%;
 	overflow-x: hidden;
 }
 select{
@@ -32,7 +32,7 @@ select{
 	margin-top:  0%;
 	width: 100%;
 	height: 100%;
-	padding-bottom: 224%;
+	padding-bottom: 280%;
 	overflow: hidden;
 }
 .myBtn {
@@ -48,6 +48,7 @@ select{
   	outline: none; /* Remove outline */
   	background-color: #fff; /* Set a background color */
 	opacity: 0;
+  
 	transition: background-color 200ms,transform 1s; 
 	
 }
@@ -227,7 +228,7 @@ button{
 	background-color: transparent;
 }
 
-.bg1{
+.bgAll{
 	position: absolute;
 	width: 100%;
 	margin-top:  0%;
@@ -255,7 +256,7 @@ button{
 
 .fog-img {
   	position: absolute;
-  	height: 300vh;
+  	height: 360vh;
   	width: 100%;
   	z-index: 3;
 	opacity: 0.8;
@@ -266,7 +267,7 @@ button{
   	background-repeat: repeat-y;
   	background-size: contain;
   	background-position: center;
-  	animation: marquee 30s linear infinite;
+  	animation: marquee 20s linear infinite;
 }
 
 .fog-img-second {
@@ -274,7 +275,7 @@ button{
   	background-repeat: repeat-y;
   	background-size: contain;
   	background-position: center;
-  	animation: marquee 30s linear infinite;
+  	animation: marquee 20s linear infinite;
 }
 
 @keyframes marquee {
@@ -318,37 +319,28 @@ button{
 	margin-top:  56%;
 	margin-left: 0%;
 	width: 100%;
-	padding-bottom: 56%;
+	padding-bottom: 112%;
 	background-color: transparent;
 }
-.bg2{
-	position: absolute;
-	z-index: 4;
-	width: 100%;
-	margin-left: 0%;
-	margin-top: 56%;
-
-}
-
 .Selector{
 	z-index: 6;
 	position: absolute;
 	margin-top: 5%;
-	margin-left: 6.25%;
-	width: 31.25%;
-	padding-bottom: 46.66%;
+	margin-left: 15%;
+	width: 70%;
+	height: 65%;
 	background-color: transparent;
 	border-radius: 1.67%;
 
 }
 .Btn{
 	position: absolute;
-	margin-top: 15%;
+	margin-top: 3.75%;
 	margin-left: 0%;
 	width: 100%;
-	padding-bottom: 15%;
+	padding-bottom: 7.5%;
 	color: #fff;
-	font-size: 2.67rem;
+	font-size: 5.5rem;
 	border-radius: 1.67%;
 	
 }
@@ -367,16 +359,16 @@ button{
 	justify-content: center;
 }
 .Food.open{
-	margin-top: -15%;
-	height: 200%;
-	font-size: 4rem;
+	margin-top: -3.75%;
+	height: 150%;
+	font-size: 8rem;
 
 	
 }
 .Food.close{
 	margin-top: 0%;
 	height: 100%;
-	font-size: 2.67rem;
+	font-size: 5.5rem;
 
 	
 }
@@ -395,16 +387,16 @@ button{
 
 }
 .Housing.open{
-	margin-top: -15%;
-	height: 200%;
-	font-size: 4rem;
+	margin-top: -3.75%;
+	height: 150%;
+	font-size: 8rem;
 
 	
 }
 .Housing.close{
 	margin-top: 0%;
 	height: 100%;
-	font-size: 2.67rem;
+	font-size: 5.5rem;
 
 	
 }
@@ -425,16 +417,16 @@ button{
 }
 
 .Transportation.open{
-	margin-top: -15%;
-	height: 200%;
-	font-size: 4rem;
+	margin-top: -3.75%;
+	height: 150%;
+	font-size: 8rem;
 
 	
 }
 .Transportation.close{
 	margin-top: 0%;
 	height: 100%;
-	font-size: 2.67rem;
+	font-size: 5.5rem;
 
 	
 }
@@ -442,16 +434,17 @@ button{
 	position: absolute;
 	z-index: 1;
 	margin-left: 0%;
-	margin-top: 30%;
+	margin-top: 10%;
 	width: 100%;
-	height: 80%;
+	height: 90%;
 	background-color: #fff;
+	border-radius: 0 0 2.5% 2.5%;
 
 }
 .TextTitle{
 	position: absolute;
 	margin-left: 3.33%;
-	font-size: 2.5rem;
+	font-size: 4.5rem;
 }
 .explain{
 	z-index: 1;
@@ -459,7 +452,7 @@ button{
 	width: 100%;
 	height: 90%;
 	color: #000;
-	font-size: 2.2rem;
+	font-size: 4rem;
 	line-height: 2;
 	opacity: 1;
 	display: flex;
@@ -490,7 +483,7 @@ button{
 .Breakfast{
 	width: 100%;
 	height: 25%;
-	border: solid 1px #000;
+	border-bottom: solid 1.5px #000;
 	display: flex;
 	align-items: center;
 	
@@ -500,7 +493,7 @@ button{
 	margin-left: 20%;
 	width: 20%;
 	height: 10%;
-	font-size: 1.66rem;
+	font-size: 4.5rem;
 	border-radius: 8.33%;
 	outline: none;
 
@@ -511,7 +504,7 @@ button{
 	margin-left: 47.5%;
 	width: 20%;
 	height: 10%;
-	font-size: 1.66rem;
+	font-size: 4.5rem;
 	border-radius: 8.33%;
 	outline: none;
 
@@ -521,7 +514,7 @@ button{
 	margin-left: 75%;
 	width: 20%;
 	height: 10%;
-	font-size: 1.66rem;
+	font-size: 4.5rem;
 	border-radius: 8.33%;
 	outline: none;
 
@@ -529,7 +522,7 @@ button{
 .Lunch{
 	width: 100%;
 	height: 45%;
-	border: solid 1px #000;
+	border-bottom: solid 1.5px #000;
 	display: flex;
 	align-items: center;
 
@@ -541,7 +534,7 @@ button{
 	margin-top: -12.5%;
 	width: 15%;
 	height: 10%;
-	font-size: 1.66rem;
+	font-size: 4.5rem;
 	border-radius: 8.33%;
 	outline: none;
 
@@ -552,7 +545,7 @@ button{
 	margin-top: -12.5%;
 	width: 15%;
 	height: 10%;
-	font-size: 1.66rem;
+	font-size: 4.5rem;
 	border-radius: 8.33%;
 	outline: none;
 
@@ -563,7 +556,7 @@ button{
 	margin-top: -12.5%;
 	width: 15%;
 	height: 10%;
-	font-size: 1.66rem;
+	font-size: 4.5rem;
 	border-radius: 8.33%;
 	outline: none;
 
@@ -574,7 +567,7 @@ button{
 	margin-top: -12.5%;
 	width: 15%;
 	height: 10%;
-	font-size: 1.66rem;
+	font-size: 4.5rem;
 	border-radius: 8.33%;
 	outline: none;
 
@@ -586,7 +579,7 @@ button{
 	margin-top: 12.5%;
 	width: 12%;
 	height: 10%;
-	font-size: 1.66rem;
+	font-size: 4.5rem;
 	border-radius: 16.66%;
 	outline: none;
 
@@ -597,7 +590,7 @@ button{
 	margin-top: 12.5%;
 	width: 20%;
 	height: 10%;
-	font-size: 1.66rem;
+	font-size: 4.5rem;
 	border-radius: 8.33%;
 	outline: none;
 
@@ -608,7 +601,7 @@ button{
 	margin-top: 12.5%;
 	width: 12%;
 	height: 10%;
-	font-size: 1.66rem;
+	font-size: 4.5rem;
 	border-radius: 16.66%;
 	outline: none;
 
@@ -619,7 +612,7 @@ button{
 	margin-top: 12.5%;
 	width: 12%;
 	height: 10%;
-	font-size: 1.66rem;
+	font-size: 4.5rem;
 	border-radius: 16.66%;
 	outline: none;
 
@@ -630,7 +623,7 @@ button{
 	margin-top: 12.5%;
 	width: 12%;
 	height: 10%;
-	font-size: 1.66rem;
+	font-size: 4.5rem;
 	border-radius: 16.66%;
 	outline: none;
 
@@ -638,7 +631,7 @@ button{
 .Dinner{
 	width: 100%;
 	height: 45%;
-	border: solid 1px #000;
+	border-bottom: solid 1.5px #000;
 	display: flex;
 	align-items: center;
 
@@ -650,7 +643,7 @@ button{
 	margin-top: -12.5%;
 	width: 15%;
 	height: 10%;
-	font-size: 1.66rem;
+	font-size: 4.5rem;
 	border-radius: 8.33%;
 	outline: none;
 
@@ -661,7 +654,7 @@ button{
 	margin-top: -12.5%;
 	width: 15%;
 	height: 10%;
-	font-size: 1.66rem;
+	font-size: 4.5rem;
 	border-radius: 8.33%;
 	outline: none;
 
@@ -672,7 +665,7 @@ button{
 	margin-top: -12.5%;
 	width: 15%;
 	height: 10%;
-	font-size: 1.66rem;
+	font-size: 4.5rem;
 	border-radius: 8.33%;
 	outline: none;
 
@@ -683,7 +676,7 @@ button{
 	margin-top: -12.5%;
 	width: 15%;
 	height: 10%;
-	font-size: 1.66rem;
+	font-size: 4.5rem;
 	border-radius: 8.33%;
 	outline: none;
 
@@ -695,7 +688,7 @@ button{
 	margin-top: 12.5%;
 	width: 12%;
 	height: 10%;
-	font-size: 1.66rem;
+	font-size: 4.5rem;
 	border-radius: 16.66%;
 	outline: none;
 
@@ -706,7 +699,7 @@ button{
 	margin-top: 12.5%;
 	width: 20%;
 	height: 10%;
-	font-size: 1.66rem;
+	font-size: 4.5rem;
 	border-radius: 16.66%;
 	outline: none;
 
@@ -717,7 +710,7 @@ button{
 	margin-top: 12.5%;
 	width: 12%;
 	height: 10%;
-	font-size: 1.66rem;
+	font-size: 4.5rem;
 	border-radius: 16.66%;
 	outline: none;
 
@@ -728,7 +721,7 @@ button{
 	margin-top: 12.5%;
 	width: 12%;
 	height: 10%;
-	font-size: 1.66rem;
+	font-size: 4.5rem;
 	border-radius: 16.66%;
 	outline: none;
 
@@ -739,7 +732,7 @@ button{
 	margin-top: 12.5%;
 	width: 12%;
 	height: 10%;
-	font-size: 1.66rem;
+	font-size: 4.5rem;
 	border-radius: 16.66%;
 	outline: none;
 
@@ -747,7 +740,7 @@ button{
 .Dessert{
 	width: 100%;
 	height: 25%;
-	border: solid 1px #000;
+	border-bottom: solid 1.5px #000;
 	display: flex;
 	align-items: center;
 
@@ -758,14 +751,14 @@ button{
 	width: 75%;
 	height: 10%;
 	border-radius: 10px;
-	font-size: 1.66rem;
+	font-size: 3.6rem;
 	display: flex;
 	align-items: center;
 }
 .Drink{
 	width: 100%;
 	height: 25%;
-	border: solid 1px #000;
+	border-bottom: solid 1.5px #000;
 	display: flex;
 	align-items: center;
 
@@ -776,7 +769,7 @@ button{
 	width: 75%;
 	height: 10%;
 	border-radius: 10px;
-	font-size: 1.66rem;
+	font-size: 3.6rem;
 	display: flex;
 	align-items: center;
 }
@@ -803,7 +796,7 @@ button{
 .AirCon{
 	width: 100%;
 	height: 30%;
-	border: solid 1px #000;
+	border-bottom: solid 1.5px #000;
 	display: flex;
 	align-items: center;
 
@@ -814,14 +807,14 @@ button{
 	width: 75%;
 	height: 10%;
 	border-radius: 10px;
-	font-size: 1.66rem;
+	font-size: 3.6rem;
 	display: flex;
 	align-items: center;
 }
 .Light{
 	width: 100%;
 	height: 30%;
-	border: solid 1px #000;
+	border-bottom: solid 1.5px #000;
 	display: flex;
 	align-items: center;
 
@@ -832,7 +825,7 @@ button{
 	width: 75%;
 	height: 10%;
 	border-radius: 10px;
-	font-size: 1.66rem;
+	font-size: 3.6rem;
 	display: flex;
 	align-items: center;
 }
@@ -857,7 +850,7 @@ button{
 .TransWay{
 	width: 100%;
 	height: 30%;
-	border: solid 1px #000;
+	border-bottom: solid 1.5px #000;
 	display: flex;
 	align-items: center;
 
@@ -869,7 +862,7 @@ button{
 	width: 60%;
 	height: 10%;
 	border-radius: 10px;
-	font-size: 1.66rem;
+	font-size: 3.6rem;
 	display: flex;
 	align-items: center;
 }
@@ -877,10 +870,10 @@ button{
 	position: absolute;
 	z-index: 2;
 	margin-left: 33.33%;
-	margin-top: 140%;
+	margin-top: 96.25%;
 	width: 33.33%;
 	height: 5.56%;
-	font-size: 1.66rem;
+	font-size: 4.5rem;
 	outline: none;
 	border-radius: 10px;
 	
@@ -888,40 +881,42 @@ button{
 .Cart{
 	position: absolute;
 	z-index: 6;
-	margin-left: 43.75%;
-	margin-top: 5%;
-	width: 48.96%;
-	height: 37.04%;
+	margin-left: 15%;
+	margin-top: 80%;
+	width: 70%;
+	height: 25%;
 	background-color: #fff;
-	border-radius: 10px;
+	border-radius: 2.5%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 	
 }
 table{
 	width: 100%;
 	height: 100%;
-	border: 2px solid black;
-	border-radius: 10px;
-	background-color: #fff;
-	
-	
-	
-	
+	border-radius: 2.5%;
+	background-color: #000;		
 }
 tr{
-	height: 20%;
+	height: 25%;
+	background-color: #fff;
+	border-radius: 2.5%;
+	
+	
+	
 }
 td{
-	width: 16.6%;
+	width: 12.5%;
+	background-color: #fff;
+	text-align: center;
+	font-size: 3.5rem;
 }
 .Img{
 	margin-left: auto;
 	margin-right: auto;
 	width: 90%;
-	height: 90%;	
+	height: 90%;
 }
 .CEgg{
 	display: flex;
@@ -1233,45 +1228,7 @@ td{
 	background-size: 70%;
 	background-repeat: no-repeat;
 }
-.CalResult{
-	position: absolute;
-	z-index: 6;
-	margin-left: 43.75%;
-	margin-top: 30.5%;
-	width: 48.96%;
-	height: 37.04%;
-	background-color: #fff;
-	border-radius: 10px;
-	color: #000;
-	font-size: 3.33rem;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	line-height: 3.5;
 
-}
-.Team{
-	position: absolute;
-	left: 33.33%;
-	top: 80%;
-	z-index: 2;
-	width: 66.66%;
-	height: 20%;
-	font-size: 3rem;
-	color: #000;
-	text-align: left;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.CalResultText{
-	position: absolute;
-	margin-left: -45%;
-	
-	
-
-}
 .ArrowDown{
 	position: absolute;
 	z-index: 9;
@@ -1292,7 +1249,7 @@ td{
 .view3{
 	position: absolute;
 	z-index: 15;
-	margin-top:  112%;
+	margin-top:  168%;
 	margin-left:  0%;
 	width: 100%;
 	padding-bottom: 56%;
@@ -1300,13 +1257,6 @@ td{
 
 }
 
-.bg3{
-	position: absolute;
-	z-index: 10;
-	width: 100%;
-	margin-left: 0%;
-	margin-top: 112%;
-}
 .Ranking{
 	position: absolute;
 	z-index: 16;
@@ -1316,26 +1266,67 @@ td{
 	padding-bottom: 45%;
 	border-radius: 20px;
 	overflow: hidden;
-	background-color: rgba(255,255,255,0.8);
+	background-color: rgba(255,255,255,0.9);
+}
+.CalResult{
+	position: absolute;
+	z-index: 6;
+	margin-left: 0%;
+	margin-top: 0%;
+	width: 33%;
+	height: 100%;
+	background-color: transparent;
+	border-radius: 10px;
+	color: #000;
+	font-size: 4.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	line-height: 3.5;
+
+}
+.CalResultText{
+	position: absolute;
+	text-align: center;
+}
+
+.Midline{
+	position: absolute;
+	left: 50%;
+	margin-top: 0%;
+	width: 0%;
+	height: 90%;
+	border-right: solid 5px #222;
+	border-radius: 2.5px ;
+	opacity: 0.6;
+}
+.rightline{
+	position: absolute;
+	margin-left: -100%;
+	margin-top: 0%;
+	width: 0%;
+	height: 90%;
+	border-right: solid 5px #222;
+	border-radius: 2.5px ;
+	opacity: 0.6;
 }
 .Co2Evil{
 	position: absolute;
+	margin-left: 33.33%;
 	z-index: 9;
-	width: 100%;
+	width: 66.66%;
 	height: 100%;
 	border-radius: 20px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	opacity: 0;
-	overflow: hidden;
 }
 .MedalsEvil{
 	position: absolute;
 	margin-left: -50%;
-	margin-top: -10%;
-	width: 50%;
-	height: 80%;
+	margin-top: -15%;
+	width: 55%;
 	font-size: 2.5rem;
 	display: flex;
 	align-items: center;
@@ -1346,8 +1337,8 @@ td{
 	position: absolute;
 	width: 50%;
 	height: 10%;
-	margin-top: 80%;
-	font-size: 6rem;
+	margin-top: 85%;
+	font-size: 6.5rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -1358,40 +1349,30 @@ td{
 	margin-top: 0%;
 	width: 50%;
 	height: 100%;
-	font-size: 3.33rem;
+	font-size: 4rem;
 	line-height: 2;
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
 }
-.MidlineEvil{
-	position: absolute;
-	left: 50%;
-	margin-top: 0%;
-	width: 0%;
-	height: 90%;
-	border-right: solid 6px #000;
-	border-radius: 3px ;
-	opacity: 0.8;
-}
+
 .Co2Normal{
 	position: absolute;
+	margin-left: 33.33%;
 	z-index: 9;
-	width: 100%;
+	width: 66.66%;
 	height: 100%;
 	border-radius: 20px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	opacity: 0;
-	overflow: hidden;
 }
 .MedalsNormal{
 	position: absolute;
 	margin-left: -50%;
-	margin-top: -10%;
-	width: 50%;
-	height: 80%;
+	margin-top: -15%;
+	width: 55%;
 	font-size: 2.5rem;
 	display: flex;
 	align-items: center;
@@ -1402,8 +1383,8 @@ td{
 	position: absolute;
 	width: 50%;
 	height: 10%;
-	margin-top: 80%;
-	font-size: 6rem;
+	margin-top: 85%;
+	font-size: 6.5rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -1414,40 +1395,30 @@ td{
 	margin-top: 0%;
 	width: 50%;
 	height: 100%;
-	font-size: 3.33rem;
+	font-size: 4rem;
 	line-height: 2;
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
 }
-.MidlineNormal{
-	position: absolute;
-	left: 50%;
-	margin-top: 0%;
-	width: 0%;
-	height: 90%;
-	border-right: solid 6px #000;
-	border-radius: 3px ;
-	opacity: 0.8;
-}
+
 .Co2Angel{
 	position: absolute;
+	margin-left: 33.33%;
 	z-index: 9;
-	width: 100%;
+	width: 66.66%;
 	height: 100%;
 	border-radius: 20px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	opacity: 0;
-	overflow: hidden;
 }
 .MedalsAngel{
 	position: absolute;
 	margin-left: -50%;
-	margin-top: -10%;
-	width: 50%;
-	height: 80%;
+	margin-top: -15%;
+	width: 55%;
 	font-size: 2.5rem;
 	display: flex;
 	align-items: center;
@@ -1458,8 +1429,8 @@ td{
 	position: absolute;
 	width: 50%;
 	height: 10%;
-	margin-top: 80%;
-	font-size: 6rem;
+	margin-top: 85%;
+	font-size: 6.5rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -1470,45 +1441,39 @@ td{
 	margin-top: 0%;
 	width: 50%;
 	height: 100%;
-	font-size: 3.33rem;
+	font-size: 4rem;
 	line-height: 2;
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
 }
-.MidlineAngel{
-	position: absolute;
-	left: 50%;
-	margin-top: 0%;
-	width: 0%;
-	height: 90%;
-	border-right: solid 6px #000;
-	border-radius: 3px ;
-	opacity: 0.8;
-}
+
 .view4{
 	position: absolute;
 	z-index: 20;
-	margin-top:  168%;
+	margin-top:  224%;
 	margin-left:  0%;
 	width: 100%;
 	padding-bottom: 56%;
 	background-color: transparent;
 }
-.bg4{
+
+.bg5{
 	position: absolute;
-	z-index: 15;
+	z-index: -1;
 	width: 100%;
 	margin-left: 0%;
-	margin-top: 168%;
+	margin-top: 224%;
 	font-family: Gen Jyuu Gothic ;
 
 }
-
+.view4 a{
+	font-size: 3.5rem;
+}
 .references{
 	position: absolute;
 	z-index: 1;
-	font-size: 5rem;
+	font-size: 6rem;
 	margin-top: 8%;
 	margin-left: 0%;
 	width: 100%;
@@ -1542,12 +1507,10 @@ td{
 }
 .BBCtable{
 	position: absolute;
-	margin-top: 30%;
-	font-size: 2rem;
+	margin-top: 50%;
+	font-size: 4rem;
 
 }
-
-
 
 .Part2{
 	position: absolute;
@@ -1562,8 +1525,8 @@ td{
 }
 .TzuChi{
 	position: absolute;
-	margin-top: 30%;
-	font-size: 2rem;
+	margin-top: 50%;
+	font-size: 4rem;
 }
 
 .Part3{
@@ -1580,8 +1543,8 @@ td{
 }
 .EPA{
 	position: absolute;
-	margin-top: 30%;
-	font-size: 2rem;
+	margin-top: 50%;
+	font-size: 4rem;
 }
 
 @media (min-device-width: 1280px) and (max-device-width: 1500px){
@@ -1617,8 +1580,7 @@ td{
 	}
 	
 	.myBtn {
-  	
-  	
+  
 		margin-top: 4%; /* Place the button at the bottom of the page */
 		margin-left: 90%; /* Place the button 30px from the right */
 		width: 8%;
@@ -1639,13 +1601,14 @@ td{
 		margin-left: 2%;
 		width: 4%;
 		padding-bottom: 0.5%;
-
+	
 	}
 	.Cross1.open{
 		margin-top: 3.8%;
 		transform: rotate(45deg);
 	}
 	.Cross2{
+		
 		margin-top: 3.8%;
 		margin-left: 2%;
 		width: 4%;
@@ -1656,10 +1619,12 @@ td{
 		opacity: 0;
 	}
 	.Cross3{
+		
 		margin-top: 4.8%;
 		margin-left: 2%;
 		width: 4%;
 		padding-bottom: 0.5%;
+		
 	}
 	.Cross3.open{
 		margin-top: 3.8%;
@@ -1687,6 +1652,7 @@ td{
 		font-size: 28px;
 		letter-spacing: 12px;
 		text-align: center;
+
 	}
 	
 }
@@ -1697,23 +1663,29 @@ td{
 		font-size: 5px;
 	}
 	.myBtn {
+  	
 		margin-top: 4%; /* Place the button at the bottom of the page */
 		margin-left: 90%; /* Place the button 30px from the right */
 		width: 8%;
 		padding-bottom: 8%;
 		border-radius: 50%;
+  	
 	}
 	.AllCross{
+		
 		width: 8%;
 		padding-bottom: 8%;
 		margin-left: 90%;
 		margin-top: 4%;
+
 	}
 	.Cross1{	
 		margin-top: 2.8%;
 		margin-left: 2%;
 		width: 4%;
 		padding-bottom: 0.5%;
+	
+		
 
 	}
 	.Cross1.open{
@@ -1721,6 +1693,7 @@ td{
 		transform: rotate(45deg);
 	}
 	.Cross2{
+		
 		margin-top: 3.8%;
 		margin-left: 2%;
 		width: 4%;
@@ -1743,7 +1716,9 @@ td{
 		transform: rotate(-45deg);
 	}
 	.MenuContent{
+		
 		margin-top: 15%;
+		
 	}
 	.MenuBtn{
 		font-size: 14rem;

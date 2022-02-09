@@ -18,18 +18,27 @@ body{
     padding: 0;
     display: block;
     width: 100%;
-    height: 200%;
+    height: 100%;
 
 
+}
+.allpg{
+	position: absolute;
+	z-index: 1;
+	font-family: Gen Jyuu Gothic ;
+	font-weight: normal;
+	width: 100%;
+	padding-bottom: 112%;
+	overflow: hidden;
 }
 .myBtn {
   	
   	position: fixed; /* Fixed/sticky position */
   	margin-top: 2%; /* Place the button at the bottom of the page */
-  	margin-left: 92.5%; /* Place the button 30px from the right */
+  	margin-left: 95%; /* Place the button 30px from the right */
   	z-index: 30; /* Make sure it does not overlap */
-	width: 5%;
-	padding-bottom: 5%;
+	width: 3%;
+	padding-bottom: 3%;
 	border-radius: 50%;
   	border: none; /* Remove borders */
   	outline: none; /* Remove outline */
@@ -37,7 +46,6 @@ body{
 	opacity: 0;
   
 	transition: background-color 200ms,transform 1s; 
-	
 	
 }
 
@@ -53,25 +61,24 @@ body{
 .MenuContent{
 	z-index: 0;
 	position: fixed;
-	margin-left: 45%;
-	margin-top: 5%;
+	margin-left: 47%;
+	margin-top: 3%;
 	width: 40%;
 	padding-bottom: 30%;
-	opacity: 0;
 	text-align: right;
 	transition: 1s;
+	display: none
 }
 .MenuContent.open{
 	
-	opacity: 1;
+	display: block;
 }
 .MenuBtn{
 	
-	font-size: 7.5rem;
+	font-size: 7.2rem;
 	font-weight: bolder;
 	color: #CE7E24;
 	-webkit-text-size-adjust:none;
-	
 	
 }
 .MenuBtn:hover{
@@ -85,21 +92,20 @@ body{
 .AllCross{
 	position: fixed;
 	z-index: 35;
-	width: 5%;
-	padding-bottom: 5%;
-	margin-left: 92.5%;
+	width: 3%;
+	padding-bottom: 3%;
+	margin-left: 95%;
 	margin-top: 2%;
 	border-radius: 50%;
 	opacity: 0;
-	
 	
 }
 .Cross1{
 	position: fixed;
 	z-index: 40;
-	margin-top: 1.7%;
-	margin-left: 1.125%;
-	width: 2.6%;
+	margin-top: 0.9%;
+	margin-left: 0.5%;
+	width: 2%;
 	padding-bottom: 0.25%;
 	border-radius: 3px 3px 3px 3px;
 	background-color: #296177;
@@ -108,14 +114,14 @@ body{
 
 }
 .Cross1.open{
-	margin-top: 2.3%;
+	margin-top: 1.4%;
 	transform: rotate(45deg);
 }
 .Cross2{
 	position: fixed;	
-	margin-top: 2.3%;
-	margin-left: 1.125%;
-	width: 2.6%;
+	margin-top: 1.4%;
+	margin-left: 0.5%;
+	width: 2%;
 	padding-bottom: 0.25%;
 	border-radius: 3px 3px 3px 3px;
 	background-color: #296177;
@@ -127,9 +133,9 @@ body{
 }
 .Cross3{
 	position: fixed;	
-	margin-top: 2.9%;
-	margin-left: 1.125%;
-	width: 2.6%;
+	margin-top: 1.9%;
+	margin-left: 0.5%;
+	width: 2%;
 	padding-bottom: 0.25%;
 	border-radius: 3px 3px 3px 3px;
 	background-color: #296177;
@@ -137,13 +143,13 @@ body{
 	transition: 0.5s; 
 }
 .Cross3.open{
-	margin-top: 2.3%;
+	margin-top: 1.4%;
 	transform: rotate(-45deg);
 }
 
 .LoadingAnimate{
 	position: fixed;
-	z-index: 800;
+	z-index: 999;
 	top: 0%;
 	left: 0%;
 	width: 100%;
@@ -160,95 +166,19 @@ body{
 	justify-content: center;
 	align-items: center;
 
-
 }
-
-
+.l-earth{
+	position: absolute;
+	top: 30%;
+	width: 12.5%;
+}
 .l-word {
     position: absolute;
-    top: 55%;
+    top: 62.5%;
     font-size: 28px;
     letter-spacing: 12px;
 	text-align: center;
    
-}
-
-.circle {
-    width: 1%;
-    left: 45%;
-    top: 45%; 
-    background-color: #999;
-    border-radius: 50%;
-    display: inline-block;
-    position: absolute;
-    transform-origin: 50%;
-    animation: circle .5s alternate infinite ease ;
-	animation-delay: 0.5s;		
-}
-
-
-
-.circle:nth-child(2) {
-    left: 50%;
-    animation-delay: .2s
-}
-
-.circle:nth-child(3) {
-    left: 55%;
-    animation-delay: .3s
-}
-
-@keyframes circle {
-    0% {
-        top: 45%;
-        height: 5px;
-        border-radius: 50px 50px 25px 25px;
-        transform: scaleX(1.7);
-    }
-    40% {
-        height: 20px;
-        border-radius: 50%;
-        transform: scaleX(1);
-    }
-    100% {
-        top: 30%;
-    }
-}
-
-.shadow {
-    width: 20px;
-    height: 4px;
-    border-radius: 50%;
-    background-color: rgba(0, 0, 0, .125);
-    position: absolute;
-    top: 60px;
-    animation: shadow .5s alternate infinite ease;
-}
-
-
-
-.shadow:nth-child(4) {
-    left: 35%;
-    animation-delay: .2s
-}
-
-.shadow:nth-child(5) {
-    left: 70%;
-    animation-delay: .3s
-}
-
-@keyframes shadow {
-    0% {
-        transform: scaleX(1.5);
-    }
-    40% {
-        transform: scaleX(1);
-        opacity: .7;
-    }
-    100% {
-        transform: scaleX(.2);
-        opacity: .4;
-    }
 }
 
 .CountTo100{
@@ -257,8 +187,6 @@ body{
 	height: 100px;
 	font-size: 32px;
 }
-
-
 
 .bar{
 	position: absolute;
@@ -290,7 +218,6 @@ button{
 	margin-top: 0%;
 	width: 100%;
 	padding-bottom: 56%;
-	overflow: hidden;
 
 }
 .bg1{
@@ -334,7 +261,7 @@ button{
 
 .view2{
 	position: absolute;
-	z-index: -1;
+	z-index: 2;
 	margin-left: 0%;
 	margin-top: 56%;
 	width: 100%;
@@ -480,7 +407,7 @@ button{
 	margin-top: 90%;
 	font-size: 3.33rem;
 	color: #00627E;
-	font-Guanght: bold;
+	font-weight: bold;
 }
 
 .GuanLine{
@@ -521,7 +448,7 @@ button{
 	margin-top: 90%;
 	font-size: 3.33rem;
 	color: #00627E;
-	font-Changght: bold;
+	font-weight: bold;
 }
 
 .ChangLine{
@@ -563,7 +490,7 @@ button{
 	margin-top: 90%;
 	font-size: 3.33rem;
 	color: #00627E;
-	font-Tsengght: bold;
+	font-weight: bold;
 }
 
 .TsengLine{
@@ -584,44 +511,235 @@ button{
 	text-align: center;
 }
 
-@media (min-width: 1280px) and (max-width: 1500px){
+@media (min-device-width: 1280px) and (max-device-width: 1500px){
 	
 	html{
-		font-size: 8px;
+		font-size: 9px;
 	}
 	
 }
 
-@media (min-width: 960px) and (max-width: 1280px){
+@media (min-device-width: 960px) and (max-device-width: 1280px){
+	
+	html{
+		font-size: 7px;
+	}
+	
+}
+@media (min-device-width: 600px) and (max-device-width: 960px){
+	
+	
+	html{
+		font-size: 7px;
+	}
+	
+}
+
+@media (min-device-width: 376px) and (max-device-width: 600px){
+	
 	
 	html{
 		font-size: 6px;
 	}
-	
-}
-@media (min-width: 600px) and (max-width: 960px){
-	
-	
-	html{
-		font-size: 4px;
+	.allpg{
+		padding-bottom: 224%;
 	}
+	.myBtn {
+  	
+		margin-top: 4%; /* Place the button at the bottom of the page */
+		margin-left: 90%; /* Place the button 30px from the right */
+		width: 8%;
+		padding-bottom: 8%;
+		border-radius: 50%;
+  	
+	}
+	.AllCross{
+		
+		width: 8%;
+		padding-bottom: 8%;
+		margin-left: 90%;
+		margin-top: 4%;
+
+	}
+	.Cross1{	
+		margin-top: 2.8%;
+		margin-left: 2%;
+		width: 4%;
+		padding-bottom: 0.5%;
 	
+	}
+	.Cross1.open{
+		margin-top: 3.8%;
+		transform: rotate(45deg);
+	}
+	.Cross2{
+		
+		margin-top: 3.8%;
+		margin-left: 2%;
+		width: 4%;
+		padding-bottom: 0.5%;
+		
+	}
+	.Cross2.open{
+		opacity: 0;
+	}
+	.Cross3{
+		
+		margin-top: 4.8%;
+		margin-left: 2%;
+		width: 4%;
+		padding-bottom: 0.5%;
+		
+	}
+	.Cross3.open{
+		margin-top: 3.8%;
+		transform: rotate(-45deg);
+	}
+	.MenuContent{
+		
+		margin-top: 15%;
+		
+	}
+	.MenuBtn{
+		font-size: 12rem;
+	}
+	.Ab{
+		font-size: 10rem;
+	}
+	.l-earth{
+		position: absolute;
+		top: 40%;
+		width: 20%;
+		}
+	.l-word {
+		position: absolute;
+		top: 55%;
+		font-size: 28px;
+		letter-spacing: 12px;
+		text-align: center;
+
+	}
+	.P1Title{
+		margin-left: 20.04%;
+		margin-top: 27.5%;
+	}
+	.P1MidLine{
+		margin-left: 37.75%;
+		margin-top: 35.75%;
+	}
+	.P1Content{
+		margin-left: 40.35%;
+		margin-top: 34%;
+		width: 42.25%;
+		height: 55.56%;
+		font-size: 2.8rem;
+		color: #001820;	
+		line-height: 1.2;
+	}
 	
 }
 
-@media (min-width: 376px) and (max-width: 600px){
-	
+@media (min-device-width: 100px) and (max-device-width: 375px){
 	
 	html{
-		font-size: 2px;
+		font-size: 5px;
+	}
+	.allpg{
+		padding-bottom: 224%;
 	}
 	
-}
+	.myBtn {
+  	
+		margin-top: 4%; /* Place the button at the bottom of the page */
+		margin-left: 90%; /* Place the button 30px from the right */
+		width: 8%;
+		padding-bottom: 8%;
+		border-radius: 50%;
+  	
+	}
+	.AllCross{
+		
+		width: 8%;
+		padding-bottom: 8%;
+		margin-left: 90%;
+		margin-top: 4%;
 
-@media (min-width: 100px) and (max-width: 375px){
-	
-	html{
-		font-size: 1px;
 	}
+	.Cross1{	
+		margin-top: 2.8%;
+		margin-left: 2%;
+		width: 4%;
+		padding-bottom: 0.5%;
 	
+		
+
+	}
+	.Cross1.open{
+		margin-top: 3.8%;
+		transform: rotate(45deg);
+	}
+	.Cross2{
+		
+		margin-top: 3.8%;
+		margin-left: 2%;
+		width: 4%;
+		padding-bottom: 0.5%;
+		
+	}
+	.Cross2.open{
+		opacity: 0;
+	}
+	.Cross3{
+		
+		margin-top: 4.8%;
+		margin-left: 2%;
+		width: 4%;
+		padding-bottom: 0.5%;
+		
+	}
+	.Cross3.open{
+		margin-top: 3.8%;
+		transform: rotate(-45deg);
+	}
+	.MenuContent{
+		
+		margin-top: 15%;
+		
+	}
+	.MenuBtn{
+		font-size: 14rem;
+	}
+	.Ab{
+		font-size: 12rem;
+	}
+	.l-earth{
+		position: absolute;
+		top: 40%;
+		width: 20%;
+		}
+	.l-word {
+		position: absolute;
+		top: 55%;
+		font-size: 28px;
+		letter-spacing: 12px;
+		text-align: center;
+
+	}
+	.P1Title{
+		margin-left: 20.04%;
+		margin-top: 27.5%;
+	}
+	.P1MidLine{
+		margin-left: 37.75%;
+		margin-top: 35.75%;
+	}
+	.P1Content{
+		margin-left: 40.35%;
+		margin-top: 34%;
+		width: 42.25%;
+		height: 55.56%;
+		font-size: 2.6rem;
+		color: #001820;	
+		line-height: 1.2;
+	}
 }
