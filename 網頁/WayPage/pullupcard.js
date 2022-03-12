@@ -34,7 +34,7 @@ document.getElementsByClassName('FATitle')[0].onclick = function()
 
 	LifeAnimationControl.style.zIndex = 5;
 	HappyAnimationControl.style.zIndex = 5;
-	BackControl.style.opacity = 1;
+	BackControl.style.display = "block";
 
 	location.href = "#AnimationBasic";
 

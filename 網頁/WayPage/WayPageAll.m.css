@@ -551,8 +551,7 @@ button{
 	margin-top: 75%;
 	margin-left: 45%;
 	width: 10%;
-	
-	opacity: 0;
+	display: block;
 }
 .LifeAnimation{
 	position: absolute;
