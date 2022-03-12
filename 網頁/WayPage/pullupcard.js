@@ -67,7 +67,7 @@ document.getElementsByClassName('Back')[0].onclick = function() {
 		LifeAnimationControl.style.zIndex = 6;
 		FoodAnimationControl.style.zIndex = 6;
 		HappyAnimationControl.style.zIndex = 6;
-		BackControl.style.opacity = 0;		
+		BackControl.style.display = "none";	
 
 };
 		
@@ -86,7 +86,7 @@ document.getElementsByClassName('LATitle')[0].onclick = function()
 
 	FoodAnimationControl.style.zIndex = 5;
 	HappyAnimationControl.style.zIndex = 5;
-	BackControl.style.opacity = 1;
+	BackControl.style.display = "block";
 
 	location.href = "#AnimationBasic";
 
@@ -107,7 +107,7 @@ document.getElementsByClassName('HATitle')[0].onclick = function()
 
 	LifeAnimationControl.style.zIndex = 5;
 	FoodAnimationControl.style.zIndex = 5;
-	BackControl.style.opacity = 1;
+	BackControl.style.display = "block";
 
 	location.href = "#AnimationBasic";
 
