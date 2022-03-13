@@ -37,7 +37,7 @@ iframe{
 }
 .allpg{
 	position: absolute;
-	z-index: 1;
+	z-index: 0;
 	font-family: Gen Jyuu Gothic ;
 	font-weight: normal;
 	width: 100%;
